@@ -1,5 +1,6 @@
 - section: Overview
   class: content-overview
+  subsections:
     - title: ""
       paragraphs:
         - "The Coleridge Initiative's 2nd training program in Applied Data Analytics for Public Policy will focus."
