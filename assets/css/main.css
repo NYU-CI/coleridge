@@ -28,6 +28,14 @@ h2 {
 h3 {
   font-family: 'Oswald', sans-serif;
 }
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.indent {
+  margin: 16px;
+}
 /* Site End */
 
 /* Navigation Start */
@@ -130,6 +138,29 @@ nav ul li a:hover {
 .directors {
   display: inline-block;
 }
+
+/*
+.directors:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.directors > div {
+    float: left;
+    width: 33.33%;
+    border: 1px solid red;
+    box-sizing: border-box;
+    text-align: center;
+}
+@media (max-width: 480px) {
+    .directors > div {
+        float: none;
+        width: 100%;
+    }
+}
+*/
+
+
 
 .director {
   float: left;

@@ -9,23 +9,40 @@ layout: default
   {% for section in training.sections %}
     <h3>{{section.section}}</h3>
     {% for subsection in section.subsections %}
-      {% if subsection.title != "" %}<h4>{{subsection.title}}</h4>{% endif %}
-      {% for paragraph in subsection.paragraphs %}
-        <p>{{paragraph}}</p>
-      {% endfor %}
+      {% if subsection.title != "" %}
+        <div class="indent">
+          <h4>{{subsection.title}}</h4>
+      {% else %}
+        <div>
+      {% endif %}
+        {% for paragraph in subsection.paragraphs %}
+          <p>{{paragraph}}</p>
+        {% endfor %}
+        </div>
     {% endfor %}
   {% endfor %}
 </div>
 {% endfor %}
+
 <hr>
+
 <h1>Past training programs</h1>
-{% for section in site.data.past_trainings %}
+{% for training in site.data.past_trainings %}
 <div class="{{section.class}}">
-  <h2>{{section.section}}</h2>
-  {% for subsection in section.subsections %}
-    {% if subsection.title != "" %}<h3>{{subsection.title}}</h3>{% endif %}
-    {% for paragraph in subsection.paragraphs %}
-      <p>{{paragraph}}</p>
+  <h2>{{training.training}}<h2>
+  {% for section in training.sections %}
+    <h3>{{section.section}}</h3>
+    {% for subsection in section.subsections %}
+      {% if subsection.title != "" %}
+        <div class="indent">
+          <h4>{{subsection.title}}</h4>
+      {% else %}
+        <div>
+      {% endif %}
+        {% for paragraph in subsection.paragraphs %}
+          <p>{{paragraph}}</p>
+        {% endfor %}
+        </div>
     {% endfor %}
   {% endfor %}
 </div>
