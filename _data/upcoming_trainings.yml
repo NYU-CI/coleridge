@@ -1,0 +1,15 @@
+- section: Overview
+  class: content-overview
+    - title: ""
+      paragraphs:
+        - "The Coleridge Initiative's 2nd training program in Applied Data Analytics for Public Policy will focus."
+
+- section: Sponsoring Agency
+  class: content-overview
+  subsections:
+    - title: ""
+      paragraphs:
+        - "Bureau of Justice Statistics is sponsoring this program."
+    - title: "Data providers"
+      paragraphs:
+        - "Three different agencies contributed data for use in the training materials..."
