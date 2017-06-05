@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>The Coleridge Initiative</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="{{site.baseurl}}/assets/css/main.css" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    {% include nav.html %}
+    {% if page.url == '/' %}{% include masthead.html %}{% endif %}
+  </header>
+
+  <div class="content">
+    {{content}}
+  </div>
+
+  <footer>
+    <p>Copyright © 2017 Coleridge Initiative - All Rights Reserved.</p>
+  </footer>
+  
+</body>
+</html>

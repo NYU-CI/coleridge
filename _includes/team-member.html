@@ -1,0 +1,24 @@
+{% assign members = site.pages | sort: 'lastname' %}
+{% for member in members %}
+  {% if member.category == include.type %}
+  <div class="{{include.type}}">
+    <img src="{{site.baseurl}}/assets/images/{{member.image}}">
+    <h4>{{member.fullname}}</h4>
+
+    <!--  Code for directors -->
+    {% if member.category == 'director' %}
+    <a href="{{member.website}}" target="_blank">Bio</a>
+    <ul>
+      {% for position in member.positions %}
+        <li>{{position}}</li>
+      {% endfor %}
+    </ul>
+
+    <!--  Code for instructors and platforms -->
+    {% else %}
+    <p>{{member.role}}</p>
+    {% endif %}
+
+  </div>
+  {% endif %}
+{% endfor %}

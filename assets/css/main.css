@@ -1,0 +1,196 @@
+/* Site Start */
+html {
+  margin: 0;
+  padding: 0;
+  font: normal 100%/1.4 Georgia,serif;
+  background-color: #E4E6EC;
+  color: #182151;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: #182151;
+  text-decoration: none;
+}
+
+.content {
+  margin-left: 32px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+}
+/* Site End */
+
+/* Navigation Start */
+nav {
+  border-bottom: 1px solid #182151;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0 16px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E4E6EC;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: #182151;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #FFF;
+}
+
+.active {
+  color: #182151;
+  font-weight: 600;
+}
+/* Navigation End */
+
+/* Masthead Start */
+.mast-bg {
+  background-color: #182151;
+  padding: 40px 0;
+}
+
+.mast-outer {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #E4E6EC;
+  padding: 20px;
+  width: 66%;
+  margin: 0 auto;
+}
+
+.mast-inner {
+  margin: 0;
+  background-color: #E4E6EC;
+  padding: 16px;
+}
+
+.mast-inner * {
+  margin: 0;
+  text-align: center;
+}
+
+.mast-inner h1 {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 63px;
+  line-height: 80px;
+}
+
+.mast-inner p {
+  padding-bottom: 8px;
+}
+/* Masthead End */
+
+/* Misson Start */
+.pillars {
+  display: inline-block;
+}
+
+.pillar-wrapper {
+  margin: 0 auto;
+}
+
+.pillar {
+  float: left;
+  width: 360px;
+  padding: 4px;
+  margin: 4px;
+}
+
+.pillar h3 {
+  text-align: center;
+  padding: 8px 0;
+  border: 1px solid #182151;
+}
+/* Mission End */
+
+/* Team Start */
+.directors {
+  display: inline-block;
+}
+
+.director {
+  float: left;
+  width: 360px;
+  padding: 4px;
+  margin: 4px;
+}
+
+.director img {
+  display: block;
+  width: 150px;
+  height: 180px;
+}
+
+.director h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  margin: 4px 0px;
+}
+
+.director ul {
+  list-style-type: none;
+  margin: 8px 0;
+  padding: 0;
+}
+
+.instructors, .platforms {
+  display: inline-block;
+}
+
+.instructor, .platform {
+  float: left;
+  width: 270px;
+  padding: 4px;
+  margin: 4px;
+}
+.instructor img, .platform img {
+  display: block;
+  width: 150px;
+  height: 180px;
+}
+
+.instructor h4, .platform h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  margin: 4px 0px;
+}
+
+.instructor p, .platform p {
+  margin: 0;
+  padding: 0;
+}
+/* Team End */
+
+
+
+/* Footer Start */
+footer {
+  background-color: #000;
+  color: #E4E6EC;
+  padding: 20px;
+  margin-top: 10px;
+}
+/* Footer End */
