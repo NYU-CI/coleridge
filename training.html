@@ -1,11 +1,25 @@
 ---
 layout: default
 ---
+<h1>Upcoming Training Programs</h1>
+{% for training in site.data.upcoming_trainings %}
+  <ul>
+    <li><a href="#{{training.id}}">{{training.training}}</a></li>
+  </ul>
+{% endfor %}
+<h1>Past &amp; Current Training Programs</h1>
+{% for training in site.data.past_trainings %}
+  <ul>
+    <li><a href="#{{training.id}}">{{training.training}}</a></li>
+  </ul>
+{% endfor %}
 
-<h1>Upcoming training programs</h1>
+<hr>
+
+<h1>Upcoming Training Programs</h1>
 {% for training in site.data.upcoming_trainings %}
 <div class="{{section.class}}">
-  <h2>{{training.training}}<h2>
+  <h2 id="{{training.id}}">{{training.training}}<h2>
   {% for section in training.sections %}
     <h3>{{section.section}}</h3>
     {% for subsection in section.subsections %}
@@ -26,10 +40,10 @@ layout: default
 
 <hr>
 
-<h1>Past training programs</h1>
+<h1>Past &amp; Current Training Programs</h1>
 {% for training in site.data.past_trainings %}
 <div class="{{section.class}}">
-  <h2>{{training.training}}<h2>
+  <h2 id="{{training.id}}">{{training.training}}<h2>
   {% for section in training.sections %}
     <h3>{{section.section}}</h3>
     {% for subsection in section.subsections %}
