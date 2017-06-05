@@ -2,19 +2,24 @@
 layout: default
 ---
 
-{% for section in site.data.upcoming_training %}
+<h1>Upcoming training programs</h1>
+{% for training in site.data.upcoming_trainings %}
 <div class="{{section.class}}">
-  <h2>{{section.section}}</h2>
-  {% for subsection in section.subsections %}
-    {% if subsection.title != "" %}<h3>{{subsection.title}}</h3>{% endif %}
-    {% for paragraph in subsection.paragraphs %}
-      <p>{{paragraph}}</p>
+  <h2>{{training.training}}<h2>
+  {% for section in training.sections %}
+    <h3>{{section.section}}</h3>
+    {% for subsection in section.subsections %}
+      {% if subsection.title != "" %}<h4>{{subsection.title}}</h4>{% endif %}
+      {% for paragraph in subsection.paragraphs %}
+        <p>{{paragraph}}</p>
+      {% endfor %}
     {% endfor %}
   {% endfor %}
 </div>
 {% endfor %}
-
-{% for section in site.data.past_training %}
+<hr>
+<h1>Past training programs</h1>
+{% for section in site.data.past_trainings %}
 <div class="{{section.class}}">
   <h2>{{section.section}}</h2>
   {% for subsection in section.subsections %}
