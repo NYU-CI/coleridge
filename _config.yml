@@ -1,3 +1,2 @@
-markdown: redcarpet
 baseurl: /coleridge
 exclude: ['README.md']
