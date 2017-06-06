@@ -1,20 +1,20 @@
 title: Our Mission
 statement: Improve how government uses data in decision making.
 pillars:
-  - title: Data-driven
+  - title: Improved, data-driven decision making
     description: Empower employees to make data-driven policy decisions and program assessments with
-    bullets: 
+    bullets:
       - Data analytics training programs
       - Network of practitioners
 
-  - title: Secure platform
+  - title: Computing environment & analytical tools
     description: Provide a technically secure environment that
-    bullets: 
+    bullets:
       - Ensures that data providers have control and stewardship of their data
       - 'Enables users to contribute, share, search, and discover code and data'
 
-  - title: Collaborative network
+  - title: Collaborative community of practitioners
     description: Build a network of collaborators both nationally and internationally by
-    bullets: 
+    bullets:
       - 'Sharing sustainable, adoptable business models'
       - Developing interoperable environments
