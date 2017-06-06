@@ -1,5 +1,5 @@
 ---
-category: platform
+category: instructor
 fullname: Daniela Hochfellner
 firstname: Daniela
 lastname: Hochfellner
