@@ -3,7 +3,7 @@ html {
   margin: 0;
   padding: 0;
   font: normal 100%/1.4 Georgia,serif;
-  background-color: #E4E6EC;
+  background-color: #F4F4F4;
   color: #182151;
 }
 
@@ -58,7 +58,7 @@ nav ul {
   margin: 0 16px;
   padding: 0;
   overflow: hidden;
-  background-color: #E4E6EC;
+  background-color: #F4F4F4;
 }
 
 nav ul li {
@@ -92,7 +92,7 @@ nav ul li a:hover {
 .mast-outer {
   border-style: solid;
   border-width: 2px;
-  border-color: #E4E6EC;
+  border-color: #F4F4F4;
   padding: 20px;
   width: 66%;
   margin: 0 auto;
@@ -100,7 +100,7 @@ nav ul li a:hover {
 
 .mast-inner {
   margin: 0;
-  background-color: #E4E6EC;
+  background-color: #F4F4F4;
   padding: 16px;
 }
 
@@ -122,8 +122,13 @@ nav ul li a:hover {
 /* Masthead End */
 
 /* Misson Start */
+.mission {
+  background-color: #FFF;
+}
+
 .pillars {
   display: inline-block;
+
 }
 
 .pillar-wrapper {
@@ -145,36 +150,14 @@ nav ul li a:hover {
 /* Mission End */
 
 /* Team Start */
+/*
 .directors {
   display: inline-block;
 }
 
-/*
-.directors:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.directors > div {
-    float: left;
-    width: 33.33%;
-    border: 1px solid red;
-    box-sizing: border-box;
-    text-align: center;
-}
-@media (max-width: 480px) {
-    .directors > div {
-        float: none;
-        width: 100%;
-    }
-}
-*/
-
-
-
 .director {
   float: left;
-  width: 360px;
+  max-width: 300px;
   padding: 4px;
   margin: 4px;
 }
@@ -223,14 +206,14 @@ nav ul li a:hover {
   margin: 0;
   padding: 0;
 }
+*/
 /* Team End */
-
 
 
 /* Footer Start */
 footer {
   background-color: #000;
-  color: #E4E6EC;
+  color: #F4F4F4;
   padding: 20px;
   margin-top: 10px;
 }

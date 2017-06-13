@@ -1,11 +1,10 @@
-<h2>{{site.data.mission.title}}</h2>
-  <div class="mission">
-    <p>{{site.data.mission.statement}}</p>
-    <div class="pillars">
-      <div class="pillar-wrapper">
+<div class="container mission">
+  <h2>{{site.data.mission.title}}</h2>
+  <p>{{site.data.mission.statement}}</p>
+    <div class="row pillars">
       {% for pillar in site.data.mission.pillars %}
-      <div class="pillar">
-        <h3>{{pillar.title}}</h3>
+      <div class="col-sm-4 pillar">
+        <h4>{{pillar.title}}</h4>
         <p>{{pillar.description}}<p>
         <ul>
           {% for bullet in pillar.bullets %}
@@ -14,6 +13,5 @@
         </ul>
       </div>
       {% endfor %}
-      </div>
     </div>
-  </div>
+</div>

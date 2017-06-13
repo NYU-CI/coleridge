@@ -4,6 +4,6 @@ fullname: Avishek Kumar
 firstname: Avishek
 lastname: Kumar
 role: "Instructor"
-image: default.jpeg
+image: avishek-kumar.jpeg
 positions: []
 ---

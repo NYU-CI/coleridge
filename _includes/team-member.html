@@ -1,24 +1,38 @@
 {% assign members = site.pages | sort: 'lastname' %}
+{% assign count = 1 %}
+
+<div class="row">
 {% for member in members %}
   {% if member.category == include.type %}
-  <div class="{{include.type}}">
-    <img src="{{site.baseurl}}/assets/images/{{member.image}}">
-    <h4>{{member.fullname}}</h4>
 
-    <!--  Code for directors -->
+    {% comment %} Code for directors {% endcomment %}
     {% if member.category == 'director' %}
-    <a href="{{member.website}}" target="_blank">Bio</a>
-    <ul>
-      {% for position in member.positions %}
-        <li>{{position}}</li>
-      {% endfor %}
-    </ul>
+    <div class="col-sm-4 team-member">
+      <a href="{{member.website}}" target="_blank">
+        <img class="team-member-image" src="{{site.baseurl}}/assets/images/{{member.image}}">
+        <h4>{{member.fullname}}</h4>
+      </a>
+      <ul class="positions">
+        {% for position in member.positions %}
+          <li>{{position}}</li>
+        {% endfor %}
+      </ul>
+    </div>
 
-    <!--  Code for instructors and platforms -->
+    {% comment %} Code for instructors and platforms {% endcomment %}
     {% else %}
-    <p>{{member.role}}</p>
+    <div class="col-sm-3 team-member">
+      <img class="team-member-image" src="{{site.baseurl}}/assets/images/{{member.image}}">
+      <h4>{{member.fullname}}</h4>
+      <p>{{member.role}}</p>
+    </div>
+    {% capture mod %}{{ count | modulo:4 }}{% endcapture %}
+    {% if mod == '0' %}
+      <div class="clearfix"></div>
+    {% endif %}
+    {% assign count = count | plus:1 %}
     {% endif %}
 
-  </div>
   {% endif %}
 {% endfor %}
+</div>

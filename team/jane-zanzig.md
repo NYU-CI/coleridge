@@ -4,6 +4,6 @@ fullname: Jane Zanzig
 firstname: Jane
 lastname: Zanzig
 role: "Instructor"
-image: default.jpeg
+image: jane-zanzig.jpeg
 positions: []
 ---

@@ -1,7 +1,45 @@
-<nav>
-  <ul>
-    <li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/' %}active{% endif %}">Coleridge</a></li>
-    <li><a href="{{site.baseurl}}/training.html" class="{% if page.url == '/training.html' %}active{% endif %}">Training</a></li>
-    <li><a href="http://research.coleridgeinitiative.org/" class="{% if page.url == 'http://research.coleridgeinitiative.org/' %}active{% endif %}" target="_blank">Research</a></li>
-  </ul>
+<!-- Responsive Navigation Bar (made with Bootstrap) -->
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/' %}active{% endif %}">Coleridge</a></li>
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Data-Driven <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{site.baseurl}}/training.html" class="{% if page.url == '/training.html' %}active{% endif %}">Training</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="http://research.coleridgeinitiative.org/" class="{% if page.url == 'http://research.coleridgeinitiative.org/' %}active{% endif %}" target="_blank">Research</a></li>
+          </ul>
+        </li>
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Computing <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">ADRF</a></li>
+            <li><a href="#">CDF</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Network <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Discussion</a></li>
+            <li><a href="#">Journal</a></li>
+            <li><a href="#">Conference</a></li>
+          </ul>
+        </li>
+        <li><a href="{{site.baseurl}}/about.html" class="{% if page.url == '/about.html' %}active{% endif %}">About Us</a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
