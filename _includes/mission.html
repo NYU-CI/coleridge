@@ -4,7 +4,7 @@
     <div class="row pillars">
       {% for pillar in site.data.mission.pillars %}
       <div class="col-sm-4 pillar">
-        <h4>{{pillar.title}}</h4>
+        <a href="{{site.baseurl}}{{pillar.link}}"><h4>{{pillar.title}}</h4></a>
         <p>{{pillar.description}}<p>
         <ul>
           {% for bullet in pillar.bullets %}

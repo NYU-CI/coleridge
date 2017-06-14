@@ -6,15 +6,18 @@ pillars:
     bullets:
       - Data analytics training programs
       - Network of practitioners
+    link: data-driven
 
   - title: Computing environment & analytical tools
     description: Provide a technically secure environment that
     bullets:
       - Ensures that data providers have control and stewardship of their data
       - 'Enables users to contribute, share, search, and discover code and data'
+    link: computing
 
   - title: Collaborative community of practitioners
     description: Build a network of collaborators both nationally and internationally by
     bullets:
       - 'Sharing sustainable, adoptable business models'
       - Developing interoperable environments
+    link: network

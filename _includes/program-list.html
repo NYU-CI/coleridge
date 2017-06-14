@@ -1,0 +1,7 @@
+{% for page in site.pages %}
+  {% if page.type == 'program' and page.status == include.status %}
+    <ul>
+      <li><a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a></li>
+    </ul>
+  {% endif %}
+{% endfor %}
