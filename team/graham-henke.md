@@ -1,9 +1,9 @@
 ---
-category: instructor
+category: core-team
 fullname: Graham Henke
 firstname: Graham
 lastname: Henke
-role: "TA"
+role: "Instructor"
 image: graham-henke.jpeg
 positions: []
 ---
