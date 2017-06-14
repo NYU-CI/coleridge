@@ -1,6 +1,6 @@
 ---
 layout: program
-permalink: programs/welfare-spring-2017
+permalink: training/welfare-spring-2017
 type: program
 title: Welfare Recipients (Spring 2017)
 id: 2

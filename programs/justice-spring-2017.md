@@ -1,6 +1,6 @@
 ---
 layout: program
-permalink: programs/justice-spring-2017
+permalink: training/justice-spring-2017
 type: program
 title: Justice & Ex-offenders (Spring 2017)
 id: 1

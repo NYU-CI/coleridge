@@ -1,6 +1,6 @@
 ---
 layout: program
-permalink: programs/justice-fall-2017
+permalink: training/justice-fall-2017
 type: program
 title: Justice & Ex-offenders (Fall 2017)
 id: 3
