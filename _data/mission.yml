@@ -1,22 +1,22 @@
 title: Our Mission
-statement: Improve how government uses data in decision making.
+statement: Encourage scientifically rigorous, data-driven policy decisions.
 pillars:
-  - title: Improved, data-driven decision making
-    description: Empower employees to make data-driven policy decisions and program assessments with
+  - title: Build capabilities and knowledge
+    description:
     bullets:
-      - Data analytics training programs
-      - Network of practitioners
+      - Training programs
+      - Research
     link: knowledge
 
-  - title: Computing environment & analytical tools
-    description: Provide a technically secure environment that
+  - title: Provide secure data research facilities
+    description:
     bullets:
-      - Ensures that data providers have control and stewardship of their data
-      - 'Enables users to contribute, share, search, and discover code and data'
+      - Administrative Data Research Facility (ADRF)
+      - NYU-CUSP Data Facility
     link: computing
 
-  - title: Collaborative community of practitioners
-    description: Build a network of collaborators both nationally and internationally by
+  - title: Facilitate a community of practitioners
+    description:
     bullets:
       - 'Sharing sustainable, adoptable business models'
       - Developing interoperable environments
