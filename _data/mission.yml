@@ -1,11 +1,11 @@
 title: Our Mission
-statement: Encourage scientifically rigorous, data-driven policy decisions.
+statement: Promote & facilitate robust, data-driven policy decisions.
 pillars:
   - title: Build capabilities and knowledge
     description:
     bullets:
-      - Training programs
-      - Research
+      - Training programs in Applied Data Analysis
+      - Research efforts
     link: knowledge
 
   - title: Provide secure data research facilities
@@ -18,6 +18,6 @@ pillars:
   - title: Facilitate a community of practitioners
     description:
     bullets:
-      - 'Sharing sustainable, adoptable business models'
-      - Developing interoperable environments
+      - Practical networks
+      - Recommended resources & services
     link: network
