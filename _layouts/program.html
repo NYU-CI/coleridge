@@ -12,6 +12,9 @@ layout: container
     {% endif %}
       {% for paragraph in subsection.paragraphs %}
         <p>{{paragraph}}</p>
+        {% if subsection.image != "" %}
+          <img class="team-member-image" src="{{site.baseurl}}/assets/images/{{subsection.image}}">
+        {% endif %}
       {% endfor %}
       </div>
   {% endfor %}
