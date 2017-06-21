@@ -5,12 +5,14 @@
       {% for pillar in site.data.mission.pillars %}
       <div class="col-sm-4 pillar">
         <a href="{{site.baseurl}}/{{pillar.link}}"><h4>{{pillar.title}}</h4></a>
-        <p>{{pillar.description}}<p>
-        <ul>
-          {% for bullet in pillar.bullets %}
-            <li>{{bullet}}</li>
-          {% endfor %}
-        </ul>
+        <div class="pillar-inner">
+          <p>{{pillar.description}}<p>
+          <ul>
+            {% for bullet in pillar.bullets %}
+              <li>{{bullet}}</li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
       {% endfor %}
     </div>
