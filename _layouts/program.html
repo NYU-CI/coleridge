@@ -1,21 +1,39 @@
 ---
 layout: container
 ---
-{% for section in page.sections %}
-  <h3>{{section.title}}</h3>
-  {% for subsection in section.subsections %}
-    {% if subsection.subtitle != "" %}
-      <div class="indent">
-        <h4>{{subsection.subtitle}}</h4>
-    {% else %}
-      <div>
-    {% endif %}
-      {% for paragraph in subsection.paragraphs %}
-        <p>{{paragraph}}</p>
-        {% if subsection.image != "" %}
-          <img class="team-member-image" src="{{site.baseurl}}/assets/images/{{subsection.image}}">
-        {% endif %}
-      {% endfor %}
-      </div>
+{% if page.status == 'past' %}
+  {% include _past-program/overview.html content=page %}
+  {% include _past-program/sponsors.html content=page %}
+  {% include _past-program/projects.html content=page %}
+  {% include _past-program/participants.html content=page %}
+{% elsif page.status == 'upcoming' %}
+  {% include _upcoming-program/overview.html content=page %}
+  {% include _upcoming-program/sponsors.html content=page %}
+  {% include _upcoming-program/data-providers.html content=page %}
+  {% include _upcoming-program/applications.html content=page %}
+{% else %}
+  <p>This training program does not exist.<p>
+{% endif %}
+
+<!-- Below section is marked for removal -->
+{% comment %}
+  {% for section in page.sections %}
+    <h3>{{section.title}}</h3>
+    {% for subsection in section.subsections %}
+      {% if subsection.subtitle != "" %}
+        <div class="indent">
+          <h4>{{subsection.subtitle}}</h4>
+      {% else %}
+        <div>
+      {% endif %}
+        {% for paragraph in subsection.paragraphs %}
+          <p>{{paragraph}}</p>
+          {% if subsection.image != "" %}
+            <img class="team-member-image" src="{{site.baseurl}}/assets/images/{{subsection.image}}">
+          {% endif %}
+        {% endfor %}
+        </div>
+    {% endfor %}
   {% endfor %}
-{% endfor %}
+{% endcomment %}
+<!-- Above section is marked for removal -->

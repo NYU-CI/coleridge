@@ -1,0 +1,15 @@
+{% comment %} Content sourced from pages/programs/*.md {% endcomment %}
+{% assign applications = include.content.blocks.applications %}
+<div class="row">
+  <div class="col-sm-12">
+    <h3>Apply to participate in training program</h3>
+  </div>
+  <div class="col-sm-6">
+    <h4>Apply to program</h4>
+    <p>{{applications.program.description}}</p>
+  </div>
+  <div class="col-sm-6">
+    <h4>Apply for scholarship</h4>
+    <p>{{applications.scholarship.description}}</p>
+  </div>
+</div>

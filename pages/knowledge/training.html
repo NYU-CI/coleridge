@@ -8,48 +8,37 @@ permalink: training/
 {% include quote-list.html %} <!--status='selected' -->
 <h3>Core curriculum</h3>
 <p>While we continuously reassess our curriculum and work with different groups to tailor programs to their particular need, the general format we have followed to date is 12 training days grouped into 4 modules of 3 days each. Each day we primarily focus on a different topic as outlined in the table below. In addition to these topics below, participants are grouped in teams of ~4-5 to work through an analytic project to answer a specific research question of the team’s formulation.</p>
-<table style="width:70%">
-  <tr>
-    <th>MODULE 1</th>
-    <th>MODULE 3</th>
-  </tr>
-  <tr>
-    <td>
-      <ul>
-        <li>Day 1: Intro and project scoping</li>
-        <li>Day 2: Databases, SQL, and data exploration</li>
-        <li>Day 3: Intro to python for data analysis</li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li>Day 7: Intro to Machine Learning</li>
-        <li>Day 8: Machine Learning</li>
-        <li>Day 9: Text Analytics</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <th>MODULE 2</th>
-    <th>MODULE 4</th>
-  </tr>
-  <tr>
-    <td>
-      <ul>
-        <li>Day 4: Python and APIs</li>
-        <li>Day 5: Record Linkage</li>
-        <li>Day 6: Network Analysis</li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li>Day 10: Web-scraping &amp Big Data lecture</li>
-        <li>Day 11: Inference</li>
-        <li>Day 12: Privacy and Confidentiality</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+
+<div class="row">
+{% assign count = 0 %}
+{% for module in site.data.curriculum %}
+  {% capture mod %}{{ count | modulo:2 }}{% endcapture %}
+  {% if mod == '0' %}
+  <div class="col-sm-4">
+    <table class="table">
+  {% endif %}
+      <tr>
+        <th>{{module.module}}</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            {% for day in module.days %}
+            <li>{{day}}</li>
+            {% endfor %}
+          </ul>
+        </td>
+      </tr>
+    {% assign count = count | plus:1 %}
+    {% capture mod %}{{ count | modulo:2 }}{% endcapture %}
+    {% if mod == '0' %}
+    </table>
+  </div>
+    {% endif %}
+  {% endfor %}
+  <div class="col-sm-4"></div>
+</div>
+
 <h3>Upcoming Training Programs</h3>
 {% include program-list.html status='upcoming' %}
 
