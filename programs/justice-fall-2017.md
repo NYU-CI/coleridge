@@ -8,6 +8,7 @@ status: upcoming
 blocks:
   overview:
     description: "The Coleridge Initiative's 3rd training program in Applied Data Analytics for Public Policy will focus on justice data specifically using Illinois data on ex-offenders, wage records, and more. Please visit the program page for more information."
+    image: "julia-fill.jpg"
   sponsors:
     description: "Bureau of Justice Statistics is sponsoring this program."
   data-providers:

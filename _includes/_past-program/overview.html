@@ -1,13 +1,16 @@
 {% comment %} Content sourced from pages/programs/*.md {% endcomment %}
+{% assign cohort_id = include.content.id %}
 {% assign overview = include.content.blocks.overview %}
 <div class="row">
-  <div class="col-sm-6">
-    <h3>Overview</h3>
-    <p>{{overview.description}}</p>
-  </div>
-  <div class="col-sm-6">
-    {% if overview.image %}
-      <img class="team-member-image" src="{{site.baseurl}}/assets/images/{{overview.image}}">
+  <div class="col-sm-12 hoverboard">
+      <h3>Overview</h3>
+      <p>{{overview.description}}</p>
+    {% if overview.images %}
+      {% for image in overview.images %}
+      <div class="col-sm-4">
+          <img class="hoverimage img-responsive" src="{{site.baseurl}}/assets/images/cohort{{cohort_id}}/{{image}}">
+      </div>
+      {% endfor %}
     {% endif %}
-  </div>
+  </div> 
 </div>

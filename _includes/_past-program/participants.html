@@ -1,29 +1,29 @@
 {% comment %} Content sourced from pages/programs/*.md {% endcomment %}
 {% assign participants = include.content.blocks.participants %}
 {% assign divisions = participants.divisions %}
+
 <div class="row">
-  <div class="col-sm-12">
+  <div class="col-sm-12 hoverboard">
     <h3>The Participants</h3>
     <p>{{participants.description}}</p>
-  </div>
 
-  <div class="col-sm-6">
-    <table class="table">
     {% for division in divisions %}
-      <tr>
-        <th>{{ division[0] | upcase }}</th>
-      </tr>
-      <tr>
-        <td>
-          <ul>
-          {% for agency in division[1] %}
-            <li>{{agency}}</li>
-          {% endfor %}
-          </ul>
-        </td>
-      </tr>
+    <div class="col-sm-6">
+      <table class="table participant-table">
+        <tr>
+          <th>{{ division[0] | upcase }}</th>
+        </tr>
+        <tr>
+          <td>
+            <ul>
+            {% for agency in division[1] %}
+              <li>{{agency}}</li>
+            {% endfor %}
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </div>
     {% endfor %}
-    </table>
   </div>
-  <div class="col-sm-6"></div>
 </div>

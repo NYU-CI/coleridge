@@ -8,10 +8,17 @@ status: past
 blocks:
   overview:
     description: "The Coleridge Initiative's 1st training program in Applied Data Analytics for Public Policy brought together 57 participants from over 30 different local, state, and federal agencies to analyze factors contributing to recidivism."
-    image: Cohort1_group_picture.jpg
+    group-image: Cohort1_group_picture.jpg
+    images:
+      - "group-c1.jpg"
+      - "group-m1.jpg"
+      - "group-m4.jpg"
   sponsors:
     description: "Three different agencies contributed data for use in the overall training materials: Illinois Department of Employment Security (IDES), Illinois Department of Corrections (IDOC), and US Housing and Urban Development (HUD). Additionally, participants from Mecklenburg County, the Chicago Police Department, and the New York Police Department each brought samples of their own agency's data on which to work for their projects."
-    image: ""
+    images:
+      - "ides.png"
+      - "idoc.jpg"
+      - "hud.gif"
   projects:
     description: "This training program was centered around projects and each participant was grouped into teams of 4-5."
   participants:

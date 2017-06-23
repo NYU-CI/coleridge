@@ -1,46 +1,66 @@
 ---
 layout: container
 title: Training Programs
+description: "Our training programs in Applied Data Analytics focus on real world issues using confidential, micro-data. Click on one of the links below to see upcoming or past courses."
 permalink: training/
 ---
-<p>Our training programs in Applied Data Analytics focus on real world issues using confidential, micro-data. Click on one of the links below to see upcoming or past courses.</p>
-<h3>What participants say about our programs</h3>
-{% include quote-list.html %} <!--status='selected' -->
-<h3>Core curriculum</h3>
-<p>While we continuously reassess our curriculum and work with different groups to tailor programs to their particular need, the general format we have followed to date is 12 training days grouped into 4 modules of 3 days each. Each day we primarily focus on a different topic as outlined in the table below. In addition to these topics below, participants are grouped in teams of ~4-5 to work through an analytic project to answer a specific research question of the team’s formulation.</p>
+<!-- <div class="hoverboard">
+  <h2>{{page.title}}</h2>
+  <p>{{page.description}}</p>
+</div> -->
 
 <div class="row">
-{% assign count = 0 %}
-{% for module in site.data.curriculum %}
-  {% capture mod %}{{ count | modulo:2 }}{% endcapture %}
-  {% if mod == '0' %}
-  <div class="col-sm-4">
-    <table class="table">
-  {% endif %}
-      <tr>
-        <th>{{module.module}}</th>
-      </tr>
-      <tr>
-        <td>
-          <ul>
-            {% for day in module.days %}
-            <li>{{day}}</li>
-            {% endfor %}
-          </ul>
-        </td>
-      </tr>
-    {% assign count = count | plus:1 %}
-    {% capture mod %}{{ count | modulo:2 }}{% endcapture %}
-    {% if mod == '0' %}
-    </table>
+  <div class="col-sm-8 hoverboard">
+    <h3>Core curriculum</h3>
+    <hr>
+    <p>While we continuously reassess our curriculum and work with different groups to tailor programs to their particular need, the general format we have followed to date is 12 training days grouped into 4 modules of 3 days each. Each day we primarily focus on a different topic as outlined in the table below. In addition to these topics below, participants are grouped in teams of ~4-5 to work through an analytic project to answer a specific research question of the team’s formulation.</p>
+    <div class="row">
+    {% assign count = 0 %}
+    {% for module in site.data.curriculum %}
+      {% capture mod %}{{ count | modulo:2 }}{% endcapture %}
+      {% if mod == '0' %}
+      <div class="col-sm-6">
+        <table class="table">
+      {% endif %}
+          <tr>
+            <th>{{module.module}}</th>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                {% for day in module.days %}
+                <li>{{day}}</li>
+                {% endfor %}
+              </ul>
+            </td>
+          </tr>
+        {% assign count = count | plus:1 %}
+        {% capture mod %}{{ count | modulo:2 }}{% endcapture %}
+        {% if mod == '0' %}
+        </table>
+      </div>
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
-    {% endif %}
-  {% endfor %}
-  <div class="col-sm-4"></div>
+  <div class="col-sm-4">
+    <div class="hoverboard">
+      <h3>Upcoming Training Programs</h3>
+        {% include program-list.html status='upcoming' %}
+    </div>
+
+    <div class="hoverboard">
+        <h3>Past Training Programs</h3>
+        {% include program-list.html status='past' %}
+    </div>
+  </div>
 </div>
 
-<h3>Upcoming Training Programs</h3>
-{% include program-list.html status='upcoming' %}
+<div class="row">
+  <div class="col-sm-8 hoverboard">
+    <h3>What participants say about our programs</h3>
+    <hr>
+    {% include quote-list.html %} <!--status='selected' -->
+  </div>
+</div>
 
-<h3>Past Training Programs</h3>
-{% include program-list.html status='past' %}

@@ -1,7 +1,7 @@
+<ul class="program-list">
 {% for page in site.pages %}
   {% if page.type == 'program' and page.status == include.status %}
-    <ul>
-      <li><a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a></li>
-    </ul>
+      <a href="{{site.baseurl}}{{page.url}}"><li class="program-list-item">{{page.title}}</li></a>
   {% endif %}
 {% endfor %}
+</ul>
