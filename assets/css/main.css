@@ -35,7 +35,7 @@ p {
 }
 
 .hoverimage {
-  background-color: #FFFFFF;  
+  background-color: #FFFFFF;
   margin-top: 20px;
   margin-bottom: 20px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
@@ -226,6 +226,16 @@ p {
   color: #F4F4F4;
 }
 
+.program-bg {
+  background: url('../images/cohort2/Cohort2_group_picture.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height:100%;
+  background-color: #062F4F;
+  padding: 52px 0;
+}
 
 /* Training End */
 

@@ -3,3 +3,22 @@ layout: default
 ---
 
 {% include mission.html %}
+
+<div class="container-fluid program-bg full">
+  <div class="container mission mast-outer">
+    <h2 style="color:#F4F4F4">Training Programs</h2>
+    <p style="color:#F4F4F4">Our training programs in Applied Data Analytics focus on real world issues using confidential, micro-data.</p>
+    <div class="col-sm-6">
+      <div class="hoverboard">
+        <h3>Upcoming Training Programs</h3>
+          {% include program-list.html status='upcoming' %}
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="hoverboard">
+          <h3>Past Training Programs</h3>
+          {% include program-list.html status='past' %}
+      </div>
+    </div>
+  </div>
+</div>

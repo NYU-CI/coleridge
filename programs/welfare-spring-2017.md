@@ -7,18 +7,19 @@ id: 2
 status: past
 blocks:
   overview:
-    description: "The Coleridge Initiative's 2nd training program in Applied Data Analytics for Public Policy brought together ..."
+    description: "The Coleridge Initiative's 2nd training program in Applied Data Analytics for Public Policy brought together 44 participants from "
     group-image: Cohort2_group_picture.jpg
     images:
       - "julia-fill.jpg"
       - "julia-fill.jpg"
       - "julia-fill.jpg"
   sponsors:
-    description: "Three different agencies contributed data for use in the overall training materials..."
+    description: "Four different agencies contributed data for use in the overall training materials: Illinois Department of Employment Security (IDES), Illinois Department of Human Services (IDHS), New York City's Center for Innovation through Data Intelligence, and US Housing and Urban Development (HUD)."
     images:
       - "idhs.png"
       - "ides.png"
       - "cidi.png"
+      - "hud.gif"
   projects:
     description: "This training program was centered around projects and each participant was grouped into teams of 4-5."
   participants:
