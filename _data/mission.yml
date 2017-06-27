@@ -1,5 +1,5 @@
 title: Our Mission
-statement: Promote & facilitate robust, data-driven policy decisions.
+statement: "Promote & facilitate robust, data-driven policy decisions."
 pillars:
   - title: Build capabilities and knowledge
     description:
@@ -12,12 +12,12 @@ pillars:
     description:
     bullets:
       - Administrative Data Research Facility (ADRF)
-      - NYU-CUSP Data Facility
+      - NYU CUSP Data Facility (CDF)
     link: computing
 
   - title: Facilitate a community of practitioners
     description:
     bullets:
       - Practical networks
-      - Recommended resources & services
+      - "Recommended resources & services"
     link: network
