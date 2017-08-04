@@ -56,7 +56,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 1280px 700px;
+  background-size: cover;
 }
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
