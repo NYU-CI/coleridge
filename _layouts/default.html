@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- Static links for Bootstrap in case CDN is offline 
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/static/bootstrap.min.css">
-  <script src="{{site.baseurl}}/assets/static/jquery.min.js"></script>
-  <script src="{{site.baseurl}}/assets/static/bootstrap.min.js"></script>
+
+    <!-- Static links for Bootstrap in case CDN is offline 
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/js/static/bootstrap.min.css">
+  <script src="{{site.baseurl}}/assets/js/static/jquery.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/static/bootstrap.min.js"></script>
   -->
    <!-- Latest compiled and minified CSS for Bootstrap-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -15,22 +15,19 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <!-- Custom JS -->
-  <script src="{{site.baseurl}}/assets/static/script.js"></script>
+  <script src="{{site.baseurl}}/assets/js/script.js"></script>
 
   <title>The Coleridge Initiative</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link href="{{site.baseurl}}/assets/css/main.css" rel="stylesheet">
 </head>
 <body>
-
   <header>
     {% include nav.html %}
-    {% if page.url == '/' %}{% include masthead.html %}{% endif %}
   </header>
 
-    {{content}}
+  {{content}}
 
-    {% include footer.html %}
+  {% include footer.html %}
   
 </body>
 </html>

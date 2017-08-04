@@ -1,254 +1,369 @@
 /* General Styling Start */
-a:link, a:visited, a:hover, a:active {
-    text-decoration: none;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #062F4F;
+body, html {
+    height: 100%;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
-  background-color: #F1F1F1;
+  font-family: "Avenir", sans-serif;
 }
+/* General Styling End */
 
-p {
-  font-size: 16px;
-}
-
-.hoverboard {
-  background-color: #FFFFFF;
-  padding: 10px 15px 5px 15px;
-  margin-bottom: 10px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
-}
-
-.hoverboard h2, .hoverboard h3 {
-  margin-top: 0px;
-}
-
-.hoverboard hr {
-  margin-top: 0px;
-  margin-bottom: 5px;
-  margin-left: -15px;
-  margin-right: -15px;
-}
-
-.hoverimage {
-  background-color: #FFFFFF;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
-}
-
-/* General Styling Start */
-
-/* Nav Start */
-.navbar {
-  margin-bottom: 0;
-}
-/* Nav End */
-
-/* Masthead Start */
-.mast-bg {
-  background: url('../images/class-bg-ink.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  height:100%;
-  background-color: #062F4F;
-  padding: 52px 0;
-}
-
-.mast-outer {
-  border-style: solid;
-  border-width: 2px;
-  border-color: #F4F4F4;
-  padding: 20px;
-  width: 66%;
-  margin: 0 auto;
-  background-color: rgba(6, 47, 79, 0.75);
-}
-
-.mast-inner {
-  margin: 0;
-  padding: 16px;
-}
-
-.mast-inner * {
-  margin: 0;
-  text-align: center;
-}
-
-.mast-title {
+/* Nav Styling Start */
+.navbar-default {
+  background-color: #000000;
   color: #FFFFFF;
-  text-transform: uppercase;
-  font-size: 48px;
-  margin-bottom: 8px;
-}
-
-.mast-slogan {
-  color: #FFFFFF;
-  font-size: 16px;
-}
-
-@media (max-width:768px) {
-  .mast-title {font-size:28px}
-}
-/*
-.mast-inner h1 {
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
-  font-size: 63px;
-  line-height: 80px;
-}
-
-.mast-inner p {
-  padding-bottom: 8px;
-}
-*/
-/* Masthead End */
-
-/* Mission Start */
-.mission {
-  margin-bottom: 20px;
-}
-
-.mission h2 {
-  text-align: center;
-}
-
-.mission > p {
-  text-align: center;
-  font-size: 20px;
-}
-
-.pillar h4 {
-  text-align: center;
-  padding: 10px 20px;
+  font-weight: lighter;
+  height: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-bottom: 0px;
-  border: 1px solid #062F4F;
-  background-color: #062F4F;
-  color: #F4F4F4;
-  opacity: 1.0;
+  border: none;
 }
 
-.pillar h4:hover{
-  background-color: rgba(6, 47, 79, 0.9);
-  color: #F4F4F4;
-}
-
-.pillar-inner {
-}
-
-.pillar-inner ul {
-  padding-left: 20px;
-}
-
-.pillar-inner ul li {
-  margin: 0px 0;
-  padding: 4px;
-  font-size: 14px;
-}
-/* Mission End */
-
-
-/* Team Start */
-.team {
-  margin-top: 16px;
-  background-color: #F4F4F4;
-}
-
-.positions {
-  list-style-type: none;
-  padding: 0;
-}
-
-.positions li {
-  margin-bottom: 4px;
-}
-
-.team-member h4 {
-  margin-bottom: 4px;
-}
-
-.team-member p {
-  margin-bottom: 16px;
-}
-
-.team-member-image {
-  max-width: 150px;
-}
-/* Team End */
-
-/* Past Program Start */
-.agency-logo {
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 180px;
-}
-
-.participant-table {
+.navbar-default .navbar-nav li a {
   font-size: 16px;
+  color: #FFFFFF;
 }
 
-.participant-table ul {
-  list-style: none;
-  padding: 0px;
-}
-/* Past Program End */
-
-/* Training Start */
-/* ul */
-.program-list {
-  list-style: none;
-  padding: 0px;
+.navbar-default .navbar-nav li a:hover {
+  color: #000000;
 }
 
-/*
-.program-list a:link, .program-list a:visited {
-  text-decoration: none;
-  color: #F4F4F4;
-}*/
-
-.program-list-item {
-  background-color: #062F4F;
-  color: #F4F4F4;
-  font-size: 16px;
-  padding: 10px;
-  border: 1px solid #FFFFFF;
+.taphover {
+  color: #FFFFFF;
 }
 
-.program-list-item:hover {
-  background-color: rgba(6, 47, 79, 0.9);
-  color: #F4F4F4;
+.navbar-brand {
+  padding-top: 0px;
 }
 
-.program-bg {
-  background: url('../images/cohort2/Cohort2_group_picture.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
+.navbar-brand img {
+  height: 50px;
+  padding-top: 0px;
+}
+
+.dropdown-menu {
+  background-color: #000000;
+}
+/* Nav Styling End */
+
+/* Parallax Backgrounds Start */
+.masthead, .purple-bg, .orange-bg, .green-bg, .red-bg, .blue-bg {
+  /* Full height */
+  height: 90%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  -o-background-size: cover;
-  height:100%;
-  background-color: #062F4F;
-  padding: 52px 0;
 }
 
-/* Training End */
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+  .masthead, .purple-bg, .orange-bg, .green-bg, .red-bg, .blue-bg {
+    background-attachment: scroll;
+  }
+}
 
-/* Footer Start */
+.masthead {
+  background-image: url('../images/Event-Background.jpg');
+}
+
+.purple-bg {
+  background-image: url('../images/purple-bg.png');
+}
+
+.orange-bg {
+  background-image: url('../images/orange-bg.png');
+}
+
+.green-bg {
+  background-image: url('../images/green-bg.png');
+}
+
+.red-bg {
+  background-image: url('../images/red-bg.png');
+}
+
+.blue-bg {
+  background-image: url('../images/blue-bg.png');
+}
+
 .footer {
-  background-color: #000;
-  color: #F4F4F4;
-  margin-top: 40px;
-  padding: 20px;
+  height: 260px;
+  background-image: url('../images/Event-Background-Footer.jpg')
 }
 
-footer p {
-  margin: 0;
-  font-size: 12px;
+.footer-image-holder {
+  padding-top: 60px;
+  text-align: center;
 }
-/* Footer End */
+
+.footer-image {
+  height: 100px;
+}
+
+.ci-text-logo-image-holder {
+  padding-top: 240px;
+  text-align: center;
+}
+.ci-text-logo-image-holder img {
+  width: 62.5%;
+}
+
+.copyright-text {
+  color: #FFFFFF;
+  padding: 20px 0px 0px 50px;
+  font-size: 16px;
+}
+/* Parallax Backgrounds End */
+
+/* Content Sections Start */
+.mission-content {
+  background-color: rgba(111, 111, 111, 0.9);
+}
+/* Content Sections Start */
+.white-band {
+  height: 46.25%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.mission {
+  margin: 0;
+}
+
+.mission.slogan {
+  padding: 36px 0px 0px 60px;
+}
+
+.mission.coleridge {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: bolder;
+  color: #000000;
+}
+
+.mission.building {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.mission.quote {
+  float: right;
+  padding: 48px 60px 0px 0px;
+}
+
+.mission.data {
+  font-size: 28px;
+  color: #000000;
+}
+
+.mission.mariner {
+  float: right;
+  font-style: italic;
+  font-size: 19px;
+  color: #666666;
+}
+
+.buckets {
+  text-align: center;
+}
+
+.bucket {
+  padding: 24px 0px 0px 0px;
+  color: #FFFFFF;
+  letter-spacing: 4px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#oval {
+  width: 225px;
+  height: 225px;
+  background-color: rgba(255, 255, 255, 0.9);
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.bucket-name {
+  padding-bottom: 10px;
+}
+
+.bucket-description {
+  padding-top: 62px;
+  width: 72%;
+  color: #666666;
+  letter-spacing: 0px;
+  line-height: 1.3;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.down-arrow {
+  margin-top: 20px;
+  width: 40px;
+  height: 24px;
+}
+
+.knowledge {
+  margin: 0;
+}
+
+.knowledge.header {
+  position: relative;
+  padding: 24px 0px 0px 36px;
+}
+
+.knowledge.label {
+  position: absolute;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 58px;
+  font-weight: 200;
+  color: #666666;
+  letter-spacing: 4px;
+}
+
+.knowledge.circle {
+  margin: 10px 0px 0px 70px;
+  width: 226px;
+  height: 226px;
+}
+
+.knowledge.programs {
+  text-align: center;
+}
+
+.knowledge.research {
+  text-align: center;
+  margin-left: 24px;
+}
+
+.knowledge.title {
+  padding: 36px 0px 20px 0px;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 700;
+  color: #666666;
+}
+
+.knowledge.description {
+  margin: 0px 0px 0px 24px;
+  font-size: 20px;
+  width: 218px;
+  color: #000000;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1;
+  transform:scale(1.1,1.1); /* W3C */
+  -webkit-transform:scale(1.1,1.1); /* Safari and Chrome */
+  -moz-transform:scale(1.05,1.1); /* Firefox */
+  -ms-transform:scale(1.1,1.1); /* IE 9 */
+  -o-transform:scale(1.1,1.1); /* Opera */
+}
+
+.participant-quote {
+  padding: 100px 100px 0px 100px;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.our-goal {
+  padding: 60px 0px 0px 0px;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+}
+
+.value {
+  padding: 100px 60px 0px 60px;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 1.1;
+  font-weight: 400;
+}
+
+.value-title {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.what-we-value {
+  float: right;
+  padding: 40px 80px 0px 0px;
+  text-transform: uppercase;
+  font-size: 76px;
+  font-weight: 800;
+  color: #666666;
+  letter-spacing: 4px;
+}
+
+.team.description {
+  padding-top: 24px;
+  font-size: 26px;
+  color: #000000;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1;
+}
+
+.directors.label {
+  position: absolute;
+  padding: 24px 0px 0px 0px;
+  text-transform: uppercase;
+  font-size: 58px;
+  font-weight: 200;
+  color: #FFFFFF;
+  letter-spacing: 4px;
+}
+
+.directors-circle {
+  margin: 60px 0px 0px 0px;
+  width: 220px;
+  height: 220px;
+  text-align: center;
+}
+
+.director-name {
+  padding-top: 118px;
+  padding-left: 44px;
+  text-transform: uppercase;
+  color: #000000;
+  letter-spacing: 2px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.director-affiliation {
+  padding-top: 16px;
+  padding-left: 44px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.director-affiliation p {
+  margin: 0;
+  padding-top: 0;
+  line-height: 1.1;
+}
+
+#directors-oval {
+  float: left;
+  margin: -50px 0px 0px -100px;
+  width: 420px;
+  height: 420px;
+  background-color: rgba(255, 255, 255, 0.9);
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}

@@ -1,23 +1,188 @@
 ---
 layout: default
 ---
+<div class="masthead">
+  <div class="ci-text-logo-image-holder">
+    <img class="ci-text-logo-image" src="{{site.baseurl}}/assets/images/CI_full_text_logo_white.png">
+  </div>
+</div>
 
-{% include mission.html %}
-
-<div class="container-fluid program-bg full">
-  <div class="container mission mast-outer">
-    <h2 style="color:#F4F4F4">Training Programs</h2>
-    <p style="color:#F4F4F4">Our training programs in Applied Data Analytics focus on real world issues using confidential, micro-data.</p>
-    <div class="col-sm-6">
-      <div class="hoverboard">
-        <h3>Upcoming Training Programs</h3>
-          {% include program-list.html status='upcoming' %}
+<!-- PURPLE -->
+<div class="purple-bg">
+  <div class="white-band">
+    <div class="mission slogan">
+      <p class="mission coleridge">The Coleridge Initiative:</p>
+      <p class="mission building">Building the capacity needed to accelerate the effective use of new data.</p>
+    </div>
+    <div class="mission quote">
+      <p class="mission data">“Data, data everywhere, we have to stop and think“</p>
+      <p class="mission mariner">with apologies to the Rime of the Ancient Mariner.</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row purple-content">
+      <div class="buckets">
+        <div class="col-sm-4 bucket" align="center">
+          <p class="bucket-name">KNOWLEDGE</p>
+          <div class="" id="oval">
+            <p class="bucket-description">Building capabilities and knowledge</p>
+            <img class="down-arrow" src="{{site.baseurl}}/assets/images/triangle-down-arrow.png">
+          </div>
+        </div>
+        <div class="col-sm-4 bucket" align="center">
+          <p class="bucket-name">COMPUTING</p>
+          <div class="" id="oval">
+            <p class="bucket-description">Providing secure data research facilities</p>
+            <img class="down-arrow" src="{{site.baseurl}}/assets/images/triangle-down-arrow.png">
+          </div>
+        </div>
+        <div class="col-sm-4 bucket" align="center">
+          <p class="bucket-name">NETWORK</p>
+          <div class="" id="oval">
+            <p class="bucket-description">Facilitating a community of practioners</p>
+            <img class="down-arrow" src="{{site.baseurl}}/assets/images/triangle-down-arrow.png">
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-sm-6">
-      <div class="hoverboard">
-          <h3>Past Training Programs</h3>
-          {% include program-list.html status='past' %}
+  </div>
+</div>
+<!-- PURPLE -->
+
+
+<!-- ORANGE -->
+<div class="orange-bg">
+    <div class="white-band">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5 knowledge header">
+          <p class="knowledge label">KNOWLEDGE</p>
+          <img class="knowledge circle img-circle" src="{{site.baseurl}}/assets/images/bdss_book.png">
+        </div>
+        <div class="col-sm-3 knowledge programs">
+          <p class="knowledge title">TRAINING PROGRAMS</p>
+          <p class="knowledge description">Learn cutting-edge analytics skills and apply them to real world micro-data to help solve real world problems.</p>
+          </div>
+        <div class="col-sm-3 knowledge research">
+          <p class="knowledge title">RESEARCH</p>
+          <p class="knowledge description">We believe that robust, peer reviewed research is a key ingredient in determining what factors improve society.</p>
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="participant-quote">“ I am at the most awesome, intense, hands-on training for using data to improve public policy.”</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ORANGE -->
+
+<!-- <div class="computing-band">
+  <h1>COMPUTING BAND</h1>
+  <h2>...</h2>
+</div> -->
+
+<!-- GREEN -->
+<div class="green-bg">
+  <div class="white-band">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5 knowledge header">
+          <p class="knowledge label">COMPUTING</p>
+          <img class="knowledge circle img-circle" src="{{site.baseurl}}/assets/images/laptop.png">
+        </div>
+        <div class="col-sm-3 knowledge programs">
+          <p class="knowledge title">ADRF</p>
+          <p class="knowledge description">The Administrative Data Research Facility (ADRF) provides a secure platform to host confidential micro-data, serving as a trusted partner for data providers and analysts.</p>
+          </div>
+        <div class="col-sm-3 knowledge research">
+          <p class="knowledge title">CDF</p>
+          <p class="knowledge description">The CUSP Data Facility (CDF) at New York University’s Center for Urban Science and Progress (CUSP) connects users to relevant datasets for urban policy research.</p>
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="our-goal">Our goal is to accelerate data-driven research and policy around human beings and their interactions, for program management, policy development, and scholarly purposes, by enabling efficient, effective, and secure access to sensitive data about societal systems.</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- GREEN -->
+
+
+<!-- GREEN -->
+<div class="red-bg">
+    <div class="white-band">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5 knowledge header">
+          <p class="knowledge label">NETWORK</p>
+          <img class="knowledge circle img-circle" src="{{site.baseurl}}/assets/images/participant-group.png">
+        </div>
+        <div class="col-sm-3 knowledge programs">
+          <p class="knowledge title">DISCUSSION</p>
+          <p class="knowledge description">We maintian a Slack team as one method of communication for our Applied Data Analytics program, including programming specifics, training specifics, and general discussions.</p>
+          </div>
+        <div class="col-sm-3 knowledge research">
+          <p class="knowledge title">ONLINE JOURNAL</p>
+          <p class="knowledge description">We maintain an online publication platform in order to facilitate sharing best-practices, articles, or other research products and to build the data analytics community.</p>
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="value"><span class="value-title">Positive social impact</span>: Our every project, action, and effort contributes positive social value either directly or indirectly by supporting some other project, action, or effort.</div>
+        <div class="what-we-value">What we value</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="blue-bg">
+    <div class="white-band">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5 knowledge header">
+          <p class="knowledge label">OUR TEAM</p>
+          <img class="knowledge circle img-circle" src="{{site.baseurl}}/assets/images/mentoring.png">
+        </div>
+        <div class="col-sm-6 team">
+          <p class="team description">We are a diverse group of data scientists, economists, statisticians, software engineers, and more with a strong desire to make the world a better place. We believe there is an opportunity to substantially improve how data is used and analyzed, especially in the context of public policy.</p>
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5">
+        <p class="directors label">DIRECTORS</p>
+      </div>
+      <div class="col-sm-3">
+        <img class="directors-circle img-circle" src="{{site.baseurl}}/assets/images/julia-lane.jpg">
+      </div>
+      <div class="col-sm-4">
+        <div class="" id="directors-oval">
+          <div class="director-name">Julia Lane</div>
+          <div class="director-affiliation">
+            <p>Professor, Robert F. Wagner Graduate
+            School of Public Service, NYU</p>
+            <p>Professor, Center for Urban Science and
+            Progress, NYU</p>
+            <p>Provostial Fellow, Innovation Analytics</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

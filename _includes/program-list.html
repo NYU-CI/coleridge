@@ -1,7 +1,0 @@
-<ul class="program-list">
-{% for page in site.pages %}
-  {% if page.type == 'program' and page.status == include.status %}
-      <a href="{{site.baseurl}}{{page.url}}"><li class="program-list-item">{{page.title}}</li></a>
-  {% endif %}
-{% endfor %}
-</ul>
