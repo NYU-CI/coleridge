@@ -20,13 +20,44 @@ body {
   border: none;
 }
 
-.navbar-default .navbar-nav li a {
+.navbar-default .navbar-nav li, .navbar-default .navbar-nav li a {
   font-size: 16px;
   color: #FFFFFF;
+  background-color: #000000;
 }
 
 .navbar-default .navbar-nav li a:hover {
   color: #000000;
+}
+
+#collab-text {
+  box-sizing: border-box;
+  display: block;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 15px;
+}
+
+#uchicago-nav, #nyu-nav {
+  height: 27px;
+  background-color: #FFFFFF;
+}
+
+#umd-nav {
+  height: 27px;
+  padding: 4px;
+  background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav .univ-nav-logo a {
+  padding-left: 0px;
+  padding-right: 10px;
+  background-color: #000000;
+}
+
+.navbar-default .navbar-nav .univ-nav-logo a:hover {
+  background-color: #000000;
 }
 
 .taphover {
@@ -60,8 +91,14 @@ body {
 }
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1024px) {
-  .masthead, .purple-bg, .orange-bg, .green-bg, .red-bg, .blue-bg {
+@media only screen and (max-width: 1024px) {
+  .masthead {
+    height: 90%;
+    background-attachment: scroll;
+  }
+
+  .purple-bg, .orange-bg, .green-bg, .red-bg, .blue-bg {
+    height: auto;
     background-attachment: scroll;
   }
 }
@@ -91,50 +128,38 @@ body {
 }
 
 .footer {
-  height: 260px;
   background-image: url('../images/Event-Background-Footer.jpg')
 }
+/* Parallax Backgrounds End */
 
-.footer-image-holder {
-  padding-top: 60px;
-  text-align: center;
-}
-
-.footer-image {
-  height: 100px;
-}
-
+/* Main Logo Start */
 .ci-text-logo-image-holder {
   padding-top: 240px;
   text-align: center;
 }
+
 .ci-text-logo-image-holder img {
   width: 62.5%;
 }
+/* Main Logo End */
 
-.copyright-text {
-  color: #FFFFFF;
-  padding: 20px 0px 0px 50px;
-  font-size: 16px;
-}
-/* Parallax Backgrounds End */
-
-/* Content Sections Start */
-.mission-content {
-  background-color: rgba(111, 111, 111, 0.9);
-}
 /* Content Sections Start */
 .white-band {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.white-band-general {
   height: 46.25%;
   background-color: rgba(255, 255, 255, 0.9);
 }
 
+/* Mission Section Start */
 .mission {
   margin: 0;
 }
 
 .mission.slogan {
-  padding: 36px 0px 0px 60px;
+  padding: 36px 60px 0px 60px;
 }
 
 .mission.coleridge {
@@ -152,20 +177,30 @@ body {
 }
 
 .mission.quote {
-  float: right;
-  padding: 48px 60px 0px 0px;
+  text-align:right;
+  padding: 48px 60px 60px 60px;
 }
 
 .mission.data {
+  display: block;
   font-size: 28px;
   color: #000000;
 }
 
 .mission.mariner {
-  float: right;
+  display: block;
   font-style: italic;
   font-size: 19px;
   color: #666666;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mission.slogan { padding: 24px 24px 0px 24px; }
+  .mission.coleridge { font-size: 20px; }
+  .mission.building { font-size: 18px; font-weight: 400; }
+  .mission.quote { text-align: left; padding: 24px 24px 24px 24px; }
+  .mission.data { font-size: 22px; }
+  .mission.mariner { font-size: 16px; }
 }
 
 .buckets {
@@ -173,11 +208,11 @@ body {
 }
 
 .bucket {
-  padding: 24px 0px 0px 0px;
+  padding: 24px 0px 24px 0px;
   color: #FFFFFF;
-  letter-spacing: 4px;
-  font-size: 18px;
-  font-weight: bold;
+  letter-spacing: 6px;
+  font-size: 28px;
+  font-weight: bolder;
 }
 
 #oval {
@@ -208,14 +243,16 @@ body {
   width: 40px;
   height: 24px;
 }
+/* Mission Section End */
 
+/* Knowledge Section Start */
 .knowledge {
   margin: 0;
 }
 
 .knowledge.header {
   position: relative;
-  padding: 24px 0px 0px 36px;
+  padding: 24px 0px 24px 36px;
 }
 
 .knowledge.label {
@@ -274,6 +311,19 @@ body {
   font-weight: 600;
 }
 
+@media only screen and (max-width: 1024px) {
+  .knowledge.header { text-align: center; padding: 36px 18px 0px 18px; }
+  .knowledge.label { position: relative; font-size: 32px; }
+  .knowledge.circle { margin: -15px 0px 0px 0px; }
+  .knowledge.programs { text-align: center; padding: 0px 18px 0px 18px; }
+  .knowledge.research { text-align: center; margin: 0; padding: 0px 18px 36px 18px; }
+  .knowledge.title { margin: 0; display: block;}
+  .knowledge.description { margin: 0; display: inline-block; }
+  .participant-quote { padding: 48px 9px 48px 9px; font-size: 22px; }
+}
+/* Knowledge Section End */
+
+/* Computing Section Start */
 .our-goal {
   padding: 60px 0px 0px 0px;
   color: #FFFFFF;
@@ -283,6 +333,12 @@ body {
   text-align: center;
 }
 
+@media only screen and (max-width: 1024px) {
+  .our-goal { padding: 48px 9px 48px 9px; font-size: 22px; }
+}
+/* Computing Section End */
+
+/* Network Section Start */
 .value {
   padding: 100px 60px 0px 60px;
   color: #FFFFFF;
@@ -307,6 +363,14 @@ body {
   letter-spacing: 4px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .value { padding: 48px 9px 0px 9px; font-size: 16px; }
+  .value-title { font-size: 22px; }
+  .what-we-value { padding: 48px 9px 48px 9px; font-size: 22px; }
+}
+/* Network Section End */
+
+/* Team Section Start */
 .team.description {
   padding-top: 24px;
   font-size: 26px;
@@ -367,3 +431,40 @@ body {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
+
+@media only screen and (max-width: 1024px) {
+  .team.description { padding: 24px 9px 36px 9px; font-size: 22px; }
+  .directors.label { font-size: 32px; }
+  .directors-circle { margin: 100px 0px 0px -10px; width: 120px; height: 120px; }
+  .director-name { padding: 40px 0px 0px 24px; font-size: 18px; letter-spacing: 0px; }
+  .director-affiliation { padding: 0px 0px 0px 24px; font-size: 12px; font-weight: 300;}
+  .director-affiliation p {  }
+  #directors-oval { margin: -160px 0px 24px 90px; width: 220px; height: 220px; }
+}
+/* Team Section Start */
+/* Content Sections End */
+
+/* Footer Styling Start */
+.footer-image-holder {
+  padding: 80px 0px 30px 0px;
+  text-align: center;
+}
+
+.footer-image {
+  height: auto;
+  width: 80%;
+}
+
+.copyright-text {
+  margin: 0;
+  color: #FFFFFF;
+  padding: 20px 0px 50px 80px;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer-image-holder { padding: 24px 0px 24px 0px; } 
+  .footer-image { height: auto; width: 100%; }
+  .copyright-text { padding: 0px 10px 20px 10px; font-size: 14px; }
+}
+/* Footer Styling End */
