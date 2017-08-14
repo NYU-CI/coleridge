@@ -1,2 +1,3 @@
 baseurl: /coleridge
 exclude: ['README.md']
+permalink: /:title/

@@ -10,13 +10,18 @@ layout: default
 <!-- PURPLE -->
 <div class="container-fluid purple-bg">
   <div class="row white-band">
-    <div class="col-sm-12 mission slogan">
-      <p class="mission coleridge">The Coleridge Initiative:</p>
-      <p class="mission building">Building the capacity needed to accelerate the effective use of new data.</p>
-    </div>
-    <div class="col-sm-12 mission quote">
-      <p class="mission data">“Data, data everywhere, we have to stop and think“</p>
-      <p class="mission mariner">with apologies to the Rime of the Ancient Mariner.</p>
+    <div class="foreground">
+      <div class="col-sm-12 mission slogan">
+        <p class="mission coleridge">The Coleridge Initiative:</p>
+        <p class="mission building">Building the capacity needed to accelerate the effective use of new data.</p>
+      </div>
+      <div class="col-sm-12 mission quote">
+        <p class="mission data">“Data, data everywhere, we have to stop and think“</p>
+        <p class="mission mariner">with apologies to the Rime of the Ancient Mariner.</p>
+      </div>
+      <div class="col-sm-12">
+        <img class="coleridge-logo-bg" src="{{site.baseurl}}/assets/images/ColeridgeInitiativeLogo_white_medium.png">
+      </div>
     </div>
   </div>
   <div class="container">
@@ -26,21 +31,21 @@ layout: default
           <p class="bucket-name">KNOWLEDGE</p>
           <div class="" id="oval">
             <p class="bucket-description">Building capabilities and knowledge</p>
-            <img class="down-arrow" src="{{site.baseurl}}/assets/images/triangle-down-arrow.png">
+            <a href="#knowledge"><img class="down-arrow" src="{{site.baseurl}}/assets/images/triangle-down-arrow.png"></a>
           </div>
         </div>
         <div class="col-sm-4 bucket" align="center">
           <p class="bucket-name">COMPUTING</p>
           <div class="" id="oval">
             <p class="bucket-description">Providing secure data research facilities</p>
-            <img class="down-arrow" src="{{site.baseurl}}/assets/images/triangle-down-arrow.png">
+            <a href="#computing"><img class="down-arrow" src="{{site.baseurl}}/assets/images/triangle-down-arrow.png"></a>
           </div>
         </div>
         <div class="col-sm-4 bucket" align="center">
           <p class="bucket-name">NETWORK</p>
           <div class="" id="oval">
             <p class="bucket-description">Facilitating a community of practitioners</p>
-            <img class="down-arrow" src="{{site.baseurl}}/assets/images/triangle-down-arrow.png">
+            <a href="#network"><img class="down-arrow" src="{{site.baseurl}}/assets/images/triangle-down-arrow.png"></a>
           </div>
         </div>
       </div>
@@ -49,76 +54,72 @@ layout: default
 </div>
 <!-- PURPLE -->
 
-
 <!-- ORANGE -->
-<div class="orange-bg">
-    <div class="white-band">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-5 knowledge header">
-          <p class="knowledge label">KNOWLEDGE</p>
-          <img class="knowledge circle img-circle" src="{{site.baseurl}}/assets/images/bdss_book.png">
-        </div>
-        <div class="col-sm-3 knowledge programs">
-          <p class="knowledge title">TRAINING PROGRAMS</p>
-          <p class="knowledge description">Learn cutting-edge analytics skills and apply them to real world micro-data to help solve real world problems.</p>
-          </div>
-        <div class="col-sm-3 knowledge research">
-          <p class="knowledge title">RESEARCH</p>
-          <p class="knowledge description">We believe that robust, peer reviewed research is a key ingredient in determining what factors improve society.</p>
-        </div>
-        <div class="col-sm-1"></div>
+<div id="knowledge" class="jumptarget"></div>
+
+<div class="container-fluid orange-bg">
+  <div class="foreground">
+    <div class="row white-band">
+      <div class="col-sm-5 knowledge header">
+        <p class="knowledge label">KNOWLEDGE</p>
+        <img class="knowledge circle img-circle" src="{{site.baseurl}}/assets/images/bdss_book.png">
       </div>
+      <div class="col-sm-3 knowledge programs">
+        <p class="knowledge title">TRAINING PROGRAMS</p>
+        <p class="knowledge description">Learn cutting-edge analytics skills and apply them to real world micro-data to help solve real world problems.</p>
+      </div>
+      <div class="col-sm-3 knowledge research">
+        <p class="knowledge title">RESEARCH</p>
+        <p class="knowledge description">We believe that robust, peer reviewed research is a key ingredient in determining what factors improve society.</p>
+      </div>
+      <div class="col-sm-1"></div>
     </div>
-  </div>
-  <div class="container">
+
     <div class="row">
       <div class="col-sm-12">
         <div class="participant-quote">“ I am at the most awesome, intense, hands-on training for using data to improve public policy.”</div>
       </div>
+      <div class="col-sm-12">
+        <div class="left-quote-mark">“</div>
+        <div class="right-quote-mark">“</div>
+        <img class="coleridge-logo-bg-large" src="{{site.baseurl}}/assets/images/ColeridgeInitiativeLogo_white_medium.png">
+      </div>
     </div>
   </div>
 </div>
 <!-- ORANGE -->
 
-<!-- <div class="computing-band">
-  <h1>COMPUTING BAND</h1>
-  <h2>...</h2>
-</div> -->
-
 <!-- GREEN -->
-<div class="green-bg">
-  <div class="white-band">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-5 knowledge header">
-          <p class="knowledge label">COMPUTING</p>
-          <img class="knowledge circle img-circle" src="{{site.baseurl}}/assets/images/laptop.png">
-        </div>
-        <div class="col-sm-3 knowledge programs">
-          <p class="knowledge title">ADRF</p>
-          <p class="knowledge description">The Administrative Data Research Facility (ADRF) provides a secure platform to host confidential micro-data, serving as a trusted partner for data providers and analysts.</p>
+<div id="computing" class="jumptarget"></div>
+
+<div class="container-fluid  green-bg">
+  <div class="foreground">
+    <div class="row white-band">
+          <div class="col-sm-5 knowledge header">
+            <p class="knowledge label">COMPUTING</p>
+            <img class="knowledge circle img-circle" src="{{site.baseurl}}/assets/images/laptop.png">
           </div>
-        <div class="col-sm-3 knowledge research">
-          <p class="knowledge title">CDF</p>
-          <p class="knowledge description">The CUSP Data Facility (CDF) at New York University’s Center for Urban Science and Progress (CUSP) connects users to relevant datasets for urban policy research.</p>
-        </div>
-        <div class="col-sm-1"></div>
-      </div>
+          <div class="col-sm-3 knowledge programs">
+            <p class="knowledge title">ADRF</p>
+            <p class="knowledge description">The Administrative Data Research Facility (ADRF) provides a secure platform to host confidential micro-data, serving as a trusted partner for data providers and analysts.</p>
+            </div>
+          <div class="col-sm-3 knowledge research">
+            <p class="knowledge title">CDF</p>
+            <p class="knowledge description">The CUSP Data Facility (CDF) at New York University’s Center for Urban Science and Progress (CUSP) connects users to relevant datasets for urban policy research.</p>
+          </div>
+          <div class="col-sm-1"></div>
     </div>
-  </div>
-  <div class="container">
     <div class="row">
-      <div class="col-sm-12">
-        <div class="our-goal">Our goal is to accelerate data-driven research and policy around human beings and their interactions, for program management, policy development, and scholarly purposes, by enabling efficient, effective, and secure access to sensitive data about societal systems.</div>
-      </div>
+        <div class="col-sm-12">
+          <div class="our-goal">Our goal is to accelerate data-driven research and policy around human beings and their interactions, for program management, policy development, and scholarly purposes, by enabling efficient, effective, and secure access to sensitive data about societal systems.</div>
+        </div>
     </div>
   </div>
 </div>
 <!-- GREEN -->
 
-
-<!-- GREEN -->
+<!-- RED -->
+<div id="network" class="jumptarget"></div>
 <div class="red-bg">
     <div class="white-band">
     <div class="container">
@@ -148,7 +149,9 @@ layout: default
     </div>
   </div>
 </div>
+<!-- RED -->
 
+<!-- BLUE -->
 <div class="blue-bg">
     <div class="white-band">
     <div class="container">
@@ -187,3 +190,4 @@ layout: default
     </div>
   </div>
 </div>
+<!-- BLUE -->
