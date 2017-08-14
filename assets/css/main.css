@@ -506,10 +506,13 @@ body {
 
 
 
+.oflow {
+  overflow: hidden; 
+}
 
-/*#dir-div {
-    position: relative;
-    z-index: 4;
+#dir-div {
+    position: absolute;
+    z-index: 99;
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -518,8 +521,8 @@ body {
 }
 
 .box {
-    position: relative;
-    z-index: 4;
+    position: absolute;
+    z-index: 99;
     width: 50%;
     height: 300px;
     line-height: 300px;
@@ -550,7 +553,7 @@ body {
 
 #box5 {
     background-color: blue;
-}*/
+}
 
 
 
@@ -772,9 +775,10 @@ body {
 
 .program-button {
   margin-left: 72px;
-  padding: 14px 92px 14px 92px;
+  text-align: center;
+  padding: 14px 40px 14px 40px;
   color: #FFFFFF;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 600;
   background-color: rgba(244, 107, 35, 1.0);
 }
