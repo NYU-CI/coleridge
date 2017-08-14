@@ -22,4 +22,19 @@ $( window ).on( "load", function() {
         return false; //extra, and to make sure the function has consistent return points
     }
   });
+
+  $('.box').click(function() {
+
+      $(this).animate({
+          left: '-50%'
+      }, 500, function() {
+          $(this).css('left', '150%');
+          $(this).appendTo('#dir-div');
+      });
+
+      $(this).next().animate({
+          left: '50%'
+      }, 500);
+  });
+
 });
