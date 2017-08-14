@@ -258,6 +258,11 @@ body {
   width: 40px;
   height: 24px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .bucket { font-size: 24px; }
+}
+
 /* Mission Section End */
 
 /* Knowledge Section Start */
@@ -285,7 +290,7 @@ body {
 }
 
 .knowledge.circle {
-  margin: 10px 0px 0px 70px;
+  margin: 40px 0px 0px 70px;
   width: 226px;
   height: 226px;
 }
@@ -322,10 +327,19 @@ body {
   -o-transform:scale(1.1,1.1); /* Opera */
 }
 
+.training.description {
+  padding-top: 84px;
+  font-size: 32px;
+  color: #000000;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1;
+}
+
 .participant-quote {
-  padding: 100px 100px 0px 100px;
+  padding: 100px 80px 0px 80px;
   color: #FFFFFF;
-  font-size: 40px;
+  font-size: 38px;
   font-style: italic;
   font-weight: 600;
 }
@@ -371,14 +385,27 @@ body {
   transform: scale(-1, 1);
 }
 
+.left-arrow {
+  margin-top: 130px;
+  width: 24px;
+  height: 40px;
+}
+
+.right-arrow {
+  margin-top: 130px;
+  width: 24px;
+  height: 40px;
+}
+
 @media only screen and (max-width: 1024px) {
   .knowledge.header { text-align: center; padding: 36px 18px 0px 18px; }
-  .knowledge.label { position: relative; font-size: 32px; }
-  .knowledge.circle { margin: -15px 0px 0px 0px; }
+  .knowledge.label { position: relative; font-size: 28px; }
+  .knowledge.circle { margin: 0px 0px 0px 0px; }
   .knowledge.programs { text-align: center; padding: 0px 18px 0px 18px; }
   .knowledge.research { text-align: center; margin: 0; padding: 0px 18px 36px 18px; }
   .knowledge.title { margin: 0; display: block;}
   .knowledge.description { margin: 0; display: inline-block; }
+  .training.description { padding: 24px 0px 24px 0px; font-size: 24px; }
   .participant-quote { padding: 48px 9px 48px 9px; font-size: 22px; }
   .coleridge-logo-bg-large { display: none; }
   .left-quote-mark { display: none; }
@@ -387,6 +414,16 @@ body {
 /* Knowledge Section End */
 
 /* Computing Section Start */
+
+.computing.description {
+  padding-top: 84px;
+  font-size: 32px;
+  color: #000000;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1;
+}
+
 .our-goal {
   padding: 60px 0px 0px 0px;
   color: #FFFFFF;
@@ -398,10 +435,20 @@ body {
 
 @media only screen and (max-width: 1024px) {
   .our-goal { padding: 48px 9px 48px 9px; font-size: 22px; }
+  .computing.description { padding: 24px 0px 24px 0px; font-size: 24px; }
 }
 /* Computing Section End */
 
-/* Network Section Start */
+/* Collaborating Section Start */
+.collaborating.description {
+  padding-top: 84px;
+  font-size: 28px;
+  color: #000000;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1;
+}
+
 .value {
   padding: 100px 60px 0px 60px;
   color: #FFFFFF;
@@ -413,7 +460,7 @@ body {
 .value-title {
   text-transform: uppercase;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .what-we-value {
@@ -422,7 +469,7 @@ body {
   text-transform: uppercase;
   font-size: 76px;
   font-weight: 800;
-  color: #666666;
+  color: #BBBBBB;
   letter-spacing: 4px;
 }
 
@@ -430,13 +477,14 @@ body {
   .value { padding: 48px 9px 0px 9px; font-size: 16px; }
   .value-title { font-size: 22px; }
   .what-we-value { padding: 48px 9px 48px 9px; font-size: 22px; }
+  .collaborating.description { padding: 24px 0px 24px 0px; font-size: 24px; }
 }
-/* Network Section End */
+/* Collaborating Section End */
 
 /* Team Section Start */
 .team.description {
-  padding-top: 24px;
-  font-size: 26px;
+  padding-top: 72px;
+  font-size: 28px;
   color: #000000;
   font-weight: 300;
   text-align: center;
@@ -502,7 +550,7 @@ body {
   .director-name { padding: 40px 0px 0px 24px; font-size: 18px; letter-spacing: 0px; }
   .director-affiliation { padding: 0px 0px 0px 24px; font-size: 12px; font-weight: 300;}
   .director-affiliation p {  }
-  #directors-oval { margin: -160px 0px 24px 90px; width: 220px; height: 220px; }
+  #directors-oval { margin: -160px 0px 24px 90px; width: 210px; height: 210px; }
 }
 /* Team Section Start */
 /* Content Sections End */
@@ -537,4 +585,210 @@ body {
   display:block;
   height:70px; /* fixed header height*/
   margin:-70px 0 0; /* negative fixed header height */
+}
+
+/*************************************/
+/* Training Page */
+.training-bg-top, .computing-bg-top {
+  height: 100%;
+  background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;
+}
+
+.training-bg-mid {
+  height: 280px;
+  background-attachment: scroll; background-position: center; background-size: cover;
+}
+
+.computing-bg-mid {
+  height: 440px;
+  background-attachment: scroll; background-position: center; background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-width: 1024px) {
+  .training-bg-top, .computing-bg-top { height: auto; background-attachment: scroll; }
+  .training-bg-mid  { height: 190px; }
+  .computing-bg-mid  { height: auto; }
+}
+
+.training-bg-top {
+  background-image: url('../images/training-bg-top.png');
+}
+
+.computing-bg-top {
+  background-image: url('../images/computing-bg-top.png');
+}
+
+.training-bg-mid {
+  background-image: url('../images/training-bg-mid.png');
+}
+
+.computing-bg-mid {
+  background-image: url('../images/computing-bg-mid.png');
+}
+
+.page-title {
+  padding: 160px 0px 0px 80px;
+  font-size: 72px;
+  letter-spacing: 4px;
+  font-weight: 200;
+  color: #FFFFFF;
+}
+
+.page-description {
+  padding: 72px 48px 0px 80px;
+  font-size: 50px;
+  color: #FFFFFF;
+  line-height: 1.15;
+}
+
+.section-title {
+  padding: 30px 0px 0px 30px;
+  font-size: 40px;
+  font-weight: 400;
+  color: rgba(242, 92, 13, 1.0);
+  letter-spacing: -1px;
+}
+
+.section-description {
+  padding: 0px 52px 0px 30px;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+.curriculum-title {
+  padding: 12px 0px 0px 30px;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.curriculum-description {
+  padding: 0px 52px 0px 30px;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+.curriculum-table {
+  display: inline-block;
+  padding-bottom: 36px;
+}
+
+.table-header {
+  padding: 16px 0px 0px 30px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.table-cell {
+  padding: 0px 0px 0px 52px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.programs-label {
+  padding: 48px 0px 48px 72px;
+  color: #FFFFFF;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.program-button {
+  margin-left: 72px;
+  padding: 14px 92px 14px 92px;
+  color: #FFFFFF;
+  font-size: 28px;
+  font-weight: 600;
+  background-color: rgba(244, 107, 35, 1.0);
+}
+
+.green {
+  color: #3B9743;
+}
+
+.features-section {
+  margin: 120px 0;
+}
+
+.features-block {
+  margin: auto;
+  padding: 16px;
+  background-color: #43AA4C;
+  width: 86%;
+}
+
+.feature-title {
+  margin: 0;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.feature-description {
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.ci-logo-green {
+  float: left;
+  height: 110px;
+  width: 110px;
+}
+
+.ci-logo-green-no-float {
+  height: 110px;
+  width: 110px;
+}
+
+.safe-block {
+  margin-left: 0px;
+  padding-bottom: 36px;
+}
+
+.safe-text {
+  margin-left: 140px;
+  padding: 20px 0;
+}
+
+.safe-title {
+  margin: 0;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.safe-description {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1;
+}
+
+@media only screen and (max-width: 1024px) {
+  .page-title { padding: 100px 0px 0px 0px; font-size: 32px; font-weight: 300; }
+  .page-description { padding: 48px 0px 48px 0px; font-size: 22px; color: #FFFFFF; line-height: 1.15; }
+  .section-title { padding: 24px 0px 0px 0px; font-size: 28px; }
+  .section-description { padding: 0px 0px 0px 0px; font-size: 18px; }
+  .curriculum-title { padding: 12px 0px 0px 0px; font-size: 28px; }
+  .curriculum-description { padding: 0px 0px 0px 0px; font-size: 18px; }
+  .curriculum-table { padding-bottom: 12px; }
+  .table-header { padding: 12px 0px 0px 0px; font-size: 18px; }
+  .table-cell { padding: 0px 0px 0px 16px; font-size: 16px; }
+  .programs-label { padding: 24px 0px 24px 0px; font-size: 22px; font-weight: 600; }
+  .program-button { margin-left: 0px; padding: 14px 36px 14px 36px; font-size: 18px; }
+  .features-section { margin: 20px 0; }
+  .features-block { width: 90%; }
+  .feature-title { font-size: 18px; }
+  .feature-description { font-size: 16px; }
+  .ci-logo-green { height: 80px; width: 80px; }
+  .ci-logo-green-no-float { height: 80px; width: 80px; }
+  .safe-text { margin-left: 100px; padding: 10px 0; }
+  .safe-title { font-size: 24px; font-weight: 500; }
+  .safe-description { font-size: 16px; }
+
 }

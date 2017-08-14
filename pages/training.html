@@ -3,3 +3,102 @@ layout: default
 title: Training
 permalink: training.html
 ---
+<div class="container-fluid training-bg-top">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="page-title">KNOWLEDGE</div>
+    </div>
+    <div class="col-sm-12">
+      <div class="page-description">Providing professionals the opportunity to develop key computer science and data science skill sets to improve public policy through training programs and research.</div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <p class="section-title">TRAINING PROGRAM</p>
+    </div>
+    <div class="col-sm-12">
+      <p class="section-description">The training program is designed to address public sector challenges, but is applicable to a broad range of fields such as sociology, public health, computer science, survey statistics, and federal departments.  Completion of this program will equip participants with the tools necessary to effectively manage and undergo technology and analytics projects, as well as open the door to the fields of statistical analysis, software development, and data science.</p>
+    </div>
+    <div class="col-sm-12">
+      <p class="curriculum-title">Core Curriculum</p>
+    </div>
+    <div class="col-sm-12">
+      <p class="curriculum-description">The general format is 12 training days grouped into 4 modules of 3 days each. There is a primary focus on a different topic each day, as outlined below.  In addition, participants are grouped in teams of up to five members to work through an analytic project that answers a specific reasearch question formulated by the team.</p>
+    </div>
+  </div>
+  <div class="row">
+    {% assign count = 0 %}
+    {% for module in site.data.curriculum %}
+      {% capture mod %}{{ count | modulo:2 }}{% endcapture %}
+      {% if mod == '0' %}
+      <div class="col-sm-6">
+        <table class="curriculum-table">
+      {% endif %}
+          <tr>
+            <th class="table-header">{{module.module}}</th>
+          </tr>
+          <tr>
+            <td>
+              <ul class="table-cell">
+                {% for day in module.days %}
+                <li>{{day}}</li>
+                {% endfor %}
+              </ul>
+            </td>
+          </tr>
+        {% assign count = count | plus:1 %}
+        {% capture mod %}{{ count | modulo:2 }}{% endcapture %}
+        {% if mod == '0' %}
+        </table>
+      </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+</div>
+
+
+<div class="container-fluid training-bg-mid">
+  <div class="row">
+    <div class="col-sm-12">
+      <p class="programs-label">UPCOMING TRAINING PROGRAM</p>
+      <span class="program-button">Public Policy (Fall 2017)</span>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm-12">
+      <p class="section-title">REGISTER</p>
+    </div>
+    <div class="col-sm-12">
+      <p class="section-description">This program is designed for professionals with a masters’ degree or above with some emphasis in a quantitative field (e.g. statistics, economics or computer science) or at least two years working in a hands-on, data-oriented field.</p>
+      <p class="section-description">To apply for this program, click here.  At the end of the application form you will be given three options for payment:</p>
+      <p class="section-description">1. Pay in full </p>
+      <p class="section-description">2. Apply for a government employee scholarship (for details, view the Scholarship Application Instructions)</p>
+      <p class="section-description">3. Request a group discount or inquire about employer payments by emailing dataanalytics@umd.edu</p>
+    </div>
+    <div class="col-sm-12">
+      <p class="curriculum-title">Cost</p>
+    </div>
+    <div class="col-sm-12">
+      <p class="curriculum-description">Class price: $15,000</p>
+      <p class="curriculum-description">Government and non-profit participants: $10,000</p>
+    </div>
+    <div class="col-sm-12">
+      <p class="curriculum-title">Contact</p>
+    </div>
+    <div class="col-sm-12">
+      <p class="curriculum-description">Email: DataAnalytics@umd.edu</p>
+      <p class="curriculum-description">Phone: 301-314-7911</p>
+      <p class="curriculum-description">The Executive Program in Applied Data Analytics is an activity of the University System of Maryland Foundation, Inc.  If paying by check, please make your check payable to the University System of Maryland Foundation, Inc. and reference Account # 21089 in the memo line.</p>
+    </div>
+
+  </div>
+</div>
