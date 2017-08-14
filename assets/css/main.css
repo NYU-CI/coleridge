@@ -86,7 +86,7 @@ body {
 /* Parallax Backgrounds Start */
 .masthead, .purple-bg, .orange-bg, .green-bg, .red-bg, .blue-bg {
   /* Full height */
-  height: 90%; 
+  height: 624px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
