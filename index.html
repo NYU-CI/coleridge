@@ -79,16 +79,68 @@ layout: default
     </div>
 
     <div class="row">
-      <div class="col-sm-1"><img class="left-arrow" src="{{site.baseurl}}/assets/images/triangle-left-arrow-white.png"></div>
-      <div class="col-sm-10">
-        <div class="participant-quote">“ I am at the most awesome, intense, hands-on training for using data to improve public policy.”</div>
+      <div class="col-sm-12">
+            <div id="quote-carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+
+                <div class="item active">
+                  <div class="quote-box">
+                    <div id="quote-1" class="participant-quote">“ I am at the most awesome, intense, hands-on training for using data to improve public policy.”</div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="quote-box">
+                    <div id="quote-2" class="participant-quote">“ ...The Applied Data Analytics Training pioneers and disseminates new work efficiencies -- a set of behaviors with respect to a suite of new collaborative tools for working, sharing and documenting the work done with data and with co-workers, with data analysis and with project documentation.”</div>
+                  </div>
+                </div>
+              
+                <div class="item">
+                  <div class="quote-box">
+                    <div id="quote-3" class="participant-quote">“ The breadth and depth of information that you have/will impart to participants is massive, a truly admirable goal. Your analogy of a buffet is apt as the supply of information seems without end.”</div>
+                  </div>
+                </div>
+              
+                <div class="item">
+                  <div class="quote-box">
+                    <div id="quote-4" class="participant-quote">“ I think this (ADRF Explorer) could be a VERY useful resource for a number of organizations.”</div>
+                  </div>
+                </div>
+              
+                <div class="item">
+                  <div class="quote-box">
+                    <div id="quote-5" class="participant-quote">“ ...I could see our agency benefiting from something like this, ... As the system builds out and collects additional resources/datasets that impact criminal justice system practices, this may be a place for us to look for the results of studies using evidencebased practices.”</div>
+                  </div>
+                </div>
+              
+                <div class="item">
+                  <div class="quote-box">
+                    <div id="quote-6" class="participant-quote">“ Presenting class activities which require interactive usage of these tools -- GIT, JUPYTER, ADRF and PYTHON – this training course has made me seriously reconsider the relatively unstructured current collaboration “model” by which most Data-Scientists muddle.”</div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#quote-carousel" data-slide="prev">
+                <img class="left-arrow" src="{{site.baseurl}}/assets/images/triangle-left-arrow-white.png">
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#quote-carousel" data-slide="next">
+                <img class="right-arrow" src="{{site.baseurl}}/assets/images/triangle-right-arrow-white.png">
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
       </div>
-      <div class="col-sm-1"><img class="right-arrow" src="{{site.baseurl}}/assets/images/triangle-right-arrow-white.png"></div>
+
       <div class="col-sm-12">
         <div class="left-quote-mark">“</div>
         <div class="right-quote-mark">“</div>
         <img class="coleridge-logo-bg-large" src="{{site.baseurl}}/assets/images/ColeridgeInitiativeLogo_white_medium.png">
       </div>
+
     </div>
   </div>
 </div>
@@ -150,12 +202,48 @@ layout: default
         <div class="col-sm-1"></div>
     </div>
     <div class="row">
-      <div class="col-sm-1"><img class="left-arrow" src="{{site.baseurl}}/assets/images/triangle-left-arrow-white.png"></div>
-      <div class="col-sm-10">
-        <div class="value"><span class="value-title">Positive social impact</span>: Our goal is to improve the quality of evidence used for social policy.</div>
-        <div class="what-we-value">What we value</div>
+
+      <div class="col-sm-12">
+
+            <div id="value-carousel" class="carousel slide" data-ride="carousel">
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+
+                <div class="item active">
+                  <div class="value-box">
+                    <div class="value"><span class="value-title">Positive social impact</span>: Our goal is to improve the quality of evidence used for social policy.</div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="value-box">
+                    <div class="value"><span class="value-title">Integrity &amp; openness</span>: Our research training materials are open and available so that others can use and replicate our approach.</div>
+                  </div>
+                </div>
+              
+                <div class="item">
+                  <div class="value-box">
+                    <div class="value"><span class="value-title">Practical &amp; robust progress</span>: Our work is results oriented so that it can be modified and applied to improve the practice of policy in the real world.</div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#value-carousel" data-slide="prev">
+                <img class="left-arrow" src="{{site.baseurl}}/assets/images/triangle-left-arrow-white.png">
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#value-carousel" data-slide="next">
+                <img class="right-arrow" src="{{site.baseurl}}/assets/images/triangle-right-arrow-white.png">
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+
+            <div class="what-we-value">What we value</div>
       </div>
-      <div class="col-sm-1"><img class="right-arrow" src="{{site.baseurl}}/assets/images/triangle-right-arrow-white.png"></div>
+
     </div>
   </div>
 </div>
@@ -180,112 +268,81 @@ layout: default
       <div class="col-sm-11">
         <p class="directors label">DIRECTORS</p>
       </div>
-
-      <div class="col-sm-4"><img class="left-arrow" src="{{site.baseurl}}/assets/images/triangle-left-arrow-white.png"></div>
-      <div class="col-sm-3">
-        <img class="directors-circle img-circle" src="{{site.baseurl}}/assets/images/julia-lane.jpg">
-      </div>
-      <div class="col-sm-4">
-        <div class="" id="directors-oval">
-          <div class="director-name">Julia Lane</div>
-          <div class="director-affiliation">
-            <p>Professor, Robert F. Wagner Graduate
-            School of Public Service, NYU</p>
-            <p>Professor, Center for Urban Science and
-            Progress, NYU</p>
-            <p>Provostial Fellow, Innovation Analytics</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-1"><img class="right-arrow" src="{{site.baseurl}}/assets/images/triangle-right-arrow-white.png"></div>
     </div>
-  </div>
-</div>
-<!-- BLUE -->
 
-<!-- BLUE 
-<div class="container-fluid blue-bg">
-  <!-- <div class="foreground"> 
-    <div class="row white-band">
-        <div class="col-sm-1"></div>
-        <div class="col-sm-4 knowledge header">
-          <p class="knowledge label">OUR TEAM</p>
-          <img class="knowledge circle img-circle" src="{{site.baseurl}}/assets/images/mentoring.png">
-        </div>
-        <div class="col-sm-6 team">
-          <p class="team description">We are a diverse group of data scientists, economists, statisticians, and software engineers. Our mission is to substantially improve how data are used and analyzed, especially in the context of public policy.</p>
-        </div>
-        <div class="col-sm-1"></div>
-    </div>
+
     <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-11">
-        <p class="directors label">DIRECTORS</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-1"><img class="left-arrow" src="{{site.baseurl}}/assets/images/triangle-left-arrow-white.png"></div>
-      <div class="col-sm-10">
-        <div id="dir-div">
-              <div id="box1" class="box">Div #1</div>
-              <div id="box2" class="box">Div #2</div>
-              <div id="box3" class="box">Div #3</div>
-              <div id="box4" class="box">Div #4</div>
-              <div id="box5" class="box">Div #5</div>
-        </div>
-      </div>
-      <div class="col-sm-1"><img class="right-arrow" src="{{site.baseurl}}/assets/images/triangle-right-arrow-white.png"></div>
-    </div>
-</div>
--->
-<!--       <div class=""><img class="left-arrow" src="{{site.baseurl}}/assets/images/triangle-left-arrow-white.png"></div>
-      <div class="oflow">
-        <div id="dir-div">
-              <div id="box1" class="box">Div #1</div>
-              <div id="box2" class="box">Div #2</div>
-              <div id="box3" class="box">Div #3</div>
-              <div id="box4" class="box">Div #4</div>
-              <div id="box5" class="box">Div #5</div>
-        </div>
-      </div>
-      <div class=""><img class="right-arrow" src="{{site.baseurl}}/assets/images/triangle-right-arrow-white.png"></div>
-     -->
-    <!-- </div> -->
+      <div class="col-sm-12">
 
+            <div id="directors-carousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators 
+              <ol class="carousel-indicators">
+                <li data-target="#directors-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#directors-carousel" data-slide-to="1"></li>
+                <li data-target="#directors-carousel" data-slide-to="2"></li>
+              </ol>-->
 
-<!--         <div class="dir-div">
-            <div id="jl" class="box">
-                <img class="directors-circle img-circle" src="{{site.baseurl}}/assets/images/julia-lane.jpg">
-            </div>
-            <div class="col-sm-4">
-                <div class="" id="directors-oval">
-                  <div class="director-name">Julia Lane</div>
-                  <div class="director-affiliation">
-                  <p>Professor, Robert F. Wagner Graduate
-                  School of Public Service, NYU</p>
-                  <p>Professor, Center for Urban Science and
-                  Progress, NYU</p>
-                  <p>Provostial Fellow, Innovation Analytics</p>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+
+                <div class="item active">
+                  <div class="director-bubble-set">
+                    <img class="directors-circle img-circle" src="{{site.baseurl}}/assets/images/rayid-ghani.jpeg">
+                    <div id="directors-oval">
+                      <div class="director-name">Rayid Ghani</div>
+                      <div class="director-affiliation">
+                        <p>Director, Center for Data Science and Public Policy</p>
+                        <p>Senior Fellow, Harris School of Public Policy</p>
+                        <p>Senior Fellow, Computational Institute, The University of Chicago</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-            </div>
-            <div id="fk" class="box">
-                <img class="directors-circle img-circle" src="{{site.baseurl}}/assets/images/julia-lane.jpg">
-            </div>
-            <div class="col-sm-4">
-                <div class="" id="directors-oval">
-                  <div class="director-name">Frauke Kreuter</div>
-                  <div class="director-affiliation">
-                  <p>Professor, Robert F. Wagner Graduate
-                  School of Public Service, NYU</p>
-                  <p>Professor, Center for Urban Science and
-                  Progress, NYU</p>
-                  <p>Provostial Fellow, Innovation Analytics</p>
+
+                <div class="item">
+                  <div class="director-bubble-set">
+                    <img class="directors-circle img-circle" src="{{site.baseurl}}/assets/images/frauke-kreuter.jpeg">
+                    <div id="directors-oval">
+                      <div class="director-name">Frauke Kreuter</div>
+                      <div class="director-affiliation">
+                        <p>Professor, Joint Program in Survey Methodology, University of Maryland</p>
+                        <p>Professor, Methods and Statistics, University of Mannheim</p>
+                        <p>Head, Statistical Methods Group, German Institute for Employment Research, Nuremberg</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
+              
+                <div class="item">
+                  <div class="director-bubble-set">
+                    <img class="directors-circle img-circle" src="{{site.baseurl}}/assets/images/julia-lane.jpeg">
+                    <div id="directors-oval">
+                      <div class="director-name">Julia Lane</div>
+                      <div class="director-affiliation">
+                        <p>Professor, Robert F. Wagner Graduate
+                        School of Public Service, NYU</p>
+                        <p>Professor, Center for Urban Science and
+                        Progress, NYU</p>
+                        <p>Provostial Fellow, Innovation Analytics</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#directors-carousel" data-slide="prev">
+                <img class="left-arrow" src="{{site.baseurl}}/assets/images/triangle-left-arrow-white.png">
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#directors-carousel" data-slide="next">
+                <img class="right-arrow" src="{{site.baseurl}}/assets/images/triangle-right-arrow-white.png">
+                <span class="sr-only">Next</span>
+              </a>
             </div>
-        </div>
-      <div class="col-sm-1"><img class="right-arrow" src="{{site.baseurl}}/assets/images/triangle-right-arrow-white.png"></div>
+
+      </div>
     </div>
   </div>
 </div>

@@ -265,7 +265,7 @@ body {
 }
 
 @media only screen and (max-width: 1024px) {
-  .bucket { font-size: 24px; }
+  .bucket { font-size: 22px; }
 }
 
 /* Mission Section End */
@@ -342,7 +342,6 @@ body {
 }
 
 .participant-quote {
-  padding: 100px 80px 0px 80px;
   color: #FFFFFF;
   font-size: 38px;
   font-style: italic;
@@ -391,32 +390,71 @@ body {
 }
 
 .left-arrow {
-  margin-top: 130px;
+  margin-top: 65px;
   width: 24px;
   height: 40px;
 }
 
 .right-arrow {
-  margin-top: 130px;
+  margin-top: 65px;
   width: 24px;
   height: 40px;
 }
 
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+  opacity: 1;
+}
+
+.quote-box {
+  padding: 100px 60px 0px 60px;
+  height: 240px;
+  width: 1000px;
+}
+
+#quote-carousel .carousel-inner {
+}
+
+#quote-carousel .carousel-inner .item {
+  padding: 0px 120px 0px 120px;
+}
+
+#quote-carousel .left.carousel-control, #quote-carousel .right.carousel-control {
+  margin-top: 80px
+}
+
+#quote-1 { font-size: 38px; }
+#quote-2 { font-size: 24px; }
+#quote-3 { font-size: 28px; }
+#quote-4 { font-size: 38px; }
+#quote-5 { font-size: 24px; }
+#quote-6 { font-size: 24px; }
+
 @media only screen and (max-width: 1024px) {
   .knowledge.header { text-align: center; padding: 36px 18px 0px 18px; }
-  .knowledge.label { position: relative; font-size: 28px; }
+  .knowledge.label { position: relative; font-size: 24px; }
   .knowledge.circle { margin: 0px 0px 0px 0px; }
   .knowledge.programs { text-align: center; padding: 0px 18px 0px 18px; }
   .knowledge.research { text-align: center; margin: 0; padding: 0px 18px 36px 18px; }
   .knowledge.title { margin: 0; display: block;}
   .knowledge.description { margin: 0; display: inline-block; }
   .training.description { padding: 24px 0px 24px 0px; font-size: 24px; }
-  .participant-quote { padding: 48px 9px 48px 9px; font-size: 22px; }
   .coleridge-logo-bg-large { display: none; }
   .left-quote-mark { display: none; }
   .right-quote-mark { display: none; }
   .left-arrow { margin-top: 30px; }
   .right-arrow { margin-top: 30px; }
+
+  .quote-box { padding: 24px 9px 0px 9px; height: 260px; width: 250px; text-align: center; }
+  #quote-carousel .carousel-inner .item { padding: 0px 0px 0px 0px; }
+  #quote-carousel .left.carousel-control, #quote-carousel .right.carousel-control { margin-top: 180px; }
+
+  #quote-1 { font-size: 22px; }
+  #quote-2 { font-size: 14px; }
+  #quote-3 { font-size: 16px; }
+  #quote-4 { font-size: 22px; }
+  #quote-5 { font-size: 14px; }
+  #quote-6 { font-size: 14px; }
 }
 /* Knowledge Section End */
 
@@ -457,7 +495,6 @@ body {
 }
 
 .value {
-  padding: 100px 60px 0px 60px;
   color: #FFFFFF;
   font-size: 20px;
   line-height: 1.1;
@@ -480,11 +517,31 @@ body {
   letter-spacing: 4px;
 }
 
+.value-box {
+  padding: 100px 60px 0px 60px;
+  height: 160px;
+  width: 1000px;
+}
+
+#value-carousel .carousel-inner {
+}
+
+#value-carousel .carousel-inner .item {
+  padding: 0px 120px 0px 120px;
+}
+
+#value-carousel .left.carousel-control, #value-carousel .right.carousel-control {
+  margin-top: 80px
+}
+
 @media only screen and (max-width: 1024px) {
-  .value { padding: 48px 9px 0px 9px; font-size: 16px; }
-  .value-title { font-size: 22px; }
-  .what-we-value { padding: 48px 9px 48px 9px; font-size: 22px; }
+  .value-box { padding: 36px 9px 0px 9px; height: 160px; width: 250px; }
+  .value { font-size: 16px; }
+  .value-title { font-size: 18px; }
+  .what-we-value { padding: 48px 9px 48px 9px; font-size: 20px; }
   .collaborating.description { padding: 24px 0px 24px 0px; font-size: 24px; }
+  #value-carousel .carousel-inner .item { padding: 0px 0px 0px 0px; }
+  #value-carousel .left.carousel-control, #value-carousel .right.carousel-control { margin-top: 120px; }
 }
 /* Collaborating Section End */
 
@@ -498,92 +555,43 @@ body {
   line-height: 1;
 }
 
-
-
-
-
-
-
-
-
-.oflow {
-  overflow: hidden; 
+.director-bubble-set {
+  position: relative;
+  width: 620px;
+  height: 420px;
 }
 
-#dir-div {
-    position: absolute;
-    z-index: 99;
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;  
+.directors-circle {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  z-index: 1;
+  width: 220px;
+  height: 220px;
+  text-align: center;
 }
 
-.box {
-    position: absolute;
-    z-index: 99;
-    width: 50%;
-    height: 300px;
-    line-height: 300px;
-    font-size: 50px;
-    text-align: center;
-    border: 2px solid black;
-    left: 150%;
-    top: 100px;
-    margin-left: -25%;
+#directors-oval {
+  position: absolute;
+  top: 0px;
+  left: 190px;
+  z-index: 0;
+  width: 420px;
+  height: 420px;
+  background-color: rgba(255, 255, 255, 0.9);
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
 }
-
-#box1 {
-    background-color: green;
-    left: 50%;
-}
-
-#box2 {
-    background-color: yellow;
-}
-
-#box3 {
-    background-color: red;
-}
-
-#box4 {
-    background-color: orange;
-}
-
-#box5 {
-    background-color: blue;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .directors.label {
-  position: absolute;
-  padding: 24px 0px 0px 0px;
+  padding: 36px 0px 0px 0px;
+  margin-top: 24px;
   text-transform: uppercase;
   font-size: 58px;
   font-weight: 200;
   color: #FFFFFF;
   letter-spacing: 4px;
-}
-
-.directors-circle {
-  margin: 60px 0px 0px 0px;
-  width: 220px;
-  height: 220px;
-  text-align: center;
 }
 
 .director-name {
@@ -610,25 +618,28 @@ body {
   line-height: 1.1;
 }
 
-#directors-oval {
-  float: left;
-  margin: -50px 0px 0px -100px;
-  width: 420px;
-  height: 420px;
-  background-color: rgba(255, 255, 255, 0.9);
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
+#directors-carousel .carousel-inner {
+  margin-top: -120px
+}
+#directors-carousel .carousel-inner .item {
+  padding-left: 500px;
+}
+
+#directors-carousel .left.carousel-control, #directors-carousel .right.carousel-control {
+  margin-top: 120px
 }
 
 @media only screen and (max-width: 1024px) {
   .team.description { padding: 24px 9px 36px 9px; font-size: 22px; }
+  .director-bubble-set { width: 320px; height: 210px; }
   .directors.label { font-size: 32px; }
-  .directors-circle { margin: 100px 0px 0px -10px; width: 120px; height: 120px; }
-  .director-name { padding: 40px 0px 0px 24px; font-size: 18px; letter-spacing: 0px; }
-  .director-affiliation { padding: 0px 0px 0px 24px; font-size: 12px; font-weight: 300;}
+  .directors-circle { top: 30px; left: 0px; width: 100px; height: 100px; }
+  #directors-oval { top: 0px; left: 80px; width: 170px; height: 170px; }
+  .director-name { padding: 36px 0px 0px 24px; font-size: 14px; letter-spacing: 0px; }
+  .director-affiliation { padding: 0px 0px 0px 24px; font-size: 8px; font-weight: 300;}
   .director-affiliation p {  }
-  #directors-oval { margin: -160px 0px 24px 90px; width: 210px; height: 210px; }
+  #directors-carousel .carousel-inner { margin-top: 0px }
+  #directors-carousel .carousel-inner .item { padding-left: 0px; }
 }
 /* Team Section Start */
 /* Content Sections End */
@@ -685,7 +696,7 @@ body {
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-width: 1024px) {
   .training-bg-top, .computing-bg-top { height: auto; background-attachment: scroll; }
-  .training-bg-mid  { height: 190px; }
+  .training-bg-mid  { height: auto; }
   .computing-bg-mid  { height: auto; }
 }
 
@@ -775,27 +786,32 @@ body {
 
 .program-button {
   margin-left: 72px;
+  width: 440px;
   text-align: center;
-  padding: 14px 40px 14px 40px;
+  padding: 14px 16px 14px 16px;
   color: #FFFFFF;
   font-size: 24px;
   font-weight: 600;
   background-color: rgba(244, 107, 35, 1.0);
 }
 
+.register-here {
+  margin-top: 60px;
+  padding: 40px 40px 0px 40px;
+  font-size: 40px;
+  font-weight: 600;
+  height: 160px;
+  width: 330px;
+  color: rgba(242, 92, 13, 1.0);
+  background-color: #FFFFFF;
+  letter-spacing: -1px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1;
+}
+
 .green {
   color: #3B9743;
-}
-
-.features-section {
-  margin: 120px 0;
-}
-
-.features-block {
-  margin: auto;
-  padding: 16px;
-  background-color: #43AA4C;
-  width: 100%;
 }
 
 .feature-title {
@@ -821,6 +837,7 @@ body {
 }
 
 .ci-logo-green-no-float {
+  margin-top: -20px;
   height: 110px;
   width: 110px;
 }
@@ -848,26 +865,50 @@ body {
   line-height: 1;
 }
 
+.feature-block {
+  padding: 12px 12px 12px 12px;
+  background-color: #43AA4C;
+  height: 160px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+#feature-carousel .carousel-inner {
+}
+
+#feature-carousel .carousel-inner .item {
+  margin-top: 140px;
+  padding: 0px 120px 0px 120px;
+}
+
+#feature-carousel .left.carousel-control, #feature-carousel .right.carousel-control {
+  margin-top: 130px
+}
+
 @media only screen and (max-width: 1024px) {
   .page-title { padding: 100px 0px 0px 0px; font-size: 32px; font-weight: 300; }
   .page-description { padding: 48px 0px 48px 0px; font-size: 22px; color: #FFFFFF; line-height: 1.15; }
   .section-title { padding: 24px 0px 0px 0px; font-size: 28px; }
   .section-description { padding: 0px 0px 0px 0px; font-size: 18px; }
   .curriculum-title { padding: 12px 0px 0px 0px; font-size: 28px; }
-  .curriculum-description { padding: 0px 0px 0px 0px; font-size: 18px; }
+  .curriculum-description { padding: 0px 0px 0px 0px; font-size: 16px; }
   .curriculum-table { padding-bottom: 12px; }
   .table-header { padding: 12px 0px 0px 0px; font-size: 18px; }
   .table-cell { padding: 0px 0px 0px 16px; font-size: 16px; }
-  .programs-label { padding: 24px 0px 24px 0px; font-size: 22px; font-weight: 600; }
-  .program-button { margin-left: 0px; padding: 14px 36px 14px 36px; font-size: 18px; }
+  .programs-label { padding: 24px 0px 12px 0px; font-size: 22px; font-weight: 600; }
+  .program-button { margin-left: 0px; padding: 10px 10px 10px 10px; font-size: 14px; width: 250px; }
+  .register-here { margin-top: 10px; margin-bottom: 20px; padding: 10px 10px 10px 10px; 
+                    font-size: 20px; font-weight: 600; height: auto; width: 250px;}
   .features-section { margin: 20px 0; }
-  .features-block { width: 90%; }
+  .feature-block { padding: 12px 12px 12px 12px; height: 400px; width: 100%; }
+  #feature-carousel .carousel-inner .item { margin: 20px 0px 20px 0px; padding: 0px 10px 0px 10px; }
+  #feature-carousel .left.carousel-control { margin: 130px 0px 0px -15px; }
+  #feature-carousel .right.carousel-control { margin: 130px -15px 0px 0px; }
   .feature-title { font-size: 18px; }
   .feature-description { font-size: 16px; }
   .ci-logo-green { height: 80px; width: 80px; }
-  .ci-logo-green-no-float { height: 80px; width: 80px; }
+  .ci-logo-green-no-float { height: 60px; width: 60px; margin-top: 0;}
   .safe-text { margin-left: 100px; padding: 10px 0; }
-  .safe-title { font-size: 24px; font-weight: 500; }
+  .safe-title { font-size: 20px; font-weight: 500; }
   .safe-description { font-size: 16px; }
-
 }
