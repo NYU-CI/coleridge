@@ -1,3 +1,6 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
 /* General Styling Start */
 body, html {
     height: 100%;
@@ -83,6 +86,7 @@ body {
 }
 /* Nav Styling End */
 
+
 /* Parallax Backgrounds Start */
 .masthead, .purple-bg, .orange-bg, .green-bg, .red-bg, .blue-bg {
   /* Full height */
@@ -97,11 +101,11 @@ body {
 
 .purple-bg, .orange-bg, .green-bg, .red-bg, .blue-bg {
   /* Full height */
-  height: 624px; 
+  height: auto; 
 }
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 992px) {
   .masthead {
     height: 624px;
     background-attachment: scroll;
@@ -141,6 +145,7 @@ body {
   background-image: url('../images/Event-Background-Footer.jpg')
 }
 /* Parallax Backgrounds End */
+
 
 /* Main Logo Start */
 .ci-text-logo-image-holder {
@@ -213,7 +218,44 @@ body {
   margin: -260px 40px 0px 0px;
 }
 
-@media only screen and (max-width: 1024px) {
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+
+@media only screen and (max-width: 992px) {
+  .mission.slogan { padding: 24px 24px 0px 24px; }
+  .mission.coleridge { font-size: 20px; }
+  .mission.building { font-size: 18px; font-weight: 400; }
+  .mission.quote { text-align: left; padding: 24px 24px 24px 24px; }
+  .mission.data { font-size: 22px; }
+  .mission.mariner { font-size: 16px; }
+  .coleridge-logo-bg { height: 140px; width: 140px; margin: -160px 40px 0px 0px; }
+}
+
+@media only screen and (max-width: 768px) {
+  .mission.slogan { padding: 24px 24px 0px 24px; }
+  .mission.coleridge { font-size: 20px; }
+  .mission.building { font-size: 18px; font-weight: 400; }
+  .mission.quote { text-align: left; padding: 24px 24px 24px 24px; }
+  .mission.data { font-size: 22px; }
+  .mission.mariner { font-size: 16px; }
+  .coleridge-logo-bg { height: 140px; width: 140px; margin: -160px 40px 0px 0px; }
+}
+
+@media only screen and (max-width: 576px) {
   .mission.slogan { padding: 24px 24px 0px 24px; }
   .mission.coleridge { font-size: 20px; }
   .mission.building { font-size: 18px; font-weight: 400; }
@@ -264,8 +306,8 @@ body {
   height: 24px;
 }
 
-@media only screen and (max-width: 1024px) {
-  .bucket { font-size: 22px; }
+@media only screen and (max-width: 992px) {
+  .bucket { font-size: 20px; }
 }
 
 /* Mission Section End */
@@ -407,9 +449,9 @@ body {
 }
 
 .quote-box {
-  padding: 100px 60px 0px 60px;
+  padding: 100px 0px 0px 5%;
   height: 240px;
-  width: 1000px;
+  width: 100%;
 }
 
 #quote-carousel .carousel-inner {
@@ -430,7 +472,34 @@ body {
 #quote-5 { font-size: 24px; }
 #quote-6 { font-size: 24px; }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 992px) {
+  .knowledge.header { text-align: center; padding: 36px 18px 0px 18px; }
+  .knowledge.label { position: relative; font-size: 28px; }
+  .knowledge.circle { margin: 0px 0px 24px 0px; }
+  .knowledge.programs { text-align: center; padding: 0px 18px 0px 18px; }
+  .knowledge.research { text-align: center; margin: 0; padding: 0px 18px 36px 18px; }
+  .knowledge.title { margin: 0; display: block;}
+  .knowledge.description { margin: 0; display: inline-block; }
+  .training.description { padding: 60px 0px 24px 0px; font-size: 32px; }
+  .coleridge-logo-bg-large { display: none; }
+  .left-quote-mark { display: none; }
+  .right-quote-mark { display: none; }
+  .left-arrow { margin-top: 30px; }
+  .right-arrow { margin-top: 30px; }
+
+  .quote-box { padding: 80px 10% 0px 10%; height: 260px; width: 100%; text-align: center; }
+  #quote-carousel .carousel-inner .item { padding: 0px 0px 0px 0px; }
+  #quote-carousel .left.carousel-control, #quote-carousel .right.carousel-control { margin-top: 80px; }
+
+  #quote-1 { font-size: 30px; }
+  #quote-2 { font-size: 22px; }
+  #quote-3 { font-size: 24px; }
+  #quote-4 { font-size: 30px; }
+  #quote-5 { font-size: 20px; }
+  #quote-6 { font-size: 20px; }
+}
+
+@media only screen and (max-width: 768px) {
   .knowledge.header { text-align: center; padding: 36px 18px 0px 18px; }
   .knowledge.label { position: relative; font-size: 24px; }
   .knowledge.circle { margin: 0px 0px 0px 0px; }
@@ -445,17 +514,45 @@ body {
   .left-arrow { margin-top: 30px; }
   .right-arrow { margin-top: 30px; }
 
-  .quote-box { padding: 24px 9px 0px 9px; height: 260px; width: 250px; text-align: center; }
+  .quote-box { padding: 70px 10% 0px 10%; height: 280px; width: 100%; text-align: center; }
+  #quote-carousel .carousel-inner .item { padding: 0px 0px 0px 0px; }
+  #quote-carousel .left.carousel-control, #quote-carousel .right.carousel-control { margin-top: 80px; }
+
+  #quote-1 { font-size: 30px; }
+  #quote-2 { font-size: 22px; }
+  #quote-3 { font-size: 24px; }
+  #quote-4 { font-size: 30px; }
+  #quote-5 { font-size: 20px; }
+  #quote-6 { font-size: 20px; }
+}
+
+@media only screen and (max-width: 576px) {
+  .knowledge.header { text-align: center; padding: 36px 18px 0px 18px; }
+  .knowledge.label { position: relative; font-size: 24px; }
+  .knowledge.circle { margin: 0px 0px 0px 0px; }
+  .knowledge.programs { text-align: center; padding: 0px 18px 0px 18px; }
+  .knowledge.research { text-align: center; margin: 0; padding: 0px 18px 36px 18px; }
+  .knowledge.title { margin: 0; display: block;}
+  .knowledge.description { margin: 0; display: inline-block; }
+  .training.description { padding: 24px 0px 24px 0px; font-size: 24px; }
+  .coleridge-logo-bg-large { display: none; }
+  .left-quote-mark { display: none; }
+  .right-quote-mark { display: none; }
+  .left-arrow { margin-top: 30px; }
+  .right-arrow { margin-top: 30px; }
+
+  .quote-box { padding: 24px 9px 0px 9px; height: 260px; width: 100%; text-align: center; }
   #quote-carousel .carousel-inner .item { padding: 0px 0px 0px 0px; }
   #quote-carousel .left.carousel-control, #quote-carousel .right.carousel-control { margin-top: 180px; }
 
-  #quote-1 { font-size: 22px; }
-  #quote-2 { font-size: 14px; }
-  #quote-3 { font-size: 16px; }
-  #quote-4 { font-size: 22px; }
-  #quote-5 { font-size: 14px; }
-  #quote-6 { font-size: 14px; }
+  #quote-1 { font-size: 24px; }
+  #quote-2 { font-size: 16px; }
+  #quote-3 { font-size: 18px; }
+  #quote-4 { font-size: 24px; }
+  #quote-5 { font-size: 16px; }
+  #quote-6 { font-size: 16px; }
 }
+
 /* Knowledge Section End */
 
 /* Computing Section Start */
@@ -470,7 +567,7 @@ body {
 }
 
 .our-goal {
-  padding: 60px 0px 0px 0px;
+  padding: 60px 0px 48px 0px;
   color: #FFFFFF;
   font-size: 40px;
   font-weight: 600;
@@ -478,7 +575,17 @@ body {
   text-align: center;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 992px) {
+  .our-goal { padding: 48px 9px 48px 9px; font-size: 32px; }
+  .computing.description { padding: 60px 0px 24px 0px; font-size: 32px; }
+}
+
+@media only screen and (max-width: 768px) {
+  .our-goal { padding: 48px 9px 48px 9px; font-size: 28px; }
+  .computing.description { padding: 24px 0px 24px 0px; font-size: 24px; }
+}
+
+@media only screen and (max-width: 576px) {
   .our-goal { padding: 48px 9px 48px 9px; font-size: 22px; }
   .computing.description { padding: 24px 0px 24px 0px; font-size: 24px; }
 }
@@ -520,7 +627,7 @@ body {
 .value-box {
   padding: 100px 60px 0px 60px;
   height: 160px;
-  width: 1000px;
+  width: 100%;
 }
 
 #value-carousel .carousel-inner {
@@ -534,14 +641,25 @@ body {
   margin-top: 80px
 }
 
-@media only screen and (max-width: 1024px) {
-  .value-box { padding: 36px 9px 0px 9px; height: 160px; width: 250px; }
+@media only screen and (max-width: 992px) {
+  .value-box { padding: 100px 20px 0px 20px; height: 180px; width: 100%; }
+}
+
+@media only screen and (max-width: 768px) {
+  .value-box { padding: 80px 0px 0px 0px; height: 200px; width: 100%; }
+  .what-we-value { padding: 12px 9px 48px 9px; font-size: 36px; }
+  .collaborating.description { padding: 24px 0px 24px 0px; font-size: 24px; }
+  #value-carousel .left.carousel-control, #value-carousel .right.carousel-control { margin-top: 80px; }
+}
+
+@media only screen and (max-width: 576px) {
+  .value-box { padding: 48px 0px 0px 0px; height: 200px; width: 100%; }
   .value { font-size: 16px; }
   .value-title { font-size: 18px; }
-  .what-we-value { padding: 48px 9px 48px 9px; font-size: 20px; }
+  .what-we-value { padding: 0px 9px 24px 9px; font-size: 28px; }
   .collaborating.description { padding: 24px 0px 24px 0px; font-size: 24px; }
   #value-carousel .carousel-inner .item { padding: 0px 0px 0px 0px; }
-  #value-carousel .left.carousel-control, #value-carousel .right.carousel-control { margin-top: 120px; }
+  #value-carousel .left.carousel-control, #value-carousel .right.carousel-control { margin-top: 100px; }
 }
 /* Collaborating Section End */
 
@@ -585,8 +703,6 @@ body {
 }
 
 .directors.label {
-  padding: 36px 0px 0px 0px;
-  margin-top: 24px;
   text-transform: uppercase;
   font-size: 58px;
   font-weight: 200;
@@ -619,28 +735,56 @@ body {
 }
 
 #directors-carousel .carousel-inner {
-  margin-top: -120px
+  margin-top: -80px
 }
+
 #directors-carousel .carousel-inner .item {
-  padding-left: 500px;
+  padding-left: 38%;
 }
 
 #directors-carousel .left.carousel-control, #directors-carousel .right.carousel-control {
   margin-top: 120px
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
+  .director-bubble-set { width: 620px; height: 360px; }
+  .directors-circle { top: 100px; left: 0px; width: 180px; height: 180px; }
+  #directors-oval { padding-right: 4px; top: 0px; left: 140px; width: 360px; height: 360px; }
+  .director-name { padding: 108px 0px 0px 48px; font-size: 20px; letter-spacing: 0px; }
+  .director-affiliation { padding: 16px 0px 0px 48px; font-size: 16px; font-weight: 300;}
+  #directors-carousel .carousel-inner .item { padding-left: 35%; }
+}
+
+@media only screen and (max-width: 992px) {
+  .director-bubble-set { width: 500px; height: 320px; }
+  .directors-circle { top: 110px; left: 40px; width: 140px; height: 140px; }
+  #directors-oval { padding-right: 4px; top: 40px; left: 140px; width: 280px; height: 280px; }
+  .director-name { padding: 60px 0px 0px 48px; font-size: 20px; letter-spacing: 0px; }
+  .director-affiliation { padding: 0px 0px 0px 48px; font-size: 14px; font-weight: 300;}
+  #directors-carousel .carousel-inner .item { padding-left: 35%; }
+}
+
+@media only screen and (max-width: 768px) {
+  .team.description { padding: 24px 9px 36px 9px; font-size: 22px; }
+  .director-bubble-set { width: 500px; height: 320px; }
+  .directors-circle { top: 110px; left: 40px; width: 140px; height: 140px; }
+  #directors-oval { padding-right: 4px; top: 40px; left: 140px; width: 280px; height: 280px; }
+  .director-name { padding: 60px 0px 0px 48px; font-size: 20px; letter-spacing: 0px; }
+  .director-affiliation { padding: 0px 0px 0px 48px; font-size: 14px; font-weight: 300;}
+  #directors-carousel .carousel-inner .item { padding-left: 22%; }
+}
+
+@media only screen and (max-width: 576px) {
   .team.description { padding: 24px 9px 36px 9px; font-size: 22px; }
   .director-bubble-set { width: 320px; height: 210px; }
+  #directors-carousel .carousel-inner .item { padding-left: 15%; }
   .directors.label { font-size: 32px; }
   .directors-circle { top: 30px; left: 0px; width: 100px; height: 100px; }
   #directors-oval { top: 0px; left: 80px; width: 170px; height: 170px; }
   .director-name { padding: 36px 0px 0px 24px; font-size: 14px; letter-spacing: 0px; }
   .director-affiliation { padding: 0px 0px 0px 24px; font-size: 8px; font-weight: 300;}
   .director-affiliation p {  }
-  #directors-carousel .carousel-inner { margin-top: 0px }
-  #directors-carousel .carousel-inner .item { padding-left: 0px; }
-}
+  #directors-carousel .carousel-inner { margin-top: 0px }}
 /* Team Section Start */
 /* Content Sections End */
 
@@ -665,7 +809,7 @@ body {
 @media only screen and (max-width: 1024px) {
   .footer-image-holder { padding: 24px 0px 24px 0px; } 
   .footer-image { height: auto; width: 100%; }
-  .copyright-text { padding: 0px 10px 20px 10px; font-size: 14px; }
+  .copyright-text { padding: 10px 10px 20px 10px; font-size: 14px; }
 }
 /* Footer Styling End */
 
@@ -797,6 +941,7 @@ body {
 
 .register-here {
   margin-top: 60px;
+  margin-bottom: 40px;
   padding: 40px 40px 0px 40px;
   font-size: 40px;
   font-weight: 600;
@@ -809,6 +954,35 @@ body {
   vertical-align: middle;
   line-height: 1;
 }
+
+@media only screen and (max-width: 992px) {
+  .programs-label { padding: 36px 0px 36px 60px; font-size: 24px; font-weight: 600; }
+  .program-button { margin: 0px 0px 40px 60px; padding: 10px 10px 10px 10px; font-size: 16px; width: 300px; }
+  .register-here { margin-top: 48px; margin-bottom: 20px; padding: 30px; 
+                    font-size: 28px; font-weight: 600; height: auto; width: 250px;}
+}
+
+@media only screen and (max-width: 768px) {
+  .programs-label { text-align: center; padding: 24px 0px 0px 0px; font-size: 28px; font-weight: 600; }
+  .program-button { margin: 0; padding: 10px 10px 10px 10px; font-size: 20px; width: auto; }
+  .register-here { margin-top: 20px; margin-bottom: 20px; padding: 10px 10px 10px 10px; 
+                    font-size: 20px; font-weight: 600; height: auto; width: auto;}
+
+}
+
+@media only screen and (max-width: 576px) {
+  .programs-label { text-align: center; padding: 24px 0px 0px 0px; font-size: 24px; font-weight: 600; }
+  .program-button { margin: 0; padding: 10px 10px 10px 10px; font-size: 16px; width: auto; }
+  .register-here { margin-top: 20px; margin-bottom: 20px; padding: 10px 10px 10px 10px; 
+                    font-size: 20px; font-weight: 600; height: auto; width: auto;}
+}
+
+/* End Training Page */
+/*************************************/
+
+
+/*************************************/
+/* Computing Page */
 
 .green {
   color: #3B9743;
@@ -865,6 +1039,10 @@ body {
   line-height: 1;
 }
 
+#safe-results {
+  text-align: center;
+}
+
 .feature-block {
   padding: 12px 12px 12px 12px;
   background-color: #43AA4C;
@@ -885,7 +1063,7 @@ body {
   margin-top: 130px
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 992px) {
   .page-title { padding: 100px 0px 0px 0px; font-size: 32px; font-weight: 300; }
   .page-description { padding: 48px 0px 48px 0px; font-size: 22px; color: #FFFFFF; line-height: 1.15; }
   .section-title { padding: 24px 0px 0px 0px; font-size: 28px; }
@@ -895,12 +1073,59 @@ body {
   .curriculum-table { padding-bottom: 12px; }
   .table-header { padding: 12px 0px 0px 0px; font-size: 18px; }
   .table-cell { padding: 0px 0px 0px 16px; font-size: 16px; }
-  .programs-label { padding: 24px 0px 12px 0px; font-size: 22px; font-weight: 600; }
-  .program-button { margin-left: 0px; padding: 10px 10px 10px 10px; font-size: 14px; width: 250px; }
-  .register-here { margin-top: 10px; margin-bottom: 20px; padding: 10px 10px 10px 10px; 
-                    font-size: 20px; font-weight: 600; height: auto; width: 250px;}
+
   .features-section { margin: 20px 0; }
-  .feature-block { padding: 12px 12px 12px 12px; height: 400px; width: 100%; }
+  .feature-block { margin-left: 10%; padding: 12px 12px 12px 12px; height: 170px; width: 80%; }
+  #feature-carousel .carousel-inner .item { margin: 20px 0px 20px 0px; padding: 0px 10px 0px 10px; }
+  #feature-carousel .left.carousel-control { margin: 70px 0px 0px -15px; }
+  #feature-carousel .right.carousel-control { margin: 70px -15px 0px 0px; }
+  .feature-title { font-size: 18px; }
+  .feature-description { font-size: 16px; }
+  .ci-logo-green { height: 80px; width: 80px; }
+  .ci-logo-green-no-float { height: 60px; width: 60px; margin-top: 0;}
+  .safe-text { margin-left: 100px; padding: 10px 0; }
+  .safe-title { font-size: 20px; font-weight: 500; }
+  .safe-description { font-size: 16px; }
+}
+
+@media only screen and (max-width: 768px) {
+  .page-title { padding: 100px 0px 0px 0px; font-size: 32px; font-weight: 300; }
+  .page-description { padding: 48px 0px 48px 0px; font-size: 22px; color: #FFFFFF; line-height: 1.15; }
+  .section-title { padding: 24px 0px 0px 0px; font-size: 28px; }
+  .section-description { padding: 0px 0px 0px 0px; font-size: 18px; }
+  .curriculum-title { padding: 12px 0px 0px 0px; font-size: 28px; }
+  .curriculum-description { padding: 0px 0px 0px 0px; font-size: 16px; }
+  .curriculum-table { padding-bottom: 12px; }
+  .table-header { padding: 12px 0px 0px 0px; font-size: 18px; }
+  .table-cell { padding: 0px 0px 0px 16px; font-size: 16px; }
+
+  .features-section { margin: 20px 0; }
+  .feature-block { padding: 12px 12px 12px 12px; height: 220px; width: 80%; }
+  #feature-carousel .carousel-inner .item { margin: 20px 0px 20px 0px; padding: 0px 10px 0px 10px; }
+  #feature-carousel .left.carousel-control { margin: 70px 0px 0px -15px; }
+  #feature-carousel .right.carousel-control { margin: 70px -15px 0px 0px; }
+  .feature-title { font-size: 18px; }
+  .feature-description { font-size: 16px; }
+  .ci-logo-green { height: 80px; width: 80px; }
+  .ci-logo-green-no-float { height: 60px; width: 60px; margin-top: 0;}
+  .safe-text { margin-left: 100px; padding: 10px 0; }
+  .safe-title { font-size: 20px; font-weight: 500; }
+  .safe-description { font-size: 16px; }
+}
+
+@media only screen and (max-width: 576px) {
+  .page-title { padding: 100px 0px 0px 0px; font-size: 32px; font-weight: 300; }
+  .page-description { padding: 48px 0px 48px 0px; font-size: 22px; color: #FFFFFF; line-height: 1.15; }
+  .section-title { padding: 24px 0px 0px 0px; font-size: 28px; }
+  .section-description { padding: 0px 0px 0px 0px; font-size: 18px; }
+  .curriculum-title { padding: 12px 0px 0px 0px; font-size: 28px; }
+  .curriculum-description { padding: 0px 0px 0px 0px; font-size: 16px; }
+  .curriculum-table { padding-bottom: 12px; }
+  .table-header { padding: 12px 0px 0px 0px; font-size: 18px; }
+  .table-cell { padding: 0px 0px 0px 16px; font-size: 16px; }
+
+  .features-section { margin: 20px 0; }
+  .feature-block { margin-left: 5%; padding: 12px 12px 12px 12px; height: 360px; width: 90%; }
   #feature-carousel .carousel-inner .item { margin: 20px 0px 20px 0px; padding: 0px 10px 0px 10px; }
   #feature-carousel .left.carousel-control { margin: 130px 0px 0px -15px; }
   #feature-carousel .right.carousel-control { margin: 130px -15px 0px 0px; }
@@ -912,3 +1137,5 @@ body {
   .safe-title { font-size: 20px; font-weight: 500; }
   .safe-description { font-size: 16px; }
 }
+/* End Computing Page */
+/*************************************/
