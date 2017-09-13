@@ -54,6 +54,16 @@ body {
   font-weight: 500;
 }
 
+.navbar-default .navbar-nav > li > .red:hover, .navbar-default .navbar-nav > li > .red:focus {
+    background-color: #000000 !important;
+    color: #B42A2A; !important;
+}
+
+.navbar-default .navbar-nav li .red.active {
+  color: #B42A2A;
+  font-weight: 500;
+}
+
 .navbar-default .navbar-nav > li > .purple:focus {
     background-color: #000000 !important;
     color: #FFFFFF; !important;
@@ -261,10 +271,50 @@ body {
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
+/* Special Nav Collapse Fix */
+@media only screen and (max-width: 1010px) {
+  #collab-text { display: none; }
+}
 
+@media only screen and (max-width: 888px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}
+/* Special Nav Collapse Fix */
 
 @media only screen and (max-width: 992px) {
-  #collab-text { display: none; }
   .mission.slogan { padding: 24px 24px 0px 24px; }
   .mission.coleridge { font-size: 20px; }
   .mission.building { font-size: 18px; font-weight: 400; }
@@ -820,7 +870,7 @@ body {
 
 /* Footer Styling Start */
 .footer-image-holder {
-  padding: 80px 0px 30px 0px;
+  padding: 30px 0px 30px 0px;
   text-align: center;
 }
 
@@ -834,6 +884,24 @@ body {
   color: #FFFFFF;
   padding: 20px 0px 50px 80px;
   font-size: 18px;
+}
+
+.footer-spacer {
+  padding-top: 48px;
+}
+
+.footer-links {
+  margin: 0;
+  color: #FFFFFF;
+  padding: 30px 0px 0px 0px;
+  font-size: 18px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.footer-links a:link, .footer-links a:visited, .footer-links a:hover, .footer-links a:active {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -852,7 +920,7 @@ body {
 
 /*************************************/
 /* Training Page */
-.training-bg-top, .computing-bg-top {
+.training-bg-top, .computing-bg-top, .connecting-bg-top {
   height: 100%;
   background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;
 }
@@ -869,7 +937,7 @@ body {
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-width: 1024px) {
-  .training-bg-top, .computing-bg-top { height: auto; background-attachment: scroll; }
+  .training-bg-top, .computing-bg-top, .connecting-bg-top { height: auto; background-attachment: scroll; }
   .training-bg-mid  { height: auto; }
   .computing-bg-mid  { height: auto; }
 }
@@ -880,6 +948,10 @@ body {
 
 .computing-bg-top {
   background-image: url('../images/computing-bg-top.png');
+}
+
+.connecting-bg-top {
+  background-image: url('../images/connecting-bg-top.png');
 }
 
 .training-bg-mid {
@@ -1168,4 +1240,41 @@ body {
   .safe-description { font-size: 16px; }
 }
 /* End Computing Page */
+/*************************************/
+
+/*************************************/
+/* Connecting Page */
+.red {
+  color: #B42A2A;
+}
+
+.ci-logo-red {
+  margin: 30px 0px 0px 30px;
+  height: 110px;
+  width: 110px;
+}
+
+.connecting-description {
+  padding: 40px 52px 0px 0px;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.email_link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 992px) {
+  .ci-logo-red { margin: 30px 0px 0px 0px; height: 110px; width: 110px; }
+  .connecting-description { padding: 36px 0px 0px 0px; font-size: 22px; line-height: 1.2; font-weight: 400; }
+}
+@media only screen and (max-width: 768px) {
+  .ci-logo-red { display: none;}
+}
+@media only screen and (max-width: 576px) {}
+
+/* End Connecting Page */
 /*************************************/
