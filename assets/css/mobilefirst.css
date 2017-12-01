@@ -534,6 +534,17 @@ body {
   width: 100%;
 }
 
+.quote-interior {
+  padding: 5% 0;
+}
+
+.quote-thumbnail {
+  float: left;
+  display: inline;
+  width: 214px;
+  height: 277px;
+}
+
 #quote-carousel .carousel-inner {
 }
 
@@ -926,7 +937,7 @@ body {
 }
 
 .training-bg-mid {
-  height: 280px;
+  height: auto;
   background-attachment: scroll; background-position: center; background-size: cover;
 }
 
@@ -955,7 +966,8 @@ body {
 }
 
 .training-bg-mid {
-  background-image: url('../images/training-bg-mid.png');
+  /*background-image: url('../images/training-bg-mid.png');*/
+  background-color: #222;
 }
 
 .computing-bg-mid {
@@ -1008,7 +1020,7 @@ body {
 
 .curriculum-table {
   display: inline-block;
-  padding-bottom: 36px;
+  padding-bottom: 0px; /*formerly 36px*/
 }
 
 .table-header {
@@ -1024,10 +1036,64 @@ body {
 }
 
 .programs-label {
-  padding: 48px 0px 48px 72px;
+  padding: 24px 0px 0px 136px;
   color: #FFFFFF;
   font-size: 28px;
   font-weight: 600;
+}
+
+.program-block {
+  margin: 0px 0px 0px 116px;
+  height: 72px;
+  width: 80%;
+  padding: 6px 0px 6px 0px;
+  color: #FFFFFF;
+  background-color: rgba(244, 107, 35, 1.0);
+}
+
+.program-title {
+  padding: 0px 0px 0px 0px;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.program-location {
+  font-weight: 600;
+  padding: 6px 0px 6px 0px;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.8;
+}
+
+.program-description {
+  margin: 12px 0px 12px 116px;
+  color: #FFFFFF;
+  font-size: 22px;
+}
+
+.program-dates {
+  margin: 12px 0px 12px 12px;
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.program-dates ul {
+  margin: 0;
+}
+
+.complement {
+  color: #f46b23;
+  /*color: #ffffff;*/
+  font-weight: 600;
+}
+
+#program-carousel .left.carousel-control, #program-carousel .right.carousel-control {
+  margin-top: 80px
 }
 
 .program-button {
@@ -1039,6 +1105,21 @@ body {
   font-size: 24px;
   font-weight: 600;
   background-color: rgba(244, 107, 35, 1.0);
+}
+
+.apply {
+  margin: 0px 0px 0px 12px;
+  height: 72px;
+  width: 80%;
+  padding: 6px 16px 6px 16px;
+  font-size: 32px;
+  font-weight: 600;
+  color: rgba(242, 92, 13, 1.0);
+  background-color: #FFFFFF;
+  letter-spacing: -1px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.8;
 }
 
 .register-here {
@@ -1058,13 +1139,23 @@ body {
 }
 
 @media only screen and (max-width: 992px) {
-  .programs-label { padding: 36px 0px 36px 60px; font-size: 24px; font-weight: 600; }
+  .program-title { font-size: 20px; }
+  .program-location { font-size: 22px; }
+  .program-description { font-size: 18px; }
+  .program-dates { font-size: 18px; }
+  .program-block { height: 60px;}
+  .apply { margin: 0px 0px 0px 0px; font-size: 26px; height: 60px;}
+  .programs-label { padding: 12px 0px 0px 136px; font-size: 28px; font-weight: 600; }
   .program-button { margin: 0px 0px 40px 60px; padding: 10px 10px 10px 10px; font-size: 16px; width: 300px; }
   .register-here { margin-top: 48px; margin-bottom: 20px; padding: 30px; 
                     font-size: 28px; font-weight: 600; height: auto; width: 250px;}
 }
 
 @media only screen and (max-width: 768px) {
+  .program-block { margin: 0px 0px 0px 0px; height: 60px; width: 100%; }
+  .apply { margin: 0px 0px 0px 0px; font-size: 26px; height: 60px; width: 100%; }
+  .program-description { margin: 12px 0px 12px 0px; font-size: 18px; }
+  .program-dates { margin: 12px 0px 12px 0px; font-size: 18px; }
   .programs-label { text-align: center; padding: 24px 0px 0px 0px; font-size: 28px; font-weight: 600; }
   .program-button { margin: 0; padding: 10px 10px 10px 10px; font-size: 20px; width: auto; }
   .register-here { margin-top: 20px; margin-bottom: 20px; padding: 10px 10px 10px 10px; 
@@ -1073,6 +1164,9 @@ body {
 }
 
 @media only screen and (max-width: 576px) {
+  .program-location { font-size: 18px; }
+  .program-description { font-size: 16px; }
+  .program-dates { font-size: 16px; }
   .programs-label { text-align: center; padding: 24px 0px 0px 0px; font-size: 24px; font-weight: 600; }
   .program-button { margin: 0; padding: 10px 10px 10px 10px; font-size: 16px; width: auto; }
   .register-here { margin-top: 20px; margin-bottom: 20px; padding: 10px 10px 10px 10px; 

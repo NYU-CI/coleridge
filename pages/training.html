@@ -21,19 +21,22 @@ permalink: training.html
       <p class="section-title">TRAINING PROGRAM</p>
     </div>
     <div class="col-sm-12">
-      <p class="section-description">The training program is designed to address public sector challenges, but is applicable to a broad range of fields such as sociology, public health, computer science, survey statistics, and federal departments.  Completion of this program will equip participants with the tools necessary to effectively manage and undergo technology and analytics projects, as well as open the door to the fields of statistical analysis, software development, and data science.</p>
+      <p class="section-description">The training program is designed to address public sector challenges, but is applicable to a broad range of fields such as sociology, public health, computer science, survey statistics, and federal departments. 
+        Completion of this program will equip participants with the tools necessary to effectively manage and undergo technology and analytics projects, as well as open the door to the fields of statistical analysis, software development, and data science.
+        This program is designed for professionals with a masters’ degree or above with some emphasis in a quantitative field (e.g. statistics, economics or computer science) or at least two years working in a hands-on, data-oriented field.</p>
     </div>
     <div class="col-sm-12">
       <p class="curriculum-title">Core Curriculum</p>
     </div>
     <div class="col-sm-12">
-      <p class="curriculum-description">The general format is 12 training days grouped into 4 modules of 3 days each. There is a primary focus on a different topic each day, as outlined below.  In addition, participants are grouped in teams of up to five members to work through an analytic project that answers a specific reasearch question formulated by the team.</p>
+      <p class="curriculum-description">The general format is 10 training days grouped into 2 modules of one week each. There is a primary focus on a different topic each day, as outlined below. In addition, participants are grouped in teams of up to 
+        five members to work through an analytic project that answers a specific research question formulated by the team.</p>
     </div>
   </div>
   <div class="row">
     {% assign count = 0 %}
     {% for module in site.data.curriculum %}
-      {% capture mod %}{{ count | modulo:2 }}{% endcapture %}
+      {% capture mod %}{{ count | modulo:1 }}{% endcapture %}
       {% if mod == '0' %}
       <div class="col-sm-6">
         <table class="curriculum-table">
@@ -51,58 +54,206 @@ permalink: training.html
             </td>
           </tr>
         {% assign count = count | plus:1 %}
-        {% capture mod %}{{ count | modulo:2 }}{% endcapture %}
+        {% capture mod %}{{ count | modulo:1 }}{% endcapture %}
         {% if mod == '0' %}
         </table>
       </div>
         {% endif %}
       {% endfor %}
-    </div>
+  </div>
 </div>
-
 
 <div class="container-fluid training-bg-mid">
   <div class="row">
-    <div class="col-sm-7">
-      <p class="programs-label">UPCOMING TRAINING PROGRAM</p>
-      <div class="program-button">High Need Populations (Fall 2017)</div>
+    <div class="col-sm-12">
+      <p class="programs-label">UPCOMING TRAINING PROGRAMS</p>
     </div>
-    <div class="col-sm-5">
-      <a href="{{site.registration_link}}" target="_blank">
-        <div class="register-here">REGISTER HERE</div>
-      </a>
+    <div class="col-sm-12">
+          <div id="program-carousel" class="carousel slide" data-ride="carousel" data-interval="0">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+              <div class="item active">
+                <div class="col-sm-6">
+                  <div class="program-block">
+                    <!-- <div class="program-title">Economic Development</div> -->
+                    <div class="program-location">Kansas City, MO - Spring 2018</div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                    <a href="https://goo.gl/forms/w8AgsqBrIPS0L5Mu1" target="_blank">
+                      <div class="apply">APPLY</div>
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                  <div class="program-description">This program is both sponsored and hosted by The Kauffman Foundation. 
+                    Financial assistance is available in the form of a limited number of full and partial scholarships. 
+                    All government applicants will be considered for scholarships and informed of any award upon preliminary 
+                    admission to the program on February 16. As part of this program, participants’ supervisors are invited to 
+                    join a Managers Training which will be given as two full-day sessions hosted at the Kauffman Foundation on Friday April 27 and June 8.
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="program-dates">
+                    <div>Application Closes: <span class="complement">January 31</span></div>
+                    <div>Admission Decision: <span class="complement">February 16</span></div>
+                    <div>SQL &amp; Python tutorials: Complete by <span class="complement">April 3</span></div>
+                    <div>In-person training in Kansas City</div>
+                    <ul>
+                      <li>Module 1: <span class="complement">April 23 - 27</span></li>
+                      <li>Module 2: <span class="complement">June 4 - 8</span></li>
+                    </ul>
+                    <div>Remote Presentations: <span class="complement">June 28 &amp; 29</span></div>
+                  </div>
+                </div>
+              </div>
+            
+
+              <div class="item">
+                <div class="col-sm-6">
+                  <div class="program-block">
+                    <!-- <div class="program-title">Economic Development</div> -->
+                    <div class="program-location">Chicago, IL - Summer 2018</div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="apply">Opening 4/15/2018</div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="program-description">The Coleridge Initiative’s program in Applied Data Analytics 
+                    provides participants the opportunity to choose their own projects or build on projects 
+                    completed in select earlier programs. The primary topic for this program is yet to be determined; 
+                    however, it will likely be focused on economic development, recidivism, or welfare benefit programs.
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="program-dates">
+                    <div>Application Open: <span class="complement">April 15 - 31</span></div>
+                    <div>Admission Decision: <span class="complement">May 16</span></div>
+                    <div>SQL &amp; Python tutorials: Complete by <span class="complement">July 1</span></div>
+                    <div>In-person training in Chicago</div>
+                    <ul>
+                      <li>Module 1: <span class="complement">July 18 - 24</span></li>
+                      <li>Module 2: <span class="complement">August 8 - 14</span></li>
+                    </ul>
+                    <div>Remote Presentations: <span class="complement">TBD</span></div>
+                  </div>
+                </div>
+              </div>
+            
+
+              <div class="item">
+                <div class="col-sm-6">
+                  <div class="program-block">
+                    <!-- <div class="program-title">Economic Development</div> -->
+                    <div class="program-location">Washington, DC - Fall 2018</div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="apply">Opening 7/15/2018</div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="program-description">The Coleridge Initiative’s program in Applied Data Analytics 
+                    provides participants the opportunity to choose their own projects or build on projects 
+                    completed in select earlier programs. The primary topic for this program is yet to be determined; 
+                    however, it will likely be focused on economic development, recidivism, or welfare benefit programs.
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="program-dates">
+                    <div>Application Open: <span class="complement">July 15 - 31</span></div>
+                    <div>Admission Decision: <span class="complement">August 16</span></div>
+                    <div>SQL &amp; Python tutorials: Complete by <span class="complement">October 1</span></div>
+                    <div>In-person training in Washington, DC</div>
+                    <ul>
+                      <li>Module 1: <span class="complement">October 17 - 23</span></li>
+                      <li>Module 2: <span class="complement">October 31 - November 6</span></li>
+                    </ul>
+                    <div>Remote Presentations: <span class="complement">TBD</span></div>
+                  </div>
+                </div>
+              </div>
+            
+
+              <div class="item">
+                <div class="col-sm-6">
+                  <div class="program-block">
+                    <!-- <div class="program-title">Economic Development</div> -->
+                    <div class="program-location">New York, NY - Winter 2019</div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="apply">Opening 10/15/2018</div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="program-description">The Coleridge Initiative’s program in Applied Data Analytics 
+                    provides participants the opportunity to choose their own projects or build on projects 
+                    completed in select earlier programs. The primary topic for this program is yet to be determined; 
+                    however, it will likely be focused on economic development, recidivism, or welfare benefit programs.
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="program-dates">
+                    <div>Application Open: <span class="complement">October 15 - 31</span></div>
+                    <div>Admission Decision: <span class="complement">November 16</span></div>
+                    <div>SQL &amp; Python tutorials: Complete by <span class="complement">January 1</span></div>
+                    <div>In-person training in New York City</div>
+                    <ul>
+                      <li>Module 1: <span class="complement">January 16 - 22</span></li>
+                      <li>Module 2: <span class="complement">January 30 - February 5</span></li>
+                    </ul>
+                    <div>Remote Presentations: <span class="complement">TBD</span></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+
+            <a class="left carousel-control" href="#program-carousel" data-slide="prev">
+              <img class="left-arrow" src="{{site.baseurl}}/assets/images/triangle-left-arrow-white.png">
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#program-carousel" data-slide="next">
+              <img class="right-arrow" src="{{site.baseurl}}/assets/images/triangle-right-arrow-white.png">
+              <span class="sr-only">Next</span>
+            </a>
+
+          </div>
     </div>
   </div>
 </div>
 
-
 <div class="container">
   <div class="row">
-
     <div class="col-sm-12">
-      <p class="section-title">REGISTER</p>
+      <p class="curriculum-title">Application Process</p>
     </div>
     <div class="col-sm-12">
-      <p class="section-description">This program is designed for professionals with a masters’ degree or above with some emphasis in a quantitative field (e.g. statistics, economics or computer science) or at least two years working in a hands-on, data-oriented field.</p>
-      <p class="section-description">To apply for this program, <a href="{{site.registration_link}}" target="_blank"><strong>click here</strong></a>.  At the end of the application form you will be given three options for payment:</p>
-      <p class="section-description">1. Pay in full </p>
-      <p class="section-description">2. Apply for a government employee scholarship (for details, view the <a href="{{site.baseurl}}/{{site.scholarship_doc}}" target="_blank"><strong>Scholarship Application Instructions</strong></a>)</p>
-      <p class="section-description">3. Request a group discount or inquire about employer payments by emailing dataanalytics@umd.edu</p>
-    </div>
-    <div class="col-sm-12">
-      <p class="curriculum-title">Schedule</p>
-    </div>
-    <div class="col-sm-12">
-      <p class="curriculum-description"><strong>Module 1</strong>: October 11-13, 2017</p>
-      <p class="curriculum-description"><i>All participants attend sessions in College Park</i></p>
-      <br>
-      <p class="curriculum-description"><strong>Module 2</strong>: November 1-3, 2017</p>
-      <p class="curriculum-description"><strong>Module 3</strong>: November 15-17, 2017</p>
-      <p class="curriculum-description"><strong>Module 4</strong>: December 6-8, 2017 </p>
-      <p class="curriculum-description"><i>Participants attend via sites in Chicago, IL; College Park, MD; New York, NY; Hartford, CT; or Seattle, WA</i></p>
-      <br>
-      <p class="curriculum-description"><strong>Reports and Presentations</strong>: To be finalized: late January or early February</p>
-      <p class="curriculum-description"><i>Participants welcome to attend via sites in Chicago, IL; College Park, MD; New York, NY; Hartford, CT; or Seattle, WA, or to join remotely</i></p>
+      <p class="curriculum-description">The application will include four components:</p>
+      <table class="curriculum-table">
+          <tr>
+            <td>
+              <ul class="table-cell">
+                <li>Resume or Curriculum Vitae</li>
+                <li>Letter of Support from your supervisor</li>
+                <li>Description of a previous data project in which you participated</li>
+                <li>Proposal for how you will use the skills you learn in this class</li>
+              </ul>
+            </td>
+          </tr>
+      </table>
+      <p class="curriculum-description">By submitting an application you are guaranteeing your availability to join all in-person training days 
+        listed for the program to which you are applying. Once the above application materials are submitted, 
+        an email will be sent confirming your successful registration. Included in your admission decision will 
+        be the process for paying program tuition - please note that any scholarships that may be available are 
+        decided on a per program and per application basis.</p></br>
+      <p class="curriculum-description">Once your application is submitted and approved, the final step to be 
+        accepted into the class is to complete the <strong>SQL &amp; Python tutorials</strong> by the date specified for your program.</p></br>
+      <p class="curriculum-description"><strong>Group applications:</strong> If you are applying as part of a group please include in your proposal how each of 
+        the group members plan to use the skills taught in this program at your organization.</p></br>
     </div>
     <div class="col-sm-12">
       <p class="curriculum-title">Cost</p>
@@ -110,7 +261,7 @@ permalink: training.html
     <div class="col-sm-12">
       <p class="curriculum-description">Class price: $15,000</p>
       <p class="curriculum-description">Government and non-profit participants: $10,000 (payment can be made for each module by pcard)</p>
-      <p class="curriculum-description">20% discount for groups of 2-4 individuals from same agency; 40% discount for groups of more than 4</p>
+      <p class="curriculum-description">Group discount: You may apply as a group with others from your organization. There will be a 20% discount for the 2nd-4th individuals and a 40% discount for 5th or more individuals. For example a group of 3 would have a total cost of $26,000 and a group of 6 would have a total cost of $46,000.</p>
     </div>
     <div class="col-sm-12">
       <p class="curriculum-title">Contact</p>
