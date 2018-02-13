@@ -128,7 +128,7 @@ body {
 /* Parallax Backgrounds Start */
 .masthead, .purple-bg, .orange-bg, .green-bg, .red-bg, .blue-bg {
   /* Full height */
-  height: 624px; 
+  height: 624px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -139,7 +139,7 @@ body {
 
 .purple-bg, .orange-bg, .green-bg, .red-bg, .blue-bg {
   /* Full height */
-  height: auto; 
+  height: auto;
 }
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
@@ -916,7 +916,7 @@ body {
 }
 
 @media only screen and (max-width: 1024px) {
-  .footer-image-holder { padding: 24px 0px 24px 0px; } 
+  .footer-image-holder { padding: 24px 0px 24px 0px; }
   .footer-image { height: auto; width: 100%; }
   .copyright-text { padding: 10px 10px 20px 10px; font-size: 14px; }
 }
@@ -1033,6 +1033,35 @@ body {
   padding: 0px 0px 0px 52px;
   font-size: 22px;
   font-weight: 400;
+}
+
+.slide-description {
+  padding: 0px 52px 0px 30px;
+  margin-bottom: 24px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+.slide-list {
+  font-size: 20px;
+  margin: 0px 0px 24px 12px;
+}
+
+.slide-container {
+  text-align: center;
+  padding: 0px 12px 0px 12px;
+}
+
+.slide-thumbnail {
+  display: inline-block;
+  width: 66%;
+  outline: 1px solid black;
+}
+
+.slide-text {
+  font-size: 18px;
+  margin: 8px 0px 12px 0px;
 }
 
 .programs-label {
@@ -1155,10 +1184,11 @@ body {
   .program-description { font-size: 18px; }
   .program-dates { font-size: 18px; }
   .program-block { height: 60px;}
+  .slide-list { padding: 0px 0px 0px 16px; font-size: 16px; }
   .apply { margin: 0px 0px 0px 0px; font-size: 26px; height: 60px;}
   .programs-label { padding: 12px 0px 0px 136px; font-size: 28px; font-weight: 600; }
   .program-button { margin: 0px 0px 40px 60px; padding: 10px 10px 10px 10px; font-size: 16px; width: 300px; }
-  .register-here { margin-top: 48px; margin-bottom: 20px; padding: 30px; 
+  .register-here { margin-top: 48px; margin-bottom: 20px; padding: 30px;
                     font-size: 28px; font-weight: 600; height: auto; width: 250px;}
   #cost-table { margin-left: 0px; }
 }
@@ -1168,9 +1198,10 @@ body {
   .apply { margin: 0px 0px 0px 0px; font-size: 26px; height: 60px; width: 100%; }
   .program-description { margin: 12px 0px 12px 0px; font-size: 18px; }
   .program-dates { margin: 12px 0px 12px 0px; font-size: 18px; }
+  .slide-list { padding: 0px 0px 0px 16px; font-size: 16px; }
   .programs-label { text-align: center; padding: 24px 0px 0px 0px; font-size: 28px; font-weight: 600; }
   .program-button { margin: 0; padding: 10px 10px 10px 10px; font-size: 20px; width: auto; }
-  .register-here { margin-top: 20px; margin-bottom: 20px; padding: 10px 10px 10px 10px; 
+  .register-here { margin-top: 20px; margin-bottom: 20px; padding: 10px 10px 10px 10px;
                     font-size: 20px; font-weight: 600; height: auto; width: auto;}
 
 }
@@ -1179,9 +1210,10 @@ body {
   .program-location { font-size: 18px; }
   .program-description { font-size: 16px; }
   .program-dates { font-size: 16px; }
+  .slide-list { padding: 0px 0px 0px 16px; font-size: 16px; }
   .programs-label { text-align: center; padding: 24px 0px 0px 0px; font-size: 24px; font-weight: 600; }
   .program-button { margin: 0; padding: 10px 10px 10px 10px; font-size: 16px; width: auto; }
-  .register-here { margin-top: 20px; margin-bottom: 20px; padding: 10px 10px 10px 10px; 
+  .register-here { margin-top: 20px; margin-bottom: 20px; padding: 10px 10px 10px 10px;
                     font-size: 20px; font-weight: 600; height: auto; width: auto;}
 }
 
