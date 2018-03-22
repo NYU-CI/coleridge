@@ -37,4 +37,21 @@ $( window ).on( "load", function() {
       }, 500);
   });
 
+  /* Jump to program dates and display appropriate panel in carousel */
+  var program = getURLParameter('program')
+  if (program <= 4) {
+
+    $('.carousel-indicators li:nth-child(2)').removeClass('active');
+    $('.carousel-indicators li:nth-child(' + program + ')').addClass('active');
+
+    $('.carousel-inner .item:nth-child(2)').removeClass('active');
+    $('.carousel-inner .item:nth-child(' + program + ')').addClass('active');
+
+    window.location.hash = '#training-dates';
+  }
+
 });
+
+function getURLParameter(name) {
+  return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [null, ''])[1].replace(/\+/g, '%20')) || null;
+}

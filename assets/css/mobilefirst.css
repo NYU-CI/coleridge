@@ -187,7 +187,7 @@ body {
 
 /* Main Logo Start */
 .ci-text-logo-image-holder {
-  padding-top: 240px;
+  padding-top: 140px;
   text-align: center;
 }
 
@@ -229,6 +229,13 @@ body {
   color: #000000;
 }
 
+.mission.building-masthead {
+  font-size: 24px;
+  font-weight: 100;
+  color: #FFFFFF;
+  letter-spacing: 1.2px;
+}
+
 .mission.quote {
   text-align:right;
   padding: 48px 60px 60px 60px;
@@ -247,6 +254,26 @@ body {
   color: #666666;
 }
 
+.mission.data-masthead {
+  display: block;
+  margin-top: 100px;
+  margin-right: 20px;
+  font-size: 22px;
+  font-weight: 200;
+  color: #FFFFFF;
+  text-align: right;
+}
+
+.mission.mariner-masthead {
+  display: block;
+  margin-right: 20px;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 200;
+  color: #FAFAFA;
+  text-align: right;
+}
+
 .coleridge-logo-bg {
   position: relative;
   float: right;
@@ -256,7 +283,90 @@ body {
   margin: -260px 40px 0px 0px;
 }
 
+.program-dates-div {
+  margin-left: 60px;
+}
 
+.upcoming-label {
+  margin-top: 12px;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 200;
+  color: #000000;
+}
+
+.program-quarter {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(244, 107, 35);
+  margin-bottom: -4px;
+}
+
+.program-city {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 4px;
+}
+
+.program-details-link {
+  margin-top: 6px;
+  display: inline-block;
+  color: #FFFFFF;
+  background-color: rgb(244, 107, 35);
+  font-weight: 500;
+  padding: 4px 12px 4px 12px;
+  border: 1px solid #000000;
+  text-align: center;
+  min-width: 214px;
+}
+
+.inactive-program {
+  background-color: #666666;
+}
+
+.program-details-link p {
+  margin-bottom: 0;
+}
+
+.book-thumbnail {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 18px;
+}
+
+.book-description {
+  margin-top: 18px;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+.centering-div {
+  text-align: center;
+}
+
+.book-reviews-link {
+  margin-top: 6px;
+  display: inline-block;
+  color: #FFFFFF;
+  background-color: rgb(244, 107, 35);
+  font-size: 18px;
+  font-weight: 500;
+  padding: 4px 12px 4px 12px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+.book-poster {
+  margin-top: 80px;
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 // Small devices (landscape phones, 576px and up)
@@ -314,14 +424,30 @@ body {
 }
 /* Special Nav Collapse Fix */
 
+@media only screen and (max-width: 1198px) {
+  .program-details-link {
+    margin-top: -2px;
+    margin-bottom: 12px;
+    font-weight: 500;
+    padding: 4px 12px 4px 12px;
+    min-width: 214px;
+  }
+}
+
 @media only screen and (max-width: 992px) {
   .mission.slogan { padding: 24px 24px 0px 24px; }
   .mission.coleridge { font-size: 20px; }
   .mission.building { font-size: 18px; font-weight: 400; }
+  .mission.building-masthead { font-size: 18px; }
   .mission.quote { text-align: left; padding: 24px 24px 24px 24px; }
   .mission.data { font-size: 22px; }
   .mission.mariner { font-size: 16px; }
+  .mission.data-masthead { font-size: 18px; }
+  .mission.mariner-masthead { font-size: 14px; }
   .coleridge-logo-bg { height: 140px; width: 140px; margin: -160px 40px 0px 0px; }
+  .program-details-link { width: 100%; }
+  .book-thumbnail { max-width: 40%; margin-top: 24px; }
+  .book-reviews-link { width: 100%; font-size: 18px; margin-bottom: 16px; }
 }
 
 @media only screen and (max-width: 768px) {
@@ -329,20 +455,39 @@ body {
   .mission.slogan { padding: 24px 24px 0px 24px; }
   .mission.coleridge { font-size: 20px; }
   .mission.building { font-size: 18px; font-weight: 400; }
+  .mission.building-masthead { font-size: 16px; letter-spacing: 0px; }
   .mission.quote { text-align: left; padding: 24px 24px 24px 24px; }
   .mission.data { font-size: 22px; }
   .mission.mariner { font-size: 16px; }
+  .mission.data-masthead { font-size: 16px; }
+  .mission.mariner-masthead { font-size: 12px; }
   .coleridge-logo-bg { height: 140px; width: 140px; margin: -160px 40px 0px 0px; }
+  .program-dates-div { margin-left: 0; }
+  .upcoming-label { font-size: 18px; margin-top: 8px; }
+  .program-city { margin-bottom: 0; }
+  .program-details-link { margin-top: 0; margin-bottom: 8px; }
+  .book-thumbnail { max-width: 40%; margin-top: 24px; }
+  .book-reviews-link { width: 100%; font-size: 18px; margin-bottom: 16px; }
+  .book-poster { max-width: 100%; }
 }
 
 @media only screen and (max-width: 576px) {
   .mission.slogan { padding: 24px 24px 0px 24px; }
   .mission.coleridge { font-size: 20px; }
   .mission.building { font-size: 18px; font-weight: 400; }
+  .mission.building-masthead { font-size: 14px; }
   .mission.quote { text-align: left; padding: 24px 24px 24px 24px; }
   .mission.data { font-size: 22px; }
   .mission.mariner { font-size: 16px; }
+  .mission.data-masthead { font-size: 14px; }
+  .mission.mariner-masthead { font-size: 10px; }
   .coleridge-logo-bg { height: 140px; width: 140px; margin: -160px 40px 0px 0px; }
+  .program-dates-div { margin-left: 0; }
+  .upcoming-label { font-size: 18px; margin-top: 8px; }
+  .program-city { margin-bottom: 0; }
+  .program-details-link { margin-top: 0; margin-bottom: 8px; width: 100%; }
+  .book-thumbnail { max-width: 60%; margin-top: 24px; }
+  .book-reviews-link { width: 100%; font-size: 18px; margin-bottom: 16px; }
 }
 
 .buckets {
@@ -1149,6 +1294,11 @@ body {
   text-align: center;
   vertical-align: middle;
   line-height: 1.8;
+}
+
+.apply-closed {
+  color: #FFFFFF;
+  background-color: #666666;
 }
 
 .register-here {
