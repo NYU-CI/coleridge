@@ -1,0 +1,38 @@
+{% assign members = site.pages | sort: 'lastname' %}
+{% assign count = 1 %}
+
+<div class="row">
+{% for member in members %}
+  {% if member.category == include.type %}
+
+    {% comment %} Code for directors {% endcomment %}
+    {% if member.category == 'director' %}
+    <div class="col-sm-3 team-member">
+      <a href="{{member.website}}" target="_blank">
+        <img class="team-member-image" src="{{site.baseurl}}/assets/images/team/{{member.image}}">
+        <h4 class="fullname">{{member.fullname}}</h4>
+      </a>
+      <ul class="positions">
+        {% for position in member.positions %}
+          <li>{{position}}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    {% comment %} Code for core team {% endcomment %}
+    {% else %}
+    <div class="col-sm-3 team-member">
+      <img class="team-member-image" src="{{site.baseurl}}/assets/images/team/{{member.image}}">
+      <h4 class="fullname">{{member.fullname}}</h4>
+      <p>{{member.role}}</p>
+    </div>
+    {% capture mod %}{{ count | modulo:4 }}{% endcapture %}
+    {% if mod == '0' %}
+      <div class="clearfix"></div>
+    {% endif %}
+    {% assign count = count | plus:1 %}
+    {% endif %}
+
+  {% endif %}
+{% endfor %}
+</div>

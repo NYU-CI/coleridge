@@ -358,6 +358,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 18px;
+  margin-bottom: 20px;
+  border: 1px solid black;
 }
 
 .book-description {
@@ -373,6 +375,7 @@ body {
 
 .book-reviews-link {
   margin-top: 6px;
+  margin-bottom: 8px;
   display: inline-block;
   color: #FFFFFF;
   background-color: rgb(244, 107, 35);
@@ -1099,7 +1102,7 @@ body {
 
 /*************************************/
 /* Training Page */
-.training-bg-top, .computing-bg-top, .connecting-bg-top, .resources-bg-top {
+.training-bg-top, .computing-bg-top, .connecting-bg-top, .resources-bg-top, .about-bg-top {
   height: 100%;
   background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;
 }
@@ -1121,7 +1124,7 @@ body {
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-width: 1024px) {
-  .training-bg-top, .computing-bg-top, .connecting-bg-top, .resources-bg-top { height: auto; background-attachment: scroll; }
+  .training-bg-top, .computing-bg-top, .connecting-bg-top, .resources-bg-top, .about-bg-top { height: auto; background-attachment: scroll; }
   .training-bg-mid  { height: auto; }
   .computing-bg-mid  { height: auto; }
   .resources-bg-mid  { height: auto; }
@@ -1141,6 +1144,11 @@ body {
 
 .resources-bg-top {
   background-image: url('../images/resources-bg-top.png');
+}
+
+.about-bg-top {
+  background-color: #222;
+  /*background-image: url('../images/training-bg-top.png');*/
 }
 
 .training-bg-mid {
@@ -1184,6 +1192,16 @@ body {
   font-size: 20px;
   line-height: 1.2;
   font-weight: 300;
+}
+
+.program-feedback {
+  padding: 0px 60px 0px 60px;
+  margin: 20px 0px 10px 0px;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+  font-style: italic;
+  color: #444;
 }
 
 .curriculum-title {
@@ -1723,4 +1741,34 @@ body {
 /* old */
 
 /* End Resources Page */
+/*************************************/
+
+/*************************************/
+/* About Page */
+.team {
+  margin: 0px 52px 0px 30px;
+}
+
+.positions {
+  padding-left: 20px;
+}
+
+.team-member-image {
+  width: 180px;
+}
+
+.fullname {
+  margin-bottom: 2px;
+}
+
+.supporter-image {
+  display: block;
+  padding: 10px;
+  max-height: 120px;
+  max-width: 300px;
+  margin: 20px auto 20px auto;
+  align-content: center;
+}
+
+/* End About Page */
 /*************************************/
