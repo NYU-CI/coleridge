@@ -1102,7 +1102,7 @@ body {
 
 /*************************************/
 /* Training Page */
-.training-bg-top, .computing-bg-top, .connecting-bg-top, .resources-bg-top, .about-bg-top {
+.training-bg-top, .computing-bg-top, .connecting-bg-top, .resources-bg-top, .about-bg-top, .workshop-bg-top {
   height: 100%;
   background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;
 }
@@ -1124,7 +1124,7 @@ body {
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-width: 1024px) {
-  .training-bg-top, .computing-bg-top, .connecting-bg-top, .resources-bg-top, .about-bg-top { height: auto; background-attachment: scroll; }
+  .training-bg-top, .computing-bg-top, .connecting-bg-top, .resources-bg-top, .about-bg-top, .workshop-bg-top { height: auto; background-attachment: scroll; }
   .training-bg-mid  { height: auto; }
   .computing-bg-mid  { height: auto; }
   .resources-bg-mid  { height: auto; }
@@ -1144,6 +1144,10 @@ body {
 
 .resources-bg-top {
   background-image: url('../images/resources-bg-top.png');
+}
+
+.workshop-bg-top {
+  background-image: url('../images/workshop-bg-top.png');
 }
 
 .about-bg-top {
@@ -1631,6 +1635,10 @@ body {
 
 .purple {
   color: #855593;
+}
+
+.dark-blue {
+  color: #6d8cab
 }
 
 .page-title-standalone {
