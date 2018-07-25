@@ -86,7 +86,7 @@ body {
 /* Parallax Backgrounds Start */
 .masthead, .purple-bg, .orange-bg, .green-bg, .red-bg, .blue-bg {
   /* Full height */
-  height: 624px; 
+  height: 624px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -97,7 +97,7 @@ body {
 
 .purple-bg, .orange-bg, .green-bg, .red-bg, .blue-bg {
   /* Full height */
-  height: 624px; 
+  height: 624px;
 }
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
@@ -663,7 +663,7 @@ body {
 }
 
 @media only screen and (max-width: 1024px) {
-  .footer-image-holder { padding: 24px 0px 24px 0px; } 
+  .footer-image-holder { padding: 24px 0px 24px 0px; }
   .footer-image { height: auto; width: 100%; }
   .copyright-text { padding: 0px 10px 20px 10px; font-size: 14px; }
 }
@@ -897,7 +897,7 @@ body {
   .table-cell { padding: 0px 0px 0px 16px; font-size: 16px; }
   .programs-label { padding: 24px 0px 12px 0px; font-size: 22px; font-weight: 600; }
   .program-button { margin-left: 0px; padding: 10px 10px 10px 10px; font-size: 14px; width: 250px; }
-  .register-here { margin-top: 10px; margin-bottom: 20px; padding: 10px 10px 10px 10px; 
+  .register-here { margin-top: 10px; margin-bottom: 20px; padding: 10px 10px 10px 10px;
                     font-size: 20px; font-weight: 600; height: auto; width: 250px;}
   .features-section { margin: 20px 0; }
   .feature-block { padding: 12px 12px 12px 12px; height: 400px; width: 100%; }
