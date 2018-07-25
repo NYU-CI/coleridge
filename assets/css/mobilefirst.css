@@ -1641,6 +1641,10 @@ body {
   color: #384d61
 }
 
+.workshop-title {
+  font-size: 40px;
+}
+
 .page-title-standalone {
   padding: 140px 0px 60px 80px;
   font-size: 72px;
