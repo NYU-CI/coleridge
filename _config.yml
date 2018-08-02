@@ -1,6 +1,6 @@
 baseurl: /
 exclude: ['README.md']
 permalink: /:title/
-contact: dataanalytics@umd.edu
+contact: dataanalytics@coleridgeinitiative.org
 scholarship_doc: assets/docs/old.ScholarshipAppInstructions.pdf
 registration_link: https://goo.gl/forms/0rIUhWcO4bSoGklG3
