@@ -1,0 +1,152 @@
+---
+layout: default
+title: Rich Context Competition
+permalink: richcontextcompetition.html
+---
+<div class="container-fluid workshop-bg-top">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="page-title workshop-title">Rich Context Competition</div>
+    </div>
+    <div class="col-sm-12">
+      <div class="page-description"></div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <br>
+    <div class="col-sm-12">
+      <p class="comp-heading">COMPETITION GOAL</p>
+    </div>
+    <div class="col-sm-12">
+      <p class="comp-description">The goal of this competition is to develop automated methods that will scour social science publication corpora in order to confidently identify datasets that are used in research publications. Through partnering with the Interuniversity Consortium for Political and Social Research (<a href="https://www.icpsr.umich.edu/icpsrweb/" target="_blank">ICPSR</a>) and the Deutsche Bundesbank, we are making  available manually matched publications which reference datasets commonly used in social science and economic research. We are also partnering with JSTOR, to provide a large corpus of publication text.</p>
+    </div>
+
+    <div class="col-sm-12">
+      <p class="comp-heading">APPROACH AND BACKGROUND</p>
+    </div>
+    <div class="col-sm-12">
+      <p class="comp-description">Our long range goal is to change the empirical foundation of social science, statistical, and public agencies in the United States and transform our understanding of how our society works. We do this by building a computational research platform – the <a href="https://coleridgeinitiative.org/assets/docs/adrf_summary.pdf" target="_blank">NYU Administrative Data Research Facility</a> in collaboration with ICPSR and <a href="http://jupyter.org" target="_blank">Project Jupyter</a> - that enables data science and machine learning to be used by organizations working with sensitive and confidential microdata.</p>
+      <p class="comp-description">Our approach is to build a set of tools for this platform that enable collaborative knowledge creation and discovery with confidential microdata. We propose to accomplish this through rich contextual metadata about the data sets: user created comments/annotations, Jupyter notebooks with analysis, and machine-learned relationships among the data sets and publications/researchers who have used the data set.</p>
+      <p class="comp-description">There are three operational steps. The <em>first</em> is to use text analysis and machine learning to discover relationships between data sets, researchers, publications and research method. The <em>second</em> is to present the rich context of those relationships to users of the computational platform as they work. The <em>third</em> is the use of human centered design to create user experiences that incentivize those users to a) create and share additional rich context metadata (comments, annotations, analysis code) and b) contribute new tacit knowledge that was hitherto not routinely shared about a dataset or related work.</p>
+      <p class="comp-description">The results will be threefold. <em>First</em>, researchers, analysts, and students will vastly speed up and enhance their own pre-analysis work (e.g., research design, literature review) because when they begin to work with sensitive data, they will be able to see <strong>what</strong> other research has been done, by <strong>whom</strong>, and with what <strong>results</strong>. <em>Second</em>, social science research will be transformed from a largely solitary activity to a collaborative one – where researchers are rewarded and credentialed for contributions of code, analysis and data annotations. <em>Third</em>, the ability to measure the value of data through new “alt metrics” of data impact and use will encourage the wider replication of published empirical work and boost the capacity of currently marginalized data collectors and providers such as statistical and public agencies to make their data more accessible.</p>
+    </div>
+
+    <div class="col-sm-12">
+      <p class="comp-heading">HOW TO PARTICIPATE</p>
+    </div>
+    <div class="col-sm-12">
+      <p class="comp-description">We welcome the participation of US and international researchers who can bring creative new technical approaches to this research problem. We invite you to review the workshop and technical parameters below, explore the publications data, and send a brief note of your “intent to participate” to <a href="mailto:rich_context@nyu.edu">rich_context@nyu.edu</a> by <span class="highlight">{MONTH-DAY-YEAR}</span>. <strong>All reasonable submissions will be accepted for participation.</strong></p>
+      <p class="comp-description">In your intent to participate please provide the following details:</p>
+      <ul class="comp-list">
+        <li>The outline of an algorithmic approach around which you will develop appropriate feature engineering steps and a means by which to validate and test your model.</li>
+        <li>Describe any external datasets or non-traditional computing environments that you wish to incorporate in your proposed solution.</li>
+        <li>Give a rough description of your development platform, including the operating system, CPU specifications, the amount of available memory, and GPU specifications if applicable.*</li>
+        <li>List any non-free software that you will use.</li>
+      </ul>
+      <p class="comp-description">*We understand that the exact specifications of your platform may change</p>
+    </div>
+
+    <div class="col-sm-12">
+      <p class="comp-heading">REMUNERATION</p>
+    </div>
+    <div class="col-sm-12">
+      <p class="comp-description">One $25,000 stipend will be provided to the research team with the algorithm that scores highest upon evaluation.</p>
+      <ul class="comp-list">
+        <li>That stipend will support the team’s work on their algorithm.</li>
+        <li>The stipend will additionally support the research team’s technical guidance as Rich Context staff integrate their work into the broader project.</li>
+      </ul>
+      <p class="comp-description">The Rich Context project will provide a stipend to cover travel expenses for one representative from up to 15 participating teams. If more than 15 teams submit eligible algorithms, the evaluation results will be used to identify the 15 teams that will be represented at the workshop.
+      </p>
+    </div>
+
+    <div class="col-sm-12">
+      <p class="comp-heading">PROGRAM REQUIREMENTS</p>
+    </div>
+    <div class="col-sm-12">
+      <p class="comp-description">Participants will write a program that reads in files containing the supplied processed text data and produce an output file giving predictions for which datasets are identified in the text.</p>
+      <h4 class="comp-subheading">Input files</h4>
+      <p class="comp-description">The input files consist of <span class="highlight">{####}</span> plain text publications along with metadata about the publications and the datasets referenced in the curated corpus. Participants are free to use any portion of this data for their algorithms as they see fit. The metadata are provided in JSON format and can be easily linked to the text input files.</p>
+      <h4 class="comp-subheading">Output file format</h4>
+      <p class="comp-description">The output file should be a tab-delimited file with two columns and no header. The first column should be the document id. The second column should be an integer ID that identifies the cited dataset.</p>
+      <p class="comp-description">The algorithm should not run for more than 5 days when processing all publications text and dataset metadata.</p>
+      <p class="comp-description">The implementation should be runnable on hardware equivalent to a single Amazon Web Services (AWS) instance. The panel will review any requests for software or hardware updates that might be required to accommodate the incorporation of a novel algorithm into the proposed infrastructure. These requests must be submitted in your letter of intent to participate.</p>
+      <h4 class="comp-subheading">External data</h4>
+      <ul class="comp-list">
+        <li>Proprietary datasets cannot be included in any algorithm.</li>
+        <li>The panel will review any requests to incorporate additional non-proprietary data into a submitted algorithm. Please specify any additional data you intend to use in your letter of intent to participate.</li>
+      </ul>
+    </div>
+
+    <div class="col-sm-12">
+      <p class="comp-heading">EVALUATION</p>
+    </div>
+    <div class="col-sm-12">
+      <p class="comp-description">Algorithms will be evaluated for accuracy, run-time, usability, and novelty. The evaluation will take place in two phases.</p>
+      <h4 class="comp-subheading">First Phase</h4>
+      <p class="comp-description">This is an initial round of self-testing where participants will infer datasets from the corpus. They may train their algorithms using any part of the provided data, as well as any additional data sets that have been submitted to the workshop organizers.</p>
+      <p class="comp-description">They will submit a model program including:</p>
+      <ul class="comp-list">
+        <li>Trained model, ready to be run.</li>
+        <li>Documentation on how to install, train, configure, and run the model program.</li>
+        <li>All source code and data used to train and test the model</li>
+        <li>Written high-level summary of what the program does, including intermediate steps in the process and external data sources used.</li>
+        <li>Written high-level summary of novelty of additional metadata.</li>
+      </ul>
+      <p class="comp-description">During this round, participants will be evaluated by the expert team using the following criteria:</p>
+      <ul class="comp-list">
+        <li><strong>Recall Rate</strong> defined as Recall = (# of true positives) / ((# of true positives) + (# of false negatives))</li>
+        <li><strong>Precision Rate</strong> defined as Precision = (# of true positives) / ((# of true positives) + (# of false positives))</li>
+        <li>Self-reported <strong>algorithm run-time</strong></li>
+        <li>Quality of implementation, including:</li>
+          <ul class="comp-list">
+            <li>Quality of code (Scored by expert team)</li>
+            <li>Replicability and generalizability (Scored by expert team)</li>
+            <li>Documentation (Scored by expert team)</li>
+          </ul>
+      </ul>
+      <h4 class="comp-subheading">Second Phase</h4>
+      <p class="comp-description">Up to six competition participants will be invited to a second evaluation phase, where they will be asked to run their disambiguation algorithm on a set of 100,000 documents in a server environment that we provide.</p>
+      <p class="comp-description">During this phase, participants will be evaluated on:</p>
+
+
+      <ul class="comp-list">
+        <li>Algorithm generalizability, which we will assess by computing the recall rate and precision rate for different sets of training and evaluation data.</li>
+        <li>Self-reported algorithm run-time.</li>
+        <li>Novelty of additional metadata for each publication, including:</li>
+          <ul class="comp-list">
+            <li>Methods used (Scored by expert team)</li>
+            <li>Topics identified (Scored by expert team)</li>
+            <li>Research findings (Scored by expert team)</li>
+          </ul>
+        <li>Quality of implementation, including:</li>
+          <ul class="comp-list">
+            <li>Quality of code</li>
+            <li>Replicability and generalizability</li>
+            <li>Documentation</li>
+          </ul>
+      </ul>
+    </div>
+
+    <div class="col-sm-12">
+      <p class="comp-heading">INTELLECTUAL PROPERTY</p>
+    </div>
+    <div class="col-sm-12">
+      <p class="comp-description">All submitted algorithms and related information will be subject to the same open source copyright and will be made available to the public on the Rich Context Github repository. BSD-2 open source license <span class="highlight">(xx)</span>.</p>
+    </div>
+
+    <div class="col-sm-12">
+      <p class="comp-heading">TEAMS</p>
+    </div>
+    <div class="col-sm-12">
+      <p class="comp-description">There is no limit to the size or composition of participating researcher teams. We will only provide travel expenses for one representative from the top teams (up to 15 teams) to present their technology to the workshop attendees.</p>
+    </div>
+
+
+    <div class="col-sm-12">
+      <div class="footer-spacer"></div>
+    </div>
+  </div>
+</div>
