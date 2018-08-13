@@ -1844,6 +1844,7 @@ ol {
 .agenda {
   font-size: 18px;
   margin-left: 30px;
+  margin-bottom: 22px;
   width: 80%;
   border: 1px solid #CCCCCC;
 }
