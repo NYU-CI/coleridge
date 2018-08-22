@@ -23,7 +23,7 @@ permalink: richcontextcompetition.html
     <div class="col-sm-12">
       <p class="comp-description">Researchers and analysts who want to use data for evidence and policy can’t easily find out <strong>who</strong> else worked with the data, on <strong>what topics</strong> and with <strong>what results</strong>. As a result, good research is underutilized, great data go undiscovered and are undervalued, and time and resources are wasted redoing empirical research.</p>
 
-      <p class="comp-description">We want you to help us develop and identify the best text analysis and machine learning techniques to discover relationships between data sets, researchers, publications and research methods. We will use the results to create a rich context for empirical research – and build new metrics to describe data use.</p>
+      <p class="comp-description">We want you to help us develop and identify the best text analysis and machine learning techniques to discover relationships between data sets, researchers, publications, research methods and fields. We will use the results to create a rich context for empirical research – and build new metrics to describe data use.</p>
 
       <p class="comp-description">This challenge is the first step in that discovery process.</p>
     </div>
@@ -33,14 +33,14 @@ permalink: richcontextcompetition.html
       <p class="comp-heading">COMPETITION GOAL</p>
     </div>
     <div class="col-sm-12">
-      <p class="comp-description">The goal of this competition is to automate the discovery of research datasets in social science. Participants should use any combination of machine learning and data analysis methods to find datasets in a corpus of social science publications.</p>
+      <p class="comp-description">The goal of this competition is to automate the discovery of research datasets and the associated methods and research topic fields in social science research publications. Participants should use any combination of machine learning and data analysis methods to identify the datasets used in a corpus of social science publications and infer the scientific methods used in the analysis and the research fields.</p>
     </div>
 
     <div class="col-sm-12">
       <p class="comp-heading">COMPETITION SPECIFICS</p>
     </div>
     <div class="col-sm-12">
-      <p class="comp-description">The competition has two phases (details below).  In the first phase, you will be provided labeled data, consisting of existing datasets and a labelled corpus of 2,500 publications. You can use this data to train and tune your algorithms. In the second phase, you will be provided with a corpus of 100,000 unlabeled documents and asked to identify datasets used in the documents in the test data set. You will be scored on the accuracy of your techniques, the quality of your documentation and code, and the efficiency of the algorithm – and also on your ability to find interesting features in the associated passage retrieval.</p>
+      <p class="comp-description">The competition has two phases (details below).  In the first phase, you will be provided labelled data, consisting of a listing of datasets and a labelled corpus of 2,500 publications. The provided data will indicate which of the datasets are used in each publication. You can use this data to train and tune your algorithms. A separate corpus of 2,500 publications will be the test corpus; you can validate your algorithm up to 5 times. In the second phase, you will be provided with a large corpus of unlabelled publications and asked to identify which of the datasets were used in each publication as well as the methods and fields. You will be scored on the accuracy of your techniques, the quality of your documentation and code, and the efficiency of the algorithm – and also on your ability to find methods and research fields in the associated passage retrieval.</p>
       <p class="comp-description">A stipend of $20,000 will be awarded to the winning team; the winning team will work with the sponsors in the subsequent implementation of the algorithm.</p>
       <p class="comp-description">All submitted algorithms will be made publicly available as open source tools.</p>
     </div>
@@ -59,8 +59,8 @@ permalink: richcontextcompetition.html
       <p class="comp-heading">THE BIGGER PICTURE</p>
     </div>
     <div class="col-sm-12">
-      <p class="comp-description">Our long range goal is to change the empirical foundation of social science, statistical and public agencies in the United States and transform our understanding of how our society works. We do this by building a computational research platform – the <a href="https://coleridgeinitiative.org/assets/docs/adrf_summary.pdf" target="_blank">NYU Administrative Data Research Facility</a> in collaboration with ICPSR and <a href="http://jupyter.org" target="_blank">Project Jupyter</a> - that enables data science and machine learning to be used by organizations working with sensitive and confidential microdata.</p>
-      <p class="comp-description">This competition is part of this larger effort. Participants will use text analysis and machine learning to discover relationships between data sets and publications. All of these elements will help drive an application around which researchers and data users can discover and contribute to these relationships between data and the research that makes use of them.</p>
+      <p class="comp-description">Our long range goal is to transform the empirical foundation of social and health sciences research. We are building a computational research platform, the <a href="https://coleridgeinitiative.org/assets/docs/adrf_summary.pdf" target="_blank">NYU Administrative Data Research Facility</a>, and working in collaboration with <a href="https://www.icpsr.umich.edu/icpsrweb/" target="_blank">ICPSR</a> and <a href="http://jupyter.org" target="_blank">Project Jupyter</a> to do so.</p>
+      <p class="comp-description">Our eventual goal is to build a set of tools for this platform that enable collaborative knowledge creation and discovery with confidential microdata. We propose to accomplish this through rich contextual metadata about the data sets: user created comments/annotations, Jupyter notebooks with analysis, and machine-learned relationships among the data sets and publications/researchers who have used the data set.</p>
       <!--
       <p class="comp-description">Our approach is to build a set of tools for this platform that enable collaborative knowledge creation and discovery with confidential microdata. We propose to accomplish this through rich contextual metadata about the data sets: user created comments/annotations, Jupyter notebooks with analysis, and machine-learned relationships among the data sets and publications/researchers who have used the data set.</p>
       <p class="comp-description">There are three operational steps. The <em>first</em> is to use text analysis and machine learning to discover relationships between data sets, researchers, publications and research method. The <em>second</em> is to present the rich context of those relationships to users of the computational platform as they work. The <em>third</em> is the use of human centered design to create user experiences that incentivize those users to a) create and share additional rich context metadata (comments, annotations, analysis code) and b) contribute new tacit knowledge that was hitherto not routinely shared about a dataset or related work.</p>
@@ -114,11 +114,17 @@ permalink: richcontextcompetition.html
       <p class="comp-heading">JUDGES</p>
     </div>
     <div class="col-sm-12">
+      </br>
+      <p class="comp-description"><strong>Technical</strong></p>
       <p class="comp-description">Ophir Frieder, Georgetown University</p>
       <p class="comp-description">Rayid Ghani, University of Chicago</p>
       <p class="comp-description">Sam Molyneux, Chan Zuckerberg Initiative</p>
       <p class="comp-description">Jordan Boyd Graber, University of Maryland</p>
+      </br>
+      <p class="comp-description"><strong>Social Science</strong></p>
       <p class="comp-description">Maggie Levenstein, University of Michigan</p>
+      <p class="comp-description">Stefan Bender, Deutsche Bundesbank</p>
+      <p class="comp-description">Julia Lane, New York University</p>
     </div>
 
     <div class="col-sm-12">
@@ -129,7 +135,7 @@ permalink: richcontextcompetition.html
       <p class="comp-description">Participants will submit a program that reads in files containing the supplied processed text data and produce an output file giving predictions for which datasets are identified in the text. The program must be submitted by <strong>5:00 pm EST</strong> on <strong>December 1, 2018</strong>.</p>
 
       <p class="comp-subheading">Input files</p>
-      <p class="comp-description">The input files consist of <span class="highlight">{####}</span> plain text publications along with metadata about the publications and the datasets referenced in the curated corpus. The metadata are provided in JSON format and can easily be linked to the text input files.</p>
+      <p class="comp-description">The input files consist of 2,500 plain text publications along with metadata about the publications and the datasets referenced in the curated corpus. The metadata are provided in JSON format and can easily be linked to the text input files.</p>
 
       <p class="comp-subheading">Data Files</p>
       <table class="data-files-table">
@@ -176,35 +182,40 @@ permalink: richcontextcompetition.html
       <ul class="comp-list">
         <li><strong>Accuracy:</strong> Precision, recall and F1 score for datasets referenced in a given document</li>
         <li><strong>Run-time:</strong> The time it takes for model takes to train and predict. Should be run on a single machine and complete in a specified time period</li>
-        <li><strong>Usability</strong>Ability for code to be understood by another informed user and for model to be re-run to predict dataset references in new, unseen articles</li>
-        <li><strong>Novelty</strong>Solution creatively tackles the problem using a unique combination of training and evaluation approaches</li>
+        <li><strong>Usability:</strong> Ability for code to be understood by another informed user and for model to be re-run to predict dataset references in new, unseen articles</li>
+        <li><strong>Novelty:</strong> Solution creatively tackles the problem of identifying methods and fields using a unique combination of training and evaluation approaches</li>
       </ul>
 
       <p class="comp-subheading" id="phase1participation">First Phase Participation</p>
-      <p class="comp-description">Participants will infer datasets from the provided corpus of 2,500 labelled publications. They may train their algorithms using any part of the provided data.  Participants can also test their algorithm on a held out corpus of 2,500 labelled publications a maximum of 5 times; their precision, recall and f1 score on the held out corpus will be returned to them.</p>
+      <p class="comp-description">Participants will indicate datasets and infer methods and fields used in each of the provided corpus of 2,500 labelled publications. Participants can also test their algorithm on a separate held out corpus of 2,500 labelled publications a maximum of 5 times; the precision, recall and F1 score of the dataset identification on the held out corpus will be returned to them.</p>
       <p class="comp-description">At the end of Phase 1, the team will submit a model program including:</p>
       <ul class="comp-list">
-        <li>Trained model, ready to be run against a set of plain text articles</li>
+        <li>Trained model, ready to be run against a set of plain text articles derived from the publications</li>
         <li>Documentation on how to install, train, configure, and run the model program</li>
         <li>Documentation on any pre-processing of the text files that takes place before training the model</li>
         <li>All source code and data used to train and test the model</li>
         <li>Written high-level summary of what the program does, including intermediate steps in the process and external data sources used</li>
-        <li>Written high-level summary of novelty of additional metadata</li>
+        <li>Written high-level summary of results of research methods</li>
       </ul>
 
       <p class="comp-subheading" id="phase1evaluation">First Phase Evaluation</p>
-      <p class="comp-description">During this round, participants submissions providing output over the hold-out corpus will be evaluated by the expert team using the following criteria:</p>
+      <p class="comp-description">During this round, participants submissions providing output over the held out corpus will be evaluated by the expert team using the following criteria:</p>
       <ul class="comp-list">
-        <li>Evaluation is based on macro-averaged precision, recall and F-1 measure (precision overall). Additional metrics include micro-averaged results for precision, recall and F-1 (precision and recall at k) measure.</li>
+        <li>Evaluation is based on macro-averaged precision, recall and F1 measure (precision overall). Additional metrics include micro-averaged results for precision, recall and F1 (precision and recall at k) measure.</li>
         <li><strong>Recall Rate overall and at k </strong> defined as Recall = (# of true positives) / ((# of true positives) + (# of false negatives))</li>
         <li><strong>Precision Rate overall and at k </strong> defined as Precision = (# of true positives) / ((# of true positives) + (# of false positives))</li>
         <li><strong>Baseline comparison</strong> against searching for the article title in the publication text. It is expected that a successful algorithm would perform better than searching over the publication text as indexed in an off the shelf, open source search engine such as <a href="http://lucene.apache.org" target="_blank">Apache Lucene</a> or <a href="http://terrier.org" target="_blank">Terrier</a></li>
         <li>Self-reported <strong>algorithm run-time</strong></li>
         <li>Quality of implementation, including:</li>
           <ul class="comp-list">
-            <li>Quality of code (Scored by expert team)</li>
-            <li>Replicability and generalizability (Scored by expert team)</li>
-            <li>Documentation (Scored by expert team)</li>
+            <li>Quality of code (Scored by expert technical team)</li>
+            <li>Replicability and generalizability (Scored by expert technical team)</li>
+            <li>Documentation (Scored by expert technical team)</li>
+          </ul>
+        <li>Idenfication of methods</li>
+          <ul class="comp-list">
+            <li>Novelty of approach</li>
+            <li>Consistency with identification of topics</li>
           </ul>
       </ul>
     </div>
@@ -214,7 +225,7 @@ permalink: richcontextcompetition.html
     </div>
     <div class="col-sm-12">
       <p class="comp-subheading" id="phase2participation">Second Phase Participation</p>
-      <p class="comp-description">Up to six competition participants will be invited to a second evaluation phase, where they will be asked to run their dataset extraction algorithm on a set of 100,000 documents in a server environment provided by the sponsors.</p>
+      <p class="comp-description">Up to six competition participants will be invited to a second evaluation phase, where they will be asked to run their dataset extraction algorithm on a large corpus of publications in a server environment provided by the sponsors. Each finalist team will be awarded a $2,000 prize.</p>
 
       <p class="comp-subheading" id="phase2evaluation">Second Phase Evaluation</p>
       <p class="comp-description">During this phase, participants will be evaluated on:</p>
