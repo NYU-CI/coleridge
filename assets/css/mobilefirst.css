@@ -1930,3 +1930,12 @@ margin:-70px 0 0; /* negative fixed header height */
 .agenda td:nth-child(1) {
   text-align: right;
 }
+
+.additional-readings-list {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.additional-readings-list li {
+  padding-top: 4px;
+}
