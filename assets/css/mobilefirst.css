@@ -1828,7 +1828,7 @@ ol {
 
 .comp-description {
   margin: 0px 0px 16px 0px;
-  padding: 0px 120px 0px 30px;
+  padding: 0px 30px 0px 30px;
   font-size: 18px;
   line-height: 1.3;
   font-weight: 300;
@@ -1871,6 +1871,43 @@ content:"";
 display:block;
 height:70px; /* fixed header height*/
 margin:-70px 0 0; /* negative fixed header height */
+}
+
+.toc-panel {
+  display: none;
+}
+
+.toc-header {
+  margin: 40px 0px 0px 0px;
+  padding: 12px;
+  background-color: #C5D0DB;
+  color: #4F5F6F;
+  border: 1px solid #999;
+}
+
+.toc-list {
+  margin: 0;
+  padding: 12px;
+  border: 1px solid #999;
+  border-top: none;
+  list-style-type: none;
+}
+
+.toc-item {
+  padding: 2px;
+  font-size: 16px;
+}
+
+.toc-item a {
+  text-decoration: none;
+  color: #4F5F6F;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .toc-panel {
+    display: block;
+  }
 }
 
 /* End Competition Page */

@@ -16,9 +16,11 @@ permalink: richcontextcompetition.html
 
 <div class="container">
   <div class="row">
+    <div class=col-sm-9>
+  <div class="row">
     <br>
     <div class="col-sm-12">
-      <p class="comp-heading">PROBLEM DESCRIPTION</p>
+      <p class="comp-heading" id="problemdescription">PROBLEM DESCRIPTION</p>
     </div>
     <div class="col-sm-12">
       <p class="comp-description">Researchers and analysts who want to use data for evidence and policy can’t easily find out <strong>who</strong> else worked with the data, on <strong>what topics</strong> and with <strong>what results</strong>. As a result, good research is underutilized, great data go undiscovered and are undervalued, and time and resources are wasted redoing empirical research.</p>
@@ -30,14 +32,14 @@ permalink: richcontextcompetition.html
 
 
     <div class="col-sm-12">
-      <p class="comp-heading">COMPETITION GOAL</p>
+      <p class="comp-heading" id="competitiongoal">COMPETITION GOAL</p>
     </div>
     <div class="col-sm-12">
       <p class="comp-description">The goal of this competition is to automate the discovery of research datasets and the associated methods and research topic fields in social science research publications. Participants should use any combination of machine learning and data analysis methods to identify the datasets used in a corpus of social science publications and infer the scientific methods used in the analysis and the research fields.</p>
     </div>
 
     <div class="col-sm-12">
-      <p class="comp-heading">COMPETITION SPECIFICS</p>
+      <p class="comp-heading" id="competitionspecifics">COMPETITION SPECIFICS</p>
     </div>
     <div class="col-sm-12">
       <p class="comp-description">The competition has two phases (details below).  In the first phase, you will be provided labelled data, consisting of a listing of datasets and a labelled corpus of 2,500 publications. The provided data will indicate which of the datasets are used in each publication. You can use this data to train and tune your algorithms. A separate corpus of 2,500 publications will be the test corpus; you can validate your algorithm up to 5 times. In the second phase, you will be provided with a large corpus of unlabelled publications and asked to identify which of the datasets were used in each publication as well as the methods and fields. You will be scored on the accuracy of your techniques, the quality of your documentation and code, and the efficiency of the algorithm – and also on your ability to find methods and research fields in the associated passage retrieval.</p>
@@ -46,17 +48,17 @@ permalink: richcontextcompetition.html
     </div>
 
     <div class="col-sm-12">
-      <p class="comp-heading">SPONSORS</p>
+      <p class="comp-heading" id="sponsors">SPONSORS</p>
     </div>
     <div class="col-sm-12">
       <p class="comp-description">New York University’s <a href="{{site.baseurl}}" target="_blank">Coleridge Initiative</a></p>
-      <p class="comp-description">University of Michigan Inter-university Consortium for Political and Social Research <a href="https://www.icpsr.umich.edu/icpsrweb/" target="_blank">ICPSR</a>)</p>
+      <p class="comp-description">University of Michigan Inter-university Consortium for Political and Social Research (<a href="https://www.icpsr.umich.edu/icpsrweb/" target="_blank">ICPSR</a>)</p>
       <p class="comp-description">Funding provided by: the Schmidt Family Foundation, Overdeck Family Foundation and Alfred P. Sloan Foundation</p>
       <p class="comp-description">Data provided by: Digital Science, and Sage</p>
     </div>
 
     <div class="col-sm-12">
-      <p class="comp-heading">THE BIGGER PICTURE</p>
+      <p class="comp-heading" id="thebiggerpicture">THE BIGGER PICTURE</p>
     </div>
     <div class="col-sm-12">
       <p class="comp-description">Our long range goal is to transform the empirical foundation of social and health sciences research. We are building a computational research platform, the <a href="https://coleridgeinitiative.org/assets/docs/adrf_summary.pdf" target="_blank">NYU Administrative Data Research Facility</a>, and working in collaboration with <a href="https://www.icpsr.umich.edu/icpsrweb/" target="_blank">ICPSR</a> and <a href="http://jupyter.org" target="_blank">Project Jupyter</a> to do so.</p>
@@ -69,7 +71,7 @@ permalink: richcontextcompetition.html
 
 
     <div class="col-sm-12">
-      <p class="comp-heading">COMPETITION SCHEDULE</p>
+      <p class="comp-heading" id="competitionschedule">COMPETITION SCHEDULE</p>
     </div>
     <div class="col-sm-12">
       <ul class="comp-list">
@@ -98,7 +100,7 @@ permalink: richcontextcompetition.html
     </div>
 
     <div class="col-sm-12">
-      <p class="comp-heading">REMUNERATION</p>
+      <p class="comp-heading" id="remuneration">REMUNERATION</p>
     </div>
     <div class="col-sm-12">
       <p class="comp-description">One $20,000 stipend will be provided to the winning research team at the end of the competition.</p>
@@ -111,7 +113,7 @@ permalink: richcontextcompetition.html
     </div>
 
     <div class="col-sm-12">
-      <p class="comp-heading">JUDGES</p>
+      <p class="comp-heading" id="judges">JUDGES</p>
     </div>
     <div class="col-sm-12">
       </br>
@@ -175,7 +177,7 @@ permalink: richcontextcompetition.html
     </div>
 
     <div class="col-sm-12">
-      <p class="comp-heading">PHASE 1</p>
+      <p class="comp-heading" id="phase1">PHASE 1</p>
     </div>
     <div class="col-sm-12">
       <p class="comp-description">Algorithms will be evaluated for <strong>accuracy</strong>, <strong>run-time</strong>, <strong>usability</strong>, and <strong>novelty</strong>. Those terms are defined further as:</p>
@@ -221,7 +223,7 @@ permalink: richcontextcompetition.html
     </div>
 
     <div class="col-sm-12">
-      <p class="comp-heading">PHASE 2</p>
+      <p class="comp-heading" id="phase2">PHASE 2</p>
     </div>
     <div class="col-sm-12">
       <p class="comp-subheading" id="phase2participation">Second Phase Participation</p>
@@ -236,8 +238,7 @@ permalink: richcontextcompetition.html
         <li>Novelty of additional metadata for each publication, including:</li>
           <ul class="comp-list">
             <li>Methods used (Scored by expert team)</li>
-            <li>Topics identified (Scored by expert team)</li>
-            <li>Research findings (Scored by expert team)</li>
+            <li>Research field (Scored by expert team)</li>
           </ul>
         <li>Quality of implementation, including:</li>
           <ul class="comp-list">
@@ -249,7 +250,7 @@ permalink: richcontextcompetition.html
     </div>
 
     <div class="col-sm-12">
-      <p class="comp-heading">COMPETITION TERMS AND CONDITIONS</p>
+      <p class="comp-heading" id="#competitionterms">COMPETITION TERMS AND CONDITIONS</p>
     </div>
     <div class="col-sm-12">
       <p class="comp-subheading">Intellectual Property</p>
@@ -258,7 +259,7 @@ permalink: richcontextcompetition.html
     </div>
 
     <div class="col-sm-12">
-      <p class="comp-heading">TEAMS</p>
+      <p class="comp-heading" id="teams">TEAMS</p>
     </div>
     <div class="col-sm-12">
       <p class="comp-description">There is no limit to the size or composition of participating researcher teams. We will only provide travel expenses for one representative from the top teams (up to 6 teams) to present their technology to the workshop attendees.</p>
@@ -269,4 +270,29 @@ permalink: richcontextcompetition.html
       <div class="footer-spacer"></div>
     </div>
   </div>
+
+
+  </div>
+  <div class="col-sm-3">
+    <div class="toc-panel">
+      <h4 class="toc-header">PARTICIPANT INFORMATION</h4>
+      <ul class="toc-list">
+        <li class="toc-item"><a href="#problemdescription">Problem Description</a></li>
+        <li class="toc-item"><a href="#competitiongoal">Competition Goal</a></li>
+        <li class="toc-item"><a href="#competitionspecifics">Competition Specifics</a></li>
+        <li class="toc-item"><a href="#sponsors">Sponsors</a></li>
+        <li class="toc-item"><a href="#thebiggerpicture">The Bigger Picture</a></li>
+        <li class="toc-item"><a href="#competitionschedule">Competition Schedule</a></li>
+        <li class="toc-item"><a href="#howtoparticipate">How to Participate</a></li>
+        <li class="toc-item"><a href="#remuneration">Remuneration</a></li>
+        <li class="toc-item"><a href="#judges">Judges</a></li>
+        <li class="toc-item"><a href="#programreqs">Program Requirements</a></li>
+        <li class="toc-item"><a href="#phase1">Phase 1</a></li>
+        <li class="toc-item"><a href="#phase2">Phase 2</a></li>
+        <li class="toc-item"><a href="#competitionterms">Competition Terms And Conditions</a></li>
+        <li class="toc-item"><a href="#teams">Teams</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
 </div>
