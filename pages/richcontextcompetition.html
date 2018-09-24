@@ -44,7 +44,7 @@ permalink: richcontextcompetition.html
     <div class="col-sm-12">
       <p class="comp-description">The competition has two phases (details below).</p>
       <p class="comp-description">
-        <strong>First Phase:</strong> You will be provided labeled data, consisting of a listing of datasets and a labeled corpus of 2,500 publications with an additional dev fold of 100 publications. The provided data will indicate which of the datasets are used in each publication. You can use this data to train and tune your algorithms. A separate corpus of 2,500 publications will be the test corpus, which we will run ourselves on our servers with your submissions; you can validate your algorithm against this test corpus up to 5 times. On submission, you will primarily be scored on the accuracy of your techniques, the quality of your documentation and code, and the efficiency of the algorithm – and also on your ability to infer methods and research fields in the associated passage retrieval.</p>
+        <strong>First Phase:</strong> You will be provided la listing of datasets and a labeled corpus of 5,000 publications with an additional dev fold of 100 publications. Each publication will be labeled to indicate which of the datasets from our list are referenced within and what specific text is used to refer to each dataset. You can use this data to train and tune your algorithms to detect mentions of data in publication text and, when a data set in our list is mentioned, tie each mention to the appropriate data set. A separate corpus of 5,000 labeled publications will be held back and serve as an evaluation corpus against which we will run submitted models and use the results to evaluate your submissions. Before final submission, you will be able to submit a model for test validation against this evaluation corpus up to 2 times. On final submission, you will primarily be scored on the accuracy of your techniques, the quality of your documentation and code, and the efficiency of the algorithm – and also on your ability to infer methods and research fields used in each of the publications.</p>
       <p class="comp-description">
         <strong>Second Phase:</strong> Up to five teams will be asked to participate in the second phase. If selected, you will be provided with a large corpus of unlabeled publications and asked to discover which of the datasets were used in each publication as well as the associated research methods and fields. As in the first phase, you will be scored on the accuracy of your techniques, the quality of your documentation and code, and the efficiency of the algorithm – and also on your ability to infer methods and research fields in the associated passage retrieval.</p>
       <p class="comp-description">Teams reaching the second phase will be awarded a prize of $2,000 and economy-class travel costs for one participant to the finalist workshop in New York City. A stipend of $20,000 will be awarded to the winning team; the winning team will work with the sponsors in the subsequent implementation of the algorithm.</p>
@@ -93,7 +93,7 @@ permalink: richcontextcompetition.html
       <p class="comp-description">In your intent to participate please provide the following details:</p>
       <ul class="comp-list">
         <li>The outline of an algorithmic approach, including the feature engineering steps and a means by which to validate and test your model</li>
-        <li>Any external datasets (i.e., not provided by this competition) or non-traditional computing environments (e.g., other than an AWS Large instance or similar) that you wish to incorporate in your proposed solution</li>
+        <li>Any external datasets (i.e., not provided by this competition) or non-traditional computing environments (e.g., other than an AWS T2 Large instance or similar) that you wish to incorporate in your proposed solution</li>
         <li>A description of your development platform, including operating system, CPU specifications, available memory, and GPU specifications if applicable *</li>
         <li>Any software that cannot be redistributed under a BSD license that you intend to use **</li>
       </ul>
@@ -135,17 +135,18 @@ permalink: richcontextcompetition.html
       <p class="comp-heading" id="programreqs">PROGRAM REQUIREMENTS</p>
     </div>
     <div class="col-sm-12">
-      <p class="comp-description">Accepted participants will be provided a Docker container image that will contain the necessary starting materials. They will submit their Docker container, updated to include any additional software or libraries needed for their analysis and a command line program to run any set of publications through the team’s model that conforms to an API so it can be plugged in to automated means of evaluating the model post-submission. The program will accept standard input and output which datasets are identified and which research fields and research methods are described in the provided texts. Detailed specifications for this docker container and the program to process articles will be provided to participants. The complete docker container must be submitted by  <strong>5:00 pm EST</strong> on <strong>December 1, 2018</strong>.</p>
+      <p class="comp-description">Accepted participants will be given access to a github repository that contains a DockerFile and related resources, including starting materials. For your submission, you will update the DockerFile and other files in a branch of this repository to install needed software or libraries and include a command line program that will run any set of publications through the team’s model that conforms to an API so it can be plugged in to automated means of evaluating the model post-submission. The program will accept standard input and create standard output of which datasets are mentioned, which mentions refer to data sets in our list, and which research fields and research methods are described in the provided texts. Detailed specifications for this docker container and the program to process articles will be provided to participants. The complete docker container DockerFile plus any accompanying materials must be submitted by <strong>5:00 pm EST</strong> on <strong>December 1, 2018</strong>.</p>
 
       <p class="comp-subheading">Input files</p>
-      <p class="comp-description">The input files consist of 2,500 plain text publications and a dev fold of 100 plain text publications for validation along with metadata about the publications and the datasets referenced in the curated corpus. The metadata are provided in JSON format, the <em>text_file_name</em> field in <strong>article_metadata.json</strong> provides a link on the filesystem to the underlying document.</p>
+      <p class="comp-description">The input files consist of 5,000 plain text publications and a dev fold of 100 plain text publications for validation along with metadata about these publications, a list of data sets of interest, and the subset of these data sets that are explicitly referenced in the curated corpus. <em>Note: There could be additional datasets mentioned in these articles that are not in our list of data sets.</em> The metadata are provided in JSON format, with the <em>text_file_name</em> field in each publication’s JSON object in <strong>article_metadata.json</strong> providing the name of the text file associated with the publication. In addition, each publication will be given a unique integer ID in the publication JSON, and this ID will be the name of the publication’s associated text file, with the file extension “.txt”.</p>
 
       <p class="comp-subheading">Data Files</p>
       <table class="data-files-table">
         <tr><th>Data file</th><th>Description</th><th>Link</th></tr>
         <tr>
           <td>Training Corpus</td>
-          <td>Set of article PDFs and their plain text conversion equivalent corresponding to the publications in the training labels and mentions file</td>
+          <td>Set of article PDFs and their plain text conversion equivalent corresponding to the publications in the training labels and mentions file. Each pubication’s metadata includes the name of its corresponding files, and each file is named the ID of its publication followed by an appropriate file extension for the type (“.txt” for plain text, “.pdf” for PDF file).
+          </td>
           <td>
             <a href="https://nyu.box.com/s/s92oyi9jptqgc8p3fyeg3y4pw9uxdrud" target="_blank">pdf.tar.gz</a>
             </br>
@@ -154,21 +155,21 @@ permalink: richcontextcompetition.html
         </tr>
         <tr>
           <td>Dataset Metadata</td>
-          <td>Metadata for datasets manually identified in curated training corpus</td>
+          <td>Metadata for specific datasets submitted models should be trained to identify, some of which have been manually identified and labeled in the provided curated training corpus.  Includes all the discrete text strings used to refer to each data set across all publications that refer to it in our training corpus.</td>
           <td>
             <a href="https://nyu.box.com/s/kofqzdemtrlc0uqyrip7bu73l1r8w7gc" target="_blank">dataset_metadata.json</a>
           </td>
         </tr>
         <tr>
           <td>Article Metadata</td>
-          <td>Metadata for articles in the curated training corpus</td>
+          <td>Metadata for articles in the curated training corpus, including paths to the related text and PDF files for each publication.</td>
           <td>
             <a href="https://nyu.box.com/s/fjelpcrg2r8cj9c8twrjhep8tqthg1ij" target="_blank">article_metadata.json</a>
           </td>
         </tr>
         <tr>
-          <td>Training Labels and Mentions</td>
-          <td>File containing article labels of which datasets are referenced as well as dataset mention synonyms as found and annotated by humans in the training corpus</td>
+          <td>Dataset Citation Training Labels and Mentions</td>
+          <td>File containing article-dataset pairs of each data set from our list that is mentioned in provided articles, including the specific human-annotated text string(s) used to refer to each dataset.</td>
           <td>
             <a href="https://nyu.box.com/s/6d6ai8te1ovgim1feltl98q2limwvukt" target="_blank">training_labels_mentions.json</a>
           </td>
@@ -194,11 +195,12 @@ permalink: richcontextcompetition.html
       </table>
 
       <p class="comp-subheading">Output files format</p>
-      <p class="comp-description">Please submit three output files for the first phase: a dataset output file; a methods output file; and a research field output file.</p>
+      <p class="comp-description">Please submit four output files for the first phase: a dataset output file; a methods output file; and a research field output file.</p>
       <ul class="comp-list">
-        <li>The dataset output file should be a JSON file where each object includes three properties. The first property should be the publication document id. The second property should be an integer ID that identifies the cited dataset. The third property should be a score on a scale of 0 to 1 representing the level of confidence that the dataset is referenced in the publication.</li></br>
-        <li>The methods output file should be a JSON file where each object has two properties. The first property should be the publication document id. The second property should be the inferred method used by the research in the publication; an illustrative example of what such research methods might include is provided in the Sage Publications research methods vocabulary.</li></br>
-        <li>The research field output file should be a JSON file where each object has two properties. The first property should be the publication document id. The second property should be the inferred primary research field of the publication; an illustrative example of such research fields is provided in the Sage Publication research fields vocabulary.</li>
+        <li>The publication-dataset relation file should be a JSON file that contains publication-dataset pairs for each detected mention of any of the data sets provided in the contest data set file. The JSON file should contain a JSON list of objects, where each object represents a single publication-dataset pair and includes four properties. The first property should be the publication document id. The second property should be an integer ID that identifies the cited dataset. The third property should be a score on a scale of 0 to 1 representing the level of confidence that the dataset is referenced in the publication. The fourth property should be a list of the text of explicit mentions of the data set in the publication.</li></br>
+        <li>The dataset mention output file should contain the text string detected as a data set mention for every data set detected within each publication, regardless of whether they are one of the data sets provided in the contest data set file. The JSON file should contain a JSON list of objects, where each object contains a single publication-mention pair and includes three properties. The first property should be the publication document id. The second property should be the data set mention text found in the publication. The third property should be a score on a scale of 0 to 1 representing the level of confidence that the dataset is referenced in the publication.</li></br>
+        <li>The methods output file should be a JSON file where each object has three properties. The first property should be the publication document id. The second property should be the inferred method used by the research in the publication. The third property should be a score on a scale of 0 to 1 representing the level of confidence that the method is referenced in the publication. An illustrative example of what such research methods might include is provided in the Sage Publications research methods vocabulary.</li></br>
+        <li>The research field output file should be a JSON file where each object has three properties. The first property should be the publication document id. The second property should be the inferred primary research field of the publication. The third property should be a score on a scale of 0 to 1 representing the level of confidence that the method is referenced in the publication. An illustrative example of such research fields is provided in the Sage Publication research fields vocabulary.</li>
       </ul>
       <p class="comp-description">The algorithm should not run for more than 24 hours when processing all publications text and dataset metadata.</p>
       <p class="comp-description">The implementation should be able to run on hardware equivalent to a single Amazon Web Services (AWS) Large instance or smaller. The panel will review any requests for software or hardware updates that might be required to accommodate the incorporation of a novel algorithm into the proposed infrastructure. These requests must be submitted in your letter of intent to participate.</p>
@@ -216,16 +218,17 @@ permalink: richcontextcompetition.html
     <div class="col-sm-12">
       <p class="comp-description">Algorithms will be evaluated for <strong>accuracy</strong>, <strong>run-time</strong>, <strong>usability</strong>, and <strong>novelty</strong>. Those terms are defined further as:</p>
       <ul class="comp-list">
-        <li><strong>Accuracy:</strong> Precision, recall and F1 score for datasets referenced in a given document</li>
+        <li><strong>Accuracy:</strong> Precision, recall and F1 score for datasets from the provided list referenced in a given document</li>
         <li><strong>Run-time:</strong> The time it takes for model takes to train and predict. Should be run on a single machine and complete in a specified time period</li>
         <li><strong>Usability:</strong> Ability for code to be understood by another informed user and for model to be re-run to predict dataset references in new, unseen articles</li>
         <li><strong>Novelty:</strong> Solution creatively tackles the problem of identifying research methods and research fields</li>
       </ul>
 
       <p class="comp-subheading" id="phase1participation">First Phase Participation</p>
-      <p class="comp-description">Participants will indicate datasets and infer methods and fields used in each of the provided corpus of 2,500 labeled publications. Participants will be able to validate their trained model on a dev fold of 100 additional publications. Algorithms submitted by participants will be tested by the competition organizers on a separate, holdout corpus of 2,500 labeled publications; the precision, recall, and F1 score of the dataset identification will be returned to the team. Participants can validate their models up to 2 times prior to final submission.</p>
-      <p class="comp-description">At the end of the first phase, the team will submit a docker container (provided in the competition starter kit) including:</p>
+      <p class="comp-description">Participants will indicate datasets and infer methods and fields used in each of the provided corpus of 5,000 labeled publications. Participants will be able to validate their trained model on a dev fold of 100 additional publications. Algorithms submitted by participants will be tested by the competition organizers on a separate, holdout corpus of 5,000 labeled publications; the precision, recall, and F1 score of the dataset identification will be returned to the team. Participants can validate their models up to 2 times prior to final submission.</p>
+      <p class="comp-description">At the end of the first phase, the team will submit a docker container specification (template provided in the competition starter kit) including:</p>
       <ul class="comp-list">
+        <li>DockerFile that captures all container setup needed to train and run the model, and any necessary related files.</li>
         <li>Trained model, ready to be run against a set of plain text articles derived from the publications</li>
         <li>Documentation on how to install, train, configure, and run the model program</li>
         <li>Documentation on any pre-processing of the text files that takes place before training the model</li>
@@ -245,7 +248,7 @@ permalink: richcontextcompetition.html
       </ul>
         <p class="comp-description">The team submission will also be evaluated on the following:</p>
       <ul class="comp-list">
-        <li>Self-reported <strong>algorithm run-time</strong></li>
+        <li>Self-reported <strong>algorithm training run-time</strong></li>
         <li>Quality of implementation, including:</li>
           <ul class="comp-list">
             <li>Quality of code (Scored by expert technical team)</li>
@@ -309,7 +312,7 @@ permalink: richcontextcompetition.html
       <p class="comp-subheading">Intellectual Property</p>
       <p class="comp-description">All submitted algorithms and related information will be subject to the same open source copyright (<a href="https://opensource.org/licenses/BSD-2-Clause" target="_blank">BSD-2 open source license</a>) and will be made available to the public on the Rich Context GitHub repository. The copyright holders will be New York University and the creator(s) of the submitted algorithm.</p>
       <p class="comp-subheading">Competition Data Terms of Use</p>
-      <p class="comp-description">You will be provided with 2,600 published journal articles as inputs for building and training your model in this competition. We are making these materials available for noncommercial, scholarly use only. You may not redistribute or re-license these materials or use them for purposes outside of the scope of this competition.</p>
+      <p class="comp-description">You will be provided with 5,100 published journal articles as inputs for building and training your model in this competition. We are making these materials available for noncommercial, scholarly use only. You may not redistribute or re-license these materials or use them for purposes outside of the scope of this competition.</p>
     </div>
 
     <div class="col-sm-12">
