@@ -39,17 +39,23 @@ $( window ).on( "load", function() {
 
   /* Jump to program dates and display appropriate panel in carousel */
   var program = getURLParameter('program')
-  if (program <= 4) {
+  //var len = $('.carousel-indicators').children().length;
+  var programs = [];
+  $('.carousel-indicators').children().each(function() {
+    programs.push($(this).attr("id"));
+  });
 
-    $('.carousel-indicators li:nth-child(2)').removeClass('active');
-    $('.carousel-indicators li:nth-child(' + program + ')').addClass('active');
+  if ( programs.includes(program) ) {
+    var programid = "#" + program;
 
-    $('.carousel-inner .item:nth-child(2)').removeClass('active');
-    $('.carousel-inner .item:nth-child(' + program + ')').addClass('active');
+    $('.carousel-indicators').children('.active').removeClass('active');
+    $('.carousel-indicators').children(programid).addClass('active');
+
+    $('.carousel-inner').children('.active').removeClass('active');
+    $('.carousel-inner').children(programid).addClass('active');
 
     window.location.hash = '#training-dates';
   }
-
 });
 
 function getURLParameter(name) {
