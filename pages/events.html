@@ -26,19 +26,23 @@ permalink: events.html
         <div class="event">
 
           <div class="col-sm-3">
-            {% if event.thumbnail contains "http" %}
-            <img src="{{event.thumbnail}}" class="img-responsive event-thumbnail">
-            {% else  %}
-            <img src="{{site.baseurl}}/assets/thumbnails/{{event.thumbnail}}" class="img-responsive event-thumbnail">
+            {% if event.thumbnail %}
+              {% if event.thumbnail contains "http" %}
+              <img src="{{event.thumbnail}}" class="img-responsive event-thumbnail">
+              {% else  %}
+              <img src="{{site.baseurl}}/assets/thumbnails/{{event.thumbnail}}" class="img-responsive event-thumbnail">
+              {% endif %}
+            {% else %}
+            <img src="{{site.baseurl}}/assets/images/ColeridgeInitiativeLogo_white.png" class="img-responsive event-thumbnail">
             {% endif %}
           </div>
           <div class="col-sm-9">
           <h2 class="event-title"><a href="{{event.link}}" target="_blank">{{event.title}}</a></h2>
+          {% if event.session-title %}<span class="event-session-title">{{event.session-title}}</span>{% endif %}{% if event.resource-title %}<p class="event-resource"><a href="{{event.resource-link}}" target="_blank">{{event.resource-title}}</a></p>{% endif %}
           {% if event.date %}<div class="event-date">{{event.date}}</div>{% endif %}
           {% if event.location %}<div class="event-location"> - {{event.location}}</div>{% endif %}<br />
-          {% comment %}{% if event.type %}<div class="event-type">{{event.type}}</div>{% endif %}{% endcomment %}
-          {% if event.session-title %}<span class="event-session-title">{{event.session-title}}</span>{% endif %}{% if event.resource-title %}<p class="event-resource"><a href="{{event.resource-link}}" target="_blank">{{event.resource-title}}</a></p>{% endif %}
           {% if event.description %}<p class="event-description">{{event.description}}</p>{% endif %}
+          {% comment %}{% if event.type %}<div class="event-type">{{event.type}}</div>{% endif %}{% endcomment %}
           </div>
 
 
