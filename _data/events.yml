@@ -1,6 +1,13 @@
 categories: ["conference presentations", "workshops", "other", "past events"]
 event-list:
   - category: past events
+    title: "Making big data work for society"
+    type: "talk"
+    description: "The data revolution is transforming businesses but how can it work more effectively for Governments and public organisations? Why the public sector behind the private in the way that it utilises data and how can that be changed? These are questions that Professor Julia Lane from NYU Wagner is tackling in her work."
+    link: "https://www.radionz.co.nz/national/programmes/ninetonoon/audio/2018650100/making-big-data-work-for-society"
+    date: "June 20, 2018"
+    thumbnail: "https://www.radionz.co.nz/x/logos/rnz-1f117f9f2e66fb9e1c6c1f94daaffc079c4bee6bbfb68590bd63edce24b0dd17.svg"
+  - category: past events
     title: "Data Transparency 2018"
     type: "presentation"
     description: "Our government and society are beginning to embrace data formats that equip insight-driven decisions and reduce compliance burdens. Policy reforms, new nonproprietary standards like the Legal Entity Identifier, and technological breakthroughs are coming together to deliver data directly to users. DT2018 was the Data Foundation’s flagship event."
@@ -46,6 +53,14 @@ event-list:
     resource-title: "Full Abstract"
     resource-link: "https://odsc.com/training/portfolio/making-data-great-again"
     thumbnail: "odsc.png"
+  - category: other
+    title: "Government Innovation Awards"
+    type: "award"
+    description: "A celebration of government IT’s disruptors, innovators and emerging leaders Presented by FCW, GCN, Washington Technology and Defense Systems"
+    link: "https://governmentinnovationawards.com/events/2018/information/public-sector-innovations.aspx"
+    date: "November 8, 2018"
+    location: "McLean, VA"
+    thumbnail: "gia.png"
   - category: conference presentations
     title: "AWS: re:Invent"
     type: "presentation"
