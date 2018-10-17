@@ -142,55 +142,56 @@ permalink: richcontextcompetition.html
       <p class="comp-description">The input files consist of 5,000 plain text publications and a dev fold of 100 plain text publications for validation along with metadata about these publications, a list of data sets of interest, and the subset of these data sets that are explicitly referenced in the curated corpus. <em>Note: There could be additional datasets mentioned in these articles that are not in our list of data sets.</em> The metadata are provided in JSON format, with the <em>text_file_name</em> field in each publication’s JSON object in <strong>article_metadata.json</strong> providing the name of the text file associated with the publication. In addition, each publication will be given a unique integer ID in the publication JSON, and this ID will be the name of the publication’s associated text file, with the file extension “.txt”.</p>
 
       <p class="comp-subheading">Data Files</p>
+      <p class="comp-description">Download the compressed competition dataset <strong><a href="https://nyu.app.box.com/s/7xi3sqi5kwrmvank50l4jyrcj9i6dlxh" target="_blank">here</a></strong>.</p>
       <table class="data-files-table">
-        <tr><th>Data file</th><th>Description</th><th>Link</th></tr>
+        <tr><th>Data file</th><th>Description</th><th>File(s)</th></tr>
         <tr>
           <td>Training Corpus</td>
-          <td>Set of article PDFs and their plain text conversion equivalent corresponding to the publications in the training labels and mentions file. Each pubication’s metadata includes the name of its corresponding files, and each file is named the ID of its publication followed by an appropriate file extension for the type (“.txt” for plain text, “.pdf” for PDF file).
+          <td>Set of article PDFs and their plain text conversion equivalent corresponding to the publications in the training labels and mentions file. Each publication’s metadata includes the name of its corresponding files, and each file is named the ID of its publication followed by an appropriate file extension for the type (“.txt” for plain text, “.pdf” for PDF file).
           </td>
           <td>
-            <a href="https://nyu.box.com/s/s92oyi9jptqgc8p3fyeg3y4pw9uxdrud" target="_blank">pdf.tar.gz</a>
+            files/pdf
             </br>
-            <a href="https://nyu.box.com/s/46ba7ul1uyoy64kkcsqz2q1n2p10uxef" target="_blank">txt.tar.gz</a>
+            files/text
           </td>
         </tr>
         <tr>
           <td>Dataset Metadata</td>
           <td>Metadata for specific datasets submitted models should be trained to identify, some of which have been manually identified and labeled in the provided curated training corpus.  Includes all the discrete text strings used to refer to each data set across all publications that refer to it in our training corpus.</td>
           <td>
-            <a href="https://nyu.box.com/s/kofqzdemtrlc0uqyrip7bu73l1r8w7gc" target="_blank">dataset_metadata.json</a>
+            data_sets.json
           </td>
         </tr>
         <tr>
           <td>Article Metadata</td>
           <td>Metadata for articles in the curated training corpus, including paths to the related text and PDF files for each publication.</td>
           <td>
-            <a href="https://nyu.box.com/s/fjelpcrg2r8cj9c8twrjhep8tqthg1ij" target="_blank">article_metadata.json</a>
+            publications.json
           </td>
         </tr>
         <tr>
           <td>Dataset Citation Training Labels and Mentions</td>
           <td>File containing article-dataset pairs of each data set from our list that is mentioned in provided articles, including the specific human-annotated text string(s) used to refer to each dataset.</td>
           <td>
-            <a href="https://nyu.box.com/s/6d6ai8te1ovgim1feltl98q2limwvukt" target="_blank">training_labels_mentions.json</a>
+            data_set_citations.json
           </td>
         </tr>
         <tr>
           <td>Example of Social Science Methods Vocabulary</td>
           <td>Set of social science research methods; an example is provided by SAGE Publications, but others can be identified</td>
           <td>
-            <a href="https://nyu.box.com/s/bk4jahny5qrk8ivv8i63k90kfq1tx7u1" target="_blank">sage_research_methods.skos</a>
+            sage_research_methods.skos
             </br>
-            <a href="https://nyu.box.com/s/0aq0nibhpjp8otapf4zqg5dsrwzjgctg" target="_blank">sage_research_methods.json</a>
+            sage_research_methods.json
           </td>
         </tr>
         <tr>
           <td>Example of Social Science Research Fields Vocabulary</td>
           <td>Set of social science fields as identified by the team; example set from SAGE Publications provided</td>
           <td>
-            <a href="https://nyu.box.com/s/qm2wsd9golssrjtsy51me5sf139szpax" target="_blank">sage_research_fields.csv</a>
+            sage_research_fields.csv
             </br>
-            <a href="https://nyu.box.com/s/qdpz005zizwwx7apse70lpl6xgmhkzxj" target="_blank">sage_research_fields.json</a>
+            sage_research_fields.json
           </td>
         </tr>
       </table>
@@ -242,10 +243,12 @@ permalink: richcontextcompetition.html
       <p class="comp-description">During this round, the results of the application of the participants’ model on the held out corpus will be evaluated by the expert team using the following criteria:</p>
       <p class="comp-description">Dataset identification</p>
       <ul class="comp-list">
-        <li>Evaluation is based on macro-averaged precision, recall and F1 measure (precision overall). Additional metrics include micro-averaged results for precision, recall and F1 (precision and recall at k) measure.</li>
-        <li><strong>Recall Rate overall and at k </strong> defined as Recall = (# of true positives) / ((# of true positives) + (# of false negatives))</li>
-        <li><strong>Precision Rate overall and at k </strong> defined as Precision = (# of true positives) / ((# of true positives) + (# of false positives))</li>
-        <li><strong>Baseline comparison</strong> against searching for the dataset title in the publication text. It is expected that a successful algorithm would perform better than searching over the publication text as indexed in an off the shelf, open source search engine such as <a href="http://lucene.apache.org" target="_blank">Apache Lucene</a> or <a href="http://terrier.org" target="_blank">Terrier</a></li>
+        <li>For data set identification, we expect your model to output a list of publication-data set pairs where each pair represents a data set cited in the publication. We ask that this include the score assigned to each pair by your model so we can get an idea of the range of raw scores that indicate whether a data set is or is not present in a publication.</li>
+        <li>Evaluation is based on standard binary classification precision, recall and F1 measure.</li>
+        <li><strong>Recall</strong> is defined as Recall = (# of true positives) / ( (# of true positives) + (# of false negatives) )</li>
+        <li><strong>Precision</strong> is defined as Precision = (# of true positives) / ( (# of true positives) + (# of false positives) )</li>
+        <li><strong>F1</strong> is defined as F1 = 2 / ( ( 1 / Recall ) + ( 1 / Precision ) )</li>
+        <li>As a baseline, we'll compare the resulting Precision, Recall, and F1 scores to those generated by a model that searches for the dataset title in the publication text and considers a data set present in a publication if the publication is in the top 20 matches to the title. It is expected that a successful algorithm would perform better than searching for a data set title in publication text as indexed in an off-the-shelf, open source search engine such as <a href="http://lucene.apache.org" target="_blank">Apache Lucene</a> or <a href="http://terrier.org" target="_blank">Terrier</a></li>
       </ul>
         <p class="comp-description">The team submission will also be evaluated on the following:</p>
       <ul class="comp-list">
@@ -279,7 +282,7 @@ permalink: richcontextcompetition.html
       <p class="comp-subheading" id="phase2evaluation">Second Phase Evaluation</p>
       <p class="comp-description">During this phase, participants will be evaluated on:</p>
       <ul class="comp-list">
-        <li><strong>Algorithm generalizability</strong>, which we will assess by computing the <strong>recall rate both overall and at k</strong> and <strong>precision rate overall and at k</strong> for different sets of training and evaluation data.</li>
+        <li><strong>Algorithm generalizability</strong>, which we will assess by computing the <strong>recall rate both overall and at k</strong>, <strong>precision rate overall and at k</strong> for different sets of training and evaluation data, and <strong>F1 measure</strong>.</li>
         <li><strong>Baseline comparison</strong> against searching for the article title in the publication text. It is expected that a winning algorithm would perform better than searching over the publication text as indexed in an off the shelf, open source search engine such as <a href="http://lucene.apache.org" target="_blank">Apache Lucene</a> or <a href="http://terrier.org" target="_blank">Terrier</a></li>
         <li>Self-reported <strong>algorithm run-time</strong></li>
         <li>Quality of implementation, including:</li>
