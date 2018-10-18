@@ -53,6 +53,17 @@ event-list:
     resource-title: "Full Abstract"
     resource-link: "https://odsc.com/training/portfolio/making-data-great-again"
     thumbnail: "odsc.png"
+  - category: conference presentations
+    title: "Evidence for Action: Encouraging Innovation and Improvement (APPAM Annual Conference)"
+    type: "panel"
+    session-title: "Promoting Program Improvement through TANF Data Innovation"
+    description: "This panel introduces the TANF Data Innovations (TDI) project, a new collaboration between the Federal government, research contractors, universities, and states to improve data use in TANF and related human services. TDI will support states’ data integration and analysis efforts, advancing the use of evidence to improve the lives of low-income families. The President’s 2018 budget highlights TDI as an example of new initiatives using administrative data to accelerate evidence building and program improvement."
+    link: "http://www.appam.org/evidence-for-action/"
+    date: "November 8, 2018"
+    location: "Washington, DC"
+    resource-title: "Full Abstract"
+    resource-link: "https://appam.confex.com/appam/2018/webprogram/Session10856.html"
+    thumbnail: "https://appam.confex.com/img/appam/2018/banner.jpg"
   - category: other
     title: "Government Innovation Awards"
     type: "award"
