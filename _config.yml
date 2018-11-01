@@ -4,3 +4,9 @@ permalink: /:title/
 contact: dataanalytics@coleridgeinitiative.org
 scholarship_doc: assets/docs/old.ScholarshipAppInstructions.pdf
 registration_link: https://mailchi.mp/50936e0129a8/coleridge-mailing-list
+title: The Coleridge Initiative
+
+snipcart_api_key: Y2FhYjRkZjUtZmUwZS00ZmUwLTg4ODItNjVjMGQ0ZTY4ZmNmNjM2NzY2MzE0NDU1MTg1NjMy
+collections:
+  products:
+    output: true
