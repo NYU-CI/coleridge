@@ -23,7 +23,7 @@ event-list:
     date: "October 10, 2018"
     location: "New York, NY"
     thumbnail: "financial_inclusion.jpeg"
-  - category: other
+  - category: past events
     title: "The right services for the right people at the right time: A national case study in successful integrated government data with Sir Bill English, former Prime Minister of New Zealand"
     type: "speech"
     description: "You are invited to a special data event we are convening at NYU's Robert F. Wagner Graduate School of Public Service on October 24, 2018 with Sir Bill English, the former Prime Minister of New Zealand. English was responsible for implementing the integrated data system (IDI) in New Zealand. Now agencies are using it across the board to implement evidence-based social investment decisions."
@@ -31,7 +31,7 @@ event-list:
     date: "October 24, 2018"
     location: "New York, NY"
     thumbnail: "https://wagner.nyu.edu/files/styles/column_full/public/events/images/image1.jpg?itok=D-E7bqiJ"
-  - category: conference presentations
+  - category: past events
     title: "BigSurv18"
     type: "keynote"
     session-title: "Keynote and plenary sessions by Julia Lane and Frauke Kreuter"
