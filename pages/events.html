@@ -19,9 +19,44 @@ permalink: events.html
     </div>
   </div>
 
-    {% for event in site.data.events.event-list %}
+    {% assign upcoming_events = site.data.events.event-list | where_exp:  "date", "date > site.date" %}
+    {% assign sorted_upcoming_events =  upcoming_events | sort: 'date' %}
+    {% for event in sorted_upcoming_events %}
       {% if event.category == category %}
         <div class="row">
+          <div class="col-sm-12">
+            <div class="event">
+
+              <div class="col-sm-3">
+                {% if event.thumbnail %}
+                  {% if event.thumbnail contains "http" %}
+                  <img src="{{event.thumbnail}}" class="img-responsive event-thumbnail">
+                  {% else  %}
+                  <img src="{{site.baseurl}}/assets/thumbnails/{{event.thumbnail}}" class="img-responsive event-thumbnail">
+                  {% endif %}
+                {% else %}
+                <img src="{{site.baseurl}}/assets/images/ColeridgeInitiativeLogo_white.png" class="img-responsive event-thumbnail">
+                {% endif %}
+              </div>
+
+              <div class="col-sm-9">
+                <h2 class="event-title"><a href="{{event.link}}" target="_blank">{{event.title}}</a></h2>
+                {% if event.session-title %}<span class="event-session-title">{{event.session-title}}</span>{% endif %}{% if event.resource-title %}<p class="event-resource"><a href="{{event.resource-link}}" target="_blank">{{event.resource-title}}</a></p>{% endif %}
+                {% if event.date %}<div class="event-date">{{event.date | date: "%B %d, %Y"}}</div>{% endif %}
+                {% if event.location %}<div class="event-location"> - {{event.location}}</div>{% endif %}<br />
+                {% if event.description %}<p class="event-description">{{event.description}}</p>{% endif %}
+                {% comment %}{% if event.type %}<div class="event-type">{{event.type}}</div>{% endif %}{% endcomment %}
+              </div>
+            </div>
+          </div>
+        </div>
+        <br/>
+      {% endif %}
+    {% endfor %}
+    {% assign past_events = site.data.events.event-list | where_exp:  "event", "event.date < site.date" %}
+    {% assign sorted_past_events =  past_events | sort: 'date' | reverse%}
+    {% for event in sorted_past_events %}
+    `<div class="row">
       <div class="col-sm-12">
         <div class="event">
 
@@ -36,21 +71,19 @@ permalink: events.html
             <img src="{{site.baseurl}}/assets/images/ColeridgeInitiativeLogo_white.png" class="img-responsive event-thumbnail">
             {% endif %}
           </div>
+
           <div class="col-sm-9">
-          <h2 class="event-title"><a href="{{event.link}}" target="_blank">{{event.title}}</a></h2>
-          {% if event.session-title %}<span class="event-session-title">{{event.session-title}}</span>{% endif %}{% if event.resource-title %}<p class="event-resource"><a href="{{event.resource-link}}" target="_blank">{{event.resource-title}}</a></p>{% endif %}
-          {% if event.date %}<div class="event-date">{{event.date}}</div>{% endif %}
-          {% if event.location %}<div class="event-location"> - {{event.location}}</div>{% endif %}<br />
-          {% if event.description %}<p class="event-description">{{event.description}}</p>{% endif %}
-          {% comment %}{% if event.type %}<div class="event-type">{{event.type}}</div>{% endif %}{% endcomment %}
+            <h2 class="event-title"><a href="{{event.link}}" target="_blank">{{event.title}}</a></h2>
+            {% if event.session-title %}<span class="event-session-title">{{event.session-title}}</span>{% endif %}{% if event.resource-title %}<p class="event-resource"><a href="{{event.resource-link}}" target="_blank">{{event.resource-title}}</a></p>{% endif %}
+            {% if event.date %}<div class="event-date">{{event.date | date: "%B %d, %Y"}}</div>{% endif %}
+            {% if event.location %}<div class="event-location"> - {{event.location}}</div>{% endif %}<br />
+            {% if event.description %}<p class="event-description">{{event.description}}</p>{% endif %}
+            {% comment %}{% if event.type %}<div class="event-type">{{event.type}}</div>{% endif %}{% endcomment %}
           </div>
-
-
         </div>
       </div>
     </div>
-    <br/>
-      {% endif %}
+    <br/>`
     {% endfor %}
   {% endfor %}
   <br />
