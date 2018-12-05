@@ -42,7 +42,7 @@ event-list:
     resource-title: Full Program
     resource-link: "https://www.bigsurv18.org/conf18/prog/BigSurv18_Full_Programme_313586.pdf"
     thumbnail: "bigsurv18.png"
-  - category: conference presentations
+  - category: past events
     title: "Open Data Science Conference West"
     type: "keynote"
     session-title: "Making Data Great Again - Julia Lane"
@@ -53,7 +53,7 @@ event-list:
     resource-title: "Full Abstract"
     resource-link: "https://odsc.com/training/portfolio/making-data-great-again"
     thumbnail: "odsc.png"
-  - category: conference presentations
+  - category: past events
     title: "Evidence for Action: Encouraging Innovation and Improvement (APPAM Annual Conference)"
     type: "panel"
     session-title: "Promoting Program Improvement through TANF Data Innovation"
@@ -64,7 +64,7 @@ event-list:
     resource-title: "Full Abstract"
     resource-link: "https://appam.confex.com/appam/2018/webprogram/Session10856.html"
     thumbnail: "https://appam.confex.com/img/appam/2018/banner.jpg"
-  - category: other
+  - category: past events
     title: "Government Innovation Awards"
     type: "award"
     description: "A celebration of government IT’s disruptors, innovators and emerging leaders Presented by FCW, GCN, Washington Technology and Defense Systems"
@@ -72,7 +72,7 @@ event-list:
     date: "November 8, 2018"
     location: "McLean, VA"
     thumbnail: "gia.png"
-  - category: conference presentations
+  - category: past events
     title: "AWS: re:Invent"
     type: "presentation"
     session-title: "WPS204 - Building a Governance, Risk, and Compliance Strategy with AWS"
