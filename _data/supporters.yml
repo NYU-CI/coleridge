@@ -1,12 +1,33 @@
 - foundation: Laura and John Arnold Foundation
+  link: https://www.arnoldfoundation.org/
   logo: arnold.svg
 - foundation: Bill & Melinda Gates Foundation
+  link: https://www.gatesfoundation.org/
   logo: bmgf-logo.png
 - foundation: Ewing Marion Kauffman Foundation
+  link: https://www.kauffman.org/
   logo: kauffman.png
 - foundation: Overdeck Family Foundation
+  link: http://overdeck.org/
   logo: overdeck_new.png
 - foundation: Schmidt Family Foundation
+  link: https://schmidtfutures.com/
   logo: schmidt.png
 - foundation: Alfred P. Sloan Foundation
+  link: https://sloan.org/
   logo: sloan.png
+- foundation: Bundesbank
+  link: https://www.bundesbank.de/en
+  logo: bundesbank.svg
+- foundation: HHS
+  link: https://www.hhs.gov/
+  logo: hhs.png
+- foundation: NSF
+  link: https://www.nsf.gov/
+  logo: nsf.png
+- foundation: USDA
+  link: https://www.usda.gov/
+  logo: usda.svg
+- foundation: The World Bank
+  link: https://www.worldbank.org/
+  logo: worldbank.svg
