@@ -1,27 +1,27 @@
 - name: Cal Poly
   link: https://www.calpoly.edu/
   logo: calpoly.png
-- name: UMD
-  link: https://umd.edu/
-  logo: umd.svg
-- name: Jupyter
-  link: http://jupyter.org/
-  logo: jupyter.svg
 - name: Chapin Hall
   link: https://www.chapinhall.org/
   logo: chapinhall.svg
-- name: The Ohio State University
-  link: https://www.osu.edu/
-  logo: osu.png
-- name: IUPUI
-  link: https://www.iupui.edu/
-  logo: iupui.png
-- name: MDRC
-  link: https://www.mdrc.org/
-  logo: mdrc.png
 - name: DSSG
   link: https://dssg.uchicago.edu/
   logo: dssg.png
+- name: IUPUI
+  link: https://www.iupui.edu/
+  logo: iupui.png
 - name: IPSDS
   link: https://survey-data-science.net/
   logo: ipsds.png
+- name: Jupyter
+  link: http://jupyter.org/
+  logo: jupyter.svg
+- name: MDRC
+  link: https://www.mdrc.org/
+  logo: mdrc.png
+- name: The Ohio State University
+  link: https://www.osu.edu/
+  logo: osu.png
+- name: UMD
+  link: https://umd.edu/
+  logo: umd.svg
