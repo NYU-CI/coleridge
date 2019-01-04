@@ -1940,6 +1940,25 @@ margin:-70px 0 0; /* negative fixed header height */
   }
 }
 
+.workshopagenda {
+  font-size: 18px;
+  margin-left: 30px;
+  margin-bottom: 22px;
+  width: 80%;
+  border: 1px solid #CCCCCC;
+}
+
+.workshopagenda td {
+  padding: 2px 4px 2px 4px;
+  min-width: 140px;
+  vertical-align: top;
+  border: 1px solid #CCCCCC;
+}
+
+.workshopagenda td:nth-child(1) {
+  text-align: left;
+}
+
 /* End Competition Page */
 /*************************************/
 .agenda {
