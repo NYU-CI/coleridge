@@ -38,7 +38,11 @@ permalink: events.html
           </div>
           <div class="col-sm-9">
           <h2 class="event-title"><a href="{{event.link}}" target="_blank">{{event.title}}</a></h2>
-          {% if event.session-title %}<span class="event-session-title">{{event.session-title}}</span>{% endif %}
+          {% if event.session-title %}<span class="event-session-title">{{event.session-title}}</span><br />{% endif %}
+
+          {% if event.date %}<div class="event-date">{{event.date}}</div>{% endif %}
+          {% if event.location %}<div class="event-location"> - {{event.location}}</div>{% endif %}<br />
+
           {% if event.resources %}<p class="event-resource">
             {% for resource in event.resources %}
               <a href="{{resource.resource-link}}" target="_blank">{{resource.resource-title}}</a>&nbsp;&nbsp;
@@ -46,8 +50,6 @@ permalink: events.html
             </p>
           {% endif %}
 
-          {% if event.date %}<div class="event-date">{{event.date}}</div>{% endif %}
-          {% if event.location %}<div class="event-location"> - {{event.location}}</div>{% endif %}<br />
           {% if event.description %}<p class="event-description">{{event.description}}</p>{% endif %}
           {% comment %}{% if event.type %}<div class="event-type">{{event.type}}</div>{% endif %}{% endcomment %}
           </div>
