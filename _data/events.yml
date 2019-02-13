@@ -9,6 +9,17 @@ event-list:
     location: "Sydney, Australia"
     thumbnail: "https://www.arts.unsw.edu.au/media/FASSImage/unswgrounds.jpg"
   - category: past events
+    title: "New York City Council Committee on Technology"
+    type: "testimony"
+    description: "Hearing: Oversight - Commission on Public Information and Communication’s Collaboration in Developing City Information Policies and Promoting Governmental Transparency."
+    link: "https://legistar.council.nyc.gov/MeetingDetail.aspx?ID=676213&GUID=FFC30C41-4336-417D-B522-C6483E01B722"
+    date: "February 12, 2019"
+    location: "New York, NY"
+    resources:
+      - resource-title: "Julia Lane testimony"
+        resource-link: "http://coleridgeinitiative.org/assets/docs/Julia_Lane_testimony.pdf"
+    thumbnail: nycc.png
+  - category: past events
     title: "Le projet HELIOS : évaluer l’impact du financement des projets de recherche sur le cancer"
     type: "workshop"
     description: "L’évaluation de ses actions est une mission de l’Institut national du cancer. Mené en collaboration avec l’ITMO Cancer, le projet HELIOS (Health Investment Observatory) vise à développer une approche innovante pour évaluer l’impact du financement des projets de recherche sur le cancer."

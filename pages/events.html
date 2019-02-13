@@ -46,10 +46,6 @@ permalink: events.html
             </p>
           {% endif %}
 
-          {% comment %}
-          {% if event.resource-title %}<p class="event-resource"><a href="{{event.resource-link}}" target="_blank">{{event.resource-title}}</a></p>{% endif %}
-          {% endcomment %}
-
           {% if event.date %}<div class="event-date">{{event.date}}</div>{% endif %}
           {% if event.location %}<div class="event-location"> - {{event.location}}</div>{% endif %}<br />
           {% if event.description %}<p class="event-description">{{event.description}}</p>{% endif %}
