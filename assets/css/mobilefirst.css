@@ -1903,6 +1903,19 @@ height:70px; /* fixed header height*/
 margin:-70px 0 0; /* negative fixed header height */
 }
 
+.rcc-announce-panel {
+  border: 2px solid #999;
+  margin: 0px 30px 30px 30px;
+}
+
+.rcc-announce-header {
+  margin-top: 0px;
+  padding: 16px 0px 16px 30px;
+  background-color: #C5D0DB;
+  color: #4F5F6F;
+  border-bottom: 1px solid #999;
+}
+
 .toc-panel {
   display: none;
 }
