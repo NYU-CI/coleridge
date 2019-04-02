@@ -1,6 +1,14 @@
 categories: ["conference presentations", "past events"]
 event-list:
   - category: conference presentations
+    title: "8th ZEW/MaCCI Conference on the Economics of Innovation and Patenting"
+    type: "keynote"
+    description: "The ZEW – Leibniz Centre for European Economic Research and the Mannheim Centre for Competition and Innovation (MaCCI) are pleased to announce their eighth conference on the economics of innovation and patenting. The goal of the conference is to present new research and to stimulate discussion between international researchers. Theoretical and empirical contributions from all areas of the economics of innovation and patenting are welcome."
+    link: "https://www.zew.de/en/veranstaltungen-und-weiterbildung/detail/8th-zewmacci-conference-on-the-economics-of-innovation-and-patenting/2775/?cHash=7a68c5c6477dc6feb5ea1fac0ed459fd"
+    date: "May 16-17, 2019"
+    location: "Mannheim, Germany"
+    thumbnail: "zew.png"
+  - category: conference presentations
     title: "Australian Social Policy Conference"
     type: "keynote"
     description: "The ASPC will address the most pressing challenges facing Australian policy makers, practitioners and researchers at this key juncture. It will provide a forum for leading national and international researchers and analysts from government and community social welfare sectors in Australia and internationally to present their research findings and debate their implications."
@@ -8,6 +16,20 @@ event-list:
     date: "September 9-11, 2019"
     location: "Sydney, Australia"
     thumbnail: "https://www.arts.unsw.edu.au/media/FASSImage/unswgrounds.jpg"
+  - category: past events
+    title: "Catalyzing Innovation: Annual World Bank Conference on Land and Poverty"
+    type: "keynote"
+    session-title: "Using big data to advance land governance"
+    description: "What Governments can do to harness the potential of big data"
+    link: "https://www.conftool.com/landandpoverty2019/index.php?page=browseSessions&form_session=1024&presentations=show"
+    date: "March 25-29, 2019"
+    location: "Washington DC"
+    resources:
+      - resource-title: Paper
+        resource-link: "https://www.conftool.com/landandpoverty2019/index.php/00-05-Lane-1349_paper.pdf?page=downloadPaper&filename=00-05-Lane-1349_paper.pdf&form_id=1349&form_version=final"
+      - resource-title: Presentation
+        resource-link: "https://www.conftool.com/landandpoverty2019/index.php/00-05-Lane-1349_ppt.pptx?page=downloadPaper&filename=00-05-Lane-1349_ppt.pptx&form_id=1349&form_index=2&form_version=final"
+    thumbnail: "http://www.worldbank.org/content/dam/photos/780x439/2016/may-26/Land-Conference-2017.jpg"
   - category: past events
     title: "New York City Council Committee on Technology"
     type: "testimony"
