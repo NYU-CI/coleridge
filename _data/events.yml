@@ -1,4 +1,4 @@
-categories: ["conference presentations", "past events"]
+categories: ["workshops", "conference presentations", "past events"]
 event-list:
   - category: conference presentations
     title: "8th ZEW/MaCCI Conference on the Economics of Innovation and Patenting"
@@ -16,6 +16,15 @@ event-list:
     date: "September 9-11, 2019"
     location: "Sydney, Australia"
     thumbnail: "https://www.arts.unsw.edu.au/media/FASSImage/unswgrounds.jpg"
+  - category: workshops
+    title: "The Society for Longitudinal and Lifecourse Studies (SLLS) International Conference"
+    type: "workshop"
+    session-title: "Coleridge Initiative: A Model For Training Data Scientists To Use Longitudinal Data For The Public Sector"
+    description: "The overall topic of the conference focus's on the comparative study of life courses in different nations, different historical times or across subgroups in a population. The aim is to generate and exchange information on comparable data resources with information of early predictors on later outcomes across different domains and across different life stages."
+    link: "https://www.sllsconference.com/workshops"
+    date: "September 24, 2019"
+    location: "Potsdam, Germany"
+    thumbnail: "https://static.wixstatic.com/media/df1448_459720c5317749859d78ce5268c7f6a5~mv2_d_5132_3421_s_4_2.jpg/v1/fill/w_1920,h_1280,al_c,q_85,usm_0.66_1.00_0.01/df1448_459720c5317749859d78ce5268c7f6a5~mv2_d_5132_3421_s_4_2.webp"
   - category: past events
     title: "Catalyzing Innovation: Annual World Bank Conference on Land and Poverty"
     type: "keynote"
