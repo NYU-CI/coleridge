@@ -27,24 +27,28 @@
             <li><a href="{{site.baseurl}}/adrf">ADRF</a></li>
             <li><a href="{{site.baseurl}}/cdf">CDF</a></li>
           </ul>
-        </li>
-        <li class="dropdown">
-          <a href="{{site.baseurl}}/network" class="taphover">Network <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="{{site.baseurl}}/discussion">Discussion</a></li>
-            <li><a href="{{site.baseurl}}/journal">Journal</a></li>
-            <li><a href="{{site.baseurl}}/conference">Conference</a></li>
-          </ul>
-        </li>
-        -->
+        </li>-->
+
         <li><a href="{{site.baseurl}}/training" class="orange {% if page.url == '/training.html' %}active{% endif %}">Training</a></li>
         <li><a href="{{site.baseurl}}/computing" class="green {% if page.url == '/computing.html' %}active{% endif %}">Computing</a></li>
         <li><a href="{{site.baseurl}}/connecting" class="red {% if page.url == '/connecting.html' %}active{% endif %}">Connecting</a></li>
         <!--
         <li><a href="{{site.baseurl}}/network" class="{% if page.url == '/network' %}active{% endif %}">Network</a></li>
         <li><a href="{{site.baseurl}}/about" class="{% if page.url == '/about' %}active{% endif %}">About Us</a></li>
-        -->
+        
         <li><a href="{{site.baseurl}}/richcontextcompetition" class="green {% if page.url == '/richcontextcompetition.html' %}active{% endif %}"  alt="Whitepapers, keynotes, and upcoming events">Rich Context</a></li>
+
+        -->
+
+        <li class="dropdown">
+          <a href="{{site.baseurl}}/richcontextcompetition" class="taphover green {% if page.url == '/richcontextcompetition.html' %}active{% endif %}">Rich Context <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{site.baseurl}}/richcontextcompetition" class="green">Competition</a></li>
+            <li><a href="{{site.baseurl}}/pubsubmission">Publication Submission</a></li>
+          </ul>
+        </li>
+
+
         <li><a href="{{site.baseurl}}/resources" class="purple {% if page.url == '/resources.html' %}active{% endif %}"  alt="Whitepapers, keynotes, and upcoming events">Resources</a></li>
         <li><a href="{{site.baseurl}}/events" class="blue" alt="Events">Events</a></li>
         <li><a href="{{site.baseurl}}/about" class="orange {% if page.url == '/about.html' %}active{% endif %}">About</a></li>

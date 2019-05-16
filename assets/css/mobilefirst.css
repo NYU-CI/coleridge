@@ -58,7 +58,7 @@ ol {
 
 .navbar-default .navbar-nav > li > .green:hover, .navbar-default .navbar-nav > li > .green:focus {
     background-color: #000000 !important;
-    color: #3B9743; !important;
+    color: #3B9743 !important;
 }
 
 .navbar-default .navbar-nav li .green.active {
@@ -74,6 +74,11 @@ ol {
 .navbar-default .navbar-nav li .red.active {
   color: #B42A2A;
   font-weight: 500;
+}
+
+.nav .open>a, .nav .open>a:hover {
+  background-color: black !important;
+  color: #3B9743 !important;
 }
 
 /*

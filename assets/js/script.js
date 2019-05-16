@@ -1,3 +1,54 @@
+(function($){
+	$.fn.serializeObject = function () {
+		"use strict";
+
+		var result = {};
+		var extend = function (i, element) {
+			var node = result[element.name];
+
+	// If node with same name exists already, need to convert it to an array as it
+	// is a multi-value field (i.e., checkboxes)
+
+			if ('undefined' !== typeof node && node !== null) {
+				if ($.isArray(node)) {
+					node.push(element.value);
+				} else {
+					result[element.name] = [node, element.value];
+				}
+			} else {
+				result[element.name] = element.value;
+			}
+		};
+
+		$.each(this.serializeArray(), extend);
+		return result;
+	};
+})(jQuery);
+
+$(document).ready(function(){
+  var $form = $('form#rc-form')
+  var url = 'https://script.google.com/macros/s/AKfycbzQMrLAM2wLVQjaSWk_aHtonwv-VIwYxTuejI7Nuu19KQBZDs8/exec'
+
+  $('#submit-form').on('click', function(e) {
+    e.preventDefault();
+    var jqxhr = $.ajax({
+      url: url,
+      method: "GET",
+      dataType: "json",
+      data: $form.serializeObject(),
+      success: function(data, textStatus) {
+        console.log(data);
+        console.log(textStatus);
+        alert("Thank you! We have received your submission.");
+        $('form#rc-form').trigger("reset");
+      },
+      error: function() {
+        alert("There was an error submitting your data.");
+      }
+    });
+  });
+});
+
 $( window ).on( "load", function() {
   /* Add hover functionality to nav menu */
   $("ul.nav li").hover(function() {

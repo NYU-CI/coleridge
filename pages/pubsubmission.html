@@ -1,0 +1,240 @@
+---
+layout: default
+title: Rich Context
+permalink: pubsubmission.html
+---
+<div class="container-fluid workshop-bg-top">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="page-title workshop-title">Rich Context</div>
+    </div>
+    <div class="col-sm-12">
+      <div class="page-description"></div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class=col-sm-12>
+      <h1>Publication Submission</h1>
+      <p style="font-size:18px;">
+        We need your help.  Researchers and analysts who want to use data for
+        evidence and policy cannot easily find out who else worked with the
+        data, on what topics and with what results. As a result, good research
+        is underused, great data go undiscovered and are undervalued, and time
+        and resources are wasted redoing empirical work.
+      </p>
+      <p style="font-size:18px;">
+        We want you to help us discover relationships between data sets,
+        researchers, publications, research methods, and fields. We will use
+        the results to create an open source rich context for empirical
+        research – and build new metrics to describe data use.
+      </p>
+      <p style="font-size:18px;">
+        Please help build the knowledge base by telling us which data you used
+        for one or more of your publications. Fill out this simple survey.
+      </p>
+      <br />
+    </div>
+  </div>
+  <div class="row">
+    <div class=col-sm-12>
+
+      <form id="rc-form">
+        <div class="row">
+          <div class="form-group">
+
+            <div class="col-sm-4">
+              <div>
+                <h4>Email</h4>
+                <input class="form-control" type="email" name="email" placeholder="Your email address"/>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div>
+                <h4>Publication Citation</h4>
+                <textarea class="form-control" rows="3" cols="50" name="publication_citation" form="rc-form" placeholder="Please provide a citation for your most recent empirical publication"></textarea>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div>
+                <h4>Publication DOI</h4>
+                <input class="form-control" type="text" name="publication_doi" placeholder="If your publication has a persistent identifier"/>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <br />
+
+        <div class="row">
+
+          <div class="col-sm-4">
+            <h4>Dataset Title</h4>
+            <span>Title of the primary dataset used in your publication</span>
+          </div>
+          <div class="col-sm-3">
+            <h4>Experience Level</h4>
+            <span>What is your experience level working with this dataset?</span>
+          </div>
+          <div class="col-sm-3">
+            <h4>Related Publications</h4>
+            <span>Number of publications you have using this data?</span>
+          </div>
+          <div class="col-sm-2">
+            <h4>Documentation</h4>
+            <span>Data documentation (codebook) available for this dataset?</span>
+          </div>
+        </div>
+
+
+        <div class="form-group">
+        <div class="row">
+          <div class="col-sm-4">
+            <input class="form-control" type="text" size="40" name="dataset_1_title" placeholder="Title"/>
+          </div>
+          <div class="col-sm-3">
+            <select class="form-control" name="dataset_1_expertise">
+              <option value="-">-</option>
+              <option value="novice">Novice</option>
+              <option value="intermediate">Intermediate</option>
+              <option value="expert">Expert</option>
+              <option value="expert">Didn't work with the data myself</option>
+            </select>
+          </div>
+          <div class="col-sm-3">
+            <input class="form-control" type="number" name="dataset_1_other_pubs" placeholder="# other publications"/>
+          </div>
+          <div class="col-sm-2">
+            <select class="form-control" name="dataset_1_code">
+              <option value="-">-</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-sm-4">
+            <input class="form-control" type="text" size="40" name="dataset_2_title" placeholder="Title"/>
+          </div>
+          <div class="col-sm-3">
+            <select class="form-control" name="dataset_2_expertise">
+              <option value="-">-</option>
+              <option value="novice">Novice</option>
+              <option value="intermediate">Intermediate</option>
+              <option value="expert">Expert</option>
+              <option value="expert">Didn't work with the data myself</option>
+            </select>
+          </div>
+          <div class="col-sm-3">
+            <input class="form-control" type="number" name="dataset_2_other_pubs" placeholder="# other publications"/>
+          </div>
+          <div class="col-sm-2">
+            <select class="form-control" name="dataset_2_code">
+              <option value="-">-</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-sm-4">
+            <input class="form-control" type="text" size="40" name="dataset_3_title" placeholder="Title"/>
+          </div>
+          <div class="col-sm-3">
+            <select class="form-control" name="dataset_3_expertise">
+              <option value="-">-</option>
+              <option value="novice">Novice</option>
+              <option value="intermediate">Intermediate</option>
+              <option value="expert">Expert</option>
+              <option value="expert">Didn't work with the data myself</option>
+            </select>
+          </div>
+          <div class="col-sm-3">
+            <input class="form-control" type="number" name="dataset_3_other_pubs" placeholder="# other publications"/>
+          </div>
+          <div class="col-sm-2">
+            <select class="form-control" name="dataset_3_code">
+              <option value="-">-</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-sm-4">
+            <input class="form-control" type="text" size="40" name="dataset_4_title" placeholder="Title"/>
+          </div>
+          <div class="col-sm-3">
+            <select class="form-control" name="dataset_4_expertise">
+              <option value="-">-</option>
+              <option value="novice">Novice</option>
+              <option value="intermediate">Intermediate</option>
+              <option value="expert">Expert</option>
+              <option value="expert">Didn't work with the data myself</option>
+            </select>
+          </div>
+          <div class="col-sm-3">
+            <input class="form-control" type="number" name="dataset_4_other_pubs" placeholder="# other publications"/>
+          </div>
+          <div class="col-sm-2">
+            <select class="form-control" name="dataset_4_code">
+              <option value="-">-</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-sm-4">
+            <input class="form-control" type="text" size="40" name="dataset_5_title" placeholder="Title"/>
+          </div>
+          <div class="col-sm-3">
+            <select class="form-control" name="dataset_5_expertise">
+              <option value="-">-</option>
+              <option value="novice">Novice</option>
+              <option value="intermediate">Intermediate</option>
+              <option value="expert">Expert</option>
+              <option value="expert">Didn't work with the data myself</option>
+            </select>
+          </div>
+          <div class="col-sm-3">
+            <input class="form-control" type="number" name="dataset_5_other_pubs" placeholder="# other publications"/>
+          </div>
+          <div class="col-sm-2">
+            <select class="form-control" name="dataset_5_code">
+              <option value="-">-</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+        </div>
+
+        </div>
+        <br />
+
+
+        <div>
+          <button class="btn btn-primary mb-2" type="reset" id="clear">Clear Form</button>
+          <button class="btn btn-primary mb-2" type="submit" id="submit-form">Submit</button>
+        </div>
+
+      </form>
+      <br /><br />
+
+
+
+    </div>
+  </div>
+</div>
