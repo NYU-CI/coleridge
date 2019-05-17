@@ -76,7 +76,7 @@ ol {
   font-weight: 500;
 }
 
-.nav .open>a, .nav .open>a:hover {
+#rc.open>a, #rc.open>a:hover {
   background-color: black !important;
   color: #3B9743 !important;
 }

@@ -35,16 +35,16 @@
         <!--
         <li><a href="{{site.baseurl}}/network" class="{% if page.url == '/network' %}active{% endif %}">Network</a></li>
         <li><a href="{{site.baseurl}}/about" class="{% if page.url == '/about' %}active{% endif %}">About Us</a></li>
-        
+
         <li><a href="{{site.baseurl}}/richcontextcompetition" class="green {% if page.url == '/richcontextcompetition.html' %}active{% endif %}"  alt="Whitepapers, keynotes, and upcoming events">Rich Context</a></li>
 
         -->
 
-        <li class="dropdown">
+        <li class="dropdown" id="rc">
           <a href="{{site.baseurl}}/richcontextcompetition" class="taphover green {% if page.url == '/richcontextcompetition.html' %}active{% endif %}">Rich Context <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="{{site.baseurl}}/richcontextcompetition" class="green">Competition</a></li>
-            <li><a href="{{site.baseurl}}/pubsubmission">Publication Submission</a></li>
+            <li id="rc"><a href="{{site.baseurl}}/richcontextcompetition">Competition</a></li>
+            <li id="rc"><a href="{{site.baseurl}}/pubsubmission">Publication Submission</a></li>
           </ul>
         </li>
 
