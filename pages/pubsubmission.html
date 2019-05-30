@@ -32,8 +32,9 @@ permalink: pubsubmission.html
         research – and build new metrics to describe data use.
       </p>
       <p style="font-size:18px;">
-        Please help build the knowledge base by telling us which data you used
-        for one or more of your publications. Fill out this simple survey.
+        Please help build the knowledge base by telling us which data
+        (public or otherwise) you used in your most recent empirical
+        publication. Fill out this simple survey.
       </p>
       <br />
     </div>
@@ -55,7 +56,7 @@ permalink: pubsubmission.html
             <div class="col-sm-4">
               <div>
                 <h4>Publication Citation</h4>
-                <textarea class="form-control" rows="3" cols="50" name="publication_citation" form="rc-form" placeholder="Please provide a citation for your most recent empirical publication"></textarea>
+                <textarea class="form-control" rows="3" cols="50" name="publication_citation" form="rc-form" placeholder="Please provide a citation for your most recent empirical publication. Any standard citation format (e.g., APA, Chicago, MLA) is fine"></textarea>
               </div>
             </div>
 
@@ -73,165 +74,320 @@ permalink: pubsubmission.html
         <div class="row">
 
           <div class="col-sm-4">
-            <h4>Dataset Title</h4>
+            <h4>Data Title</h4>
             <span>Title of the primary dataset used in your publication</span>
           </div>
-          <div class="col-sm-3">
-            <h4>Experience Level</h4>
-            <span>What is your experience level working with this dataset?</span>
-          </div>
-          <div class="col-sm-3">
-            <h4>Related Publications</h4>
+          <div class="col-sm-2">
+            <h4 style="white-space: nowrap;">Related Publications</h4>
             <span>Number of publications you have using this data?</span>
           </div>
           <div class="col-sm-2">
             <h4>Documentation</h4>
             <span>Data documentation (codebook) available for this dataset?</span>
           </div>
+          <div class="col-sm-4">
+            <h4>Additional Information</h4>
+            <span>Provide any additional information about this data that you think is useful to know.</span>
+          </div>
         </div>
 
 
         <div class="form-group">
-        <div class="row">
-          <div class="col-sm-4">
-            <input class="form-control" type="text" size="40" name="dataset_1_title" placeholder="Title"/>
+          <div class="row form-row">
+            <div class="col-sm-4">
+              <input class="form-control" type="text" size="40" name="dataset_1_title" placeholder="Title"/>
+            </div>
+            <div class="col-sm-2">
+              <select class="form-control" name="dataset_1_other_pubs"">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+              </select>
+            </div>
+            <div class="col-sm-2">
+              <select class="form-control" name="dataset_1_code">
+                <option value="-">-</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="no">I do not know</option>
+              </select>
+            </div>
+            <div class="col-sm-4">
+              <input class="form-control" type="text" size="40" name="dataset_1_additional" placeholder="Additional information"/>
+            </div>
           </div>
-          <div class="col-sm-3">
-            <select class="form-control" name="dataset_1_expertise">
-              <option value="-">-</option>
-              <option value="novice">Novice</option>
-              <option value="intermediate">Intermediate</option>
-              <option value="expert">Expert</option>
-              <option value="expert">Didn't work with the data myself</option>
-            </select>
-          </div>
-          <div class="col-sm-3">
-            <input class="form-control" type="number" name="dataset_1_other_pubs" placeholder="# other publications"/>
-          </div>
-          <div class="col-sm-2">
-            <select class="form-control" name="dataset_1_code">
-              <option value="-">-</option>
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
-          </div>
-        </div>
 
 
-        <div class="row">
-          <div class="col-sm-4">
-            <input class="form-control" type="text" size="40" name="dataset_2_title" placeholder="Title"/>
+          <div class="row form-row">
+            <div class="col-sm-4">
+              <input class="form-control" type="text" size="40" name="dataset_2_title" placeholder="Title"/>
+            </div>
+            <div class="col-sm-2">
+              <select class="form-control" name="dataset_2_other_pubs"">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+              </select>
+            </div>
+            <div class="col-sm-2">
+              <select class="form-control" name="dataset_2_code">
+                <option value="-">-</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="no">I do not know</option>
+              </select>
+            </div>
+            <div class="col-sm-4">
+              <input class="form-control" type="text" size="40" name="dataset_2_additional" placeholder="Additional information"/>
+            </div>
           </div>
-          <div class="col-sm-3">
-            <select class="form-control" name="dataset_2_expertise">
-              <option value="-">-</option>
-              <option value="novice">Novice</option>
-              <option value="intermediate">Intermediate</option>
-              <option value="expert">Expert</option>
-              <option value="expert">Didn't work with the data myself</option>
-            </select>
-          </div>
-          <div class="col-sm-3">
-            <input class="form-control" type="number" name="dataset_2_other_pubs" placeholder="# other publications"/>
-          </div>
-          <div class="col-sm-2">
-            <select class="form-control" name="dataset_2_code">
-              <option value="-">-</option>
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
-          </div>
-        </div>
 
 
-        <div class="row">
-          <div class="col-sm-4">
-            <input class="form-control" type="text" size="40" name="dataset_3_title" placeholder="Title"/>
+          <div class="row form-row">
+            <div class="col-sm-4">
+              <input class="form-control" type="text" size="40" name="dataset_3_title" placeholder="Title"/>
+            </div>
+            <div class="col-sm-2">
+              <select class="form-control" name="dataset_3_other_pubs"">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+              </select>
+            </div>
+            <div class="col-sm-2">
+              <select class="form-control" name="dataset_3_code">
+                <option value="-">-</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="no">I do not know</option>
+              </select>
+            </div>
+            <div class="col-sm-4">
+              <input class="form-control" type="text" size="40" name="dataset_3_additional" placeholder="Additional information"/>
+            </div>
           </div>
-          <div class="col-sm-3">
-            <select class="form-control" name="dataset_3_expertise">
-              <option value="-">-</option>
-              <option value="novice">Novice</option>
-              <option value="intermediate">Intermediate</option>
-              <option value="expert">Expert</option>
-              <option value="expert">Didn't work with the data myself</option>
-            </select>
-          </div>
-          <div class="col-sm-3">
-            <input class="form-control" type="number" name="dataset_3_other_pubs" placeholder="# other publications"/>
-          </div>
-          <div class="col-sm-2">
-            <select class="form-control" name="dataset_3_code">
-              <option value="-">-</option>
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
-          </div>
-        </div>
 
 
-        <div class="row">
-          <div class="col-sm-4">
-            <input class="form-control" type="text" size="40" name="dataset_4_title" placeholder="Title"/>
+          <div class="row form-row">
+            <div class="col-sm-4">
+              <input class="form-control" type="text" size="40" name="dataset_4_title" placeholder="Title"/>
+            </div>
+            <div class="col-sm-2">
+              <select class="form-control" name="dataset_4_other_pubs"">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+              </select>
+            </div>
+            <div class="col-sm-2">
+              <select class="form-control" name="dataset_4_code">
+                <option value="-">-</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="no">I do not know</option>
+              </select>
+            </div>
+            <div class="col-sm-4">
+              <input class="form-control" type="text" size="40" name="dataset_4_additional" placeholder="Additional information"/>
+            </div>
           </div>
-          <div class="col-sm-3">
-            <select class="form-control" name="dataset_4_expertise">
-              <option value="-">-</option>
-              <option value="novice">Novice</option>
-              <option value="intermediate">Intermediate</option>
-              <option value="expert">Expert</option>
-              <option value="expert">Didn't work with the data myself</option>
-            </select>
-          </div>
-          <div class="col-sm-3">
-            <input class="form-control" type="number" name="dataset_4_other_pubs" placeholder="# other publications"/>
-          </div>
-          <div class="col-sm-2">
-            <select class="form-control" name="dataset_4_code">
-              <option value="-">-</option>
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
-          </div>
-        </div>
 
 
-        <div class="row">
-          <div class="col-sm-4">
-            <input class="form-control" type="text" size="40" name="dataset_5_title" placeholder="Title"/>
+          <div class="row form-row">
+            <div class="col-sm-4">
+              <input class="form-control" type="text" size="40" name="dataset_5_title" placeholder="Title"/>
+            </div>
+            <div class="col-sm-2">
+              <select class="form-control" name="dataset_5_other_pubs"">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+              </select>
+            </div>
+            <div class="col-sm-2">
+              <select class="form-control" name="dataset_5_code">
+                <option value="-">-</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="no">I do not know</option>
+              </select>
+            </div>
+            <div class="col-sm-4">
+              <input class="form-control" type="text" size="40" name="dataset_5_additional" placeholder="Additional information"/>
+            </div>
           </div>
-          <div class="col-sm-3">
-            <select class="form-control" name="dataset_5_expertise">
-              <option value="-">-</option>
-              <option value="novice">Novice</option>
-              <option value="intermediate">Intermediate</option>
-              <option value="expert">Expert</option>
-              <option value="expert">Didn't work with the data myself</option>
-            </select>
-          </div>
-          <div class="col-sm-3">
-            <input class="form-control" type="number" name="dataset_5_other_pubs" placeholder="# other publications"/>
-          </div>
-          <div class="col-sm-2">
-            <select class="form-control" name="dataset_5_code">
-              <option value="-">-</option>
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
-          </div>
-        </div>
 
         </div>
         <br />
 
 
         <div>
-          <button class="btn btn-primary mb-2" type="reset" id="clear">Clear Form</button>
+          <!-- <button class="btn btn-primary mb-2" type="reset" id="clear">Clear Form</button> -->
+          <p>After clicking submit, please wait a few seconds for a confirmation window to appear.</p>
           <button class="btn btn-primary mb-2" type="submit" id="submit-form">Submit</button>
         </div>
 
       </form>
       <br /><br />
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header bg-primary">
+            <h3>Thank you!</h3>
+          </div>
+          <div class="modal-body">
+            <p>Your submission has been sent.</p>
+            <p>If you have questions or comments, please email <a href="mailto:julia.lane@nyu.edu">julia.lane@nyu.edu</a>.</p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary mb-2" id="home-button">Home</button>
+            <button class="btn btn-primary mb-2" id="another-entry">Submit another entry</button>
+          </div>
+        </div>
+      </div>
+      <!-- The Modal -->
 
 
 

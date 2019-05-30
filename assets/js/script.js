@@ -28,6 +28,9 @@
 $(document).ready(function(){
   var $form = $('form#rc-form')
   var url = 'https://script.google.com/macros/s/AKfycbzQMrLAM2wLVQjaSWk_aHtonwv-VIwYxTuejI7Nuu19KQBZDs8/exec'
+	var modal = $("#myModal");
+	var home_button = $('#home-button');
+	var another_entry = $('#another-entry');
 
   $('#submit-form').on('click', function(e) {
     e.preventDefault();
@@ -39,7 +42,8 @@ $(document).ready(function(){
       success: function(data, textStatus) {
         console.log(data);
         console.log(textStatus);
-        alert("Thank you! We have received your submission.");
+        // alert("Thank you! We have received your submission.");
+				modal.css("display","block");
         $('form#rc-form').trigger("reset");
       },
       error: function() {
@@ -47,6 +51,20 @@ $(document).ready(function(){
       }
     });
   });
+
+	// When the user clicks on ok_btn, close the modal
+	home_button.on('click', function() {
+		modal.css("display","none");
+		window.location.href = "https://coleridgeinitiative.org"
+	});
+
+	// When the user clicks on ok_btn, close the modal
+	another_entry.on('click', function() {
+		modal.css("display","none");
+		$('form#rc-form').trigger("reset");
+	});
+
+
 });
 
 $( window ).on( "load", function() {
