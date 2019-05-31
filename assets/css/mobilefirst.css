@@ -1286,6 +1286,28 @@ ol {
   font-weight: 400;
 }
 
+.extra-padding {
+  padding: 0px 67px 0px 45px;
+}
+
+.new-curriculum-table {
+  font-size: 18px;
+  border: 1px solid #CCC;
+}
+
+.new-curriculum-table-header {
+  background-color: #333;
+  color: #FFF;
+}
+
+.new-curriculum-table-bg {
+  background-color: rgba(216, 78, 6, 0.1);
+}
+
+.light-weight {
+  font-weight: 200;
+}
+
 .slide-description {
   padding: 0px 52px 0px 30px;
   margin-bottom: 24px;

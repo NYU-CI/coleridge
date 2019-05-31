@@ -9,7 +9,8 @@ permalink: training.html
       <div class="page-title">TRAINING</div>
     </div>
     <div class="col-sm-12">
-      <div class="page-description">Providing professionals the opportunity to develop key computer science and data science skill sets to improve public policy through training programs and research.</div>
+      <!-- <div class="page-description">Providing professionals the opportunity to develop key computer science and data science skill sets to improve public policy through training programs and research.</div> -->
+      <div class="page-description"></div>
     </div>
   </div>
 </div>
@@ -23,52 +24,61 @@ permalink: training.html
     <div class="col-sm-12">
       <p class="section-description">The Applied Data Analytics programs are targeted at government agency staff.  It provides training in core data analytics techniques by working on specific projects using real-world micro-data.  The projects are built around pre-built Jupyter notebooks which provide project "recipes" that can be customized for specific use cases as well as applied to later projects in participants’ agencies.</p>
  
-      <p class="section-description">The first six programs were partially sponsored by the US Census Bureau, the Laura and John Arnold Foundation, the Overdeck Family Foundation, and the Ewing Marion Kauffman Foundation. The thematic focus of each program was: Criminal Justice, Welfare programs, High Need Populations, and Economic Development. Over 250 government agency staff and researchers participated in these four training programs. Here is what they had to say:</p>
-
-      <p class="program-feedback">"...knowing what's possible has helped tremendously in influencing the reality of our projects"</p>
-      <p class="program-feedback">"I also co-authored a journal article on predicting farms that would need to apply for
-      new loans which wouldn’t have happened without the machine learning skills I learned in the class."</p>
-      <p class="program-feedback">"My colleague and I have found several ways to use Python to make our work processes more efficient."</p>
-      <p class="program-feedback">"...hearing the topics in the class taught by experts felt as though a veil was lifted."</p>
-      <p class="program-feedback">"I've been able to use tools to help streamline my work and to identify opportunities to utilize machine learning in the City."</p>
-
     </div>
+
     <div class="col-sm-12">
       <p class="curriculum-title">Core Curriculum</p>
     </div>
-    <div class="col-sm-12">
-      <p class="curriculum-description">The general format is 10 training days grouped into 2 modules of one week each. There is a primary focus on a different topic each day, as outlined below. In addition, participants are grouped in teams of up to
-        five members to work through an analytic project that answers a specific research question formulated by the team.</p>
+    <div class="col-sm-12 extra-padding">
+      <table class="table new-curriculum-table">
+        <thead class="thead-dark">
+          <tr class="new-curriculum-table-header">
+            <th scope="col" style="width:240px">Activity</th>
+            <th scope="col" style="">What</th>
+            <th scope="col" style="width:240px">Time Required</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Application <br /><span class="light-weight">(online/remote)</span></th>
+            <td>Online, example: <a href="https://coleridgeinitiative.org/training?program=ada19mo#training-dates">here</a> (incl. security requirements)</td>
+            <td>About 2 hours total</td>
+          </tr>
+          <tr class="new-curriculum-table-bg">
+            <th scope="row">Intro to SQL & Python <br /><span class="light-weight">(online/remote)</span></th>
+            <td>Online videos with web-based content; weekly online 1 hour group discussions</td>
+            <td>Up to 10 hours</td>
+          </tr>
+          <tr>
+            <th scope="row">Module 1 <br /><span class="light-weight">(in-person)</span></th>
+            <td>Self-paced project work with teams; instructors available for assistance</td>
+            <td>Up to 10 hours, suggest at least 2 hours per week</td>
+          </tr>
+          <tr class="new-curriculum-table-bg">
+            <th scope="row">Project work <br /><span class="light-weight">(online/remote)</span></th>
+            <td>Self-paced project work with teams; instructors available for assistance</td>
+            <td>Up to 10 hours, suggest at least 2 hours per week</td>
+          </tr>
+          <tr>
+            <th scope="row">Module 2 <br /><span class="light-weight">(in-person)</span></th>
+            <td>Focus on projects with sessions on Inference and Confidentiality</td>
+            <td>3 days in DC area</td>
+          </tr>
+          <tr class="new-curriculum-table-bg">
+            <th scope="row">Project work <br /><span class="light-weight">(online/remote)</span></th>
+            <td>Complete team projects; recommend weekly check-in with an instructor</td>
+            <td>Up to 10 hours, suggest at least 2 hours per week</td>
+          </tr>
+          <tr>
+            <th scope="row">Presentations <br /><span class="light-weight">(online/remote)</span></th>
+            <td>Present final projects via webex</td>
+            <td>30 minutes per team; up to 3 hours</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
-  <div class="row">
-    {% assign count = 0 %}
-    {% for module in site.data.curriculum %}
-      {% capture mod %}{{ count | modulo:1 }}{% endcapture %}
-      {% if mod == '0' %}
-      <div class="col-sm-6">
-        <table class="curriculum-table">
-      {% endif %}
-          <tr>
-            <th class="table-header">{{module.module}}</th>
-          </tr>
-          <tr>
-            <td>
-              <ul class="table-cell">
-                {% for day in module.days %}
-                <li>{{day}}</li>
-                {% endfor %}
-              </ul>
-            </td>
-          </tr>
-        {% assign count = count | plus:1 %}
-        {% capture mod %}{{ count | modulo:1 }}{% endcapture %}
-        {% if mod == '0' %}
-        </table>
-      </div>
-        {% endif %}
-      {% endfor %}
-  </div>
+  <br /><br />
   <div class="row">
   <div class="col-sm-12">
     <p class="slide-description">The following projects are examples from previous programs.</p>
@@ -107,6 +117,7 @@ permalink: training.html
   </div>
   </div>
 </div>
+<br />
 
 <div id="training-dates" class="jumptarget"></div>
 <div class="container-fluid training-bg-mid">
@@ -289,12 +300,30 @@ permalink: training.html
   <div class="row">
 
     <div class="col-sm-12">
-      <p class="curriculum-title">Past Programs</p>
+      <br />
+      <p class="curriculum-title">Highlights From Previous Programs</p>
     </div>
 
     <div class="col-sm-12">
+      <p class="section-description">The first six programs were partially sponsored by the US Census Bureau, the Laura and John Arnold Foundation, the Overdeck Family Foundation, and the Ewing Marion Kauffman Foundation. The thematic focus of each program was: Criminal Justice, Welfare programs, High Need Populations, and Economic Development. Over 250 government agency staff and researchers participated in these four training programs. Here is what they had to say:</p>
+
+      <p class="program-feedback">"...knowing what's possible has helped tremendously in influencing the reality of our projects"</p>
+      <p class="program-feedback">"I also co-authored a journal article on predicting farms that would need to apply for
+      new loans which wouldn’t have happened without the machine learning skills I learned in the class."</p>
+      <p class="program-feedback">"My colleague and I have found several ways to use Python to make our work processes more efficient."</p>
+      <p class="program-feedback">"...hearing the topics in the class taught by experts felt as though a veil was lifted."</p>
+      <p class="program-feedback">"I've been able to use tools to help streamline my work and to identify opportunities to utilize machine learning in the City."</p>
+    </div>
+
+    <div class="col-sm-12">
+      <br />
+      <p class="curriculum-title">Past Programs</p>
+    </div>
+
+
+    <div class="col-sm-12">
       <div class="affiliated-program">
-        <p class="ap-title orange">Applied Data Analytics - employment outcomes 2018</p>
+        <p class="ap-title orange">Applied Data Analytics - Employment Outcomes 2018</p>
         <p class="ap-text">The Coleridge Initiative's Applied Data Analytics training program focused on employment outcomes of TANF recipients. Held in College Park, MD.</p>
         <a href="https://github.com/Coleridge-Initiative/ada-2018-umd" target="_blank"><p class="ap-link">Full program details and resources available here</p></a>
       </div>
@@ -334,9 +363,7 @@ permalink: training.html
 
     <div class="col-sm-12">
       <div class="affiliated-program">
-        <p class="ap-title orange">Applied Data Analytics - Criminal Justice 2017</p>
-        <p class="ap-text">The Coleridge Initiative's Applied Data Analytics training program focused on criminal justice.</p>
-        <a href="https://github.com/Coleridge-Initiative/ada-2017-justice" target="_blank"><p class="ap-link">Full program details and resources available here</p></a>
+        <p class="ap-text">See all our material on <a href="https://github.com/Coleridge-Initiative" target="_blank" class="ap-link">GitHub</a>
       </div>
     </div>
 
