@@ -72,7 +72,7 @@ ol {
 }
 
 .navbar-default .navbar-nav li .red.active {
-  color: #B42A2A;
+  color: #e02a2a;
   font-weight: 500;
 }
 
@@ -95,11 +95,11 @@ ol {
 
 .navbar-default .navbar-nav > li > .purple:hover, .navbar-default .navbar-nav > li > .purple:focus {
     background-color: #000000 !important;
-    color: #855593; !important;
+    color: #a463b7; !important;
 }
 
 .navbar-default .navbar-nav li .purple.active {
-  color: #855593;
+  color: #a463b7;
   font-weight: 500;
 }
 
@@ -1563,7 +1563,7 @@ ol {
 
 .feature-block {
   padding: 12px 12px 12px 12px;
-  background-color: #43AA4C;
+  background-color: #3a9642;
   height: 160px;
   width: 100%;
   vertical-align: middle;
@@ -1703,7 +1703,7 @@ ol {
 }
 
 .purple {
-  color: #855593;
+  color: #a463b7;
 }
 
 .dark-blue {

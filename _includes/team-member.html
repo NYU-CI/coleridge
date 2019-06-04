@@ -9,7 +9,7 @@
     {% if member.category == 'director' %}
     <div class="col-sm-3 team-member">
       <a href="{{member.website}}" target="_blank">
-        <img class="team-member-image" src="{{site.baseurl}}/assets/images/team/{{member.image}}">
+        <img class="team-member-image" src="{{site.baseurl}}/assets/images/team/{{member.image}}" alt="Headshot of {{member.fullname}}">
         <h4 class="fullname">{{member.fullname}}</h4>
       </a>
       <ul class="positions">
@@ -22,7 +22,7 @@
     {% comment %} Code for core team {% endcomment %}
     {% else %}
     <div class="col-sm-3 team-member">
-      <img class="team-member-image" src="{{site.baseurl}}/assets/images/team/{{member.image}}">
+      <img class="team-member-image" src="{{site.baseurl}}/assets/images/team/{{member.image}}" alt="Headshot of {{member.fullname}}">
       <h4 class="fullname">{{member.fullname}}</h4>
       <p>{{member.role}}</p>
     </div>

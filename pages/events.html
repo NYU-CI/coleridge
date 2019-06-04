@@ -28,12 +28,12 @@ permalink: events.html
           <div class="col-sm-3">
             {% if event.thumbnail %}
               {% if event.thumbnail contains "http" %}
-              <img src="{{event.thumbnail}}" class="img-responsive event-thumbnail">
+              <img src="{{event.thumbnail}}" class="img-responsive event-thumbnail" alt="{{event.thumbnail-text}}">
               {% else  %}
-              <img src="{{site.baseurl}}/assets/thumbnails/{{event.thumbnail}}" class="img-responsive event-thumbnail">
+              <img src="{{site.baseurl}}/assets/thumbnails/{{event.thumbnail}}" class="img-responsive event-thumbnail" alt="{{event.thumbnail-text}}">
               {% endif %}
             {% else %}
-            <img src="{{site.baseurl}}/assets/images/ColeridgeInitiativeLogo_white.png" class="img-responsive event-thumbnail">
+            <img src="{{site.baseurl}}/assets/images/ColeridgeInitiativeLogo_white.png" class="img-responsive event-thumbnail" alt="White Coleridge Initiative logo">
             {% endif %}
           </div>
           <div class="col-sm-9">

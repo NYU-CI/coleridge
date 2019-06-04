@@ -1,14 +1,6 @@
 categories: ["workshops", "conference presentations", "past events"]
 event-list:
   - category: conference presentations
-    title: "8th ZEW/MaCCI Conference on the Economics of Innovation and Patenting"
-    type: "keynote"
-    description: "The ZEW – Leibniz Centre for European Economic Research and the Mannheim Centre for Competition and Innovation (MaCCI) are pleased to announce their eighth conference on the economics of innovation and patenting. The goal of the conference is to present new research and to stimulate discussion between international researchers. Theoretical and empirical contributions from all areas of the economics of innovation and patenting are welcome."
-    link: "https://www.zew.de/en/veranstaltungen-und-weiterbildung/detail/8th-zewmacci-conference-on-the-economics-of-innovation-and-patenting/2775/?cHash=7a68c5c6477dc6feb5ea1fac0ed459fd"
-    date: "May 16-17, 2019"
-    location: "Mannheim, Germany"
-    thumbnail: "zew.png"
-  - category: conference presentations
     title: "Australian Social Policy Conference"
     type: "keynote"
     description: "The ASPC will address the most pressing challenges facing Australian policy makers, practitioners and researchers at this key juncture. It will provide a forum for leading national and international researchers and analysts from government and community social welfare sectors in Australia and internationally to present their research findings and debate their implications."
@@ -16,6 +8,7 @@ event-list:
     date: "September 9-11, 2019"
     location: "Sydney, Australia"
     thumbnail: "https://www.arts.unsw.edu.au/media/FASSImage/unswgrounds.jpg"
+    thumbnail-text: "UNSW grounds"
   - category: workshops
     title: "The Society for Longitudinal and Lifecourse Studies (SLLS) International Conference"
     type: "workshop"
@@ -25,6 +18,16 @@ event-list:
     date: "September 24, 2019"
     location: "Potsdam, Germany"
     thumbnail: "https://static.wixstatic.com/media/df1448_459720c5317749859d78ce5268c7f6a5~mv2_d_5132_3421_s_4_2.jpg/v1/fill/w_1920,h_1280,al_c,q_85,usm_0.66_1.00_0.01/df1448_459720c5317749859d78ce5268c7f6a5~mv2_d_5132_3421_s_4_2.webp"
+    thumbnail-text: "Potsdam, Germany"
+  - category: past events
+    title: "8th ZEW/MaCCI Conference on the Economics of Innovation and Patenting"
+    type: "keynote"
+    description: "The ZEW – Leibniz Centre for European Economic Research and the Mannheim Centre for Competition and Innovation (MaCCI) are pleased to announce their eighth conference on the economics of innovation and patenting. The goal of the conference is to present new research and to stimulate discussion between international researchers. Theoretical and empirical contributions from all areas of the economics of innovation and patenting are welcome."
+    link: "https://www.zew.de/en/veranstaltungen-und-weiterbildung/detail/8th-zewmacci-conference-on-the-economics-of-innovation-and-patenting/2775/?cHash=7a68c5c6477dc6feb5ea1fac0ed459fd"
+    date: "May 16-17, 2019"
+    location: "Mannheim, Germany"
+    thumbnail: "zew.png"
+    thumbnail-text: "ZEW logo"
   - category: past events
     title: "Catalyzing Innovation: Annual World Bank Conference on Land and Poverty"
     type: "keynote"
@@ -39,6 +42,7 @@ event-list:
       - resource-title: Presentation
         resource-link: "https://www.conftool.com/landandpoverty2019/index.php/00-05-Lane-1349_ppt.pptx?page=downloadPaper&filename=00-05-Lane-1349_ppt.pptx&form_id=1349&form_index=2&form_version=final"
     thumbnail: "http://www.worldbank.org/content/dam/photos/780x439/2016/may-26/Land-Conference-2017.jpg"
+    thumbnail-text: "WorldBank event graphic"
   - category: past events
     title: "New York City Council Committee on Technology"
     type: "testimony"
@@ -50,6 +54,7 @@ event-list:
       - resource-title: "Julia Lane testimony"
         resource-link: "http://coleridgeinitiative.org/assets/docs/Julia_Lane_testimony.pdf"
     thumbnail: nycc.png
+    thumbnail-text: "New York City Council logo"
   - category: past events
     title: "Le projet HELIOS : évaluer l’impact du financement des projets de recherche sur le cancer"
     type: "workshop"
@@ -58,6 +63,7 @@ event-list:
     date: "December 17, 2018"
     location: "Paris, France"
     thumbnail: helios.png
+    thumbnail-text: "l’Institut national du cancer logo"
   - category: past events
     title: "AWS: re:Invent"
     type: "presentation"
@@ -67,6 +73,7 @@ event-list:
     date: "November 28, 5:30 PM - 6:30 PM, 2018"
     location: "Las Vegas, NV"
     thumbnail: aws-reinvent-2018.jpg
+    thumbnail-text: "AWS Reinvent logo"
   - category: past events
     title: "Government Innovation Awards"
     type: "award"
@@ -75,6 +82,7 @@ event-list:
     date: "November 8, 2018"
     location: "McLean, VA"
     thumbnail: "gia.png"
+    thumbnail-text: "Government Innovation Awards logo"
   - category: past events
     title: "Evidence for Action: Encouraging Innovation and Improvement (APPAM Annual Conference)"
     type: "panel"
@@ -87,6 +95,7 @@ event-list:
       - resource-title: "Full Abstract"
         resource-link: "https://appam.confex.com/appam/2018/webprogram/Session10856.html"
     thumbnail: "https://appam.confex.com/img/appam/2018/banner.jpg"
+    thumbnail-text: "APPAM conference logo"
   - category: past events
     title: "Open Data Science Conference West"
     type: "keynote"
@@ -101,6 +110,7 @@ event-list:
       - resource-title: "Video Download"
         resource-link: "https://www.dropbox.com/s/evdd9ujzbbe80sh/Making%20Data%20Great%20Again.mp4"
     thumbnail: "odsc.png"
+    thumbnail-text: "ODSC logo"
   - category: past events
     title: "BigSurv18"
     type: "keynote"
@@ -113,6 +123,7 @@ event-list:
       - resource-title: Full Program
         resource-link: "https://www.bigsurv18.org/conf18/prog/BigSurv18_Full_Programme_313586.pdf"
     thumbnail: "bigsurv18.png"
+    thumbnail-text: "Big Surv 2018 logo"
   - category: past events
     title: "The right services for the right people at the right time: A national case study in successful integrated government data with Sir Bill English, former Prime Minister of New Zealand"
     type: "speech"
@@ -121,6 +132,7 @@ event-list:
     date: "October 24, 2018"
     location: "New York, NY"
     thumbnail: "https://wagner.nyu.edu/files/styles/column_full/public/events/images/image1.jpg?itok=D-E7bqiJ"
+    thumbnail-text: "Headshot of Sir Bill English"
   - category: past events
     title: "Advancing Financial Inclusion using Big Data"
     type: "workshop"
@@ -129,6 +141,7 @@ event-list:
     date: "October 10, 2018"
     location: "New York, NY"
     thumbnail: "financial_inclusion.jpeg"
+    thumbnail-text: "Panel speakers"
   - category: past events
     title: "Data Transparency 2018"
     type: "presentation"
@@ -137,6 +150,7 @@ event-list:
     date: "October 10, 2018"
     location: "Washington, DC"
     thumbnail: "https://static1.squarespace.com/static/56534df0e4b0c2babdb6644d/t/5b5a29be352f53f263d7a7e7/1532635608651/banner.jpg"
+    thumbnail-text: "Blue-tinted capitol building"
   - category: past events
     title: "Making big data work for society"
     type: "talk"
@@ -144,3 +158,4 @@ event-list:
     link: "https://www.radionz.co.nz/national/programmes/ninetonoon/audio/2018650100/making-big-data-work-for-society"
     date: "June 20, 2018"
     thumbnail: "https://www.radionz.co.nz/x/logos/rnz-1f117f9f2e66fb9e1c6c1f94daaffc079c4bee6bbfb68590bd63edce24b0dd17.svg"
+    thumbnail-text: "RNZ logo"

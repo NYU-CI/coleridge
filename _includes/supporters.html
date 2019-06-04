@@ -6,7 +6,7 @@
 
           <div class="col-sm-4">
             <a href="{{supporter.link}}" target="_blank">
-              <img class="supporter-image" src="{{site.baseurl}}/assets/images/supporters/{{supporter.logo}}">
+              <img class="supporter-image" src="{{site.baseurl}}/assets/images/supporters/{{supporter.logo}}" alt="{{supporter.foundation}} logo">
             </a>
           </div>
           {% capture mod %}{{ count | modulo:3 }}{% endcapture %}
