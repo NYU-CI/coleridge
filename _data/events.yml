@@ -1,5 +1,14 @@
-categories: ["workshops", "conference presentations", "past events"]
+categories: ["conference presentations", "workshops", "past events"]
 event-list:
+  - category: conference presentations
+    title: "Open Data Science Conference"
+    type: "keynote"
+    description: "A Career Path to Data Science Through Privacy & Confidentiality. In this Mentor Talk, Professor Lane will share her experience of Labor Economics reserach leading to a career in building large scale infrastructures and a series of recent key note presentations at a variety of computer science conferences."
+    link: "https://odsc.com/nyc"
+    date: "June 28-29, 2019"
+    location: "New York City"
+    thumbnail: "odsc.png"
+    thumbnail-text: "odsc logo"
   - category: conference presentations
     title: "Australian Social Policy Conference"
     type: "keynote"
