@@ -1,4 +1,4 @@
-categories: ["conference presentations", "workshops", "media", "past events"]
+categories: ["workshops", "media", "past events"]
 event-list:
   - category: media
     title: "Evidence-based decision making: What DOE, USDA and others are learning"
@@ -17,15 +17,6 @@ event-list:
     location: "New York City"
     thumbnail: "odsc.png"
     thumbnail-text: "odsc logo"
-  - category: conference presentations
-    title: "Australian Social Policy Conference"
-    type: "keynote"
-    description: "The ASPC will address the most pressing challenges facing Australian policy makers, practitioners and researchers at this key juncture. It will provide a forum for leading national and international researchers and analysts from government and community social welfare sectors in Australia and internationally to present their research findings and debate their implications."
-    link: "https://www.aspc.unsw.edu.au/"
-    date: "September 9-11, 2019"
-    location: "Sydney, Australia"
-    thumbnail: "https://www.arts.unsw.edu.au/media/FASSImage/unswgrounds.jpg"
-    thumbnail-text: "UNSW grounds"
   - category: workshops
     title: "The Society for Longitudinal and Lifecourse Studies (SLLS) International Conference"
     type: "workshop"
