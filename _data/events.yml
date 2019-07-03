@@ -1,6 +1,14 @@
-categories: ["conference presentations", "workshops", "past events"]
+categories: ["conference presentations", "workshops", "media", "past events"]
 event-list:
-  - category: conference presentations
+  - category: media
+    title: "Evidence-based decision making: What DOE, USDA and others are learning"
+    type: "keynote"
+    description: "Evidence-based decision making is gaining traction at agencies, a new report says, and there are some clear lessons about how to increase federal use of the practice."
+    link: "https://www.fedscoop.com/evidence-based-decision-making-pps-report/"
+    date: "June 28, 2019"
+    thumbnail: "https://www.fedscoop.com/files/FedScoop-Logo.svg"
+    thumbnail-text: "Fedscoop logo"
+  - category: past events
     title: "Open Data Science Conference"
     type: "keynote"
     description: "A Career Path to Data Science Through Privacy & Confidentiality. In this Mentor Talk, Professor Lane will share her experience of Labor Economics reserach leading to a career in building large scale infrastructures and a series of recent key note presentations at a variety of computer science conferences."
