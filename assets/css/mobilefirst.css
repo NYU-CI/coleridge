@@ -76,9 +76,19 @@ ol {
   font-weight: 500;
 }
 
+.navbar-default .navbar-nav > li > .lightblue:hover, .navbar-default .navbar-nav > li > .lightblue:focus {
+    background-color: #000000 !important;
+    color: #6B83A3 !important;
+}
+
+.navbar-default .navbar-nav li .lightblue.active {
+  color: #6B83A3;
+  font-weight: 500;
+}
+
 #rc.open>a, #rc.open>a:hover {
   background-color: black !important;
-  color: #3B9743 !important;
+  color: #6B83A3 !important;
 }
 
 /*
@@ -1191,6 +1201,21 @@ ol {
   letter-spacing: 4px;
   font-weight: 200;
   color: #FFFFFF;
+}
+
+.page-title-rcc {
+  padding: 140px 0px 0px 160px;
+  font-size: 72px;
+  letter-spacing: 4px;
+  font-weight: 200;
+  color: #FFFFFF;
+}
+
+.page-title-gap {
+  padding: 60px 0px 0px 80px;
+  font-size: 50px;
+  color: #FFFFFF;
+  line-height: 1.15;
 }
 
 .page-description {
