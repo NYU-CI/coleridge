@@ -1,5 +1,15 @@
-categories: ["workshops", "media", "past events"]
+categories: ["workshops", "media", "past events","webinars"]
 event-list:
+  - category: webinars
+    title: "Informational webinar on upcoming Applied Data Analytics Program at USDA"
+    type: "keynote"
+    description: "You are invited to attend an informational webinar on the Applied Data Analytics training program presented by the USDA and the Coleridge Initiative for hands-on analysis of microdata that will take place this fall in Alexandria, VA. The program will use IRI Consumer Network (i.e., household purchases of a large consumer panel) to examine issues of interest to USDA on food purchasing patterns of households participating in the Special Supplemental Nutritional Program for Women, Infants, and Children (WIC). The curriculum draws on best practices from both industry and government, including adherence to strict federal requirements on security and confidentiality. Skills taught include data linkage, visualization, and machine learning at a level accessible and useful for data novices and computer experts alike. Participants will be grouped in to teams of 5 or fewer people to design and conduct a research project using the IRI scanner data. The link to the webinar and call-in information are:
+    resources:
+      - resource-title: "Join Zoom Webinar"
+        resource-link: "https://nyu.zoom.us/j/188091064"
+    date: "July 29, 2019 from 2-3 pm Eastern"
+    thumbnail: "https://www.usda.gov/themes/usda/img/usda-symbol.svg"
+    thumbnail-text: "USDA logo"
   - category: media
     title: "Evidence-based decision making: What DOE, USDA and others are learning"
     type: "keynote"
