@@ -1,4 +1,4 @@
-categories: ["webinars","workshops", "media", "past events"]
+categories: ["webinars", "conferences", "workshops", "media", "past events"]
 event-list:
   - category: webinars
     title: "Informational webinar on upcoming Applied Data Analytics Program at USDA"
@@ -27,6 +27,19 @@ event-list:
     location: "New York City"
     thumbnail: "odsc.png"
     thumbnail-text: "odsc logo"
+  - category: conferences
+    title: "2019 NASWA Workforce Summit & UI Directors' Conference 83rd Annual Meeting"
+    type: "conference"
+    session-title: "Breaking New Ground: Data Sharing, Data Analytics, and Program Evaluation in the States"
+    description: "What have states, universities and other partners learned from projects that facilitate data sharing and develop state analytic and research capacity? What are the implications for federal and state practices and policies?"
+    link: "https://www.naswa.org/conferences/2019-workforce-summit-ui-directors-conference"
+    date: "September 10-12, 2019"
+    location: "Boston, MA"
+    resources:
+      - resource-title: "Session information"
+        resource-link: "https://www.naswa.org/conferences/96486/sessions?page=17"
+    thumbnail: "https://www.naswa.org/themes/custom/naswa_base/logo.svg"
+    thumbnail-text: "NASWA logo"
   - category: workshops
     title: "The Society for Longitudinal and Lifecourse Studies (SLLS) International Conference"
     type: "workshop"
