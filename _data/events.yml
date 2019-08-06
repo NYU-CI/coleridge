@@ -1,6 +1,19 @@
-categories: ["webinars", "conferences", "workshops", "media", "past events"]
+categories: ["conferences", "workshops", "media", "past events"]  # webinars is a potential category
 event-list:
-  - category: webinars
+  - category: conferences
+    title: "SEM 2019 - Sixth Annual Conference"
+    type: "conference"
+    session-title: "Making Data Great Again"
+    description: "The Society for Economic Measurement (SEM) was founded to promote research on economic measurement, using advanced tools from economic theory, econometrics, aggregation theory, experimental economics, mathematics, and statistics. The long run objectives are to meet the data standards established for the physical sciences, subject to the inherent limitations of a social science."
+    link: "https://editorialexpress.com/conference/SEM2019/program/SEM2019.html"
+    date: "August 16, 3:30 PM - 5:30 PM, 2019"
+    location: "Frankfurt, Germany"
+    #resources:
+    #  - resource-title: "Session information"
+    #    resource-link: "https://www.naswa.org/conferences/96486/sessions?page=17"
+    thumbnail: "http://www.uni-frankfurt.de/76519229.jpg?"
+    thumbnail-text: "Goethe University"
+  - category: past events
     title: "Informational webinar on upcoming Applied Data Analytics Program at USDA"
     type: "keynote"
     description: "You are invited to attend an informational webinar on the Applied Data Analytics training program presented by the USDA and the Coleridge Initiative for hands-on analysis of microdata that will take place this fall in Alexandria, VA. The program will use IRI Consumer Network (i.e., household purchases of a large consumer panel) to examine issues of interest to USDA on food purchasing patterns of households participating in the Special Supplemental Nutritional Program for Women, Infants, and Children (WIC). The curriculum draws on best practices from both industry and government, including adherence to strict federal requirements on security and confidentiality. Skills taught include data linkage, visualization, and machine learning at a level accessible and useful for data novices and computer experts alike. Participants will be grouped in to teams of 5 or fewer people to design and conduct a research project using the IRI scanner data."
