@@ -20,7 +20,7 @@ event-list:
     resources:
       - resource-title: "Join Zoom Webinar"
         resource-link: "https://nyu.zoom.us/j/188091064"
-    date: "July 29, 2019 from 2-3 pm Eastern"
+    date: "July 29, 2019"
     thumbnail: "https://www.usda.gov/themes/usda/img/usda-symbol.svg"
     thumbnail-text: "USDA logo"
   - category: media
@@ -64,6 +64,17 @@ event-list:
     thumbnail: "https://static.wixstatic.com/media/df1448_459720c5317749859d78ce5268c7f6a5~mv2_d_5132_3421_s_4_2.jpg/v1/fill/w_1920,h_1280,al_c,q_85,usm_0.66_1.00_0.01/df1448_459720c5317749859d78ce5268c7f6a5~mv2_d_5132_3421_s_4_2.webp"
     thumbnail-text: "Potsdam, Germany"
   - category: past events
+    title: "Rev 2 | Data Science Leaders Summit - Domino Data Lab"
+    type: "conference"
+    description: "Where's the Data: A New Approach to Social Science Search & Discovery. In this talk, Lane described the approach that the Coleridge Initiative is taking to address the science reproducibility challenge. The approach is to provide remote access for government analysts and researchers to confidential data in a secure data facility and to build analytical capacity and collaborations through an Applied Data Analytics training program."
+    resources:
+      - resource-title: "Session Transcript and Summary"
+        resource-link: "https://blog.dominodatalab.com/seeking-reproducibility-within-social-science-search-and-discovery/"
+    date: "May 23, 2019"
+    location: New York City
+    thumbnail: "https://www.dominodatalab.com/img/uploads/nick-rev-2-keynote-23-may-2019-domino-logo-1024x583.jpg"
+    thumbnail-text: "Rev 2 Conference"
+  - category: past events
     title: "8th ZEW/MaCCI Conference on the Economics of Innovation and Patenting"
     type: "keynote"
     description: "The ZEW – Leibniz Centre for European Economic Research and the Mannheim Centre for Competition and Innovation (MaCCI) are pleased to announce their eighth conference on the economics of innovation and patenting. The goal of the conference is to present new research and to stimulate discussion between international researchers. Theoretical and empirical contributions from all areas of the economics of innovation and patenting are welcome."
@@ -76,7 +87,7 @@ event-list:
     title: "Catalyzing Innovation: Annual World Bank Conference on Land and Poverty"
     type: "keynote"
     session-title: "Using big data to advance land governance"
-    description: "What Governments can do to harness the potential of big data"
+    description: "What Governments can do to harness the potential of big data."
     link: "https://www.conftool.com/landandpoverty2019/index.php?page=browseSessions&form_session=1024&presentations=show"
     date: "March 25-29, 2019"
     location: "Washington DC"
@@ -114,7 +125,7 @@ event-list:
     session-title: "WPS204 - Building a Governance, Risk, and Compliance Strategy with AWS"
     description: "In this session, learn how Dr. Julia Lane, Director of the Administrative Data Research Facility (ADRF) at NYU, used AWS and AWS Public Sector Partner Earthling Security to build a software-as-a-service (SaaS) research and analysis environment that hosts sensitive U.S. Census Bureau data."
     link: "https://reinvent.awsevents.com"
-    date: "November 28, 5:30 PM - 6:30 PM, 2018"
+    date: "November 28, 2018"
     location: "Las Vegas, NV"
     thumbnail: aws-reinvent-2018.jpg
     thumbnail-text: "AWS Reinvent logo"
