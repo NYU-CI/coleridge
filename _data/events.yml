@@ -6,7 +6,7 @@ event-list:
     session-title: "Making Data Great Again"
     description: "The Society for Economic Measurement (SEM) was founded to promote research on economic measurement, using advanced tools from economic theory, econometrics, aggregation theory, experimental economics, mathematics, and statistics. The long run objectives are to meet the data standards established for the physical sciences, subject to the inherent limitations of a social science."
     link: "https://editorialexpress.com/conference/SEM2019/program/SEM2019.html"
-    date: "August 16, 3:30 PM - 5:30 PM, 2019"
+    date: "2019-08-16"
     location: "Frankfurt, Germany"
     #resources:
     #  - resource-title: "Session information"
@@ -46,7 +46,7 @@ event-list:
     session-title: "Breaking New Ground: Data Sharing, Data Analytics, and Program Evaluation in the States"
     description: "What have states, universities and other partners learned from projects that facilitate data sharing and develop state analytic and research capacity? What are the implications for federal and state practices and policies?"
     link: "https://www.naswa.org/conferences/2019-workforce-summit-ui-directors-conference"
-    date: "September 10-12, 2019"
+    date: "2019-09-10"
     location: "Boston, MA"
     resources:
       - resource-title: "Session information"
@@ -67,6 +67,7 @@ event-list:
     title: "Rev 2 | Data Science Leaders Summit - Domino Data Lab"
     type: "conference"
     description: "Where's the Data: A New Approach to Social Science Search & Discovery. In this talk, Lane described the approach that the Coleridge Initiative is taking to address the science reproducibility challenge. The approach is to provide remote access for government analysts and researchers to confidential data in a secure data facility and to build analytical capacity and collaborations through an Applied Data Analytics training program."
+    link: "https://rev.dominodatalab.com/"
     resources:
       - resource-title: "Session Transcript and Summary"
         resource-link: "https://blog.dominodatalab.com/seeking-reproducibility-within-social-science-search-and-discovery/"
