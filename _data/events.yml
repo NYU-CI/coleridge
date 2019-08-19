@@ -1,12 +1,12 @@
 categories: ["conferences", "workshops", "media", "past events"]  # webinars is a potential category
 event-list:
-  - category: conferences
+  - category: past events
     title: "SEM 2019 - Sixth Annual Conference"
     type: "conference"
     session-title: "Making Data Great Again"
     description: "The Society for Economic Measurement (SEM) was founded to promote research on economic measurement, using advanced tools from economic theory, econometrics, aggregation theory, experimental economics, mathematics, and statistics. The long run objectives are to meet the data standards established for the physical sciences, subject to the inherent limitations of a social science."
     link: "https://editorialexpress.com/conference/SEM2019/program/SEM2019.html"
-    date: "2019-08-16"
+    date: "August 16, 2019"
     location: "Frankfurt, Germany"
     #resources:
     #  - resource-title: "Session information"
@@ -46,13 +46,23 @@ event-list:
     session-title: "Breaking New Ground: Data Sharing, Data Analytics, and Program Evaluation in the States"
     description: "What have states, universities and other partners learned from projects that facilitate data sharing and develop state analytic and research capacity? What are the implications for federal and state practices and policies?"
     link: "https://www.naswa.org/conferences/2019-workforce-summit-ui-directors-conference"
-    date: "2019-09-10"
+    date: "September 10, 2019"
     location: "Boston, MA"
     resources:
       - resource-title: "Session information"
         resource-link: "https://www.naswa.org/conferences/96486/sessions?page=17"
     thumbnail: "https://www.naswa.org/themes/custom/naswa_base/logo.svg"
     thumbnail-text: "NASWA logo"
+  - category: workshops
+    title: "Knowledge and Institutions in Complex Systems"
+    type: "workshop"
+    session-title: "Making Data Great Again"
+    description: "The main goal of this event is to bring prominent scholars in the Asia-Pacific region together with PhD students to learn about the interconnection between knowledge and institutions from a complex systems perspective. We will explore innovation policies, applied blockchain technologies and cryptoeconomics."
+    link: "https://ysd.ineteconomics.org/project/5bedc88bbaa2d1504598679d"
+    date: "August 24-25, 2019"
+    location: "Wellington, New Zealand"
+    thumbnail: "https://evans.uw.edu/sites/default/files/styles/banner/public/victoria-university-of-wellington.jpg?itok=bi7BgVPR"
+    thumbnail-text: "Victoria University"
   - category: workshops
     title: "The Society for Longitudinal and Lifecourse Studies (SLLS) International Conference"
     type: "workshop"
@@ -63,16 +73,6 @@ event-list:
     location: "Potsdam, Germany"
     thumbnail: "https://static.wixstatic.com/media/df1448_459720c5317749859d78ce5268c7f6a5~mv2_d_5132_3421_s_4_2.jpg/v1/fill/w_1920,h_1280,al_c,q_85,usm_0.66_1.00_0.01/df1448_459720c5317749859d78ce5268c7f6a5~mv2_d_5132_3421_s_4_2.webp"
     thumbnail-text: "Potsdam, Germany"
-  - category: workshops
-    title: "Knowledge and Institutions in Complex Systems"
-    type: "workshop"
-    #session-title: "INSERT HERE"
-    description: "The main goal of this event is to bring prominent scholars in the Asia-Pacific region together with PhD students to learn about the interconnection between knowledge and institutions from a complex systems perspective. We will explore innovation policies, applied blockchain technologies and cryptoeconomics."
-    link: "https://ysd.ineteconomics.org/project/5bedc88bbaa2d1504598679d"
-    date: "August 24-25, 2019"
-    location: "Wellington, New Zealand"
-    thumbnail: "https://evans.uw.edu/sites/default/files/styles/banner/public/victoria-university-of-wellington.jpg?itok=bi7BgVPR"
-    thumbnail-text: "Victoria University"
   - category: past events
     title: "Rev 2 | Data Science Leaders Summit - Domino Data Lab"
     type: "conference"
