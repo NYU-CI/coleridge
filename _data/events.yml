@@ -1,4 +1,4 @@
-categories: ["conferences", "workshops", "media", "past events"]  # webinars is a potential category
+categories: ["conferences", "workshops", "past events"]  # webinars is a potential category
 event-list:
   - category: conferences
     title: "2019 NASWA Workforce Summit & UI Directors' Conference 83rd Annual Meeting"
@@ -21,7 +21,7 @@ event-list:
     link: "http://conference.iza.org/conference_files/DATA_2019/call_for_papers"
     date: "September 20, 2019"
     location: "Bochum, Germany"
-    thumbnail: "https://www.ratswd.de/dl/logo_fdz-iza_0.gif"
+    thumbnail: idsc.png
     thumbnail-text: "IDSC"
   - category: workshops
     title: "The Society for Longitudinal and Lifecourse Studies (SLLS) International Conference"
@@ -46,14 +46,6 @@ event-list:
     #    resource-link: "https://www.naswa.org/conferences/96486/sessions?page=17"
     thumbnail: "https://www.naspaa.org/sites/default/files/styles/ifde_wysiwyg__natural/public/images/2019-04/Logo_fullLowRez.png?itok=o-rIdeEp"
     thumbnail-text: "NASPAA 50th Anniversary logo"
-  - category: media
-    title: "Evidence-based decision making: What DOE, USDA and others are learning"
-    type: "keynote"
-    description: "Evidence-based decision making is gaining traction at agencies, a new report says, and there are some clear lessons about how to increase federal use of the practice."
-    link: "https://www.fedscoop.com/evidence-based-decision-making-pps-report/"
-    date: "June 28, 2019"
-    thumbnail: "https://www.fedscoop.com/files/FedScoop-Logo.svg"
-    thumbnail-text: "Fedscoop logo"
   - category: past events
     title: "Knowledge and Institutions in Complex Systems"
     type: "workshop"

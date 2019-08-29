@@ -1,0 +1,43 @@
+<div class="container">
+    {% for media in site.data.media.media-list %}
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="event">
+
+          <div class="col-sm-3">
+            {% if media.thumbnail %}
+              {% if media.thumbnail contains "http" %}
+              <img src="{{media.thumbnail}}" class="img-responsive media-thumbnail" alt="{{media.thumbnail-text}}">
+              {% else  %}
+              <img src="{{site.baseurl}}/assets/thumbnails/{{media.thumbnail}}" class="img-responsive media-thumbnail" alt="{{media.thumbnail-text}}">
+              {% endif %}
+            {% else %}
+            <img src="{{site.baseurl}}/assets/images/ColeridgeInitiativeLogo_white.png" class="img-responsive media-thumbnail" alt="White Coleridge Initiative logo">
+            {% endif %}
+          </div>
+          <div class="col-sm-9">
+          <h2 class="event-title"><a href="{{media.link}}" target="_blank">{{media.title}}</a></h2>
+          {% if media.session-title %}<span class="event-session-title">{{media.session-title}}</span><br />{% endif %}
+
+          {% if media.date %}<div class="event-date">{{media.date}}</div>{% endif %}
+          {% if media.location %}<div class="event-location"> - {{media.location}}</div>{% endif %}<br />
+
+          {% if media.resources %}<p class="event-resource">
+            {% for resource in media.resources %}
+              <a href="{{resource.resource-link}}" target="_blank">{{resource.resource-title}}</a>&nbsp;&nbsp;
+            {% endfor %}
+            </p>
+          {% endif %}
+
+          {% if media.description %}<p class="event-description">{{media.description}}</p>{% endif %}
+          {% comment %}{% if media.type %}<div class="event-type">{{media.type}}</div>{% endif %}{% endcomment %}
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <br/>
+    {% endfor %}
+  <br />
+</div>
