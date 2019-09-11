@@ -1,0 +1,36 @@
+---
+layout: default
+title: News
+permalink: news.html
+---
+<div class="container-fluid about-bg-top">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="page-title">NEWS</div>
+      </div>
+    </div>
+  </div>
+
+  <br><br>
+  
+  <div class="container">
+      {% for event in site.data.news.event-list %}
+          <div class="row">
+
+        <div class="col-sm-12">
+            <p class="comp-heading">{{event.news-title}}</p>
+          </div>    
+        <div class="col-sm-12">
+          <div class="event">
+            <div class="col-sm-9">
+            {% if event.date %}<div class="event-date">{{event.date}}</div>{% endif %}
+            {% if event.description %}<p class="event-description">{{event.description}}</p>{% endif %}
+            </div>
+            </div>
+        </div>
+      </div>
+      <br/>
+      {% endfor %}
+    <br />
+  </div>
+  

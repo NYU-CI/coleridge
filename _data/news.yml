@@ -1,0 +1,19 @@
+event-list:
+  - news-title: "Partnership with RePEc for Validation Machine Learning Models"
+    description: |+
+      We're excited to announce a partnership with RePEc (Research Papers in Economics), a global leader in the dissemination of research in the field of economics. A major piece of our Rich Context work is the development of Machine Learning (ML) models which draw connections between datasets and the research that they are used in (read more on that <strong><a href="https://coleridgeinitiative.org/richcontext"> here </a></strong>). These ML models take publication text as inputs and try to predict which dataset(s) were used in the research. An essential element in developing strong ML models is Human-In-The-Loop (HITL) - that is, the participation of human subject matter experts who can validate model outputs. HITL is essential for strengthening these models. 
+      <br> <br>
+      RePEc has a vast and engaged community of economists from around the world who regularly contribute their research to its bibliography. RePEc hosts a unique online interface in which contributing members are prompted to confirm authorship of recent publications and keep their contact and affiliation information up-to-date. In this partnership, we will leverage RePEc's existing interface to ask authors to validate whether they used a particular dataset in a research publication.
+      <br><br>
+      RePEc communicates with its community of researchers on a monthly basis, emailing out news and informing authors of statistics on how others are engaging with their research. For example, researchers are informed about the number of views their papers have had, recent citations of their publications, etc. We're going begin by testing out a validation process on a select group of researchers who frequently contribute to RePEc, we're testing out HITL validation via the monthly email. We've selected research publications by these researchers, along with the datasets that were predicted as being referenced by the paper. Once we begin recieving feedback, we'll work to incorporate this type of validation into RePEc's existing web interface. 
+      <br><br>
+      Read more about our joint efforts in RePEc's recent <strong><a href="https://t.co/bMDJ4lWYIX?amp=1"> blog post</a></strong>!
+      <br>
+    link: "https://www.naswa.org/conferences/2019-workforce-summit-ui-directors-conference"
+    date: "September 11, 2019"
+    
+  
+
+    
+
+    # https://t.co/bMDJ4lWYIX?amp=1
