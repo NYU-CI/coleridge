@@ -25,3 +25,6 @@
 - name: UMD
   link: https://umd.edu/
   logo: umd.svg
+- name: GESIS
+  link: https://www.gesis.org/en/home
+  logo: gesis.jpeg
