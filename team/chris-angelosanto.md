@@ -4,7 +4,7 @@ fullname: Chris Angelosanto
 firstname: Chris
 lastname: Angelosanto
 role: "Director, Research Administration"
-image: default.jpeg
+image: chris-angelosanto.jpg
 affiliation: New York University
 positions: []
 ---
