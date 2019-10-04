@@ -26,6 +26,35 @@ event-list:
     #    resource-link: "https://www.naswa.org/conferences/96486/sessions?page=17"
     thumbnail: "https://www.naspaa.org/sites/default/files/styles/ifde_wysiwyg__natural/public/images/2019-04/Logo_fullLowRez.png?itok=o-rIdeEp"
     thumbnail-text: "NASPAA 50th Anniversary logo"
+
+  - category: conferences
+    title: "2019 APPAM Fall Research Conference"
+    type: "conference"
+    session-title: "Panel: Diversity in STEM"
+    description: "This panel includes three papers, which respectively study the underrepresentation of gender or ethnicity in STEM college education, academic placement, leadership and scientific productivity."
+    link: "https://appam.confex.com/appam/2019/webprogram/"
+    date: "November 8-9, 2019"
+    location: "Denver, CO"
+    resources:
+    - resource-title: "Panel information"
+      resource-link: "https://appam.confex.com/appam/2019/webprogram/Session12691.html"
+    thumbnail: "http://www.appam.org/assets/1/7/700x180_2019FC.jpg"
+    thumbnail-text: "41st Anniversary Logo"
+
+  - category: conferences
+    title: "2019 APPAM Fall Research Conference"
+    type: "conference"
+    session-title: "Panel: Innovation and Education: The Academic Research Environment"
+    description: "This session will explore how various aspects of the academic research environment can impact both scientific innovation as well as graduate students' job placement outcomes."
+    link: "https://appam.confex.com/appam/2019/webprogram/"
+    date: "November 8-9, 2019"
+    location: "Denver, CO"
+    resources:
+    - resource-title: "Panel information"
+      resource-link: "https://appam.confex.com/appam/2019/webprogram/Session12891.html"
+    thumbnail: "http://www.appam.org/assets/1/7/700x180_2019FC.jpg"
+    thumbnail-text: "41st Anniversary Logo"
+
   - category: workshops
     title: "The Society for Longitudinal and Lifecourse Studies (SLLS) International Conference"
     type: "workshop"
@@ -36,6 +65,21 @@ event-list:
     location: "Manchester, England"
     thumbnail: "https://www.staffnet.manchester.ac.uk/brand/visual-identity/logo/logo_big.gif"
     thumbnail-text: "University of Manchester Logo"
+
+  - category: conferences
+    title: "2020 ASSA Annual Meeting"
+    type: "conference"
+    session-title: "Life on the Edge: Collaboration and the Production of Ideas at the Scientific Frontier"
+    #description: "NASPAA's 2019 Conference is an invitation to move our conversation on disrupted states into a reflection on the crisis of democracy; of going beyond the pursuit of liberal democracy to become part of the construction of sustainable and inclusive democracies."
+    link: "https://www.aeaweb.org/conference/"
+    date: "January 3, 2020"
+    location: "San Diego, CA"
+    resources:
+    - resource-title: "Session information"
+      resource-link: "https://www.aeaweb.org/conference/2020/preliminary/1649?q=eNqrVipOLS7OzM8LqSxIVbKqhnGVrJQMlWp1lBKLi_OTgRwlHaWS1KJcXCDLPVwnNS8PqEBHKSWxEiqTmZsKYZVlppaDTCkqKFwwCpgaKNXWAlwwIY4eKQ,,"
+    thumbnail: "https://www.aeaweb.org/assets/e9748894/images/logo.svg"
+    thumbnail-text: "AEA logo"
+
   - category: past events
     title: "Connected Data London 2019"
     type: "conference"
