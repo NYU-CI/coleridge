@@ -13,6 +13,7 @@ event-list:
       resource-link: "https://conferences.oreilly.com/artificial-intelligence/ai-eu/public/schedule/detail/79547"
     thumbnail: "https://mapr.com/resources/events/oreilly-artificial-intelligence-conference-2019/assets/oreilly-ai-logo.png"
     thumbnail-text: "O'Reilly Artificial Intelligence logo"
+
   - category: conferences
     title: "2019 NASPAA Annual Conference"
     type: "conference"
@@ -30,8 +31,8 @@ event-list:
   - category: conferences
     title: "2019 APPAM Fall Research Conference"
     type: "conference"
-    session-title: "Panel: Diversity in STEM"
-    description: "This panel includes three papers, which respectively study the underrepresentation of gender or ethnicity in STEM college education, academic placement, leadership and scientific productivity."
+    session-title: "Panel: Diversity in STEM | Panel: Innovation and Education: The Academic Research Environment"
+    description: "This year's event will focus on celebrating differences among all viewpoints and how we can work together to improve the public policy field."
     link: "https://appam.confex.com/appam/2019/webprogram/"
     date: "November 8-9, 2019"
     location: "Denver, CO"
@@ -42,29 +43,18 @@ event-list:
     thumbnail-text: "41st Anniversary Logo"
 
   - category: conferences
-    title: "2019 APPAM Fall Research Conference"
+    title: "14th Annual Conference on Empirical Legal Studies"
     type: "conference"
-    session-title: "Panel: Innovation and Education: The Academic Research Environment"
-    description: "This session will explore how various aspects of the academic research environment can impact both scientific innovation as well as graduate students' job placement outcomes."
-    link: "https://appam.confex.com/appam/2019/webprogram/"
-    date: "November 8-9, 2019"
-    location: "Denver, CO"
-    resources:
-    - resource-title: "Panel information"
-      resource-link: "https://appam.confex.com/appam/2019/webprogram/Session12891.html"
-    thumbnail: "http://www.appam.org/assets/1/7/700x180_2019FC.jpg"
-    thumbnail-text: "41st Anniversary Logo"
-
-  - category: workshops
-    title: "The Society for Longitudinal and Lifecourse Studies (SLLS) International Conference"
-    type: "workshop"
-    session-title: "ML to Augment Scholarly Infrastructure"
-    description: "This talk is about Rich Context and the associated new features for data governance and collaboration which are going into JupyterLab."
-    link: "http://events.manchester.ac.uk/event/event:nqe-k1aldw3t-yajcqa/seminar-ml-to-augment-scholarly-infrastructure"
-    date: "October 14, 2019"
-    location: "Manchester, England"
-    thumbnail: "https://www.staffnet.manchester.ac.uk/brand/visual-identity/logo/logo_big.gif"
-    thumbnail-text: "University of Manchester Logo"
+    #session-title: "Panel: Diversity in STEM | Panel: Innovation and Education: The Academic Research Environment"
+    description: "CELS presents papers that engage empirical and experimental scholarship on legal issues spanning all areas of empirical legal studies."
+    link: "https://cels2019.cmc.edu/"
+    date: "November 15-16, 2019"
+    location: "Claremont, CA"
+    #resources:
+    #- resource-title: "Panel information"
+    #  resource-link: "https://appam.confex.com/appam/2019/webprogram/Session12691.html"
+    thumbnail: "https://library.law.yale.edu/sites/default/files/blog.png"
+    thumbnail-text: "CELS info"
 
   - category: conferences
     title: "2020 ASSA Annual Meeting"
@@ -80,11 +70,44 @@ event-list:
     thumbnail: "https://www.aeaweb.org/assets/e9748894/images/logo.svg"
     thumbnail-text: "AEA logo"
 
+  - category: workshops
+    title: "The Society for Longitudinal and Lifecourse Studies (SLLS) International Conference"
+    type: "workshop"
+    session-title: "ML to Augment Scholarly Infrastructure"
+    description: "This talk is about Rich Context and the associated new features for data governance and collaboration which are going into JupyterLab."
+    link: "http://events.manchester.ac.uk/event/event:nqe-k1aldw3t-yajcqa/seminar-ml-to-augment-scholarly-infrastructure"
+    date: "October 14, 2019"
+    location: "Manchester, England"
+    thumbnail: "https://www.staffnet.manchester.ac.uk/brand/visual-identity/logo/logo_big.gif"
+    thumbnail-text: "University of Manchester Logo"
+
+  - category: workshops
+    title: "The Ohio State University Department of Economics Seminar Series"
+    type: "workshop"
+    #session-title: "ML to Augment Scholarly Infrastructure"
+    #description: "This talk is about Rich Context and the associated new features for data governance and collaboration which are going into JupyterLab."
+    #link: "http://events.manchester.ac.uk/event/event:nqe-k1aldw3t-yajcqa/seminar-ml-to-augment-scholarly-infrastructure"
+    date: "October 17, 2019"
+    location: "Columbus, OH"
+    thumbnail: "https://economics.osu.edu/sites/economics.osu.edu/files/econ_wordmark2.png"
+    thumbnail-text: "OSU Econ Logo"
+
+  - category: workshops
+    title: "California Department of Social Services Department Seminar"
+    type: "workshop"
+    session-title: "Data Analytics to Measure Success and Inform Policy"
+    description: "This presentation will discuss a new  training program that builds the capacity of agency staff to work with their own data and that of other agencies and states. "
+    link: "https://www.cdss.ca.gov/"
+    date: "November 5, 2019"
+    location: "Sacramento, CA"
+    thumbnail: "http://co-invest.org/wp-content/uploads/unofficial-horizontal-logo-300x148.png"
+    thumbnail-text: "California Department of Social Services logo"
+
   - category: past events
     title: "Connected Data London 2019"
     type: "conference"
-    session-title: "Graph Realities"
-    description: "This talk explores a practical use case of graph applications, one which addresses key issues of data governance and reproducible research, and depends on sophisticated use of graph technology."
+    session-title: "Graph Realities | From Data Science to AI via Graph Analytics"
+    description: "The leading conference for those who use the relationships, meaning and context in Data to achieve great things."
     link: "https://connected-data.london/"
     date: "October 4, 2019"
     location: "London, England"
@@ -93,19 +116,7 @@ event-list:
         resource-link: "https://connected-data.london/sessions/graph-realities/"
     thumbnail: "connected-data-london.jpeg"
     thumbnail-text: "Connected Data London 2019"
-  - category: past events
-    title: "Connected Data London 2019"
-    type: "conference"
-    session-title: "From Data Science to AI via Graph Analytics"
-    description: "In this panel, we’ll embark on a journey from data science to AI via graph analytics."
-    link: "https://connected-data.london/"
-    date: "October 4, 2019"
-    location: "London, England"
-    resources:
-      - resource-title: "Lecture information"
-        resource-link: "https://connected-data.london/sessions/from-data-science-to-ai-via-graph-analytics/"
-    thumbnail: "connected-data-london.jpeg"
-    thumbnail-text: "Connected Data London 2019"
+
   - category: past events
     title: "The Society for Longitudinal and Lifecourse Studies (SLLS) International Conference"
     type: "workshop"
