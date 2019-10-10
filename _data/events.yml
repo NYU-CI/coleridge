@@ -1,6 +1,35 @@
 categories: ["conferences", "workshops", "past events"]  # webinars is a potential category
 event-list:
   - category: conferences
+    title: "Force 11: tthe Future of Research Communications and e-Scholarship"
+    type: "conference"
+    session-title: "Using open competitions to drive innovation and collaboration"
+    description: "The FORCE11 annual conference is a different kind of meeting, where stakeholders come together – or scrummage – for an open discussion, on an even playing field, to talk about changing the ways scholarly and scientific information is communicated, shared and used. Researchers, publishers, librarians, computer scientists, informaticians, funders, educators, citizens, and others attend the FORCE11 meeting with a view to supporting the realisation of promising new ideas and identifying new potential collaborators."
+    link: "https://www.force11.org/meetings/force2019"
+    date: "October 15-17, 2019"
+    location: "Edinburgh, Scotland"
+    resources:
+    - resource-title: "Lecture information"
+      resource-link: "https://force2019.sched.com/event/U2nD/using-open-competitions-to-drive-innovation-and-collaboration"
+    thumbnail: "https://www.force11.org/sites/default/files/force11-website-logo.png"
+    thumbnail-text: "FORCE11 logo"
+
+  - category: past events
+    title: "LWDA 2019: Learning. Knowledge. Data. Analytics."
+    type: "conference"
+    session-title: "Beyond research data infrastructures: exploiting artificial & crowd intelligence towards building research knowledge graphs"
+    description: "Stefan Dietze presents on The need for sharing and reuse of research data has been widely acknowledged and led to a multitude of data search platforms, registries as well as national and international initiatives."
+    link: "https://www.force11.org/meetings/force2019"
+    date: "September 30 - October 2, 2019"
+    location: "Berlin, Germany"
+    resources:
+    - resource-title: "Lecture information"
+      resource-link: "https://pages.cms.hu-berlin.de/ipa/lwda2019/program/#stefan-dietze"
+    thumbnail: "https://www.ibi.hu-berlin.de/de/hu_logo_custom/image"
+    thumbnail-text: "Humboldt University logo"
+
+
+  - category: conferences
     title: "O'Reilly AI Conference"
     type: "conference"
     session-title: "Unpacking AutoML"
