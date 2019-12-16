@@ -36,74 +36,91 @@ permalink: draft.html
       
       <p class="comp-description">There now exists the scientific capacity to
         build such a platform, and interest from the scholarly community, whose participation and contribution to this project are vital, 
-        as this is necessarily a community-based project.<br />
+        as this is necessarily a community-based project. <br />
       </p>  
 
-      <p class="comp-description">We are approaching this project from four areas:<br /><br />
-        1.  Knolwedge graph and corpus development<br />
-        2.  Community engagement<br />
-        3.  Graph models for improving search and discovery<br />
-        4.  
+      
+      <div class="col-sm-12">
+        <p class="comp-heading">TECHNICAL APPROACH</p><br />
+      </div>
 
-    <div class="col-sm-12">
-      <p class="comp-heading">WHAT ARE WE UP TO?</p><br />
-    </div>
-    <div class="col-sm-12">
+      
       <p class="comp-description">
-        1.  Rich Context Competition<br /><br />
-        We are hosting a competition that prompts NLP/ML researchers around the world to developing models that can 
-        automatically detect which datasets were used in research publications. Using our knowledge graph, we provide 
-        a corpus with validated linkages between datasets and publications, plus their metadata. We have a leaderboard 
-        to track teams' progress. The competition is open to the public! <br /><br />
-        2.  Building Technical Infrastructure<br /><br />
-        a)  Knowledge graph<br />
-        b)  Corpus development<br />
-        c)  <strong><a href="https://pypi.org/project/richcontext-scholapi/">
-          richcontext-scholapi</a></strong><br />
-        We've developed a library of API calls for metadata discovery and exchange across multiple scholarly 
-        infrastructure providers. We use Note that even in cases where there is good coverage for the published research 
-        in a particular field, these APIs do not provide the same coverage – such that one must “mix & match” results. 
-        To-date there is no one discovery service for searching the links among datasets, publications, people, topics, etc., 
-        in general.<br /><br />
-        
-        2.  Community Engagement<br /><br />
-        a)  Competition<br />
-        We have an active community of researchers working on models for automated dataset detection in research publications.
-          In addition to building their own models, teams are contributing to shared tools for pdf retrieval and text extraction.<br />
-          https://github.com/Coleridge-Initiative/rclc<br />
-          "Using open competitions to drive innovation and collaboration"<br />
-          https://zenodo.org/record/3519300#.XfPghJNKifX<br />
-          Engaging with RePEc authors<br />
-          https://blog.repec.org/2019/09/01/new-initiative-to-help-with-discovery-of-dataset-use-in-scholarly-work/<br />
+       <strong> Python Library:</strong> We've built a library <strong><a href="https://pypi.org/project/richcontext-scholapi/">
+          richcontext-scholapi</a></strong> which provides API integrations for federating discovery services and metadata exchange across multiple scholarly infrastructure providers. 
+          We regularly expand and develop the library by integrating additional APIs.
+        </p>  
+
+      <p class="comp-description">
+          <strong> Knowledge Graph and Competition:</strong> We're creating a corpus of known links between research publications and datasets, which emerge from the  <strong><a href="https://pypi.org/project/richcontext-scholapi/">
+              knowledge graph</a></strong> we are building. 
+              Using the corpus, we designed a <strong><a href="https://pypi.org/project/richcontext-scholapi/">
+              competition</a></strong> inviting NLP researchers to develop models to automatically detect dataset usage from research publications. 
+              The competition is open to the public and ongoing, with team progress is tracked on a leaderboard.
+              Our competition makes use of open source tools like <a href="https://pypi.org/project/richcontext-scholapi/">
+                `science-parse`</a> from Semantic Scholar.
+                <br>
+                <img src="{{site.baseurl}}/assets/images/p0036.jpg" class="img-responsive" alt="Responsive image">
+          </p>  
+
+          <br>
+          
+    <div>
+          <p class="comp-description">
+              <strong> Jupyter Extensions:</strong> We've collaborated with <strong><a href="https://jupyter.org/">
+              Project Jupyter</a></strong>
+              to create extensions which treat datasets as top-level constructs. Features like  <strong> <a href="https://github.com/jupyterlab/jupyterlab/issues/5548">
+  the Data Registry</a></strong>, <strong> <a href="https://github.com/jupyterlab/jupyterlab-metadata-service/blob/master/press_release.md">
+  the Metadata Explorer</a></strong>, <strong> <a href="https://github.com/jupyterlab/jupyterlab-commenting/blob/master/press_release.md">
+    and Commenting </a></strong> enable users to register datasets within research projects; browse metadata on their datasets while they work; and comment and collaborate in real-time on
+    shared projects and datasets. Ongoing work involves enriching our knowledge graph with information gleaned from comments, collaboration and computing within the Jupyter environment; and developing a reccomendation engine
+    for datasets and code.
+      <br><br>
+    <img src="{{site.baseurl}}/assets/images/jupyter_screenshot.png" class="img-responsive" alt="Responsive image">
+    <caption>JupyterLab with Data Registry and Metadata Explorer, using the <i>SITS</i> dataset. <i>Deutsche Bundesbank, JupyterLab, Quansight</i> </caption>
+            </p>  
+    </div>
+
+ 
+    <div class="col-sm-12">
+        <p class="comp-heading">COMMUNITY ENGAGEMENT</p><br />
+      </div>    
+
+
+      <div>
+      <p class="comp-description">
+      <strong> Competition:</strong> We've collaborated with 
+      <br><br>
+      </p>  
+
+      <p class="comp-description">
+      <strong> Competition:</strong> We've collaborated with 
+      <br><br>
+      Engaging with RePEc authors<br />
+      https://blog.repec.org/2019/09/01/new-initiative-to-help-with-discovery-of-dataset-use-in-scholarly-work/<br />
+  
+      </p>  
+
+        <br /><br />
+      
+      
         b)  Workshops<br />
 
-            
+    
+    <div class="col-sm-12">
+        <p class="comp-heading">WORKSHOPS, WRITINGS AND PRESENTATIONS</p><br />
+      </div>    
 
+    <p class="comp-description">
+        <strong>Book: </strong>We wrote a forthcoming <a href="http://34.82.145.119:8080/">
+                book</a> on the subject, <i>Rich Search and Discovery for Research Datasets: Building the next generation of scholarly infrastructure</i>, to be published by SAGE Press.
+    </p>  
 
-
-
-
+    "Using open competitions to drive innovation and collaboration"<br />
+    https://zenodo.org/record/3519300#.XfPghJNKifX<br />
+          
+    
         
-            <br /><br /><br />
-        here is a burgeoning scientific field of
-        knowledge databases which provide a natural representation for
-        scientific hypotheses in many domains. Manually curated ontologies and
-        knowledge graphs are central to many scientific processes in domains
-        such as biomedical research. The existing knowledge bases cover just a
-        small fraction of the findings that are reported in the scientific
-        literature. The field is developing automated approaches to accelerate
-        the development of these resources.  In particular, the scientific
-        underpinnings necessary to build the automated approaches include: (i)
-        document corpus development, (ii) ontology development for dataset
-        entity classification, (iii) natural language processing and machine
-        learning models for dataset entity extraction, (iv) graph models for
-        improving search and discovery, and (v) engagement to get scientists to
-        contribute code and knowledge. A forthcoming SAGE publications book
-        <strong><a href="https://tinyurl.com/richcontextbook-update">
-        https://tinyurl.com/richcontextbook-update</a></strong> provides an overview of
-        initial work in each area. </p><br />
-    </div>
-
     <div class="col-sm-4 col-sm-offset-4">
       <img src="{{site.baseurl}}/assets/images/rcc_diagram.png" class="img-responsive" alt="Responsive image">
     </div>
