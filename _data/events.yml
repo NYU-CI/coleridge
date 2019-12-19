@@ -4,14 +4,17 @@ event-list:
   - category: conferences
     title: "2020 ASSA Annual Meeting"
     type: "conference"
-    session-title: "Life on the Edge: Collaboration and the Production of Ideas at the Scientific Frontier"
-    #description: "NASPAA's 2019 Conference is an invitation to move our conversation on disrupted states into a reflection on the crisis of democracy; of going beyond the pursuit of liberal democracy to become part of the construction of sustainable and inclusive democracies."
+    session-title: "(Session I) Life on the Edge: Collaboration and the Production of Ideas at the Scientific Frontier <br/>
+    (Session II) Breakfast Session: The Status of Older Workers and the Older Worker Labor Market"
+    description: "NASPAA's 2019 Conference is an invitation to move our conversation on disrupted states into a reflection on the crisis of democracy; of going beyond the pursuit of liberal democracy to become part of the construction of sustainable and inclusive democracies."
     link: "https://www.aeaweb.org/conference/"
     date: "January 3, 2020"
     location: "San Diego, CA"
     resources:
-    - resource-title: "Session information"
+    - resource-title: "Session I information"
       resource-link: "https://www.aeaweb.org/conference/2020/preliminary/1649?q=eNqrVipOLS7OzM8LqSxIVbKqhnGVrJQMlWp1lBKLi_OTgRwlHaWS1KJcXCDLPVwnNS8PqEBHKSWxEiqTmZsKYZVlppaDTCkqKFwwCpgaKNXWAlwwIY4eKQ,,"
+    - resource-title: "Session II information"
+      resource-link: "https://www.aeaweb.org/conference/2020/preliminary/1344?q=eNo1jDEOgzAQBP-yNUUo0vCCFJTp0ck55JNsbN05QQj57xgRup3R7u4wNpO0vLfMGPYbMaBH7UBmyTVAh8IaW3ol52cOYWFt0pjU-VGiFDvn9C0-6RTIyn3xoe1_IJGv9BNez7bm3MTzgVoPSlcr5Q,,"
     thumbnail: "https://images.squarespace-cdn.com/content/5b40bba6620b8511b2b9d011/1532886295020-QN20AAIQSCL9GWOO8QF5/Screen+Shot+2018-07-29+at+1.42.13+PM.png?content-type=image%2Fpng"
     thumbnail-text: "AEA logo"
 
@@ -32,14 +35,20 @@ event-list:
   - category: past events
     title: "2019 APPAM Fall Research Conference"
     type: "conference"
-    session-title: "Panel: Diversity in STEM | Panel: Innovation and Education: The Academic Research Environment"
+    session-title: "(Panel I) Panel: Diversity in STEM <br/>
+    (Panel II) Panel: Innovation and Education: The Academic Research Environment <br/>
+    (Panel III) Panel Paper: Incentives for Home and Community Based Care Under the Affordable Care Act: Implications for Supplemental Security Income Receipt"
     description: "This year's event will focus on celebrating differences among all viewpoints and how we can work together to improve the public policy field."
     link: "https://appam.confex.com/appam/2019/webprogram/"
-    date: "November 8-9, 2019"
+    date: "November 7-9, 2019"
     location: "Denver, CO"
     resources:
-    - resource-title: "Panel information"
+    - resource-title: "Panel I information"
       resource-link: "https://appam.confex.com/appam/2019/webprogram/Session12691.html"
+    - resource-title: "Panel II information"
+      resource-link: "https://appam.confex.com/appam/2019/webprogram/Session12891.html"
+    - resource-title: "Panel III information"
+      resource-link: "https://appam.confex.com/appam/2019/webprogram/Paper33522.html"
     thumbnail: "http://www.appam.org/assets/1/7/700x180_2019FC.jpg"
     thumbnail-text: "41st Anniversary Logo"
 
@@ -202,6 +211,19 @@ event-list:
     #    resource-link: "https://www.naswa.org/conferences/96486/sessions?page=17"
     thumbnail: "http://www.uni-frankfurt.de/76519229.jpg?"
     thumbnail-text: "Goethe University"
+  - category: past events
+    title: "2019 Retirement and Disability Research Consortium"
+    type: "conference"
+    session-title: "Panel 6: SSI and SSDI"
+    description: "Daniela Hochfellner presents her combined work analyzing how the Balancing Incentives Program's changed living arrangements and receipt of Supplemental Secuirty Income."
+    link: "https://crr.bc.edu/about-us/events/2019-retirement-and-disability-research-consortium-meeting/"
+    date: "August 1-2, 2019"
+    location: "Washington, DC"
+    resources:
+      - resource-title: "Session information"
+        resource-link: "https://mrdrc.isr.umich.edu/pubs/2019-rdrc-meeting-incentives-for-home-and-community-based-care-under-the-affordable-care-act-implications-for-supplemental-security-income-receipt/"
+    thumbnail: "https://www.ssa.gov/framework/images/logo.svg"
+    thumbnail-text: "Social Security Administration Logo"
   - category: past events
     title: "Informational webinar on upcoming Applied Data Analytics Program at USDA"
     type: "keynote"
