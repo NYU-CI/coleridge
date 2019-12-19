@@ -1,6 +1,85 @@
 categories: ["conferences", "workshops", "past events"]  # webinars is a potential category
 event-list:
+
   - category: conferences
+    title: "2020 ASSA Annual Meeting"
+    type: "conference"
+    session-title: "Life on the Edge: Collaboration and the Production of Ideas at the Scientific Frontier"
+    #description: "NASPAA's 2019 Conference is an invitation to move our conversation on disrupted states into a reflection on the crisis of democracy; of going beyond the pursuit of liberal democracy to become part of the construction of sustainable and inclusive democracies."
+    link: "https://www.aeaweb.org/conference/"
+    date: "January 3, 2020"
+    location: "San Diego, CA"
+    resources:
+    - resource-title: "Session information"
+      resource-link: "https://www.aeaweb.org/conference/2020/preliminary/1649?q=eNqrVipOLS7OzM8LqSxIVbKqhnGVrJQMlWp1lBKLi_OTgRwlHaWS1KJcXCDLPVwnNS8PqEBHKSWxEiqTmZsKYZVlppaDTCkqKFwwCpgaKNXWAlwwIY4eKQ,,"
+    thumbnail: "https://images.squarespace-cdn.com/content/5b40bba6620b8511b2b9d011/1532886295020-QN20AAIQSCL9GWOO8QF5/Screen+Shot+2018-07-29+at+1.42.13+PM.png?content-type=image%2Fpng"
+    thumbnail-text: "AEA logo"
+
+  - category: past events
+    title: "14th Annual Conference on Empirical Legal Studies"
+    type: "conference"
+    #session-title: "Panel: Diversity in STEM | Panel: Innovation and Education: The Academic Research Environment"
+    description: "CELS presents papers that engage empirical and experimental scholarship on legal issues spanning all areas of empirical legal studies."
+    link: "https://cels2019.cmc.edu/"
+    date: "November 15-16, 2019"
+    location: "Claremont, CA"
+    #resources:
+    #- resource-title: "Panel information"
+    #  resource-link: "https://appam.confex.com/appam/2019/webprogram/Session12691.html"
+    thumbnail: "https://library.law.yale.edu/sites/default/files/blog.png"
+    thumbnail-text: "CELS info"
+
+  - category: past events
+    title: "2019 APPAM Fall Research Conference"
+    type: "conference"
+    session-title: "Panel: Diversity in STEM | Panel: Innovation and Education: The Academic Research Environment"
+    description: "This year's event will focus on celebrating differences among all viewpoints and how we can work together to improve the public policy field."
+    link: "https://appam.confex.com/appam/2019/webprogram/"
+    date: "November 8-9, 2019"
+    location: "Denver, CO"
+    resources:
+    - resource-title: "Panel information"
+      resource-link: "https://appam.confex.com/appam/2019/webprogram/Session12691.html"
+    thumbnail: "http://www.appam.org/assets/1/7/700x180_2019FC.jpg"
+    thumbnail-text: "41st Anniversary Logo"
+
+  - category: past events
+    title: "California Department of Social Services Department Seminar"
+    type: "workshop"
+    session-title: "Data Analytics to Measure Success and Inform Policy"
+    description: "This presentation will discuss a new  training program that builds the capacity of agency staff to work with their own data and that of other agencies and states. "
+    link: "https://www.cdss.ca.gov/"
+    date: "November 5, 2019"
+    location: "Sacramento, CA"
+    thumbnail: "http://co-invest.org/wp-content/uploads/unofficial-horizontal-logo-300x148.png"
+    thumbnail-text: "California Department of Social Services logo"
+
+  - category: past events
+    title: "The Ohio State University Department of Economics Seminar Series"
+    type: "workshop"
+    #session-title: "ML to Augment Scholarly Infrastructure"
+    #description: "This talk is about Rich Context and the associated new features for data governance and collaboration which are going into JupyterLab."
+    #link: "http://events.manchester.ac.uk/event/event:nqe-k1aldw3t-yajcqa/seminar-ml-to-augment-scholarly-infrastructure"
+    date: "October 17, 2019"
+    location: "Columbus, OH"
+    thumbnail: "https://economics.osu.edu/sites/economics.osu.edu/files/econ_wordmark2.png"
+    thumbnail-text: "OSU Econ Logo"
+
+  - category: past events
+    title: "2019 NASPAA Annual Conference"
+    type: "conference"
+    session-title: "Developing data science curricula and faculty in NASPAA Schools"
+    description: "NASPAA's 2019 Conference is an invitation to move our conversation on disrupted states into a reflection on the crisis of democracy; of going beyond the pursuit of liberal democracy to become part of the construction of sustainable and inclusive democracies."
+    link: "https://www.naswa.org/conferences/2019-workforce-summit-ui-directors-conference"
+    date: "October 17, 2019"
+    location: "Los Angeles, CA"
+    #resources:
+    #- resource-title: "Session information"
+    #    resource-link: "https://www.naswa.org/conferences/96486/sessions?page=17"
+    thumbnail: "https://www.naspaa.org/sites/default/files/styles/ifde_wysiwyg__natural/public/images/2019-04/Logo_fullLowRez.png?itok=o-rIdeEp"
+    thumbnail-text: "NASPAA 50th Anniversary logo"
+
+  - category: past events
     title: "Force 11: tthe Future of Research Communications and e-Scholarship"
     type: "conference"
     session-title: "Using open competitions to drive innovation and collaboration"
@@ -15,21 +94,6 @@ event-list:
     thumbnail-text: "FORCE11 logo"
 
   - category: past events
-    title: "LWDA 2019: Learning. Knowledge. Data. Analytics."
-    type: "conference"
-    session-title: "Beyond research data infrastructures: exploiting artificial & crowd intelligence towards building research knowledge graphs"
-    description: "Stefan Dietze presents on The need for sharing and reuse of research data has been widely acknowledged and led to a multitude of data search platforms, registries as well as national and international initiatives."
-    link: "https://www.force11.org/meetings/force2019"
-    date: "September 30 - October 2, 2019"
-    location: "Berlin, Germany"
-    resources:
-    - resource-title: "Lecture information"
-      resource-link: "https://pages.cms.hu-berlin.de/ipa/lwda2019/program/#stefan-dietze"
-    thumbnail: "https://www.ibi.hu-berlin.de/de/hu_logo_custom/image"
-    thumbnail-text: "Humboldt University logo"
-
-
-  - category: conferences
     title: "O'Reilly AI Conference"
     type: "conference"
     session-title: "Unpacking AutoML"
@@ -43,63 +107,7 @@ event-list:
     thumbnail: "https://mapr.com/resources/events/oreilly-artificial-intelligence-conference-2019/assets/oreilly-ai-logo.png"
     thumbnail-text: "O'Reilly Artificial Intelligence logo"
 
-  - category: conferences
-    title: "2019 NASPAA Annual Conference"
-    type: "conference"
-    session-title: "Developing data science curricula and faculty in NASPAA Schools"
-    description: "NASPAA's 2019 Conference is an invitation to move our conversation on disrupted states into a reflection on the crisis of democracy; of going beyond the pursuit of liberal democracy to become part of the construction of sustainable and inclusive democracies."
-    link: "https://www.naswa.org/conferences/2019-workforce-summit-ui-directors-conference"
-    date: "October 17, 2019"
-    location: "Los Angeles, CA"
-    #resources:
-    #- resource-title: "Session information"
-    #    resource-link: "https://www.naswa.org/conferences/96486/sessions?page=17"
-    thumbnail: "https://www.naspaa.org/sites/default/files/styles/ifde_wysiwyg__natural/public/images/2019-04/Logo_fullLowRez.png?itok=o-rIdeEp"
-    thumbnail-text: "NASPAA 50th Anniversary logo"
-
-  - category: conferences
-    title: "2019 APPAM Fall Research Conference"
-    type: "conference"
-    session-title: "Panel: Diversity in STEM | Panel: Innovation and Education: The Academic Research Environment"
-    description: "This year's event will focus on celebrating differences among all viewpoints and how we can work together to improve the public policy field."
-    link: "https://appam.confex.com/appam/2019/webprogram/"
-    date: "November 8-9, 2019"
-    location: "Denver, CO"
-    resources:
-    - resource-title: "Panel information"
-      resource-link: "https://appam.confex.com/appam/2019/webprogram/Session12691.html"
-    thumbnail: "http://www.appam.org/assets/1/7/700x180_2019FC.jpg"
-    thumbnail-text: "41st Anniversary Logo"
-
-  - category: conferences
-    title: "14th Annual Conference on Empirical Legal Studies"
-    type: "conference"
-    #session-title: "Panel: Diversity in STEM | Panel: Innovation and Education: The Academic Research Environment"
-    description: "CELS presents papers that engage empirical and experimental scholarship on legal issues spanning all areas of empirical legal studies."
-    link: "https://cels2019.cmc.edu/"
-    date: "November 15-16, 2019"
-    location: "Claremont, CA"
-    #resources:
-    #- resource-title: "Panel information"
-    #  resource-link: "https://appam.confex.com/appam/2019/webprogram/Session12691.html"
-    thumbnail: "https://library.law.yale.edu/sites/default/files/blog.png"
-    thumbnail-text: "CELS info"
-
-  - category: conferences
-    title: "2020 ASSA Annual Meeting"
-    type: "conference"
-    session-title: "Life on the Edge: Collaboration and the Production of Ideas at the Scientific Frontier"
-    #description: "NASPAA's 2019 Conference is an invitation to move our conversation on disrupted states into a reflection on the crisis of democracy; of going beyond the pursuit of liberal democracy to become part of the construction of sustainable and inclusive democracies."
-    link: "https://www.aeaweb.org/conference/"
-    date: "January 3, 2020"
-    location: "San Diego, CA"
-    resources:
-    - resource-title: "Session information"
-      resource-link: "https://www.aeaweb.org/conference/2020/preliminary/1649?q=eNqrVipOLS7OzM8LqSxIVbKqhnGVrJQMlWp1lBKLi_OTgRwlHaWS1KJcXCDLPVwnNS8PqEBHKSWxEiqTmZsKYZVlppaDTCkqKFwwCpgaKNXWAlwwIY4eKQ,,"
-    thumbnail: "https://www.aeaweb.org/assets/e9748894/images/logo.svg"
-    thumbnail-text: "AEA logo"
-
-  - category: workshops
+  - category: past events
     title: "The Society for Longitudinal and Lifecourse Studies (SLLS) International Conference"
     type: "workshop"
     session-title: "ML to Augment Scholarly Infrastructure"
@@ -109,28 +117,6 @@ event-list:
     location: "Manchester, England"
     thumbnail: "https://www.staffnet.manchester.ac.uk/brand/visual-identity/logo/logo_big.gif"
     thumbnail-text: "University of Manchester Logo"
-
-  - category: workshops
-    title: "The Ohio State University Department of Economics Seminar Series"
-    type: "workshop"
-    #session-title: "ML to Augment Scholarly Infrastructure"
-    #description: "This talk is about Rich Context and the associated new features for data governance and collaboration which are going into JupyterLab."
-    #link: "http://events.manchester.ac.uk/event/event:nqe-k1aldw3t-yajcqa/seminar-ml-to-augment-scholarly-infrastructure"
-    date: "October 17, 2019"
-    location: "Columbus, OH"
-    thumbnail: "https://economics.osu.edu/sites/economics.osu.edu/files/econ_wordmark2.png"
-    thumbnail-text: "OSU Econ Logo"
-
-  - category: workshops
-    title: "California Department of Social Services Department Seminar"
-    type: "workshop"
-    session-title: "Data Analytics to Measure Success and Inform Policy"
-    description: "This presentation will discuss a new  training program that builds the capacity of agency staff to work with their own data and that of other agencies and states. "
-    link: "https://www.cdss.ca.gov/"
-    date: "November 5, 2019"
-    location: "Sacramento, CA"
-    thumbnail: "http://co-invest.org/wp-content/uploads/unofficial-horizontal-logo-300x148.png"
-    thumbnail-text: "California Department of Social Services logo"
 
   - category: past events
     title: "Connected Data London 2019"
@@ -145,6 +131,20 @@ event-list:
         resource-link: "https://connected-data.london/sessions/graph-realities/"
     thumbnail: "connected-data-london.jpeg"
     thumbnail-text: "Connected Data London 2019"
+
+  - category: past events
+    title: "LWDA 2019: Learning. Knowledge. Data. Analytics."
+    type: "conference"
+    session-title: "Beyond research data infrastructures: exploiting artificial & crowd intelligence towards building research knowledge graphs"
+    description: "Stefan Dietze presents on The need for sharing and reuse of research data has been widely acknowledged and led to a multitude of data search platforms, registries as well as national and international initiatives."
+    link: "https://www.force11.org/meetings/force2019"
+    date: "September 30 - October 2, 2019"
+    location: "Berlin, Germany"
+    resources:
+    - resource-title: "Lecture information"
+      resource-link: "https://pages.cms.hu-berlin.de/ipa/lwda2019/program/#stefan-dietze"
+    thumbnail: "https://www.ibi.hu-berlin.de/de/hu_logo_custom/image"
+    thumbnail-text: "Humboldt University logo"
 
   - category: past events
     title: "The Society for Longitudinal and Lifecourse Studies (SLLS) International Conference"
