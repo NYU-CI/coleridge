@@ -42,6 +42,13 @@ permalink: draft.html
         build such a platform, and interest from the scholarly community, whose participation and contribution to this project are vital, 
         as this is necessarily a community-based project. </p><br />
     </div>
+
+    <div class="col-sm-4 col-sm-offset-4">
+      <br><br>
+    <img src="{{site.baseurl}}/assets/images/rcc_diagram.png" class="img-responsive" alt="Responsive image">
+    
+  </div>
+
       
     <div class="col-sm-12">
       <p class="comp-heading">TECHNICAL APPROACH</p><br />
@@ -53,18 +60,15 @@ permalink: draft.html
           We regularly expand and develop the library by integrating additional APIs.</p>
 
       <p class="comp-description">
-        <strong> Knowledge Graph and Competition:</strong> We're creating a corpus of known links between research publications and datasets, which emerge from the  <strong><a href="https://pypi.org/project/richcontext-scholapi/">
-            knowledge graph</a></strong> we are building. 
-            Using the corpus, we designed a <strong><a href="https://coleridgeinitiative.org/richcontextcompetition">
-            competition</a></strong> inviting NLP researchers to develop models to automatically detect dataset usage from research publications. 
-            The competition is open to the public and ongoing, with team progress is tracked on a leaderboard.
-            Our competition makes use of open source tools like <a href="https://github.com/allenai/spv2">
-            science-parse</a> from Semantic Scholar. </p>
+        <strong> Knowledge Graph:</strong> We're creating a <strong><a href="https://github.com/NYU-CI/RCGraph">
+          knowledge graph</a></strong> knowledge graph of known links between datasets, research publications, researchers and experts, and projects within the social sciences. The knowledge graph is the source of
+          all rich context metadata. 
+        
+        </p>
     <p class="comp-description">
-        <strong> Knowledge Graph and Competition:</strong> We're creating a corpus of known links between research publications and datasets, which emerge from the  <strong><a href="https://pypi.org/project/richcontext-scholapi/">
-            knowledge graph</a></strong> we are building. 
+        <strong> Competition:</strong> Using our knowledge graph, we created a corpus of known links between research publications and datasets.
             Using the corpus, we designed a <strong><a href="https://coleridgeinitiative.org/richcontextcompetition">
-            competition</a></strong> inviting NLP researchers to develop models to automatically detect dataset usage from research publications. 
+            competition</a></strong> inviting NLP researchers to develop models to automatically detect dataset usage from the text of research publications. 
             The competition is open to the public and ongoing, with team progress is tracked on a leaderboard.
             Our competition makes use of open source tools like <a href="https://github.com/allenai/spv2">
             science-parse</a> from Semantic Scholar. </p>
@@ -72,6 +76,7 @@ permalink: draft.html
         
         <div class="col-sm-5 col-sm-offset-3">
           <img src="{{site.baseurl}}/assets/images/p0036.jpg" class="img-responsive" alt="Responsive image">  
+          <caption>Interaction between Competition and Rich Context Scope <i> Paco Nathan, DerwenAI</i> </caption>
         </div>
     </div>
 
@@ -85,8 +90,8 @@ permalink: draft.html
               Project Jupyter</a></strong>
               to create extensions which treat datasets as top-level constructs. Features like  <strong> <a href="https://github.com/jupyterlab/jupyterlab/issues/5548">
               the Data Registry</a></strong>, <strong> <a href="https://github.com/jupyterlab/jupyterlab-metadata-service/blob/master/press_release.md">
-              the Metadata Explorer</a></strong>, <strong> <a href="https://github.com/jupyterlab/jupyterlab-commenting/blob/master/press_release.md">
-              and Commenting </a></strong> enable users to register datasets within research projects; browse metadata on their datasets while they work; and comment and collaborate in real-time on
+              the Metadata Explorer</a></strong>, and <strong> <a href="https://github.com/jupyterlab/jupyterlab-commenting/blob/master/press_release.md">
+              Commenting </a></strong> enable users to register datasets within research projects; browse metadata on their datasets while they work; and comment and collaborate in real-time on
               shared projects and datasets. Ongoing work involves enriching our knowledge graph with information gleaned from comments, collaboration and computing within the Jupyter environment; and developing a reccomendation engine
               for datasets and code.
       <br><br>
@@ -108,27 +113,47 @@ permalink: draft.html
         </p>
       
         <p class="comp-description">
-          <strong>Engaging with RePEc authors:</strong>
+          <strong>Human-In-The-Loop:</strong> We've partened with RePEc (Research Papers in Economics), a repository of economics research 
+          with a lively and engaged community of contributors. RePEc's unique interface enables authors to validate and contribute metadata on research. 
+          With a sample of RePEc's contributors, we are piloting a program where contributors will validate outputs from the 
+          machine learning models that arae developed during the competition. 
+          <br><br>
+          Read more about this work on RePEc's blog:
             <i><a href="https://blog.repec.org/2019/09/01/new-initiative-to-help-with-discovery-of-dataset-use-in-scholarly-work/">
-          New initiative to help with discovery of dataset use in scholarly work</a></i><br />
+          New initiative to help with discovery of dataset use in scholarly work</a></i>, by Christian Zimmerman<br />
         </p>  
     </div>
     <br /><br />
     
     <div class="col-sm-12">
-        <p class="comp-heading">WORKSHOPS, WRITINGS AND PRESENTATIONS</p><br />
+        <p class="comp-heading">WRITINGS, WORKSHOPS AND PRESENTATIONS</p><br />
     </div>    
     <div class="col-sm-12">
+    <!-- <p class="comp-description">
+        <strong>Book: </strong> We wrote a book on the subject, to be published in 2020 by SAGE Press. Entitled
+        <a href="http://34.82.145.119:8080/"><i>Rich Search and Discovery for Research Datasets: Building the next generation of scholarly infrastructure</i></a>, the book is currently 
+        available in open-access form. 
+        
+    </p> -->
+    
     <p class="comp-description">
-        <strong>Book: </strong> We wrote a forthcoming book on the subject, 
-        <a href="http://34.82.145.119:8080/"><i>Rich Search and Discovery for Research Datasets: Building the next generation of scholarly infrastructure</i></a>, to be published by SAGE Press.
-    </p>  
+      <strong>Presentations: </strong>
+      <div class="col-sm-12">
+      <ul>
+        <li style="font-size:18px"><a href="http://34.82.145.119:8080/"><i>Rich Search and Discovery for Research Datasets: Building the next generation of scholarly infrastructure</i></a> - We wrote a book on the subject, to be published in 2020 by SAGE Press.<br>  
+        <li style="font-size:18px"><a href="https://derwen.ai/s/rgrt"><i>Graph Realities</i></a> - Paco Nathan, DerwenAI</li>
+        <li style="font-size:18px"><a href="https://medium.com/derwen/dataset-discovery-and-human-in-the-loop-ai-for-scholarly-infrastructure-e65d38cb0f8f"><i>Human-in-the-loop AI for scholarly infrastructure</i></a> - Paco Nathan, DerwenAI</li>
+        <li style="font-size:18px"><a href="https://sites.google.com/view/akbc-sci/home#h.p__gGYN-CvEcEo"><i>Where’s Waldo: Finding datasets in empirical research publications</i></a> - Julia Lane, Coleridge Initiative</li>
+      </ul></div>
+      <br>
+  </p>
+
     <br>
     <p class="comp-description">
         <strong>Presentations: </strong>
         <div class="col-sm-12">
         <ul>
-            <li style="font-size:18px"><a href="https://zenodo.org/record/3519300#.XfPghJNKifX"><i>Using open competitions to drive innovation and collaboration</i></a> - Ian Mulvaney, SAGE Publishing</li>
+            <li style="font-size:18px"><a href="https://rev.dominodatalab.com/"><i>Where's the Data: A New Approach to Social Science Search & Discovery</i></a> - May 23, 2019, Rev 2 - Data Science Leaders Summit<br>
         </ul></div>
         <br>
     </p>
@@ -137,100 +162,13 @@ permalink: draft.html
         <strong>Workshops: </strong>
         <div class="col-sm-12">
         <ul>
-            <li style="font-size:18px"><a href="https://sites.google.com/view/akbc-sci/home"><i>Scientific Literature Knowledge Bases</i></a> - UMass Amherst, May 22, 2019<br>
-                Presentation: “Where's the Data: A New Approach to Social Science Search & Discovery<br></li>
-            <li style="font-size:18px"><a href="https://rev.dominodatalab.com/"><i>Rev 2 - Data Science Leaders Summit</i></a> - New York, NY, May 23, 2019<br>
-                Presentation: “Where's the Data: A New Approach to Social Science Search & Discovery</li>
+                <li style="font-size:18px"><a href="https://sites.google.com/view/akbc-sci/home"><i>Scientific Literature Knowledge Bases</i></a> - May 22, 2019, UMass Amherst, MA</li>
         </ul></div>
         <br>  
     </p>
     <br>
 </div>        
-    <div class="col-sm-4 col-sm-offset-4">
-        <br><br>
-      <img src="{{site.baseurl}}/assets/images/rcc_diagram.png" class="img-responsive" alt="Responsive image">
-    </div>
-
-
-    <div class="col-sm-12">
-      <br />
-      <p class="comp-heading">APPROACH</p>
-    </div>
-    <div class="col-sm-12">
-      <p class="comp-description"><strong>Our first step</strong> in developing a model was
-        hosting our first <strong><a href="{{site.baseurl}}/richcontextcompetition">competition</a></strong>
-        in which we asked participants around the globe to develop named entity
-        recognition models that would identify and extract dataset mentions from
-        full-text social science publications.  Twenty teams from across the
-        world submitted letters of intent; four finalist teams presented their
-        models in New York in February 2019.  Their <strong><a href="{{site.baseurl}}/richcontextcompetition/workshopagenda">
-        papers and presentations can be viewed here</a></strong>; The Allen
-        Institute for Artificial Intelligence were
-        the winners of the competition.
-      </p>
-    </div>
-
-    <div class="col-sm-12">
-      <p class="comp-description"><strong>The first application of the rich
-        context work is our Data Stewardship module</strong>, which enables data
-        owners and stewards to manage permissions and access to their datasets.
-        Metadata from this module will interact with Rich Context - for example,
-        information on usage of the datasets, results from analyses using them,
-        and linkage of datasets with other pieces of data will emerge from the
-        Data Stewardship model and be used to enrich the knowledge graph
-        conveying relationships in the Rich Context Module.
-      </p>
-    </div>
-
-    <div class="col-sm-12">
-      <p class="comp-description"><strong>Our book on this subject, to be
-        published in November 2019</strong>, gives an in-depth background on use
-        cases for the Rich Context, development of models and the training data
-        they rely on, background on ontology and knowledge-graph, and the
-        technical and cultural considerations around creating tools for
-        development of metadata and sustained engagement with the research
-        community.
-      </p>
-    </div>
-
-    <div class="col-sm-12">
-      <p class="comp-description">We also are working on <strong>developing a
-        better training corpus for our next competition</strong> and
-        <strong>implementing a knowledge graph to develop better
-        recommendations</strong>. We’re using existing, known connections
-        between datasets and research publications to build out a structure for
-        the knowledge graph that will be the basis of our Rich Context Explorer.
-      </p><br />
-    </div>
-
-    <div class="col-sm-12">
-      <p class="comp-heading">HELP BUILD RICH CONTEXT</p>
-    </div>
-    <div class="col-sm-12">
-      <p class="comp-description"><strong>Research datasets are the bread and
-        butter of your work</strong> - we need your help in creating rich context around
-        them to make it easier for you and your colleagues to search and
-        discover new datasets. Please submit metadata on your work at
-        <strong><a href="https://coleridgeinitiative.org/pubsubmission">https://coleridgeinitiative.org/pubsubmission</a></strong>.
-      </p><br />
-    </div>
-
-    <div class="col-sm-12">
-      <p class="comp-heading">FOR MORE INFORMATION</p>
-    </div>
-    <div class="col-sm-12">
-      <p class="comp-description"><strong>Recent presentations on our project</strong>
-        include:<br /><br />
-        May 22, 2019, UMass Amherst, MA<br />
-        <strong><a href="https://sites.google.com/view/akbc-sci/home" target="_blank">https://sites.google.com/view/akbc-sci/home</a></strong><br />
-        Workshop: “Scientific Literature Knowledge Bases”<br /><br />
-
-        May 23, 2019, Rev 2 - Data Science Leaders Summit<br />
-        <strong><a href="https://rev.dominodatalab.com/" target="_blank">https://rev.dominodatalab.com/</a></strong><br />
-        Presentation: “Where's the Data: A New Approach to Social Science Search & Discovery”<br /><br />
-      </p>
-    </div>
-
+    
     <div class="col-sm-12">
       <div class="footer-spacer"></div>
     </div>
