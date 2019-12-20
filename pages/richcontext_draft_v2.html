@@ -23,16 +23,80 @@ permalink: draft.html
       <p class="comp-heading">GOAL</p><br />
     </div>
     <div class="col-sm-12">
-      <p class="comp-description">The goal of the Rich Context project is to create a new platform 
-        that enables the search and discovery of datasets.<br><br>The <strong>challenge</strong> that empirical researchers 
-        face - It is very difficult to find out, for a given dataset:
-      <div class="col-sm-12">
-        <ol type="1">
-          <li><strong>Who</strong> has worked with the data before;</li>
-          <li><strong>What methods</strong> were used;</li>
-          <li><strong>What results</strong> were produced;</li>
-          <li>and, <strong>Where</strong> those products can be found.</li>
-        </ol><br></div>
+      <p class="comp-description">
+        
+          The goal of the Rich Context project is to create a new platform that 
+          enables the search and discovery of datasets.
+          <br><br>
+
+          The <strong>challenge</strong> that empirical researchers face is that, 
+          for a given dataset, it is difficult to find out <strong>who</strong> has 
+          worked with the data before, <strong>what methods and code</strong> were used, 
+          and <strong>what results were produced</strong>. Some <a href="https://eng.lyft.com/amundsen-lyfts-data-discovery-metadata-engine-62d27254fbb9">
+            estimates</a> suggest that more 
+          than a third of analysts’ time is spent in finding out about data 
+          rather than in model development and production, and the <a href="https://strategy.data.gov/action-plan/">
+            Federal Data Strategy</a> has directed government agencies to streamline access 
+          to federal data assets. 
+          <br><br>
+          There now exists the scientific capacity to build a platform that 
+          will automate search and discovery. 
+          A <strong><a href="https://coleridgeinitiative.org/richcontextcompetition">competition</a></strong>
+          brought together computer scientists from around the globe to develop models that would identify 
+          and extract dataset mentions from full-text publications. The finalists convened in New York City 
+          in February 2019 to present their <a href="https://coleridgeinitiative.org/richcontextcompetition/workshopagenda">work</a>.  
+          A follow on <a href="{{site.baseurl}}/rcworkshop_report">workshop</a> brought together more than 70 international experts to identify gaps and an 
+          operational roadmap. 
+         </p>
+
+         
+          
+          <div class="col-sm-5 col-sm-offset-3">
+            <img src="{{site.baseurl}}/assets/images/rc_visuals.png" class="img-responsive" alt="Responsive image">  
+            <caption>Forthcoming Book,<i> SAGE Publications, 2020</i> </caption>
+          </div>
+          </div>
+
+
+          <div class="col-sm-12">  <br><br>
+            <p class="comp-description">
+                A forthcoming SAGE publications <a href="https://tinyurl.com/richcontextbook-update">book</a> provides an overview of initial work in each area.
+                  for datasets and code.
+          <br><br>
+
+                </p>  
+
+        </div><br />
+
+        <div class="col-sm-5 col-sm-offset-3">
+            <img src="{{site.baseurl}}/assets/images/book_cover.png" class="img-responsive" alt="Responsive image">  
+            <caption>Forthcoming Book,<i> SAGE Publications, 2020</i> </caption>
+          </div>
+        </div>
+      
+          <div class="col-sm-4 col-sm-offset-4">
+            
+          </div>
+      
+          <!-- <div class="col-sm-12">  <br><br>
+              <p class="comp-description">
+                  <strong> Jupyter Extensions:</strong> We've collaborated with <strong><a href="https://jupyter.org/">
+                    Project Jupyter</a></strong>
+                    to create extensions which treat datasets as top-level constructs. Features like  <strong> <a href="https://github.com/jupyterlab/jupyterlab/issues/5548">
+                    the Data Registry</a></strong>, <strong> <a href="https://github.com/jupyterlab/jupyterlab-metadata-service/blob/master/press_release.md">
+                    the Metadata Explorer</a></strong>, and <strong> <a href="https://github.com/jupyterlab/jupyterlab-commenting/blob/master/press_release.md">
+                    Commenting </a></strong> enable users to register datasets within research projects; browse metadata on their datasets while they work; and comment and collaborate in real-time on
+                    shared projects and datasets. Ongoing work involves enriching our knowledge graph with information gleaned from comments, collaboration and computing within the Jupyter environment; and developing a reccomendation engine
+                    for datasets and code.
+            <br><br>
+
+                  </p>  
+          </div><br /> -->
+
+
+          <br><br>
+        <!-- <div class="col-sm-12"> 
+
         <p class="comp-description">Addressing that lack of information consumes an 
             enormous amount of time and energy for many social scientists. A platform that provided automated tools and 
             services to improve search and discovery could greatly facilitate the process — often by passively capitalizing on 
@@ -47,7 +111,7 @@ permalink: draft.html
       <br><br>
     <img src="{{site.baseurl}}/assets/images/rc_visuals.png" class="img-responsive" alt="Responsive image">
     
-  </div>
+  </div> -->
 
       
     <div class="col-sm-12">
@@ -55,119 +119,96 @@ permalink: draft.html
     </div>
     <div class="col-sm-12">
       <p class="comp-description">
-       <strong> Python Library:</strong> We've built a library <strong><a href="https://pypi.org/project/richcontext-scholapi/">
-          richcontext-scholapi</a></strong> which provides API integrations for federating discovery services and metadata exchange across multiple scholarly infrastructure providers. 
-          We regularly expand and develop the library by integrating additional APIs.</p>
-
-      <p class="comp-description">
-        <strong> Knowledge Graph:</strong> We're creating a <strong><a href="https://github.com/NYU-CI/RCGraph">
-          knowledge graph</a></strong> knowledge graph of known links between datasets, research publications, researchers and experts, and projects within the social sciences. The knowledge graph is the source of
-          all rich context metadata. 
+        <strong> Much work has already been done</strong>
+        <br><br>
+        The Coleridge Initiative, in cooperation with <a href="https://jupyter.org/">Project Jupyter</a>
+        the <a href="https://www.bundesbank.de/de/bundesbank/forschung/fdsz/forschungsdaten-und-servicezentrum-fdsz--604430">Deutsche Bundesbank</a> , 
         
-        </p>
-    <p class="comp-description">
-        <strong> Competition:</strong> Using our knowledge graph, we created a corpus of known links between research publications and datasets.
-            Using the corpus, we designed a <strong><a href="https://coleridgeinitiative.org/richcontextcompetition">
-            competition</a></strong> inviting NLP researchers to develop models to automatically detect dataset usage from the text of research publications. 
-            The competition is open to the public and ongoing, with team progress is tracked on a leaderboard.
-            Our competition makes use of open source tools like <a href="https://github.com/allenai/spv2">
-            science-parse</a> from Semantic Scholar. </p>
+        several federal agencies and <a href="https://derwen.ai/paco">Derwen.ai</a> has developed a series of key inputs
+        
 
+        
+        <ol>
+            <li>A Python library <strong><a href="https://pypi.org/project/richcontext-scholapi/">
+              richcontext-scholapi</a></strong> which provides API integrations for federating discovery services and metadata exchange across multiple scholarly infrastructure providers. The library is constantly integrating additional APIs.</li>
+            <li>A <strong>knowledge graph</strong> of known links between datasets, research publications, researchers and experts, and projects within the social sciences. </li>
+            <li>A <strong><a href="https://github.com/Coleridge-Initiative/rclc">leaderboard competition </a></strong> inviting NLP research teams to develop models to automatically detect dataset usage from the text of research publications. Teams are also contributing to shared tools for pdf retrieval and text extraction. The competition is open to the public.</li>
+            <li>A set of Jupyter extensions which treat datasets as top-level constructs. Features like the <strong><a href="https://github.com/jupyterlab/jupyterlab/issues/5548">
+              Data Registry</a></strong>,  <strong><a href="https://github.com/jupyterlab/jupyterlab-metadata-service/blob/master/press_release.md">
+                the Metadata Explorer</a></strong>, and <strong><a href="https://github.com/jupyterlab/jupyterlab-commenting/blob/master/press_release.md">
+                Commenting</a></strong> enable users to register datasets within research projects; browse metadata on their datasets while they work; and comment and collaborate in real-time on shared projects and datasets. The eventual goal is to enrich the knowledge graph with information gleaned from comments, collaboration and computing within the Jupyter environment; and developing a recomendation engine for datasets and code. </li>
+          <li><strong>Human-In-The-Loop:</strong>  RePEc, (Research Papers in Economics) enables scientists to validate and contribute metadata on research.  piloting a program where contributors will validate outputs from the machine learning models that are developed during the competition.</li>
+          </ol>
+      </p>
+    </div>
+    <div class="col-sm-12">
+        <p class="comp-description">
+          Read more about this work on RePEc's blog:
+          <i><a href="https://blog.repec.org/2019/09/01/new-initiative-to-help-with-discovery-of-dataset-use-in-scholarly-work/">
+        New initiative to help with discovery of dataset use in scholarly work</a></i>, by Christian Zimmerman<br />
+          
+        </p></div>
         
         <div class="col-sm-5 col-sm-offset-3">
           <img src="{{site.baseurl}}/assets/images/p0036.jpg" class="img-responsive" alt="Responsive image">  
-          <caption>Interaction between Competition and Rich Context Scope <i> Paco Nathan, DerwenAI</i> </caption>
+          <caption>Interaction between Competition and Rich Context Scope <i> Paco Nathan, Derwen.ai</i> </caption>
         </div>
-    </div>
-
-    <div class="col-sm-4 col-sm-offset-4">
-      
-    </div>
+<br><br><br>
+        <div class="col-sm-5 col-sm-offset-3">
+            <img src="{{site.baseurl}}/assets/images/jupyter_screenshot.png" class="img-responsive" alt="Responsive image">  
+            <caption>Interaction between Competition and Rich Context Scope <i> Paco Nathan, Derwen.ai</i> </caption>
+          </div>
+    
 
     <div class="col-sm-12">  <br><br>
         <p class="comp-description">
-            <strong> Jupyter Extensions:</strong> We've collaborated with <strong><a href="https://jupyter.org/">
-              Project Jupyter</a></strong>
-              to create extensions which treat datasets as top-level constructs. Features like  <strong> <a href="https://github.com/jupyterlab/jupyterlab/issues/5548">
-              the Data Registry</a></strong>, <strong> <a href="https://github.com/jupyterlab/jupyterlab-metadata-service/blob/master/press_release.md">
-              the Metadata Explorer</a></strong>, and <strong> <a href="https://github.com/jupyterlab/jupyterlab-commenting/blob/master/press_release.md">
-              Commenting </a></strong> enable users to register datasets within research projects; browse metadata on their datasets while they work; and comment and collaborate in real-time on
               shared projects and datasets. Ongoing work involves enriching our knowledge graph with information gleaned from comments, collaboration and computing within the Jupyter environment; and developing a reccomendation engine
               for datasets and code.
       <br><br>
-    <div class="col-sm-3 col-sm-offset-5"></div>
-      <img src="{{site.baseurl}}/assets/images/jupyter_screenshot.png" class="img-responsive" alt="Responsive image" width="90%"><br>
-      <caption>JupyterLab with Data Registry and Metadata Explorer, using the <i>SITS</i> dataset. <i>Deutsche Bundesbank, JupyterLab, Quansight</i> </caption>
-            </p>  
-    </div><br />
+    
     
 
  
-    <div class="col-sm-12">
-      <p class="comp-heading">COMMUNITY ENGAGEMENT</p><br />
+    <p class="comp-heading">RELATED READINGS</p><br />
     </div>    
     <div class="col-sm-12">
         <p class="comp-description">
-          <strong> Competition:</strong> We've collaborated with an active community of researchers working on models for automated dataset detection in research 
-          publications. In addition to building their own models, teams are contributing to shared tools for pdf retrieval and text extraction. 
+            <div class="col-sm-12">
+            <ul>
+              <li style="font-size:18px"><a href="http://34.82.145.119:8080/"><i>Rich Search and Discovery for Research Datasets: Building the next generation of scholarly infrastructure</i></a> Julia Lane, Ian Mulvaney and Paco Nathan. Forthcoming<br>  
+              <li style="font-size:18px"><a href="http://scholarly-comms-product-blog.com/2019/11/19/google_data_set_search._/"><i>Google data set search.</i></a> Ian Mulvaney, SAGE Publishing, November 19, 2019</li>
+              <li style="font-size:18px"><a href="https://medium.com/derwen/dataset-discovery-and-human-in-the-loop-ai-for-scholarly-infrastructure-e65d38cb0f8f"><i>Human-in-the-loop AI for scholarly infrastructure</i></a> Paco Nathan, Derwen.ai, September 14, 2019.</li>
+              <li style="font-size:18px"><a href="https://strategy.data.gov/action-plan/"><i>What is the Year-1 Action Plan?</i></a> U.S. Federal Data Strategy</li>
+              <li style="font-size:18px"><a href="https://www.nature.com/news/empty-rhetoric-over-data-sharing-slows-science-1.22133"><i>Empty rhetoric over data sharing slows science</i></a> Editorial. Nature, June 12 2017.<br>  
+            </ul></div>
+            <br>
         </p>
-      
-        <p class="comp-description">
-          <strong>Human-In-The-Loop:</strong> We've partened with RePEc (Research Papers in Economics), a repository of economics research 
-          with a lively and engaged community of contributors. RePEc's unique interface enables authors to validate and contribute metadata on research. 
-          With a sample of RePEc's contributors, we are piloting a program where contributors will validate outputs from the 
-          machine learning models that arae developed during the competition. 
-          <br><br>
-          Read more about this work on RePEc's blog:
-            <i><a href="https://blog.repec.org/2019/09/01/new-initiative-to-help-with-discovery-of-dataset-use-in-scholarly-work/">
-          New initiative to help with discovery of dataset use in scholarly work</a></i>, by Christian Zimmerman<br />
-        </p>  
-    </div>
+        </div>
     <br /><br />
     
     <div class="col-sm-12">
-        <p class="comp-heading">WRITINGS, WORKSHOPS AND PRESENTATIONS</p><br />
+        <p class="comp-heading">PRESENTATIONS</p><br />
     </div>    
     <div class="col-sm-12">
-    <!-- <p class="comp-description">
-        <strong>Book: </strong> We wrote a book on the subject, to be published in 2020 by SAGE Press. Entitled
-        <a href="http://34.82.145.119:8080/"><i>Rich Search and Discovery for Research Datasets: Building the next generation of scholarly infrastructure</i></a>, the book is currently 
-        available in open-access form. 
+        <p class="comp-description">
+  
+            <div class="col-sm-12">
+            <ul>
+              <li style="font-size:18px"><a href="https://derwen.ai/s/rgrt"><i>Graph Realities</i></a> Paco Nathan, Derwen.ai. October 4 2019, Connected Data London, London, England.</li>
+              <li style="font-size:18px"><a href="https://force2019.sched.com/event/U2nD/using-open-competitions-to-drive-innovation-and-collaboration"><i>Using open competitions to drive innovation and collaboration</i></a> Ian Mulvaney, SAGE Publishing. October 17 2019, FORCE Conference, Edinburgh, Scotland.</li>
+              <li style="font-size:18px"><a href="https://pages.cms.hu-berlin.de/ipa/lwda2019/program/#stefan-dietze"><i>Beyond research data infrastructures: exploiting artificial & crowd intelligence towards building research knowledge graphs.</i></a> Stefan Dietze, GESIS. Keynote at LWDA2019, October 2 2019, Berlin, Germany</li>
+              <li style="font-size:18px"><a href="https://www.cemla.org/actividades/2019-final/2019-05-financial-information-forum/2019-05-financial-information-forum15.pdf"><i>Experiences of the Deutsche Bundesbank: Efforts to strenghten information sharing and dissemination</i></a> Stefan Bender, Research Data and Service Center, Deutsche Bundesbank. May 28, 2019, Financial Information Forum of Latin American and the Caribbean Central Banks, Lima, Peru.</li>
+              <li style="font-size:18px"><a href="https://sites.google.com/view/akbc-sci/home#h.p__gGYN-CvEcEo"><i>Where’s Waldo: Finding datasets in empirical research publications</i></a> Julia Lane, Coleridge Initiative. May 22 2019, Automated Knowledge Base Construction Conference, UMass Amherst, MA.</li>
+              <li style="font-size:18px"><a href="https://rev.dominodatalab.com/"><i>Where's the Data: A New Approach to Social Science Search & Discovery</i></a> - May 23, 2019, Rev 2 - Data Science Leaders Summit<br>
+              <li style="font-size:18px"><a href="https://sites.google.com/view/akbc-sci/home"><i>Scientific Literature Knowledge Bases</i></a> - May 22, 2019, UMass Amherst, MA</li>
+            </ul></div>
+            <br>
+        </p>
+        </div>
         
-    </p> -->
-    
-    <p class="comp-description">
-      <strong>Presentations: </strong>
-      <div class="col-sm-12">
-      <ul>
-        <li style="font-size:18px"><a href="http://34.82.145.119:8080/"><i>Rich Search and Discovery for Research Datasets: Building the next generation of scholarly infrastructure</i></a> - We wrote a book on the subject, to be published in 2020 by SAGE Press.<br>  
-        <li style="font-size:18px"><a href="https://derwen.ai/s/rgrt"><i>Graph Realities</i></a> - Paco Nathan, DerwenAI</li>
-        <li style="font-size:18px"><a href="https://medium.com/derwen/dataset-discovery-and-human-in-the-loop-ai-for-scholarly-infrastructure-e65d38cb0f8f"><i>Human-in-the-loop AI for scholarly infrastructure</i></a> - Paco Nathan, DerwenAI</li>
-        <li style="font-size:18px"><a href="https://sites.google.com/view/akbc-sci/home#h.p__gGYN-CvEcEo"><i>Where’s Waldo: Finding datasets in empirical research publications</i></a> - Julia Lane, Coleridge Initiative</li>
-      </ul></div>
-      <br>
-  </p>
-
+        
+        
     <br>
-    <p class="comp-description">
-        <strong>Presentations: </strong>
-        <div class="col-sm-12">
-        <ul>
-            <li style="font-size:18px"><a href="https://rev.dominodatalab.com/"><i>Where's the Data: A New Approach to Social Science Search & Discovery</i></a> - May 23, 2019, Rev 2 - Data Science Leaders Summit<br>
-        </ul></div>
-        <br>
-    </p>
-    <br>
-    <p class="comp-description">
-        <strong>Workshops: </strong>
-        <div class="col-sm-12">
-        <ul>
-                <li style="font-size:18px"><a href="https://sites.google.com/view/akbc-sci/home"><i>Scientific Literature Knowledge Bases</i></a> - May 22, 2019, UMass Amherst, MA</li>
-        </ul></div>
-        <br>  
-    </p>
-    <br>
-</div>        
     
     <div class="col-sm-12">
       <div class="footer-spacer"></div>
