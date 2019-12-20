@@ -89,7 +89,7 @@ event-list:
     thumbnail-text: "NASPAA 50th Anniversary logo"
 
   - category: past events
-    title: "Force 11: tthe Future of Research Communications and e-Scholarship"
+    title: "Force 11: the Future of Research Communications and e-Scholarship"
     type: "conference"
     session-title: "Using open competitions to drive innovation and collaboration"
     description: "The FORCE11 annual conference is a different kind of meeting, where stakeholders come together – or scrummage – for an open discussion, on an even playing field, to talk about changing the ways scholarly and scientific information is communicated, shared and used. Researchers, publishers, librarians, computer scientists, informaticians, funders, educators, citizens, and others attend the FORCE11 meeting with a view to supporting the realisation of promising new ideas and identifying new potential collaborators."
@@ -97,8 +97,8 @@ event-list:
     date: "October 15-17, 2019"
     location: "Edinburgh, Scotland"
     resources:
-    - resource-title: "Lecture information"
-      resource-link: "https://force2019.sched.com/event/U2nD/using-open-competitions-to-drive-innovation-and-collaboration"
+    - resource-title: "Presentation Slides"
+      resource-link: "https://zenodo.org/record/3519300#.XfzqkZNKh0v"
     thumbnail: "https://www.force11.org/sites/default/files/force11-website-logo.png"
     thumbnail-text: "FORCE11 logo"
 
@@ -255,6 +255,18 @@ event-list:
     location: New York City
     thumbnail: "https://www.dominodatalab.com/img/uploads/nick-rev-2-keynote-23-may-2019-domino-logo-1024x583.jpg"
     thumbnail-text: "Rev 2 Conference"
+
+  - category: past events
+    title: "Automated Knowledge Base Construction conference: Scientific Literature Knowledge Bases"
+    type: "workshop"
+    session-title: "Where’s Waldo: Finding datasets in empirical research publications"
+    description: "This half-day workshop will focus on the development and use of knowledge bases which capture important findings found in the scientific literature.  The primary goal of the workshop is to bring together researchers from the diverse fields who are interested in the development of Scientific Literature KBs."
+    link: "https://sites.google.com/view/akbc-sci/home#h.p__gGYN-CvEcEo"
+    date: "May 22, 2019"
+    location: "Amherst, MA"
+    thumbnail: "https://www.akbc.ws/2019/assets/img/logo.png"
+    thumbnail-text: "Automatic Knowledge Base Construction conference logo"
+
   - category: past events
     title: "8th ZEW/MaCCI Conference on the Economics of Innovation and Patenting"
     type: "keynote"
