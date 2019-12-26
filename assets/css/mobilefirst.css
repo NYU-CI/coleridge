@@ -1905,6 +1905,11 @@ ol {
   display: table;
 }
 
+
+.img-container {
+  text-align: center;
+}
+
 /* End Rich Context Page */
 /*************************************/
 /* Competition Page */
