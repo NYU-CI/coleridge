@@ -1911,6 +1911,23 @@ ol {
   display: block;
 }
 
+.comp-heading-rc {
+  margin: 18px 0px 0px 0px;
+  padding: 0px 0px 0px 30px;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.comp-description-rc {
+  margin: 0px 0px 16px 0px;
+  padding: 0px 30px 0px 30px;
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: 300;
+}
+
+
 /* End Rich Context Page */
 /*************************************/
 /* Competition Page */
