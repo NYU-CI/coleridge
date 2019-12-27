@@ -23,7 +23,7 @@ permalink: draft.html
       <p class="comp-heading">GOAL</p><br />
     </div>
     <div class="col-sm-12">
-      <p class="comp-description">
+      <p class="comp-description-rc">
         
           The goal of the Rich Context project is to create a new platform that 
           enables the search and discovery of datasets.
@@ -41,7 +41,7 @@ permalink: draft.html
             class="img-responsive" alt="Responsive image",float = "left">  
           </a>
 
-          <!-- <br><br> -->
+          <br><br>
 
           
           Some <a href="https://eng.lyft.com/amundsen-lyfts-data-discovery-metadata-engine-62d27254fbb9">
@@ -69,20 +69,25 @@ permalink: draft.html
          
           
 
-      <br><br><br><br>
+      <br><br>
     </div>
   
+    
     <div class="col-sm-12">
       <p class="comp-heading">TECHNICAL APPROACH</p><br />
     </div>
     <div class="col-sm-12">
-      <p class="comp-description">
+      <p class="comp-description-rc">
         <strong> Much work has already been done</strong>
         <br><br>
-        The Coleridge Initiative, in cooperation with <a href="https://jupyter.org/">Project Jupyter</a>
-        the <a href="https://www.bundesbank.de/de/bundesbank/forschung/fdsz/forschungsdaten-und-servicezentrum-fdsz--604430">Deutsche Bundesbank</a> , 
+        The Coleridge Initiative, in cooperation with 
+        <a href="https://jupyter.org/">Project Jupyter</a>
+        the 
+        <a href="https://www.bundesbank.de/de/bundesbank/forschung/fdsz/forschungsdaten-und-servicezentrum-fdsz--604430">
+        Deutsche Bundesbank
+      </a>, 
         
-        several federal agencies and <a href="https://derwen.ai/paco">Derwen.ai</a> has developed a series of key inputs
+        several federal agencies and <a href="https://derwen.ai/paco">Derwen.ai</a> has developed a series of key inputs:
         
         <ol style="font-size:20px">
             <li>A Python library <strong><a href="https://pypi.org/project/richcontext-scholapi/">
@@ -98,11 +103,34 @@ permalink: draft.html
                 <a href="https://github.com/Coleridge-Initiative/rclc">leaderboard competition 
                 </a>
               </strong> 
-              inviting NLP research teams to develop models to automatically detect dataset usage 
-              from the text of research publications. Teams are also contributing to shared tools 
+              inviting NLP research teams to develop models to automatically detect 
+              dataset usage from the text of research publications. 
+              <br><br>
+
+              Model development relies on a <i>corpus</i> 
+              of known linkages between research publications and the datasets 
+              used to produce the research. 
+              
+              The corpus continues to expand in size and scope, 
+              as new linkages, which are validated by domain experts, are added.
+<br><br>
+
+              
+              Teams use a subset of the <i>corpus</i> as a <i>training set</i> to develop 
+              their models.
+              
+              Using another subset of the corpus as a <i>test set</i>,
+              teams can test and improve their models. 
+              Our leaderboard evaluates and scores 
+              model performance; scores are updated as teams release new and improved model versions.
+              Read more about how models are evaluated on our 
+              <a href="https://github.com/Coleridge-Initiative/rclc/wiki/Evaluating-Models-for-Entity-Linking-with-Datasets">
+            Competition Wiki 
+              </a>
+           
+            <br><br>
+            Teams are also contributing to shared tools 
               for pdf retrieval and text extraction. The competition is open to the public.
-              
-              
             
             </li>
         </ol>  
@@ -113,7 +141,7 @@ permalink: draft.html
             <li>A set of Jupyter extensions which treat datasets as top-level constructs. Features like the <strong><a href="https://github.com/jupyterlab/jupyterlab/issues/5548">
               Data Registry</a></strong>,  <strong><a href="https://github.com/jupyterlab/jupyterlab-metadata-service/blob/master/press_release.md">
                 the Metadata Explorer</a></strong>, and <strong><a href="https://github.com/jupyterlab/jupyterlab-commenting/blob/master/press_release.md">
-                Commenting</a></strong> enable users to register datasets within research projects; browse metadata on their datasets while they work; and comment and collaborate in real-time on shared projects and datasets. The eventual goal is to enrich the knowledge graph with information gleaned from comments, collaboration and computing within the Jupyter environment; and developing a recomendation engine for datasets and code. </li>
+                Commenting</a></strong> enable users to register datasets within research projects; browse metadata on their datasets while they work; and comment and collaborate in real-time on shared projects and datasets. The eventual goal is to enrich the knowledge graph with information gleaned from comments, collaboration and computing within the Jupyter environment; and developing a recommendation engine for datasets and code. </li>
       <br>
             <li><strong>Human-In-The-Loop:</strong>  <a href="https://ideas.repec.org/">RePEc</a>, (<strong>Re</strong>search <strong>P</strong>apers in <strong>E</strong>conomics) enables scientists to validate and contribute metadata on research.  piloting a program where contributors will validate outputs from the machine learning models that are developed during the competition.</li>
         </ol>
@@ -138,7 +166,7 @@ permalink: draft.html
           
           <!-- <div class="col-sm-12">
         
-        <p class="comp-description">
+        <p class="comp-description-rc">
         <ol start = "5">
           <li><strong>Human-In-The-Loop:</strong>  <a href="https://ideas.repec.org/">RePEc</a>, (<strong>Re</strong>search <strong>P</strong>apers in <strong>E</strong>conomics) enables scientists to validate and contribute metadata on research.  piloting a program where contributors will validate outputs from the machine learning models that are developed during the competition.</li>
           </ol>
@@ -148,7 +176,7 @@ permalink: draft.html
 
   
     <div class="col-sm-12">
-        <p class="comp-description">
+        <p class="comp-description-rc">
           Read more about this work on RePEc's blog:
           <i><a href="https://blog.repec.org/2019/09/01/new-initiative-to-help-with-discovery-of-dataset-use-in-scholarly-work/">
         New initiative to help with discovery of dataset use in scholarly work</a></i>, by Christian Zimmerman<br />
@@ -157,13 +185,13 @@ permalink: draft.html
       </div>
         
       
-<br><br><br>
+<br><br>
       
 
-    <div class="col-sm-12">  <br><br>
+    <div class="col-sm-12">  
     
     <p class="comp-heading">RELATED READINGS</p>
-        <p class="comp-description">
+        <p class="comp-description-rc">
             <div class="col-sm-12">
             <ul>
               <li style="font-size:18px"><a href="http://34.82.145.119:8080/"><i>Rich Search and Discovery for Research Datasets: Building the next generation of scholarly infrastructure</i></a> Julia Lane, Ian Mulvaney and Paco Nathan. Forthcoming</li>
@@ -183,7 +211,7 @@ permalink: draft.html
     
     <div class="col-sm-12">
         <p class="comp-heading">PRESENTATIONS</p>
-        <p class="comp-description">
+        <p class="comp-description-rc">
   
             <div class="col-sm-12">
             <ul>
@@ -202,7 +230,7 @@ permalink: draft.html
 
         <div class="col-sm-12">
             <p class="comp-heading">RESOURCES</p>
-            <p class="comp-description">
+            <p class="comp-description-rc">
       
                 <div class="col-sm-12">
                 <ul>
@@ -244,7 +272,7 @@ permalink: draft.html
 
     <div class="col-sm-12">
         <p class="comp-heading">GET INVOLVED</p>
-        <p class="comp-description">
+        <p class="comp-description-rc">
       Are you a researcher? Tell us about your recent publications and the datasets 
       you used by filling our our 
       <a href="https://coleridgeinitiative.org/pubsubmission">Rich Context Publication Submission Form.</a> 
