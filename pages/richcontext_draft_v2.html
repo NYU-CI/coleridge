@@ -32,75 +32,46 @@ permalink: draft.html
           The <strong>challenge</strong> that empirical researchers face is that, 
           for a given dataset, it is difficult to find out <strong>who</strong> has 
           worked with the data before, <strong>what methods and code</strong> were used, 
-          and <strong>what results were produced</strong>. Some <a href="https://eng.lyft.com/amundsen-lyfts-data-discovery-metadata-engine-62d27254fbb9">
+          and <strong>what results were produced</strong>. 
+
+          <a href="http://34.82.145.119:8080/">
+              
+            <img src="{{site.baseurl}}/assets/images/book_cover.png" 
+            style = "padding-left: 0px; padding-right: 15px; padding-top: 15px; float:left;"
+            class="img-responsive" alt="Responsive image",float = "left">  
+          </a>
+
+          <!-- <br><br> -->
+
+          
+          Some <a href="https://eng.lyft.com/amundsen-lyfts-data-discovery-metadata-engine-62d27254fbb9">
             estimates</a> suggest that more 
-          than a third of analysts’ time is spent in finding out about data 
-          rather than in model development and production, and the <a href="https://strategy.data.gov/action-plan/">
-            Federal Data Strategy</a> has directed government agencies to streamline access 
-          to federal data assets. 
-          <br><br>
+            than a third of analysts’ time is spent in finding out about data 
+            rather than in model development and production, and the <a href="https://strategy.data.gov/action-plan/">
+              Federal Data Strategy</a> has directed government agencies to streamline access 
+            to federal data assets. 
+            <br><br>
+             
           There now exists the scientific capacity to build a platform that 
           will automate search and discovery. 
           A <strong><a href="https://coleridgeinitiative.org/richcontextcompetition">competition</a></strong>
           brought together computer scientists from around the globe to develop models that would identify 
           and extract dataset mentions from full-text publications. The finalists convened in New York City 
           in February 2019 to present their <a href="https://coleridgeinitiative.org/richcontextcompetition/workshopagenda">work</a>.  
-          A follow on workshop
-          <!-- <a href="{{site.baseurl}}/rcworkshop_report">workshop</a>  -->
+          A follow on workshop <!-- <a href="{{site.baseurl}}/rcworkshop_report">workshop</a>  -->
           brought together more than 70 international experts to identify gaps and an 
           operational roadmap. 
-         </p>
+        <br><br>
+
+        A forthcoming SAGE publications 
+        <a href="http://34.82.145.119:8080/">book</a>  provides an overview of initial work in each area.
 
          
           
-          <!-- <div class="col-sm-5 col-sm-offset-3">
-            <img src="{{site.baseurl}}/assets/images/rc_visuals.png" class="img-responsive" alt="Responsive image">  
-            <caption>Rich Context Ecosystem </caption>
-          </div> -->
 
-          </div>
-
-
-          <div class="col-sm-12">  <br><br>
-            <p class="comp-description">
-                A forthcoming SAGE publications book <a href="https://tinyurl.com/richcontextbook-update">book</a> provides an overview of initial work in each area. 
-          <br><br>
-
-                </p>  
-
-        </div>
-        <div>
-            <span class="img-container"> <!-- Inline parent element -->
-              <img src="{{site.baseurl}}/assets/images/book_cover.png" alt="">
-              
-            </span>
-            <!-- <caption>Forthcoming Book,<i> SAGE Publications, 2020</i> </caption> -->
-          </div>
-        <br />
-
-         
-
-
-          <br><br>
-        <!-- <div class="col-sm-12"> 
-
-        <p class="comp-description">Addressing that lack of information consumes an 
-            enormous amount of time and energy for many social scientists. A platform that provided automated tools and 
-            services to improve search and discovery could greatly facilitate the process — often by passively capitalizing on 
-            the accumulated labor of one’s extended research community. </p>
-        
-      <p class="comp-description">There now exists the scientific capacity to
-        build such a platform, and interest from the scholarly community, whose participation and contribution to this project are vital, 
-        as this is necessarily a community-based project. </p><br />
+      <br><br><br><br>
     </div>
-
-    <div class="col-sm-4 col-sm-offset-4">
-      <br><br>
-    <img src="{{site.baseurl}}/assets/images/rc_visuals.png" class="img-responsive" alt="Responsive image">
-    
-  </div> -->
-
-      
+  
     <div class="col-sm-12">
       <p class="comp-heading">TECHNICAL APPROACH</p><br />
     </div>
@@ -116,28 +87,30 @@ permalink: draft.html
         <ol>
             <li>A Python library <strong><a href="https://pypi.org/project/richcontext-scholapi/">
               richcontext-scholapi</a></strong> which provides API integrations for federating discovery services and metadata exchange across multiple scholarly infrastructure providers. The library is constantly integrating additional APIs.</li>
+            <br>
             <li>A <strong>knowledge graph</strong> of known links between datasets, research publications, researchers and experts, and projects within the social sciences. </li>
+            <br>
+            <img src="{{site.baseurl}}/assets/images/rc_graphic1.png" 
+            style = "padding-left: 0px; padding-right: 15px; padding-top: 15px; padding-bottom: 30px; float:left;"
+            class="img-responsive" alt="Responsive image",float = "left">  
             <li>A <strong><a href="https://github.com/Coleridge-Initiative/rclc">leaderboard competition </a></strong> inviting NLP research teams to develop models to automatically detect dataset usage from the text of research publications. Teams are also contributing to shared tools for pdf retrieval and text extraction. The competition is open to the public.</li>
-        </ol>    
-      </p>
-    </div>
-        <div class="col-sm-5 col-sm-offset-3">
-            <img src="{{site.baseurl}}/assets/images/rclc_competition.png" class="img-responsive" alt="Responsive image">  
-            <figcaption>Interaction between Competition and Rich Context Scope. <br> <i> Paco Nathan, Derwen.ai and Sophie Rand, NYU</i> </figcaption>
-            <!-- <span style="display:block;">Some caption text</span> -->
-            
-          </div>
-          <div class="col-sm-12">
-          <p class="comp-description">
-        
+        </ol>  
+      <br>
+      
+      <br>
             <ol start = "4">
             <li>A set of Jupyter extensions which treat datasets as top-level constructs. Features like the <strong><a href="https://github.com/jupyterlab/jupyterlab/issues/5548">
               Data Registry</a></strong>,  <strong><a href="https://github.com/jupyterlab/jupyterlab-metadata-service/blob/master/press_release.md">
                 the Metadata Explorer</a></strong>, and <strong><a href="https://github.com/jupyterlab/jupyterlab-commenting/blob/master/press_release.md">
                 Commenting</a></strong> enable users to register datasets within research projects; browse metadata on their datasets while they work; and comment and collaborate in real-time on shared projects and datasets. The eventual goal is to enrich the knowledge graph with information gleaned from comments, collaboration and computing within the Jupyter environment; and developing a recomendation engine for datasets and code. </li>
+      <br>
+            <li><strong>Human-In-The-Loop:</strong>  <a href="https://ideas.repec.org/">RePEc</a>, (<strong>Re</strong>search <strong>P</strong>apers in <strong>E</strong>conomics) enables scientists to validate and contribute metadata on research.  piloting a program where contributors will validate outputs from the machine learning models that are developed during the competition.</li>
         </ol>
+
+
+<!-- 
         </p>
-      </div>
+      </div> -->
         <div class="row">
             <div class="column">
               <img src="{{site.baseurl}}/assets/images/metadata.png"  style="width:100%">
@@ -152,13 +125,14 @@ permalink: draft.html
                 <caption>Users can comment on datasets and interact with others in the same project.<i> Project Jupyter</i> </caption>
             </div>
           
-          <div class="col-sm-12">
+          <!-- <div class="col-sm-12">
+        
         <p class="comp-description">
         <ol start = "5">
           <li><strong>Human-In-The-Loop:</strong>  <a href="https://ideas.repec.org/">RePEc</a>, (<strong>Re</strong>search <strong>P</strong>apers in <strong>E</strong>conomics) enables scientists to validate and contribute metadata on research.  piloting a program where contributors will validate outputs from the machine learning models that are developed during the competition.</li>
           </ol>
           </p>
-        </div>
+        </div> -->
 
 
   
@@ -177,9 +151,7 @@ permalink: draft.html
 
     <div class="col-sm-12">  <br><br>
     
-    <p class="comp-heading">RELATED READINGS</p><br />
-    </div>    
-    <div class="col-sm-12">
+    <p class="comp-heading">RELATED READINGS</p>
         <p class="comp-description">
             <div class="col-sm-12">
             <ul>
@@ -199,9 +171,7 @@ permalink: draft.html
     <br /><br />
     
     <div class="col-sm-12">
-        <p class="comp-heading">PRESENTATIONS</p><br />
-    </div>    
-    <div class="col-sm-12">
+        <p class="comp-heading">PRESENTATIONS</p>
         <p class="comp-description">
   
             <div class="col-sm-12">
@@ -220,9 +190,7 @@ permalink: draft.html
 
 
         <div class="col-sm-12">
-            <p class="comp-heading">RESOURCES</p><br />
-        </div>    
-        <div class="col-sm-12">
+            <p class="comp-heading">RESOURCES</p>
             <p class="comp-description">
       
                 <div class="col-sm-12">
@@ -264,10 +232,7 @@ permalink: draft.html
     <br>
 
     <div class="col-sm-12">
-        <p class="comp-heading">GET INVOLVED</p><br />
-    </div>    
-
-    <div class="col-sm-12">
+        <p class="comp-heading">GET INVOLVED</p>
         <p class="comp-description">
       Are you a researcher? Tell us about your recent publications and the datasets 
       you used by filling our our 
