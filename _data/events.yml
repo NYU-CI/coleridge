@@ -2,20 +2,6 @@ categories: ["conferences", "workshops", "past events"]  # webinars is a potenti
 event-list:
 
   - category: conferences
-    title: "2020 ESIP Winter Meeting"
-    type: "conference"
-    session-title: "Rich Context: providing support for cross-agency data stewardship, and measuring dataset impact on public policy"
-    description: "ESIP is a community of innovative science, data and information technology practitioners who catalyze connections across traditional institutional and domain boundaries to solve critical Earth science data stewardship, information technology and interoperability issues. Through this work, ESIP improves Earth science data management practices and makes Earth science data more discoverable, accessible and useful to researchers, policy makers and the public."
-    link: "https://2020esipwintermeeting.sched.com/"
-    date: "January 7-9, 2020"
-    location: "Bethesda, MD"
-    resources:
-    - resource-title: "Lecture information"
-      resource-link: "https://2020esipwintermeeting.sched.com/event/VaXN/meeting-overview-plenary"
-    thumbnail: "https://ml.globenewswire.com/Resource/Download/54c8dcf3-1201-44a5-8efd-d23e6b19302c?size=2"
-    thumbnail-text: "ESIP logo"
-
-  - category: conferences
     title: "2020 ASSA Annual Meeting"
     type: "conference"
     session-title: "(Session I) Life on the Edge: Collaboration and the Production of Ideas at the Scientific Frontier <br/>
@@ -31,6 +17,48 @@ event-list:
       resource-link: "https://www.aeaweb.org/conference/2020/preliminary/1344?q=eNo1jDEOgzAQBP-yNUUo0vCCFJTp0ck55JNsbN05QQj57xgRup3R7u4wNpO0vLfMGPYbMaBH7UBmyTVAh8IaW3ol52cOYWFt0pjU-VGiFDvn9C0-6RTIyn3xoe1_IJGv9BNez7bm3MTzgVoPSlcr5Q,,"
     thumbnail: "https://images.squarespace-cdn.com/content/5b40bba6620b8511b2b9d011/1532886295020-QN20AAIQSCL9GWOO8QF5/Screen+Shot+2018-07-29+at+1.42.13+PM.png?content-type=image%2Fpng"
     thumbnail-text: "AEA logo"
+
+  - category: conferences
+    title: "2020 ESIP Winter Meeting"
+    type: "conference"
+    session-title: "Rich Context: providing support for cross-agency data stewardship, and measuring dataset impact on public policy"
+    description: "ESIP is a community of innovative science, data and information technology practitioners who catalyze connections across traditional institutional and domain boundaries to solve critical Earth science data stewardship, information technology and interoperability issues. Through this work, ESIP improves Earth science data management practices and makes Earth science data more discoverable, accessible and useful to researchers, policy makers and the public."
+    link: "https://2020esipwintermeeting.sched.com/"
+    date: "January 7-9, 2020"
+    location: "Bethesda, MD"
+    resources:
+    - resource-title: "Lecture information"
+      resource-link: "https://2020esipwintermeeting.sched.com/event/VaXN/meeting-overview-plenary"
+    thumbnail: "https://ml.globenewswire.com/Resource/Download/54c8dcf3-1201-44a5-8efd-d23e6b19302c?size=2"
+    thumbnail-text: "ESIP logo"
+
+  - category: conferences
+    title: "Data Quality as a Challenge: Research in the Age of the Digital Turn"
+    type: "conference"
+    #session-title: "Rich Context: providing support for cross-agency data stewardship, and measuring dataset impact on public policy"
+    description: "Experts from science policy and research funding as well as representatives from various disciplines will discuss numerous aspects of scientific data quality on the basis of the recommendations."
+    link: "https://2020esipwintermeeting.sched.com/"
+    date: "February 27-28, 2020"
+    location: "Hanover, Germany"
+    resources:
+    - resource-title: "Lecture information"
+      resource-link: "https://www.volkswagenstiftung.de/sites/default/files/downloads/Programm_Tagung_Datenqualitaet_2020.pdf"
+    thumbnail: "https://www.research-in-germany.org/.imaging/mte/daad-theme/small/dam/images/Newsletter/September-2016/VolkswagenStiftung_Logo_4C.png/jcr:content/Logo%20Volkswagen%20Stiftung%20640x360.png"
+    thumbnail-text: "VolswagenStiftung logo"
+
+  - category: conferences
+    title: "Open Data Science Conference East 2020"
+    type: "conference"
+    #session-title: "Rich Context: providing support for cross-agency data stewardship, and measuring dataset impact on public policy"
+    description: "ODSC is the conference to engage, to build, to develop, and to learn from the whole data science community."
+    link: "https://odsc.com/boston/"
+    date: "April 15, 2020"
+    location: "Boston, MA"
+    #resources:
+    #- resource-title: "Lecture information"
+    #  resource-link: "https://www.volkswagenstiftung.de/sites/default/files/downloads/Programm_Tagung_Datenqualitaet_2020.pdf"
+    thumbnail: "https://jobs.opendatascience.com/wp-content/uploads/2019/06/BLUE_NEW-LOGO-NO-.png"
+    thumbnail-text: "ODSC logo"
 
   - category: past events
     title: "14th Annual Conference on Empirical Legal Studies"
