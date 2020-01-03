@@ -35,7 +35,7 @@ event-list:
   - category: conferences
     title: "Data Quality as a Challenge: Research in the Age of the Digital Turn"
     type: "conference"
-    #session-title: "Rich Context: providing support for cross-agency data stewardship, and measuring dataset impact on public policy"
+    session-title: "New Automated Approaches to Measuring Quality"
     description: "Experts from science policy and research funding as well as representatives from various disciplines will discuss numerous aspects of scientific data quality on the basis of the recommendations."
     link: "https://2020esipwintermeeting.sched.com/"
     date: "February 27-28, 2020"
