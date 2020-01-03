@@ -33,6 +33,20 @@ event-list:
     thumbnail-text: "ESIP logo"
 
   - category: conferences
+    title: "NYU Alliance for Public Interest Technology Launch"
+    type: "conference"
+    session-title: "Making Data Great Again"
+    description: "The NYU Alliance for Public Interest Technology Alliance is a dynamic and multidisciplinary group of NYU faculty who are experts on the responsible and ethical creation, use and governance of technology in society."
+    link: "https://www.nyualliance.org/"
+    date: "Feburary 6, 2020"
+    location: "New York, NY"
+    #resources:
+    #- resource-title: "Lecture information"
+    #  resource-link: "https://2020esipwintermeeting.sched.com/event/VaXN/meeting-overview-plenary"
+    thumbnail: "https://steinhardt.nyu.edu/sites/default/files/styles/facebook/public/2019-08/nyu-logo-new.png?h=9396f34a&itok=pyc6_tIR"
+    thumbnail-text: "NYU logo"
+
+  - category: conferences
     title: "Data Quality as a Challenge: Research in the Age of the Digital Turn"
     type: "conference"
     session-title: "New Automated Approaches to Measuring Quality"
