@@ -2,20 +2,6 @@ categories: ["conferences", "workshops", "past events"]  # webinars is a potenti
 event-list:
 
   - category: conferences
-    title: "2020 ESIP Winter Meeting"
-    type: "conference"
-    session-title: "Rich Context: providing support for cross-agency data stewardship, and measuring dataset impact on public policy"
-    description: "ESIP is a community of innovative science, data and information technology practitioners who catalyze connections across traditional institutional and domain boundaries to solve critical Earth science data stewardship, information technology and interoperability issues. Through this work, ESIP improves Earth science data management practices and makes Earth science data more discoverable, accessible and useful to researchers, policy makers and the public."
-    link: "https://2020esipwintermeeting.sched.com/"
-    date: "January 7-9, 2020"
-    location: "Bethesda, MD"
-    resources:
-    - resource-title: "Lecture information"
-      resource-link: "https://2020esipwintermeeting.sched.com/event/VaXN/meeting-overview-plenary"
-    thumbnail: "https://ml.globenewswire.com/Resource/Download/54c8dcf3-1201-44a5-8efd-d23e6b19302c?size=2"
-    thumbnail-text: "ESIP logo"
-
-  - category: conferences
     title: "NYU Alliance for Public Interest Technology Launch"
     type: "conference"
     session-title: "Making Data Great Again"
@@ -57,7 +43,24 @@ event-list:
     thumbnail: "https://jobs.opendatascience.com/wp-content/uploads/2019/06/BLUE_NEW-LOGO-NO-.png"
     thumbnail-text: "ODSC logo"
 
-  - category: past events 
+  - category: past events
+    title: "2020 ESIP Winter Meeting"
+    type: "conference"
+    session-title: "Rich Context: providing support for cross-agency data stewardship, and measuring dataset impact on public policy"
+    description: "ESIP is a community of innovative science, data and information technology practitioners who catalyze connections across traditional institutional and domain boundaries to solve critical Earth science data stewardship, information technology and interoperability issues. Through this work, ESIP improves Earth science data management practices and makes Earth science data more discoverable, accessible and useful to researchers, policy makers and the public."
+    link: "https://2020esipwintermeeting.sched.com/"
+    date: "January 7-9, 2020"
+    location: "Bethesda, MD"
+    resources:
+    - resource-title: "Lecture information"
+      resource-link: "https://2020esipwintermeeting.sched.com/event/VaXN/meeting-overview-plenary"
+    - resource-title: "Presentation"
+      resource-link: "https://drive.google.com/file/d/12bZUiffqPo-NCDFPv7XxZxkCdArbLQHp/view"
+    thumbnail: "https://ml.globenewswire.com/Resource/Download/54c8dcf3-1201-44a5-8efd-d23e6b19302c?size=2"
+    thumbnail-text: "ESIP logo"
+
+
+  - category: past events
     title: "2020 ASSA Annual Meeting"
     type: "conference"
     session-title: "(Session I) Life on the Edge: Collaboration and the Production of Ideas at the Scientific Frontier <br/>
