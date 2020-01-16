@@ -1,4 +1,17 @@
 media-list:
+  - title: "China is closing gap with United States on research spending"
+    description: "The United States is no longer the ‘uncontested leader’ in science globally, the National Science Foundation says."
+    link: "https://www.nature.com/articles/d41586-020-00084-7"
+    date: "January 15, 2020"
+    thumbnail: nsf.png
+    thumbnail-text: "NSF logo"
+
+  - title: "New initiative to help with discovery of dataset use in scholarly work"
+    description: "RePEc is partnering with the Coleridge Initiative that is combining natural language processing and machine learning techniques to automate dataset search and discovery from social science and economics publications."
+    link: "https://blog.repec.org/2019/09/01/new-initiative-to-help-with-discovery-of-dataset-use-in-scholarly-work/"
+    date: "September 1, 2019"
+    thumbnail: "repec.png"
+    thumbnail-text: "RePEc logo"
 
   - title: "Evidence-based decision making: What DOE, USDA and others are learning"
     type: "keynote"
@@ -7,9 +20,3 @@ media-list:
     date: "June 28, 2019"
     thumbnail: "https://www.fedscoop.com/files/FedScoop-Logo.svg"
     thumbnail-text: "Fedscoop logo"
-  - title: "New initiative to help with discovery of dataset use in scholarly work"
-    description: "RePEc is partnering with the Coleridge Initiative that is combining natural language processing and machine learning techniques to automate dataset search and discovery from social science and economics publications."
-    link: "https://blog.repec.org/2019/09/01/new-initiative-to-help-with-discovery-of-dataset-use-in-scholarly-work/"
-    date: "September 1, 2019"
-    thumbnail: "repec.png"
-    thumbnail-text: "RePEc logo"
