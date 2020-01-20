@@ -30,6 +30,21 @@ event-list:
     thumbnail-text: "VolswagenStiftung logo"
 
   - category: conferences
+    title: "AI/Data Science Conference"
+    type: "conference"
+    #session-title: "Making Data Great Again"
+    description: "This is one of the largest Artificial Intelligence Big Data Science Conferences in the area. The speakers include some of the brightest PhD’s, Vice Presidents and Top MIT Fellows in the Artificial Intelligence and Data Science field."
+    link: "https://aiscienceconference.com/"
+    date: "March 26, 2020"
+    location: "New York, NY"
+    #resources:
+    #- resource-title: "Lecture information"
+    #  resource-link: "https://2020esipwintermeeting.sched.com/event/VaXN/meeting-overview-plenary"
+    thumbnail: "https://res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1577116161/ll0o3bieakyihutuj0me.jpg"
+    thumbnail-text: "Stewart Hotel"
+
+
+  - category: conferences
     title: "Open Data Science Conference East 2020"
     type: "conference"
     #session-title: "Rich Context: providing support for cross-agency data stewardship, and measuring dataset impact on public policy"
