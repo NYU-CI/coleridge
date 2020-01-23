@@ -59,6 +59,22 @@ event-list:
     thumbnail-text: "ODSC logo"
 
   - category: past events
+    title: "NLP Connect Talk Series"
+    type: "conference"
+    session-title: "Rich Context: Rich Search and Discovery for Scholarly Datasets"
+    description: "As an effort towards connecting to our fellow peers all across the globe, fostering collaborations, and know about recent NLP/ML research, this is a series of virtual talks."
+    link: "http://www.iitp.ac.in/~ai-nlp-ml/nlp-connect.html"
+    date: "January 20, 2020"
+    location: "Patna, India (Virtual)"
+    #resources:
+    #- resource-title: "Lecture information"
+    #  resource-link: "https://2020esipwintermeeting.sched.com/event/VaXN/meeting-overview-plenary"
+    #- resource-title: "Presentation"
+    #  resource-link: "https://drive.google.com/file/d/12bZUiffqPo-NCDFPv7XxZxkCdArbLQHp/view"
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ3dwtJQ716wZIflm1nDcNdLQ7a_Cen1anobrXeZKBbe-l2T3kiA&s"
+    thumbnail-text: "Indian Institute of Technology Patna logo"
+
+  - category: past events
     title: "2020 ESIP Winter Meeting"
     type: "conference"
     session-title: "Rich Context: providing support for cross-agency data stewardship, and measuring dataset impact on public policy"
