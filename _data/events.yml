@@ -2,32 +2,18 @@ categories: ["conferences", "workshops", "past events"]  # webinars is a potenti
 event-list:
 
   - category: conferences
-    title: "NYU Alliance for Public Interest Technology Launch"
+    title: "SHEEO Southern Regional Education Board Communities of Practice"
     type: "conference"
-    session-title: "Making Data Great Again"
-    description: "The NYU Alliance for Public Interest Technology Alliance is a dynamic and multidisciplinary group of NYU faculty who are experts on the responsible and ethical creation, use and governance of technology in society."
-    link: "https://www.nyualliance.org/"
-    date: "Feburary 6, 2020"
-    location: "New York, NY"
-    resources:
-    - resource-title: "Event agenda"
-      resource-link: "https://www.nyualliance.org/agenda-launch-event"
-    thumbnail: "https://steinhardt.nyu.edu/sites/default/files/styles/facebook/public/2019-08/nyu-logo-new.png?h=9396f34a&itok=pyc6_tIR"
-    thumbnail-text: "NYU logo"
-
-  - category: conferences
-    title: "Data Quality as a Challenge: Research in the Age of the Digital Turn"
-    type: "conference"
-    session-title: "New Automated Approaches to Measuring Quality"
-    description: "Experts from science policy and research funding as well as representatives from various disciplines will discuss numerous aspects of scientific data quality on the basis of the recommendations."
-    link: "https://2020esipwintermeeting.sched.com/"
-    date: "February 27-28, 2020"
-    location: "Hanover, Germany"
-    resources:
-    - resource-title: "Lecture information"
-      resource-link: "https://www.volkswagenstiftung.de/sites/default/files/downloads/Programm_Tagung_Datenqualitaet_2020.pdf"
-    thumbnail: "https://www.research-in-germany.org/.imaging/mte/daad-theme/small/dam/images/Newsletter/September-2016/VolkswagenStiftung_Logo_4C.png/jcr:content/Logo%20Volkswagen%20Stiftung%20640x360.png"
-    thumbnail-text: "VolswagenStiftung logo"
+    session-title: "New Opportunities for Sharing Data Across Agencies and States"
+    description: "While state data systems end at state borders, economic and social activity does not, making it difficult to evaluate the impact of state interventions in many areas, such as understanding the transitions across education and work. There is great interest among many higher education agencies in data and analysis that is shared and used across not only states but also agencies within a state. This session will discuss the Coleridge Initiative, which has combined technical and human approaches to sharing data across agencies and states to work with 450 participants from over 150 agencies."
+    link: "https://postsecondarydata.sheeo.org/events/sheeo-southern-regional-education-board-communities-of-practice/"
+    date: "March 12, 2020"
+    location: "Hapeville, GA"
+    #resources:
+    #- resource-title: "Lecture information"
+    #  resource-link: "https://2020esipwintermeeting.sched.com/event/VaXN/meeting-overview-plenary"
+    thumbnail: "https://evans.uw.edu/sites/default/files/styles/blurb/public/sheeo.jpg?itok=c19bEBle"
+    thumbnail-text: "SHEEO logo"
 
   - category: conferences
     title: "AI/Data Science Conference"
@@ -57,6 +43,34 @@ event-list:
     #  resource-link: "https://www.volkswagenstiftung.de/sites/default/files/downloads/Programm_Tagung_Datenqualitaet_2020.pdf"
     thumbnail: "https://jobs.opendatascience.com/wp-content/uploads/2019/06/BLUE_NEW-LOGO-NO-.png"
     thumbnail-text: "ODSC logo"
+
+  - category: past events
+    title: "Data Quality as a Challenge: Research in the Age of the Digital Turn"
+    type: "conference"
+    session-title: "New Automated Approaches to Measuring Quality"
+    description: "Experts from science policy and research funding as well as representatives from various disciplines will discuss numerous aspects of scientific data quality on the basis of the recommendations."
+    link: "https://2020esipwintermeeting.sched.com/"
+    date: "February 27-28, 2020"
+    location: "Hanover, Germany"
+    resources:
+    - resource-title: "Lecture information"
+      resource-link: "https://www.volkswagenstiftung.de/sites/default/files/downloads/Programm_Tagung_Datenqualitaet_2020.pdf"
+    thumbnail: "https://www.research-in-germany.org/.imaging/mte/daad-theme/small/dam/images/Newsletter/September-2016/VolkswagenStiftung_Logo_4C.png/jcr:content/Logo%20Volkswagen%20Stiftung%20640x360.png"
+    thumbnail-text: "VolswagenStiftung logo"
+
+  - category: past events
+    title: "NYU Alliance for Public Interest Technology Launch"
+    type: "conference"
+    session-title: "Making Data Great Again"
+    description: "The NYU Alliance for Public Interest Technology Alliance is a dynamic and multidisciplinary group of NYU faculty who are experts on the responsible and ethical creation, use and governance of technology in society."
+    link: "https://www.nyualliance.org/"
+    date: "Feburary 6, 2020"
+    location: "New York, NY"
+    resources:
+    - resource-title: "Event agenda"
+      resource-link: "https://www.nyualliance.org/agenda-launch-event"
+    thumbnail: "https://steinhardt.nyu.edu/sites/default/files/styles/facebook/public/2019-08/nyu-logo-new.png?h=9396f34a&itok=pyc6_tIR"
+    thumbnail-text: "NYU logo"
 
   - category: past events
     title: "NLP Connect Talk Series"
