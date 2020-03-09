@@ -2,6 +2,20 @@ categories: ["conferences", "workshops", "past events"]  # webinars is a potenti
 event-list:
 
   - category: conferences
+    title: "IBM Virtual Community Day: Deploy AI"
+    type: "conference"
+    session-title: "A knowledge graph about dataset usage, to help people learn and connect"
+    description: "Deploy AI is the preeminent virtual conference for data science experts. You've trained your AI project - now what? Join us and talk to the experts about what comes next."
+    link: "https://ibm-deployai.bemyapp.com/"
+    date: "March 10, 2020"
+    location: "Virtual"
+    #resources:
+    #- resource-title: "Lecture information"
+    #  resource-link: "https://www.volkswagenstiftung.de/sites/default/files/downloads/Programm_Tagung_Datenqualitaet_2020.pdf"
+    thumbnail: "https://www.bemyapp.com/assets/components/phpthumbof/cache/IBM%20Deploy%20AI%20Banner-%20conference.384d9aaf1af3fd849650e1874ea6c390.png"
+    thumbnail-text: "IBM Virtual Community Day logo"
+
+  - category: conferences
     title: "SHEEO Southern Regional Education Board Communities of Practice"
     type: "conference"
     session-title: "New Opportunities for Sharing Data Across Agencies and States"
@@ -44,6 +58,49 @@ event-list:
     thumbnail: "https://jobs.opendatascience.com/wp-content/uploads/2019/06/BLUE_NEW-LOGO-NO-.png"
     thumbnail-text: "ODSC logo"
 
+  - category: conferences
+    title: "IIA's 2020 Analytics Symposium"
+    type: "conference"
+    session-title: "Rich Context: Using Novel Techniques To Discover Data Sets, Their Value and Attributes"
+    description: "This talk introduces Rich Context, our process for managing the knowledge graph, and discovery services plus recommender systems based on the graph."
+    link: "http://iiasymposium.com/"
+    date: "April 22, 2020"
+    location: "San Francisco, CA"
+    #resources:
+    #- resource-title: "Lecture information"
+    #  resource-link: "https://www.volkswagenstiftung.de/sites/default/files/downloads/Programm_Tagung_Datenqualitaet_2020.pdf"
+    thumbnail: "https://images.squarespace-cdn.com/content/v1/5b47d8cdfcf7fd2d5b0dfa08/1579035268975-C4V7W3I8FMJFEBY5O5UU/ke17ZwdGBToddI8pDm48kD7KlaMsjzziCTSQxA1BBPMUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dnvGnN2QnUh0JX5eXWEXkZZm-DMBhU0Sl3sgQDLgmKnzpC969RuPXvt2ZwyzUXQf7Q/image-asset.jpeg?format=1500w"
+    thumbnail-text: "IIA 2020 Analytics Symposium logo"
+
+  - category: workshops
+    title: "Ray Summit 2020"
+    type: "workshop"
+    session-title: "Hands-on Reinforcement Learning with Ray and RLlib"
+    description: "Reinforcement learning requires a variety of computational patterns: data processing, simulations, model training, model serving. etc. Few frameworks efficiently support all these patterns at scale.
+In this hands-on tutorial, we’ll see how Ray and RLlib seamlessly and efficiently support these workloads, providing an ideal platform for building RL applications. We’ll deep dive into Ray and RLlib APIs. We’ll train and serve an RL-based application."
+    link: "https://events.linuxfoundation.org/ray-summit/"
+    date: "May 27, 2020"
+    location: "San Francisco, CA"
+    resources:
+    - resource-title: "Lecture information"
+      resource-link: "https://ray2020.sched.com/event/aVzc/afternoon-tutorial-hands-on-reinforcement-learning-with-ray-and-rllib-pre-registration-required"
+    thumbnail: "https://anyscale.io/wp-content/uploads/2020/01/summit-image-50percent.png"
+    thumbnail-text: "Ray Summit 2020 logo"
+
+  - category: past events
+    title: "Ontology Summit"
+    type: "conference"
+    session-title: "Rich Search and Discovery for Scholarly Databases"
+    description: "An annual series of events (first started by Ontolog and NIST in 2006) that involves the ontology community along with communities related to each year's theme chosen for the summit. The 2020 theme was Knowledge Graphs."
+    link: "https://ontologforum.org/index.php/OntologySummit2020#04_March_2020"
+    date: "March 4, 2020"
+    location: "Virtual"
+    resources:
+    - resource-title: "Lecture recording"
+      resource-link: "https://www.youtube.com/watch?v=b2moscoc33g&feature=youtu.be"
+    thumbnail: "https://s3.amazonaws.com/ontologforum/OntologySummit2017/Pre-Launch/OntologySummit2017_Logo_v2.jpg"
+    thumbnail-text: "Onotology Summit logo"
+
   - category: past events
     title: "Data Quality as a Challenge: Research in the Age of the Digital Turn"
     type: "conference"
@@ -57,6 +114,22 @@ event-list:
       resource-link: "https://www.volkswagenstiftung.de/sites/default/files/downloads/Programm_Tagung_Datenqualitaet_2020.pdf"
     thumbnail: "https://www.research-in-germany.org/.imaging/mte/daad-theme/small/dam/images/Newsletter/September-2016/VolkswagenStiftung_Logo_4C.png/jcr:content/Logo%20Volkswagen%20Stiftung%20640x360.png"
     thumbnail-text: "VolswagenStiftung logo"
+
+  - category: past events
+    title: "NLP Connect Talk Series"
+    type: "conference"
+    session-title: "PyTextRank"
+    description: "As an effort towards connecting to our fellow peers all across the globe, fostering collaborations, and know about recent NLP/ML research, this is a series of virtual talks."
+    link: "http://www.iitp.ac.in/~ai-nlp-ml/nlp-connect.html"
+    date: "February 21, 2020"
+    location: "Patna, India (Virtual)"
+    resources:
+    - resource-title: "Lecture recording"
+      resource-link: " https://youtu.be/ZwlPsdRDtMI"
+    #- resource-title: "Presentation"
+    #  resource-link: "https://drive.google.com/file/d/12bZUiffqPo-NCDFPv7XxZxkCdArbLQHp/view"
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ3dwtJQ716wZIflm1nDcNdLQ7a_Cen1anobrXeZKBbe-l2T3kiA&s"
+    thumbnail-text: "Indian Institute of Technology Patna logo"
 
   - category: past events
     title: "NYU Alliance for Public Interest Technology Launch"
