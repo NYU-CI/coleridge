@@ -24,7 +24,7 @@ permalink: collaborators.html
       <div class="row">
         <div class="col-sm-12">
           <p class="comp-description">
-            The biggest social issues today require using confidential data from multiple organizations to be addressed. For example, examining the impact of access to jobs and neighborhood characteristics on the earnings and employment outcomes of ex-offenders and social benefit recipients on their subsequent recidivism or retention on welfare requires data from at least four different agencies (Corrections, Human Services, Labor and Housing). The Coleridge Initiative has developed technical and human approaches to enable community access to and use of data on human subjects to make this kind of research possible. Join our collaboration to help address pressing social problems.
+            The biggest social issues today require using confidential data from multiple organizations to be addressed. For example, examining the impact of access to jobs and neighborhood characteristics on the earnings and employment outcomes of ex-offenders and social benefit recipients on their subsequent recidivism or retention on welfare requires data from at least four different agencies (Corrections, Human Services, Labor and Housing). The Coleridge Initiative and collaborators have developed technical and human approaches to enable community access to and use of data on human subjects to make this kind of research possible. Join our collaboration to help address pressing social problems.
           </p>
           <br>
 
@@ -88,7 +88,7 @@ permalink: collaborators.html
               <div id="collapseQ1" class="collapse" aria-labelledby="q1" data-parent="#faqAccordion">
                 <div class="card-body faq-answer-frame">
                   <p class="comp-description faq-answer-text">
-                    Please reach out to us at XXX. We will get in touch with you and provide you with more information. All collaborations are based on a data sharing agreement between you and us. You can find a template for a data sharing agreement here (insert link). You can use this template for your internal processes and share with your attorneys to make sure it captures all your requirements. One of our staff will be working with you to compile the data sharing agreement until it is fully executed.
+                    Please contact us at <a href="mailto:dataanalytics@coleridgeinitiative.org">dataanalytics@coleridgeinitiative.org</a>.  All collaborations are based on a data sharing agreement You can find a <a href="#">template here</a>. You can use this template for your internal processes and share with your legal counsel to ensure it captures all of your requirements. One of our staff will be working with you to compile the data sharing agreement until it is fully executed.
                   <p>
                 </div>
               </div>
@@ -110,7 +110,7 @@ permalink: collaborators.html
                     <br><br>
                     Address: 370 Jay Street , 12th Floor Brooklyn NY, 11201<br>
                     Phone: 646.997.0604<br>
-                    Email: <a href="mailto:cfa1@nyu.edu">cfa1@nyu.edu</a><br><br>
+                    Email: <a href="mailto:chris.angelosanto@nyu.edu">chris.angelosanto@nyu.edu</a><br><br>
                     You may also direct questions to Julia Lane (<a href="mailto:julia.lane@nyu.edu">julia.lane@nyu.edu</a>), Coleridge Initiative Director.
                   <p>
                 </div>
@@ -129,7 +129,7 @@ permalink: collaborators.html
               <div id="collapseQ3" class="collapse" aria-labelledby="q3" data-parent="#faqAccordion">
                 <div class="card-body faq-answer-frame">
                   <p class="comp-description faq-answer-text">
-                    Data transfer is handled through SSH File Transfer Protocol (SFTP). In order to perform the SFTP transfer, the Coleridge Initiative generates a transfer account for your agency. You will receive an email asking you to update the password, as well as credentials to access the remote transfer server. Next, you may download WinSP or Cyberduck, software that allows for SFTP transfer through a GUI interface. The GUI will ask for the credentials that you received by email. Once entered, you may upload the encrypted and hashed data to the remote server and let us know that the data has been uploaded. The Coleridge team will move the data to the correct destination on the ADRF.
+                    Data transfer is handled through Secure File Transfer Protocol (SFTP).  Our Data Transfer Team will generate login credentials specific to your agency.  After receiving the welcome email you will be required to change the password.  If you prefer to use a graphical interface to initiate and monitor file transfer you may download tools like <a href="https://winscp.net/eng/index.php" target="_blank">WinSCP</a> or <a href="https://cyberduck.io/" target="_blank">Cyberduck</a>, both free and publicly available.  Otherwise you can initiate the transfer through any SFTP command line tool installed with your operating system. Once your transfer is complete, please inform our Data Transfer Team.
                   <p>
                 </div>
               </div>
@@ -147,7 +147,7 @@ permalink: collaborators.html
               <div id="collapseQ4" class="collapse" aria-labelledby="q4" data-parent="#faqAccordion">
                 <div class="card-body faq-answer-frame">
                   <p class="comp-description faq-answer-text">
-                    You can find a form that contains the metadata schema on the ADRF here (include link to form). Please return the completed form when you transfer data to the ADRF. On the worksheet titled dataset core description, please fill in all relevant, mandatory metadata fields in the column: Value. On the second worksheet titled data fields, describe the fields in your data. Information from the metadata form will be made available in the Data Explorer on the ADRF.
+                    You can find a form that contains the metadata schema on the ADRF <a href="#">here</a>. Please return the completed form when you transfer data to the ADRF. On the worksheet titled Dataset Core Description, please fill in all relevant, mandatory metadata fields in the column: Value. On the second worksheet titled Data Fields, describe the fields in your data. Information from the metadata form will be made available in the Data Explorer on the ADRF.
                   <p>
                 </div>
               </div>
@@ -183,7 +183,7 @@ permalink: collaborators.html
               <div id="collapseQ6" class="collapse" aria-labelledby="q6" data-parent="#faqAccordion">
                 <div class="card-body faq-answer-frame">
                   <p class="comp-description faq-answer-text">
-                    The data you  provide will be de-identified by applying a HMAC (Hash-based Message Authentication Code) algorithm to key variables, such as first name, middle name, last name, and social security number. The ADRF HMAC uses a “salt”  to create an encryption key first, that is then used to encrypt the value of the variable that needs to be hashed. The salt is created by generating 32 random hexadecimal digits which are converted to integers and then hashed using SHA256. Afterwards the encrypted value is hashed using SHA256. The hashing is one way and cannot be ‘decrypted’, however, it will always lead to the same resulting hash value for a given value. This allows joins of hashed values in two different tables (data from different agencies). The Colderide Initiative will provide you with the ahshing program, unit tests, an end-to-end test harness, and a sample data file used in the tests before hashing.
+                    The data you  provide will be de-identified by applying a HMAC (Hash-based Message Authentication Code) algorithm to key variables, such as first name, middle name, last name, and social security number. The ADRF HMAC uses a “salt”  to create an encryption key first, that is then used to encrypt the value of the variable that needs to be hashed. The salt is created by generating 32 random hexadecimal digits which are converted to integers and then hashed using SHA256. Afterwards the encrypted value is hashed using SHA256. The hashing is one way and cannot be ‘decrypted’, however, it will always lead to the same resulting hash value for a given value. This allows joins of hashed values in two different tables (data from different agencies). The Colderidge Initiative will provide you with the hashing program, unit tests, an end-to-end test harness, and a sample data file used in the tests before hashing.
                   <p>
                 </div>
               </div>
@@ -201,7 +201,7 @@ permalink: collaborators.html
               <div id="collapseQ7" class="collapse" aria-labelledby="q7" data-parent="#faqAccordion">
                 <div class="card-body faq-answer-frame">
                   <p class="comp-description faq-answer-text">
-                    By default, you and all Coleridge staff outlined in the agreement will have access to the data. If your data is used for teaching purposes, class participants will have access to the data for the time period of the class and after signing the respective agreements. If you allow researchers to access your data you will have full control over who can access your data. Your dataset will be assigned a data steward which is the point of contact for all access requests. Access to data will only be granted after approval from the data steward.
+                    By default, you and all Coleridge staff outlined in the agreement will have access to the data. If your data is used for teaching purposes, class participants will have access to the data for the time period of the class once they’ve signed the respective agreements. If you allow researchers to access your data you will have full control over who can access your data. Your dataset will be assigned a data steward within your organization who will be the point of contact for all access requests. Access to data will only be granted after approval from the data steward.
                   <p>
                 </div>
               </div>
@@ -219,7 +219,7 @@ permalink: collaborators.html
               <div id="collapseQ8" class="collapse" aria-labelledby="q8" data-parent="#faqAccordion">
                 <div class="card-body faq-answer-frame">
                   <p class="comp-description faq-answer-text">
-                    The ADRF is FedRAMP certified and follows an extensive security protocol. You can find a short description of the data management plan on our website (include link). You can request the more technical FedRAMP documentation on all the security protocols in place here: <a href="https://marketplace.fedramp.gov/#/product/administrative-data-research-facility-adrf?sort=productName&productNameSearch=ADRF" target="_blank">https://marketplace.fedramp.gov/#/product/administrative-data-research-facility-adrf?sort=productName&productNameSearch=ADRF</a>
+                    The ADRF is FedRAMP certified and follows an extensive security protocol. You can find a short description of the data management plan on our <a href="{{site.baseurl}}/resources" target="_blank">website</a>. You can request the technical FedRAMP documentation on all the security protocols in place here: <a href="https://marketplace.fedramp.gov/#/product/administrative-data-research-facility-adrf?sort=productName&productNameSearch=ADRF" target="_blank">https://marketplace.fedramp.gov/#/product/administrative-data-research-facility-adrf?sort=productName&productNameSearch=ADRF</a>
                   <p>
                 </div>
               </div>
@@ -255,7 +255,7 @@ permalink: collaborators.html
               <div id="collapseQ10" class="collapse" aria-labelledby="q10" data-parent="#faqAccordion">
                 <div class="card-body faq-answer-frame">
                   <p class="comp-description faq-answer-text">
-                  The Data Stewardship module is implemented as a web-portal which can be accessed by approved users. A user submits a project proposal using the Project Request workflow; the proposal includes the datasets to be used, the project members, and other information such as start and end dates. Before a request gets submitted to data stewards, members of the project must sign and upload any required non-disclosure agreements (NDAs) for their requested datasets. The request is then routed to the designated data stewards for evaluation. If approved, ADRF staff ensure that each user has completed the required security trainings, then the ADRF staff activate the project. Once a project is active, the Data Stewardship module includes an additional workflow for Monitoring and Reporting. These monitoring tools give data providers visibility into how their data is being used. Currently the ADRF platform logs all data access so that data owners can request to see how many people, on which projects, have accessed their data over a given period of time. Please refer to the official documentation for further details here: <a href="https://adrf.readthedocs.io/en/latest/" target="_blank">https://adrf.readthedocs.io/en/latest/</a>
+                  The Data Stewardship module is implemented as a web-portal which can be accessed by approved users. A user submits a project proposal using the Project Request workflow; the proposal includes the datasets to be used, the project members, and other information such as start and end dates. Before a request gets submitted to data stewards, members of the project must sign and upload any required non-disclosure agreements (NDAs) for their requested datasets. The request is then routed to the designated data stewards for evaluation. If approved, ADRF staff ensure that each user has completed the required security trainings before activating the project. Once a project is active, the Data Stewardship module includes an additional workflow for Monitoring and Reporting. These monitoring tools give data providers visibility into how their data is being used. Currently the ADRF platform logs all data access so that data owners can request to see how many people, on which projects, have accessed their data over a given period of time. Please refer to the official documentation for further details here: <a href="https://adrf.readthedocs.io/en/latest/" target="_blank">https://adrf.readthedocs.io/en/latest/</a>
                   <p>
                 </div>
               </div>
@@ -273,7 +273,7 @@ permalink: collaborators.html
       <div class="faq-toc-panel">
         <h4 class="faq-toc-header">DOWNLOADS &amp; LINKS</h4>
         <ul class="faq-toc-list">
-          <li class="faq-toc-item"><a href="" target="_blank">Agreement Template</a></li>
+          <li class="faq-toc-item"><a href="#" target="_blank">Agreement Template</a></li>
           <li class="faq-toc-item"><a href="https://adrf.readthedocs.io/en/latest/" target="_blank">Official Documentation</a></li>
         </ul>
       </div>
@@ -282,7 +282,7 @@ permalink: collaborators.html
         <h4 class="faq-toc-header">CONTACT</h4>
         <ul class="faq-toc-list">
           <li class="faq-toc-item">Chris Angelosanto</li>
-          <li class="faq-toc-item-email"><a href="mailto:cfa1@nyu.edu">cfa1@nyu.edu</a></li>
+          <li class="faq-toc-item-email"><a href="mailto:chris.angelosanto@nyu.edu">chris.angelosanto@nyu.edu</a></li>
           <li class="faq-toc-item">&nbsp;</li>
           <li class="faq-toc-item">Julia Lane</li>
           <li class="faq-toc-item-email"><a href="mailto:julia.lane@nyu.edu">julia.lane@nyu.edu</a></li>
