@@ -124,7 +124,6 @@ ol {
 }
 
 
-
 #collab-text {
   box-sizing: border-box;
   display: block;
@@ -1129,7 +1128,7 @@ ol {
 
 /*************************************/
 /* Training Page */
-.training-bg-top, .computing-bg-top, .connecting-bg-top, .resources-bg-top, .about-bg-top, .workshop-bg-top {
+.training-bg-top, .computing-bg-top, .connecting-bg-top, .resources-bg-top, .collaborators-bg-top, .about-bg-top, .workshop-bg-top {
   height: 100%;
   background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;
 }
@@ -1151,7 +1150,7 @@ ol {
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-width: 1024px) {
-  .training-bg-top, .computing-bg-top, .connecting-bg-top, .resources-bg-top, .about-bg-top, .workshop-bg-top { height: auto; background-attachment: scroll; }
+  .training-bg-top, .computing-bg-top, .connecting-bg-top, .resources-bg-top, .collaborators-bg-top, .about-bg-top, .workshop-bg-top { height: auto; background-attachment: scroll; }
   .training-bg-mid  { height: auto; }
   .computing-bg-mid  { height: auto; }
   .resources-bg-mid  { height: auto; }
@@ -1171,6 +1170,10 @@ ol {
 
 .resources-bg-top {
   background-image: url('../images/resources-bg-top.png');
+}
+
+.collaborators-bg-top {
+  background-image: url('../images/collaborators-bg-top.png');
 }
 
 .workshop-bg-top {
@@ -2318,6 +2321,10 @@ margin:-70px 0 0; /* negative fixed header height */
 /*************************************/
 /* Collaborators Page Start */
 
+.collaborators-blue {
+  color: #6B83A3;
+}
+
 .faq-outer-frame {
   border: 0px solid #DDD;
   margin: 30px 30px 30px 30px;
@@ -2336,7 +2343,7 @@ margin:-70px 0 0; /* negative fixed header height */
 .faq-question-text {
   padding-left:15px;
   padding-top:16px;
-  color: #a463b7;
+  color: #6B83A3;
 }
 
 .faq-answer-frame {
@@ -2357,7 +2364,9 @@ margin:-70px 0 0; /* negative fixed header height */
 .faq-toc-header {
   margin: 40px 0px 0px 0px;
   padding: 12px;
-  background-color: #a463b7;
+  /*background-color: #a463b7;*/
+  background-color: #6B83A3;
+  /*color: #4F5F6F;*/
   color: #FFF;
   border: 2px solid #000;
   border-radius: 6px 6px 0px 0px;
