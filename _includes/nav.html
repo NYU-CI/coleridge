@@ -12,34 +12,8 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <!-- Dropdowns to be implemented in later release -->
-        <!--
-        <li class="dropdown">
-          <a href="{{site.baseurl}}/knowledge" class="taphover">Knowledge <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="{{site.baseurl}}/training">Training</a></li>
-            <li><a href="{{site.baseurl}}/research">Research</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="{{site.baseurl}}/computing" class="taphover">Computing <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="{{site.baseurl}}/adrf">ADRF</a></li>
-            <li><a href="{{site.baseurl}}/cdf">CDF</a></li>
-          </ul>
-        </li>-->
-
         <li><a href="{{site.baseurl}}/training" class="lightblue {% if page.url == '/training.html' %}active{% endif %}">Training</a></li>
         <li><a href="{{site.baseurl}}/computing" class="lightblue {% if page.url == '/computing.html' %}active{% endif %}">Computing</a></li>
-
-        <!--
-        <li><a href="{{site.baseurl}}/network" class="{% if page.url == '/network' %}active{% endif %}">Network</a></li>
-        <li><a href="{{site.baseurl}}/about" class="{% if page.url == '/about' %}active{% endif %}">About Us</a></li>
-
-        <li><a href="{{site.baseurl}}/richcontextcompetition" class="green {% if page.url == '/richcontextcompetition.html' %}active{% endif %}"  alt="Whitepapers, keynotes, and upcoming events">Rich Context</a></li>
-
-        -->
-
         <li class="dropdown" id="rc">
           <a href="{{site.baseurl}}/richcontext" class="taphover lightblue {% if page.url == '/richcontext.html' %}active{% endif %}">Rich Context <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -48,20 +22,28 @@
             <li id="rc"><a href="{{site.baseurl}}/news">News</a></li>
           </ul>
         </li>
-
-
         <li><a href="{{site.baseurl}}/collaborators" class="lightblue {% if page.url == '/collaborators.html' %}active{% endif %}"  alt="Become a collaborator">Collaborators</a></li>
         <li><a href="{{site.baseurl}}/events" class="lightblue {% if page.url == '/events.html' %}active{% endif %}" alt="Events">Events</a></li>
         <li><a href="{{site.baseurl}}/about" class="lightblue {% if page.url == '/about.html' %}active{% endif %}">About</a></li>
       </ul>
-      <!--
-      <ul class="nav navbar-nav navbar-right">
+
+
+      <!-- <ul class="nav navbar-nav navbar-right">
         <li id="collab-text"><span>A collaboration</span><br><span>presented by</span></li>
         <li class="univ-nav-logo"><a href="http://dsapp.uchicago.edu" target="_blank"><img id="uchicago-nav" src="{{site.baseurl}}/assets/images/UChicago_logo.png"></a></li>
         <li class="univ-nav-logo"><a href="http://cusp.nyu.edu" target="_blank"><img id="nyu-nav" src="{{site.baseurl}}/assets/images/NYU_logo.png"></a></li>
         <li class="univ-nav-logo"><a href="https://jointprogram.umd.edu/" target="_blank"><img id="umd-nav" src="{{site.baseurl}}/assets/images/UMD_logo.png"></a></li>
+      </ul> -->
+
+      <ul class="nav navbar-nav navbar-right">
+        <li class="drowndown contact-us" id="contact">
+          <button class="btn btn-primary mr-lg-2">Contact Us <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li id="contact"><a href="mailto:dataanalytics@coleridgeinitiative.org">dataanalytics@coleridgeinitiative.org</a></li>
+          </ul>
+        </li>
       </ul>
-    -->
+
     </div>
   </div>
 </nav>

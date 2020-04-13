@@ -171,6 +171,16 @@ ol {
 .dropdown-menu {
   background-color: #000000;
 }
+
+.navbar-default .navbar-nav .contact-us {
+  margin-right: 20px;
+  margin-top: 8px;
+}
+
+#contact.open>a, #contact.open>a:hover {
+  background-color: black !important;
+  color: #337ab7 !important;
+}
 /* Nav Styling End */
 
 
