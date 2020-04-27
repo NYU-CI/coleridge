@@ -1,77 +1,6 @@
 categories: ["conferences", "workshops", "past events"]  # webinars is a potential category
 event-list:
 
-  - category: conferences
-    title: "IBM Virtual Community Day: Deploy AI"
-    type: "conference"
-    session-title: "A knowledge graph about dataset usage, to help people learn and connect"
-    description: "Deploy AI is the preeminent virtual conference for data science experts. You've trained your AI project - now what? Join us and talk to the experts about what comes next."
-    link: "https://ibm-deployai.bemyapp.com/"
-    date: "March 10, 2020"
-    location: "Virtual"
-    #resources:
-    #- resource-title: "Lecture information"
-    #  resource-link: "https://www.volkswagenstiftung.de/sites/default/files/downloads/Programm_Tagung_Datenqualitaet_2020.pdf"
-    thumbnail: "https://www.bemyapp.com/assets/components/phpthumbof/cache/IBM%20Deploy%20AI%20Banner-%20conference.384d9aaf1af3fd849650e1874ea6c390.png"
-    thumbnail-text: "IBM Virtual Community Day logo"
-
-  - category: conferences
-    title: "SHEEO Southern Regional Education Board Communities of Practice"
-    type: "conference"
-    session-title: "New Opportunities for Sharing Data Across Agencies and States"
-    description: "While state data systems end at state borders, economic and social activity does not, making it difficult to evaluate the impact of state interventions in many areas, such as understanding the transitions across education and work. There is great interest among many higher education agencies in data and analysis that is shared and used across not only states but also agencies within a state. This session will discuss the Coleridge Initiative, which has combined technical and human approaches to sharing data across agencies and states to work with 450 participants from over 150 agencies."
-    link: "https://postsecondarydata.sheeo.org/events/sheeo-southern-regional-education-board-communities-of-practice/"
-    date: "March 12, 2020"
-    location: "Hapeville, GA"
-    #resources:
-    #- resource-title: "Lecture information"
-    #  resource-link: "https://2020esipwintermeeting.sched.com/event/VaXN/meeting-overview-plenary"
-    thumbnail: "https://evans.uw.edu/sites/default/files/styles/blurb/public/sheeo.jpg?itok=c19bEBle"
-    thumbnail-text: "SHEEO logo"
-
-  - category: conferences
-    title: "AI/Data Science Conference"
-    type: "conference"
-    #session-title: "Making Data Great Again"
-    description: "This is one of the largest Artificial Intelligence Big Data Science Conferences in the area. The speakers include some of the brightest PhD’s, Vice Presidents and Top MIT Fellows in the Artificial Intelligence and Data Science field."
-    link: "https://aiscienceconference.com/"
-    date: "March 26, 2020"
-    location: "New York, NY"
-    #resources:
-    #- resource-title: "Lecture information"
-    #  resource-link: "https://2020esipwintermeeting.sched.com/event/VaXN/meeting-overview-plenary"
-    thumbnail: "https://res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1577116161/ll0o3bieakyihutuj0me.jpg"
-    thumbnail-text: "Stewart Hotel"
-
-
-  - category: conferences
-    title: "Open Data Science Conference East 2020"
-    type: "conference"
-    #session-title: "Rich Context: providing support for cross-agency data stewardship, and measuring dataset impact on public policy"
-    description: "ODSC is the conference to engage, to build, to develop, and to learn from the whole data science community."
-    link: "https://odsc.com/boston/"
-    date: "April 15, 2020"
-    location: "Boston, MA"
-    #resources:
-    #- resource-title: "Lecture information"
-    #  resource-link: "https://www.volkswagenstiftung.de/sites/default/files/downloads/Programm_Tagung_Datenqualitaet_2020.pdf"
-    thumbnail: "https://jobs.opendatascience.com/wp-content/uploads/2019/06/BLUE_NEW-LOGO-NO-.png"
-    thumbnail-text: "ODSC logo"
-
-  - category: conferences
-    title: "IIA's 2020 Analytics Symposium"
-    type: "conference"
-    session-title: "Rich Context: Using Novel Techniques To Discover Data Sets, Their Value and Attributes"
-    description: "This talk introduces Rich Context, our process for managing the knowledge graph, and discovery services plus recommender systems based on the graph."
-    link: "http://iiasymposium.com/"
-    date: "April 22, 2020"
-    location: "San Francisco, CA"
-    #resources:
-    #- resource-title: "Lecture information"
-    #  resource-link: "https://www.volkswagenstiftung.de/sites/default/files/downloads/Programm_Tagung_Datenqualitaet_2020.pdf"
-    thumbnail: "https://images.squarespace-cdn.com/content/v1/5b47d8cdfcf7fd2d5b0dfa08/1579035268975-C4V7W3I8FMJFEBY5O5UU/ke17ZwdGBToddI8pDm48kD7KlaMsjzziCTSQxA1BBPMUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dnvGnN2QnUh0JX5eXWEXkZZm-DMBhU0Sl3sgQDLgmKnzpC969RuPXvt2ZwyzUXQf7Q/image-asset.jpeg?format=1500w"
-    thumbnail-text: "IIA 2020 Analytics Symposium logo"
-
   - category: workshops
     title: "Ray Summit 2020"
     type: "workshop"
@@ -86,6 +15,76 @@ In this hands-on tutorial, we’ll see how Ray and RLlib seamlessly and efficien
       resource-link: "https://ray2020.sched.com/event/aVzc/afternoon-tutorial-hands-on-reinforcement-learning-with-ray-and-rllib-pre-registration-required"
     thumbnail: "https://anyscale.io/wp-content/uploads/2020/01/summit-image-50percent.png"
     thumbnail-text: "Ray Summit 2020 logo"
+
+  - category: past events
+    title: "IIA's 2020 Analytics Symposium"
+    type: "conference"
+    session-title: "Rich Context: Using Novel Techniques To Discover Data Sets, Their Value and Attributes"
+    description: "This talk introduces Rich Context, our process for managing the knowledge graph, and discovery services plus recommender systems based on the graph."
+    link: "http://iiasymposium.com/"
+    date: "April 22, 2020"
+    location: "San Francisco, CA"
+    #resources:
+    #- resource-title: "Lecture information"
+    #  resource-link: "https://www.volkswagenstiftung.de/sites/default/files/downloads/Programm_Tagung_Datenqualitaet_2020.pdf"
+    thumbnail: "https://images.squarespace-cdn.com/content/v1/5b47d8cdfcf7fd2d5b0dfa08/1579035268975-C4V7W3I8FMJFEBY5O5UU/ke17ZwdGBToddI8pDm48kD7KlaMsjzziCTSQxA1BBPMUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dnvGnN2QnUh0JX5eXWEXkZZm-DMBhU0Sl3sgQDLgmKnzpC969RuPXvt2ZwyzUXQf7Q/image-asset.jpeg?format=1500w"
+    thumbnail-text: "IIA 2020 Analytics Symposium logo"
+
+  - category: past events
+    title: "Open Data Science Conference East 2020"
+    type: "conference"
+    #session-title: "Rich Context: providing support for cross-agency data stewardship, and measuring dataset impact on public policy"
+    description: "ODSC is the conference to engage, to build, to develop, and to learn from the whole data science community."
+    link: "https://odsc.com/boston/"
+    date: "April 15, 2020"
+    location: "Boston, MA"
+    #resources:
+    #- resource-title: "Lecture information"
+    #  resource-link: "https://www.volkswagenstiftung.de/sites/default/files/downloads/Programm_Tagung_Datenqualitaet_2020.pdf"
+    thumbnail: "https://jobs.opendatascience.com/wp-content/uploads/2019/06/BLUE_NEW-LOGO-NO-.png"
+    thumbnail-text: "ODSC logo"
+
+  - category: past events
+    title: "AI/Data Science Conference"
+    type: "conference"
+    #session-title: "Making Data Great Again"
+    description: "This is one of the largest Artificial Intelligence Big Data Science Conferences in the area. The speakers include some of the brightest PhD’s, Vice Presidents and Top MIT Fellows in the Artificial Intelligence and Data Science field."
+    link: "https://aiscienceconference.com/"
+    date: "March 26, 2020"
+    location: "New York, NY"
+    #resources:
+    #- resource-title: "Lecture information"
+    #  resource-link: "https://2020esipwintermeeting.sched.com/event/VaXN/meeting-overview-plenary"
+    thumbnail: "https://res.cloudinary.com/traveltripperweb/image/upload/c_limit,h_2500,w_2500/v1577116161/ll0o3bieakyihutuj0me.jpg"
+    thumbnail-text: "Stewart Hotel"
+
+  - category: past events
+    title: "SHEEO Southern Regional Education Board Communities of Practice"
+    type: "conference"
+    session-title: "New Opportunities for Sharing Data Across Agencies and States"
+    description: "While state data systems end at state borders, economic and social activity does not, making it difficult to evaluate the impact of state interventions in many areas, such as understanding the transitions across education and work. There is great interest among many higher education agencies in data and analysis that is shared and used across not only states but also agencies within a state. This session will discuss the Coleridge Initiative, which has combined technical and human approaches to sharing data across agencies and states to work with 450 participants from over 150 agencies."
+    link: "https://postsecondarydata.sheeo.org/events/sheeo-southern-regional-education-board-communities-of-practice/"
+    date: "March 12, 2020"
+    location: "Hapeville, GA"
+    #resources:
+    #- resource-title: "Lecture information"
+    #  resource-link: "https://2020esipwintermeeting.sched.com/event/VaXN/meeting-overview-plenary"
+    thumbnail: "https://evans.uw.edu/sites/default/files/styles/blurb/public/sheeo.jpg?itok=c19bEBle"
+    thumbnail-text: "SHEEO logo"
+
+  - category: past events
+    title: "IBM Virtual Community Day: Deploy AI"
+    type: "conference"
+    session-title: "A knowledge graph about dataset usage, to help people learn and connect"
+    description: "Deploy AI is the preeminent virtual conference for data science experts. You've trained your AI project - now what? Join us and talk to the experts about what comes next."
+    link: "https://ibm-deployai.bemyapp.com/"
+    date: "March 10, 2020"
+    location: "Virtual"
+    #resources:
+    #- resource-title: "Lecture information"
+    #  resource-link: "https://www.volkswagenstiftung.de/sites/default/files/downloads/Programm_Tagung_Datenqualitaet_2020.pdf"
+    thumbnail: "https://www.bemyapp.com/assets/components/phpthumbof/cache/IBM%20Deploy%20AI%20Banner-%20conference.384d9aaf1af3fd849650e1874ea6c390.png"
+    thumbnail-text: "IBM Virtual Community Day logo"
 
   - category: past events
     title: "Ontology Summit"
