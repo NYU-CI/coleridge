@@ -17,6 +17,20 @@ In this hands-on tutorial, we’ll see how Ray and RLlib seamlessly and efficien
     thumbnail-text: "Ray Summit 2020 logo"
 
   - category: past events
+    title: "Special Open Call: Featuring the IL WDQI team and Dr. Julia Lane (ADRF, Coleridge Initiative)"
+    type: "conference"
+    #session-title: "Special Open Call: Featuring the IL WDQI team and Dr. Julia Lane (ADRF, Coleridge Initiative)"
+    description: "This talk discusses the progress of Round 7 of the Workforce Data Quality Initiative work in Illinois."
+    #link: "http://iiasymposium.com/"
+    date: "April 22, 2020"
+    location: "Remote"
+    #resources:
+    #- resource-title: "Lecture information"
+    #  resource-link: "https://www.volkswagenstiftung.de/sites/default/files/downloads/Programm_Tagung_Datenqualitaet_2020.pdf"
+    thumbnail: "https://www.illinoisworknet.com/ILDS/PublishingImages/IWDQI%20logo1.jpg"
+    thumbnail-text: "Illinois WQDI logo"
+
+  - category: past events
     title: "IIA's 2020 Analytics Symposium"
     type: "conference"
     session-title: "Rich Context: Using Novel Techniques To Discover Data Sets, Their Value and Attributes"
