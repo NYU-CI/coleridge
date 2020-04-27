@@ -1,5 +1,12 @@
 media-list:
 
+  - title: "Out of work — and cash — millions of Americans are still waiting for their first unemployment check"
+    description: "The growing national backlog, analyzed by The Post, has proved particularly problematic in Florida — where fewer than 7 percent of applicants have received aid."
+    link: "https://www.washingtonpost.com/business/2020/04/23/unemployment-benefits-backlog-coronavirus/"
+    date: "April 23, 2020"
+    thumbnail: "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/727GUNUAXQI6VBGCA6JNQWIZCE.jpg&w=1440"
+    thumbnail-text: "Image with news article"
+
   - title: "AI-Driven Innovation via Data and Model Sharing (Track D)"
     description: "Prospective teams are encouraged to consider related efforts underway in both academia and industry, such as https://onnx.ai/, https://paperswithcode.com/, and https://coleridgeinitiative.org/, which is developing a scalable ecosystem for sharing sensitive industry or human subjects data, together with hundreds of federal, state, and local organizations."
     link: "https://washingtonexec.com/2020/02/ai-tipping-point-brendan-walsh/#.Xjh41RNKh0t"
