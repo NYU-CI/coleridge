@@ -1,7 +1,14 @@
 media-list:
 
+  - title: "AI-Driven Innovation via Data and Model Sharing (Track D)"
+    description: "Prospective teams are encouraged to consider related efforts underway in both academia and industry, such as https://onnx.ai/, https://paperswithcode.com/, and https://coleridgeinitiative.org/, which is developing a scalable ecosystem for sharing sensitive industry or human subjects data, together with hundreds of federal, state, and local organizations."
+    link: "https://washingtonexec.com/2020/02/ai-tipping-point-brendan-walsh/#.Xjh41RNKh0t"
+    date: "April 12, 2020"
+    thumbnail: "https://nsf.gov/news/mmg/media/images/bitmaplogo_nolayers_f_e50fcd0b-607b-4271-a808-914d9c2f65dc.png"
+    thumbnail-text: "NSF logo"
+
   - title: "The Tipping Point for AI in the Federal Market is Here Today — and Leverage is to Blame"
-    description: " This tipping point places us all on the verge of seeing substantial benefits and value coming from federal agency investments in AI, and as citizens, we should be excited to see quantifiable results soon."
+    description: "This tipping point places us all on the verge of seeing substantial benefits and value coming from federal agency investments in AI, and as citizens, we should be excited to see quantifiable results soon."
     link: "https://washingtonexec.com/2020/02/ai-tipping-point-brendan-walsh/#.Xjh41RNKh0t"
     date: "February 3, 2020"
     thumbnail: "https://kingandunion.com/wp-content/uploads/2019/06/news-06202018-spaulding-washexec-2.png"
